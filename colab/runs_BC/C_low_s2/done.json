@@ -1,0 +1,46 @@
+{
+ "run": "C_low_s2",
+ "variant": "C_low",
+ "seed": 2,
+ "variant_info": {
+  "train_images": 943,
+  "glioma_images": 243,
+  "note": "A_low + 182 labeled synthetic gliomas",
+  "list_sha1": "80c1d9cad9ad"
+ },
+ "val_all": {
+  "mAP50": 0.9073112898851426,
+  "mAP50-95": 0.6709632617014545
+ },
+ "val_glioma": {
+  "AP50": 0.9026916864836871,
+  "AP50-95": 0.622738721686697
+ },
+ "minutes_this_session": 21.9,
+ "settings": {
+  "imgsz": 512,
+  "epochs": 100,
+  "batch": 16,
+  "optimizer": "SGD",
+  "lr0": 0.01,
+  "lrf": 0.01,
+  "momentum": 0.937,
+  "weight_decay": 0.0005,
+  "warmup_epochs": 3.0,
+  "cos_lr": false,
+  "patience": 50,
+  "deterministic": true,
+  "close_mosaic": 10,
+  "workers": 2,
+  "save_period": 25,
+  "plots": false
+ },
+ "env": {
+  "ultralytics": "8.4.190",
+  "torch": "2.14.1+cu130",
+  "cuda": "13.0",
+  "gpu": "Tesla T4",
+  "python": "3.13.16"
+ },
+ "finished_utc": "2026-11-21T23:07:51+00:00"
+}

@@ -1,0 +1,139 @@
+{
+ "purpose": "pilot_v3",
+ "n": 10,
+ "real_glioma_train": {
+  "brain_mean": {
+   "mean": 72.61,
+   "sd": 10.45
+  },
+  "contrast_std": {
+   "mean": 30.99,
+   "sd": 5.33
+  },
+  "edge_var": {
+   "mean": 185.73,
+   "sd": 55.53
+  },
+  "head_fraction": {
+   "mean": 0.47,
+   "sd": 0.1
+  }
+ },
+ "synthetic": {
+  "brain_mean": {
+   "mean": 75.97,
+   "sd": 9.96
+  },
+  "contrast_std": {
+   "mean": 30.13,
+   "sd": 3.63
+  },
+  "edge_var": {
+   "mean": 412.55,
+   "sd": 212.99
+  },
+  "head_fraction": {
+   "mean": 0.56,
+   "sd": 0.08
+  }
+ },
+ "similarity": {
+  "dhash_to_ref_median": 105.5,
+  "dhash_to_nearest_train_min": 64,
+  "n_within_near_dup_threshold": 0,
+  "ssim_to_ref_median": 0.326,
+  "dhash_between_different_refs_median": 120.0
+ },
+ "per_image": [
+  {
+   "file": "generated/pilot_v3/syn_gl_v3_0000.jpg",
+   "ref": "gl_Tr_gl_0505_8a2367.jpg",
+   "dhash_to_ref": 106,
+   "ssim_to_ref": 0.368,
+   "nearest_train": "no_Tr_no_0423_34c41a.jpg",
+   "dhash_to_nearest_train": 65,
+   "ssim_to_nearest_train": 0.512
+  },
+  {
+   "file": "generated/pilot_v3/syn_gl_v3_0001.jpg",
+   "ref": "gl_gg_211_9ee931.jpg",
+   "dhash_to_ref": 113,
+   "ssim_to_ref": 0.204,
+   "nearest_train": "me_Tr_me_0597_23050d.jpg",
+   "dhash_to_nearest_train": 78,
+   "ssim_to_nearest_train": 0.196
+  },
+  {
+   "file": "generated/pilot_v3/syn_gl_v3_0002.jpg",
+   "ref": "gl_gg_157_7549d6.jpg",
+   "dhash_to_ref": 105,
+   "ssim_to_ref": 0.388,
+   "nearest_train": "me_Tr_me_0508_0b41b7.jpg",
+   "dhash_to_nearest_train": 70,
+   "ssim_to_nearest_train": 0.407
+  },
+  {
+   "file": "generated/pilot_v3/syn_gl_v3_0003.jpg",
+   "ref": "gl_Tr_gl_0216_753ae7.jpg",
+   "dhash_to_ref": 92,
+   "ssim_to_ref": 0.571,
+   "nearest_train": "gl_gg_609_69f167.jpg",
+   "dhash_to_nearest_train": 76,
+   "ssim_to_nearest_train": 0.466
+  },
+  {
+   "file": "generated/pilot_v3/syn_gl_v3_0004.jpg",
+   "ref": "gl_Tr_gl_1016_21d001.jpg",
+   "dhash_to_ref": 109,
+   "ssim_to_ref": 0.313,
+   "nearest_train": "pi_Tr_pi_0984_beeed0.jpg",
+   "dhash_to_nearest_train": 84,
+   "ssim_to_nearest_train": 0.303
+  },
+  {
+   "file": "generated/pilot_v3/syn_gl_v3_0005.jpg",
+   "ref": "gl_gg_759_66033a.jpg",
+   "dhash_to_ref": 91,
+   "ssim_to_ref": 0.336,
+   "nearest_train": "me_Tr_me_0060_5677db.jpg",
+   "dhash_to_nearest_train": 64,
+   "ssim_to_nearest_train": 0.315
+  },
+  {
+   "file": "generated/pilot_v3/syn_gl_v3_0006.jpg",
+   "ref": "gl_gg_214_e8846b.jpg",
+   "dhash_to_ref": 88,
+   "ssim_to_ref": 0.379,
+   "nearest_train": "me_Tr_me_0564_28b96f.jpg",
+   "dhash_to_nearest_train": 79,
+   "ssim_to_nearest_train": 0.376
+  },
+  {
+   "file": "generated/pilot_v3/syn_gl_v3_0007.jpg",
+   "ref": "gl_Tr_gl_1266_db4bd9.jpg",
+   "dhash_to_ref": 112,
+   "ssim_to_ref": 0.31,
+   "nearest_train": "me_Tr_me_0564_28b96f.jpg",
+   "dhash_to_nearest_train": 78,
+   "ssim_to_nearest_train": 0.348
+  },
+  {
+   "file": "generated/pilot_v3/syn_gl_v3_0008.jpg",
+   "ref": "gl_gg_236_837bf3.jpg",
+   "dhash_to_ref": 92,
+   "ssim_to_ref": 0.262,
+   "nearest_train": "me_Tr_me_0502_eb5df9.jpg",
+   "dhash_to_nearest_train": 87,
+   "ssim_to_nearest_train": 0.254
+  },
+  {
+   "file": "generated/pilot_v3/syn_gl_v3_0009.jpg",
+   "ref": "gl_gg_202_2a0eb0.jpg",
+   "dhash_to_ref": 127,
+   "ssim_to_ref": 0.316,
+   "nearest_train": "gl_Tr_gl_0933_b12c9f.jpg",
+   "dhash_to_nearest_train": 88,
+   "ssim_to_nearest_train": 0.303
+  }
+ ]
+}

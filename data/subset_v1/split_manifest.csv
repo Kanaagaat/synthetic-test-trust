@@ -1,0 +1,1351 @@
+split,file,source_image,orig_split,folder,group,md5,n_boxes_new,classes_new
+test,gl_Te_gl_0015_27df96.jpg,Train/Glioma/images/Te-gl_0015.jpg,Train,Glioma,4,27df96f1d7c5a71502fd5cd4c84f3458,1,0
+test,gl_Te_gl_0146_dc599f.jpg,Train/Glioma/images/Te-gl_0146.jpg,Train,Glioma,48,dc599f0922b149f6e16ee696d9de27ae,1,0
+test,gl_Te_gl_0195_348ca9.jpg,Train/Glioma/images/Te-gl_0195.jpg,Train,Glioma,60,348ca99d16027fc75fe9bdce53d7fe75,1,0
+test,gl_Te_gl_0277_51a658.jpg,Train/Glioma/images/Te-gl_0277.jpg,Train,Glioma,86,51a658b2bd7e4e5ec500d3d7b1627b11,1,0
+test,gl_Tr_gl_0038_70cc51.jpg,Train/Glioma/images/Tr-gl_0038.jpg,Train,Glioma,106,70cc51ef7d807aebcda0ed08576178f6,1,0
+test,gl_Tr_gl_0060_110474.jpg,Train/Glioma/images/Tr-gl_0060.jpg,Train,Glioma,116,110474902aede8cc1598e508208c2305,2,0
+test,gl_Tr_gl_0153_f9deb3.jpg,Train/Glioma/images/Tr-gl_0153.jpg,Train,Glioma,133,f9deb3298662f35186a8f3c6044ca360,1,0
+test,gl_Tr_gl_0154_783bbf.jpg,Train/Glioma/images/Tr-gl_0154.jpg,Train,Glioma,133,783bbf7471422925bb81ffcd5a0e59c7,1,0
+test,gl_Tr_gl_0155_e80990.jpg,Train/Glioma/images/Tr-gl_0155.jpg,Train,Glioma,133,e809907ca0770fadf3a5a58969ebf8cd,1,0
+test,gl_Tr_gl_0168_86bf09.jpg,Train/Glioma/images/Tr-gl_0168.jpg,Train,Glioma,137,86bf090bd8d71e3d68d2abcf060a29e6,1,0
+test,gl_Tr_gl_0169_c257a1.jpg,Train/Glioma/images/Tr-gl_0169.jpg,Train,Glioma,137,c257a1edb4bb86ab54560093fad4b8b7,1,0
+test,gl_Tr_gl_0170_7090c4.jpg,Train/Glioma/images/Tr-gl_0170.jpg,Train,Glioma,137,7090c46484cde24e5029bde13e3efbb6,2,0
+test,gl_Tr_gl_0335_0252b5.jpg,Train/Glioma/images/Tr-gl_0335.jpg,Train,Glioma,155,0252b519888de9be022789c89fc23d1b,1,0
+test,gl_Tr_gl_0639_c495c5.jpg,Train/Glioma/images/Tr-gl_0639.jpg,Train,Glioma,204,c495c54981f24f2ca50f2294b23de974,1,0
+test,gl_Tr_gl_0640_088ef2.jpg,Val/Glioma/images/Tr-gl_0640.jpg,Val,Glioma,204,088ef286380c133738564ede5d3d71bd,1,0
+test,gl_Tr_gl_0662_7d2cb9.jpg,Train/Glioma/images/Tr-gl_0662.jpg,Train,Glioma,211,7d2cb9f6844bc015d1ca9d01d558101a,1,0
+test,gl_Tr_gl_0663_ee6517.jpg,Train/Glioma/images/Tr-gl_0663.jpg,Train,Glioma,211,ee6517ecc56bdfc791504a82bc95b836,1,0
+test,gl_Tr_gl_0828_9063a7.jpg,Train/Glioma/images/Tr-gl_0828.jpg,Train,Glioma,221,9063a7ae7e34cd0ea3152bbd24acae9e,1,0
+test,gl_Tr_gl_0962_bee359.jpg,Train/Glioma/images/Tr-gl_0962.jpg,Train,Glioma,239,bee359ea4d6e7bfb72cf1e24307c3f6b,2,0
+test,gl_Tr_gl_0963_d467ac.jpg,Train/Glioma/images/Tr-gl_0963.jpg,Train,Glioma,240,d467ac4acda6799e2bbe7bb684e63867,1,0
+test,gl_Tr_gl_0999_19330a.jpg,Train/Glioma/images/Tr-gl_0999.jpg,Train,Glioma,252,19330ae2b64457dc8eab1e01e8ed56db,1,0
+test,gl_Tr_gl_1040_d9bd43.jpg,Train/Glioma/images/Tr-gl_1040.jpg,Train,Glioma,274,d9bd436d416ec3197eaf52e28113db19,1,0
+test,gl_Tr_gl_1098_bfc7bb.jpg,Train/Glioma/images/Tr-gl_1098.jpg,Train,Glioma,285,bfc7bbf5cefe43efc805e098217780a2,1,0
+test,gl_Tr_gl_1121_30ad59.jpg,Train/Glioma/images/Tr-gl_1121.jpg,Train,Glioma,292,30ad59af6b969316223579fc99e5571a,1,0
+test,gl_Tr_gl_1198_dd6e27.jpg,Train/Glioma/images/Tr-gl_1198.jpg,Train,Glioma,316,dd6e27960d17b3a9bcd887731f7242be,2,0
+test,gl_Tr_gl_1211_07339f.jpg,Train/Glioma/images/Tr-gl_1211.jpg,Train,Glioma,320,07339f1e688eceebd317b0831e9e184d,1,0
+test,gl_gg_185_d5397a.jpg,Train/Glioma/images/gg (185).jpg,Train,Glioma,396,d5397a3891a5e7c1e020b8ece8287921,1,0
+test,gl_gg_223_070263.jpg,Train/Glioma/images/gg (223).jpg,Train,Glioma,423,0702639f65505176d2392029e91036b1,1,0
+test,gl_gg_231_96a0de.jpg,Train/Glioma/images/gg (231).jpg,Train,Glioma,429,96a0dea9cbcf80854b3d15c5ab503bac,1,0
+test,gl_gg_295_fd7762.jpg,Val/Glioma/images/gg (295).jpg,Val,Glioma,2043,fd776273a0b30eaf2cf0ee27cde8f21e,1,0
+test,gl_gg_362_9c141d.jpg,Val/Glioma/images/gg (362).jpg,Val,Glioma,2048,9c141de92d2225bdeb4e010a6d9a652d,1,0
+test,gl_gg_385_13aba4.jpg,Val/Glioma/images/gg (385).jpg,Val,Glioma,496,13aba4182770bb4f8bb96ce5f0864a03,1,0
+test,gl_gg_386_192a1a.jpg,Train/Glioma/images/gg (386).jpg,Train,Glioma,496,192a1a2eb78ba656adb205dfd475359b,1,0
+test,gl_gg_459_daa65c.jpg,Train/Glioma/images/gg (459).jpg,Train,Glioma,533,daa65c6ecd1febc09e363f2107cd0418,1,0
+test,gl_gg_468_3cc58d.jpg,Train/Glioma/images/gg (468).jpg,Train,Glioma,540,3cc58d926b7dc6b94a2e82ca5afe4f7a,2,0
+test,gl_gg_500_bcbf26.jpg,Train/Glioma/images/gg (500).jpg,Train,Glioma,549,bcbf26dd790690dc87198a7f156ecb5f,1,0
+test,gl_gg_511_ef0aa3.jpg,Val/Glioma/images/gg (511).jpg,Val,Glioma,116,ef0aa3fd0a9cfcec3ae6b6a11763ba2c,1,0
+test,gl_gg_513_f2fe51.jpg,Val/Glioma/images/gg (513).jpg,Val,Glioma,116,f2fe518457f595e55c1c554fa9160630,1,0
+test,gl_gg_535_096cf0.jpg,Train/Glioma/images/gg (535).jpg,Train,Glioma,558,096cf0c09b7ddaa693743022ccee372e,1,0
+test,gl_gg_536_bcf142.jpg,Val/Glioma/images/gg (536).jpg,Val,Glioma,2056,bcf1426d8458b09a6b5f0c3825ea5496,1,0
+test,gl_gg_539_d14cd9.jpg,Train/Glioma/images/gg (539).jpg,Train,Glioma,559,d14cd94c35ec2e9fe06ac4804d35bf97,1,0
+test,gl_gg_540_38c51b.jpg,Train/Glioma/images/gg (540).jpg,Train,Glioma,559,38c51b70f463866db635d17634fcc3b3,1,0
+test,gl_gg_541_61a2ca.jpg,Train/Glioma/images/gg (541).jpg,Train,Glioma,559,61a2ca28fd95ff412925f98c3d7662d7,1,0
+test,gl_gg_543_7bda0b.jpg,Train/Glioma/images/gg (543).jpg,Train,Glioma,560,7bda0b8c20f9a3b6be3b08e1198c012d,1,0
+test,gl_gg_592_536cd5.jpg,Train/Glioma/images/gg (592).jpg,Train,Glioma,4,536cd5ce14d6e07bad0c5f0cd8723482,1,0
+test,gl_gg_594_0034dc.jpg,Train/Glioma/images/gg (594).jpg,Train,Glioma,4,0034dcbeb2d391bc36742066c14e0884,1,0
+test,gl_gg_59_b24e92.jpg,Val/Glioma/images/gg (59).jpg,Val,Glioma,2058,b24e928b097512723ba2ab965da9d663,1,0
+test,gl_gg_75_4e4185.jpg,Train/Glioma/images/gg (75).jpg,Train,Glioma,601,4e4185b9390515bc07f51efacce5f2a2,1,0
+test,gl_gg_76_eb59f4.jpg,Train/Glioma/images/gg (76).jpg,Train,Glioma,601,eb59f4843eaf7444da63e94fb4103e9b,1,0
+test,gl_gg_786_b23cdb.jpg,Train/Glioma/images/gg (786).jpg,Train,Glioma,612,b23cdbe82f63fc7ecdeac5774c2de12e,2,0
+test,gl_gg_787_36a287.jpg,Train/Glioma/images/gg (787).jpg,Train,Glioma,612,36a2874a8686da345c25f938b9b21052,1,0
+test,gl_gg_95_4a9e36.jpg,Val/Glioma/images/gg (95).jpg,Val,Glioma,2059,4a9e36c8044675b53617dc5f93558ad3,2,0
+test,me_Tr_me_0038_0cf318.jpg,Train/Meningioma/images/Tr-me_0038.jpg,Train,Meningioma,640,0cf318d27bbb5ccf29c0b58cfba87762,1,1
+test,me_Tr_me_0046_6c3422.jpg,Train/Meningioma/images/Tr-me_0046.jpg,Train,Meningioma,643,6c342276b62a464d3742b7e1845612bc,1,1
+test,me_Tr_me_0154_87fd03.jpg,Train/Meningioma/images/Tr-me_0154.jpg,Train,Meningioma,678,87fd03826ee7c76ceb540185b24fe643,1,1
+test,me_Tr_me_0208_3d2866.jpg,Train/Meningioma/images/Tr-me_0208.jpg,Train,Meningioma,702,3d2866c22eb6d6bf1f3e4c751142b589,1,1
+test,me_Tr_me_0357_e98fb0.jpg,Train/Meningioma/images/Tr-me_0357.jpg,Train,Meningioma,732,e98fb0b1240cf7acbee4a3b7e5ac1285,1,1
+test,me_Tr_me_0387_45352d.jpg,Train/Meningioma/images/Tr-me_0387.jpg,Train,Meningioma,744,45352dd148bd37ca25f8050c6e374825,1,1
+test,me_Tr_me_0424_e87c7f.jpg,Train/Meningioma/images/Tr-me_0424.jpg,Train,Meningioma,756,e87c7f99a830b4f91bd9d592ed9ce930,1,1
+test,me_Tr_me_0445_aa9036.jpg,Train/Meningioma/images/Tr-me_0445.jpg,Train,Meningioma,766,aa9036ba7e26becc42dadb89af7c54c5,1,1
+test,me_Tr_me_0450_e3ff24.jpg,Train/Meningioma/images/Tr-me_0450.jpg,Train,Meningioma,766,e3ff24f7e4501cc17674b92fab4e7d4b,1,1
+test,me_Tr_me_0451_df4333.jpg,Train/Meningioma/images/Tr-me_0451.jpg,Train,Meningioma,767,df43339f3ef1d97ff90ac31f294f089c,1,1
+test,me_Tr_me_0503_4079e7.jpg,Train/Meningioma/images/Tr-me_0503.jpg,Train,Meningioma,789,4079e734c89f9f90fb8d49a95cafe9f3,1,1
+test,me_Tr_me_0504_957e78.jpg,Train/Meningioma/images/Tr-me_0504.jpg,Train,Meningioma,789,957e789b2d1cbf5e3d9c6da3482ffdfb,1,1
+test,me_Tr_me_0505_cff315.jpg,Train/Meningioma/images/Tr-me_0505.jpg,Train,Meningioma,789,cff31594a53473782330bbfd5011a605,1,1
+test,me_Tr_me_0506_76179c.jpg,Train/Meningioma/images/Tr-me_0506.jpg,Train,Meningioma,790,76179cb748b86cf0207e9f35190bc1e9,1,1
+test,me_Tr_me_0514_b3d56d.jpg,Train/Meningioma/images/Tr-me_0514.jpg,Train,Meningioma,794,b3d56da120477ee95accc7835025df17,1,1
+test,me_Tr_me_0528_d33e4f.jpg,Train/Meningioma/images/Tr-me_0528.jpg,Train,Meningioma,804,d33e4f125e16d25770c269a1323c2c9a,1,1
+test,me_Tr_me_0581_21d276.jpg,Train/Meningioma/images/Tr-me_0581.jpg,Train,Meningioma,836,21d276f4bea7652ceac8932b71fccb00,1,1
+test,me_Tr_me_0591_5bfe33.jpg,Train/Meningioma/images/Tr-me_0591.jpg,Train,Meningioma,841,5bfe33062e23793d50769b45b3813026,1,1
+test,me_Tr_me_0609_130496.jpg,Train/Meningioma/images/Tr-me_0609.jpg,Train,Meningioma,850,130496429f2b29eb729c0a958e6b48d0,1,1
+test,me_Tr_me_0610_283d7f.jpg,Train/Meningioma/images/Tr-me_0610.jpg,Train,Meningioma,851,283d7f82699733dbba9119a9bd711c3c,1,1
+test,me_Tr_me_0618_35c2f9.jpg,Train/Meningioma/images/Tr-me_0618.jpg,Train,Meningioma,854,35c2f9bb13aef67b3136bd00e77fc68a,1,1
+test,me_Tr_me_0638_de0c4c.jpg,Train/Meningioma/images/Tr-me_0638.jpg,Train,Meningioma,862,de0c4cdf4b1ff1602522dcce32f8ca96,1,1
+test,me_Tr_me_0648_fc7d5d.jpg,Train/Meningioma/images/Tr-me_0648.jpg,Train,Meningioma,869,fc7d5dd78ed6fe15dadb595ff6998344,1,1
+test,me_Tr_me_0649_3decff.jpg,Train/Meningioma/images/Tr-me_0649.jpg,Train,Meningioma,869,3decff42d87a22f76d652d6568102607,1,1
+test,me_Tr_me_0650_abf3dd.jpg,Train/Meningioma/images/Tr-me_0650.jpg,Train,Meningioma,869,abf3dd7956c9da0b7afaff4083e357de,1,1
+test,me_Tr_me_0664_2d6778.jpg,Train/Meningioma/images/Tr-me_0664.jpg,Train,Meningioma,878,2d677871734146cb3641b4fdd84b3e98,1,1
+test,me_Tr_me_0670_4c19e7.jpg,Train/Meningioma/images/Tr-me_0670.jpg,Train,Meningioma,881,4c19e7f67b3527b36efab3221dced907,1,1
+test,me_Tr_me_0681_21b0f6.jpg,Train/Meningioma/images/Tr-me_0681.jpg,Train,Meningioma,889,21b0f61657f9f81817b4ec468871333c,1,1
+test,me_Tr_me_0716_b3c18a.jpg,Train/Meningioma/images/Tr-me_0716.jpg,Train,Meningioma,911,b3c18af7f88aa07cc66f25ced71218d3,1,1
+test,me_Tr_me_0766_c593da.jpg,Train/Meningioma/images/Tr-me_0766.jpg,Train,Meningioma,933,c593da599c423de54a191105c6b94238,1,1
+test,me_Tr_me_1020_5ef51b.jpg,Train/Meningioma/images/Tr-me_1020.jpg,Train,Meningioma,1041,5ef51b0753f7938e1cf02d020b52b2aa,1,1
+test,me_Tr_me_1031_90c62d.jpg,Train/Meningioma/images/Tr-me_1031.jpg,Train,Meningioma,1048,90c62d76f0861fe193042a397d8f8eb6,1,1
+test,me_Tr_me_1032_f9a2e6.jpg,Train/Meningioma/images/Tr-me_1032.jpg,Train,Meningioma,1048,f9a2e62e781ac29910e8fc1805eb6ef6,1,1
+test,me_Tr_me_1107_50b8d2.jpg,Train/Meningioma/images/Tr-me_1107.jpg,Train,Meningioma,1086,50b8d27c914caeb4fbd1c6410d8f4cca,1,1
+test,me_Tr_me_1108_e1d61c.jpg,Train/Meningioma/images/Tr-me_1108.jpg,Train,Meningioma,1086,e1d61cb3855f08780e7058d63e8e0640,1,1
+test,me_Tr_me_1128_abc7a1.jpg,Val/Meningioma/images/Tr-me_1128.jpg,Val,Meningioma,2065,abc7a17b1773660ea8c3e7584dbe38d4,1,1
+test,me_Tr_me_1140_0c4259.jpg,Train/Meningioma/images/Tr-me_1140.jpg,Train,Meningioma,1101,0c4259d35df4e1829fe4ed6e72fb5f28,1,1
+test,me_Tr_me_1174_ff4b95.jpg,Train/Meningioma/images/Tr-me_1174.jpg,Train,Meningioma,1118,ff4b9518aed6d2da4779229a169d7439,1,1
+test,me_Tr_me_1181_4357c3.jpg,Train/Meningioma/images/Tr-me_1181.jpg,Train,Meningioma,1124,4357c3c048fe81b198bc2f228f58c096,1,1
+test,me_Tr_me_1289_2efb25.jpg,Train/Meningioma/images/Tr-me_1289.jpg,Train,Meningioma,640,2efb25d85cf9e091c4335969d6b6dd34,1,1
+test,me_Tr_me_1295_68440a.jpg,Val/Meningioma/images/Tr-me_1295.jpg,Val,Meningioma,2076,68440a1cbad19ab311c6560ab8a1c16f,1,1
+test,me_Tr_me_1337_2f3041.jpg,Train/Meningioma/images/Tr-me_1337.jpg,Train,Meningioma,1171,2f304106ab69adc49bc7de2576562f4e,1,1
+test,me_m1_175_fab4d7.jpg,Train/Meningioma/images/m1(175).jpg,Train,Meningioma,702,fab4d7c5fc015d993ba24e7687f2b661,1,1
+test,me_m1_26_074487.jpg,Val/Meningioma/images/m1(26).jpg,Val,Meningioma,2082,074487621c5b27d97e0a352e9c6bd8d0,1,1
+test,me_m1_27_5d52ef.jpg,Train/Meningioma/images/m1(27).jpg,Train,Meningioma,1256,5d52ef51c201e19da472a4ebfe2d6979,1,1
+test,me_m1_36_f0ad61.jpg,Train/Meningioma/images/m1(36).jpg,Train,Meningioma,1260,f0ad616ac5b3b070c06362ed1d2c3b65,1,1
+test,me_m2_147_1758d1.jpg,Train/Meningioma/images/m2 (147).jpg,Train,Meningioma,1289,1758d1b8fb3cdc547fba9256a2cdea4f,1,1
+test,me_m2_167_021e94.jpg,Train/Meningioma/images/m2 (167).jpg,Train,Meningioma,766,021e94c04b0351af1dd142553c22fd7e,1,1
+test,me_m3_204_3cb17d.jpg,Train/Meningioma/images/m3 (204).jpg,Train,Meningioma,1329,3cb17d6fe9ad584ea166942383d86c70,1,1
+test,me_m3_35_df5478.jpg,Val/Meningioma/images/m3 (35).jpg,Val,Meningioma,2085,df547816ed739b0a6818d8bc2d969049,1,1
+test,me_m_196_ec8830.jpg,Train/Meningioma/images/m (196).jpg,Train,Meningioma,1193,ec8830ebb9da6ec31b92cafc679c2643,1,1
+test,me_m_56_f617d7.jpg,Train/Meningioma/images/m (56).jpg,Train,Meningioma,1203,f617d7c99a49456dc00cbc7c74b90216,1,1
+test,me_m_57_4cb5f7.jpg,Train/Meningioma/images/m (57).jpg,Train,Meningioma,1203,4cb5f7e5d9fd06db069a55ee8c201aca,1,1
+test,no_Tr_no_0013_e0e9fe.jpg,Train/No Tumor/images/Tr-no_0013.jpg,Train,No Tumor,1375,e0e9fee7b1fe0b3a4fc4af3189e2dc1f,0,
+test,no_Tr_no_0100_02ca35.jpg,Train/No Tumor/images/Tr-no_0100.jpg,Train,No Tumor,1394,02ca354a9c6dcfb0d234f3990937191d,0,
+test,no_Tr_no_0150_7108f7.jpg,Train/No Tumor/images/Tr-no_0150.jpg,Train,No Tumor,1398,7108f7b2a94c8401f13dae47f666b4e1,0,
+test,no_Tr_no_0156_308325.jpg,Train/No Tumor/images/Tr-no_0156.jpg,Train,No Tumor,1399,308325bd0f07bf1798a46cb6ba1e9f6f,0,
+test,no_Tr_no_0170_40881f.jpg,Train/No Tumor/images/Tr-no_0170.jpg,Train,No Tumor,1403,40881ffd0417f7d60164cbec5265be37,0,
+test,no_Tr_no_0212_f1cc5a.jpg,Train/No Tumor/images/Tr-no_0212.jpg,Train,No Tumor,1407,f1cc5a6fdc6aa18c1f2cf8b7ac16b907,0,
+test,no_Tr_no_0309_1588d9.jpg,Train/No Tumor/images/Tr-no_0309.jpg,Train,No Tumor,1434,1588d92e00b84f63cf7dc7ca5133d049,0,
+test,no_Tr_no_0321_4b88b2.jpg,Val/No Tumor/images/Tr-no_0321.jpg,Val,No Tumor,2089,4b88b25dd180341b1613481f0105d472,0,
+test,no_Tr_no_0334_5a2b03.jpg,Train/No Tumor/images/Tr-no_0334.jpg,Train,No Tumor,1441,5a2b03cf1973b4e0c5e18a7b439b900e,0,
+test,no_Tr_no_0362_aa9959.jpg,Train/No Tumor/images/Tr-no_0362.jpg,Train,No Tumor,1444,aa995991294e90b0a448dae20d5cf70f,0,
+test,no_Tr_no_0488_918a98.jpg,Train/No Tumor/images/Tr-no_0488.jpg,Train,No Tumor,1469,918a98be9f62977fe9aeb3fd741e6584,0,
+test,no_Tr_no_0510_28840b.jpg,Train/No Tumor/images/Tr-no_0510.jpg,Train,No Tumor,1461,28840bc15b81552aded007ed7be34ae6,0,
+test,no_Tr_no_0520_fee84e.jpg,Val/No Tumor/images/Tr-no_0520.jpg,Val,No Tumor,2091,fee84e5791fb5d0c4acd9a7edcc61dce,0,
+test,no_Tr_no_0530_73437e.jpg,Train/No Tumor/images/Tr-no_0530.jpg,Train,No Tumor,1479,73437eabee6b1ae4723b444c9271b2a5,0,
+test,no_Tr_no_0565_3a85a9.jpg,Train/No Tumor/images/Tr-no_0565.jpg,Train,No Tumor,1469,3a85a9ad5cfffa52f7077dd285c0aa15,0,
+test,no_Tr_no_0592_e6330f.jpg,Train/No Tumor/images/Tr-no_0592.jpg,Train,No Tumor,1479,e6330f12f0945d336767b05b8441848b,0,
+test,no_Tr_no_0602_124117.jpg,Train/No Tumor/images/Tr-no_0602.jpg,Train,No Tumor,1461,12411729e5e96ffecb768db392112ade,0,
+test,no_Tr_no_0605_bd99ed.jpg,Train/No Tumor/images/Tr-no_0605.jpg,Train,No Tumor,1491,bd99ed2eee8ca651ea8a27d711bb9eb8,0,
+test,no_Tr_no_0618_159c77.jpg,Train/No Tumor/images/Tr-no_0618.jpg,Train,No Tumor,1375,159c7755cbca9b88df452a647d710f80,0,
+test,no_Tr_no_0640_090141.jpg,Train/No Tumor/images/Tr-no_0640.jpg,Train,No Tumor,1491,090141b013141e9119f576d2950374fb,0,
+test,no_Tr_no_0677_0fd8d5.jpg,Train/No Tumor/images/Tr-no_0677.jpg,Train,No Tumor,1461,0fd8d5b2406a446db256bda95017cf9e,0,
+test,no_Tr_no_0850_52c920.jpg,Train/No Tumor/images/Tr-no_0850.jpg,Train,No Tumor,1456,52c920300f08a872032ae4c38cbfbf20,0,
+test,no_Tr_no_1053_242547.jpg,Train/No Tumor/images/Tr-no_1053.jpg,Train,No Tumor,1469,2425479e1c8ff8a4f2f852c5e6957dad,0,
+test,no_Tr_no_1324_e569f7.jpg,Train/No Tumor/images/Tr-no_1324.jpg,Train,No Tumor,1456,e569f721cc2aa764b0f04cb85793653d,0,
+test,no_Tr_no_1339_a63632.jpg,Train/No Tumor/images/Tr-no_1339.jpg,Train,No Tumor,1491,a6363255a28af9ed45dbf44346c61981,0,
+test,no_Tr_no_1427_779302.jpg,Train/No Tumor/images/Tr-no_1427.jpg,Train,No Tumor,1456,7793024f235f4165b1dac6e5df4624de,0,
+test,no_Tr_no_1464_5e557d.jpg,Train/No Tumor/images/Tr-no_1464.jpg,Train,No Tumor,1479,5e557d9baf30af12789906cb32cc3009,0,
+test,no_Tr_no_1547_77eeda.jpg,Train/No Tumor/images/Tr-no_1547.jpg,Train,No Tumor,1375,77eeda09a8046c004c960b9ab7021a83,0,
+test,no_image_117_59e90c.jpg,Train/No Tumor/images/image(117).jpg,Train,No Tumor,1552,59e90cb112a04460c5980a90a54280bf,0,
+test,no_image_118_35e8a4.jpg,Train/No Tumor/images/image(118).jpg,Train,No Tumor,1553,35e8a453a49865af3d47d02e343376c4,0,
+test,no_image_130_d71440.jpg,Train/No Tumor/images/image(130).jpg,Train,No Tumor,1560,d714400d805bd76db205020e1e8793f1,0,
+test,no_image_131_046dfe.jpg,Train/No Tumor/images/image(131).jpg,Train,No Tumor,1561,046dfea65c96ee98ef38bd03af54181a,0,
+test,no_image_142_bbe4e3.jpg,Train/No Tumor/images/image(142).jpg,Train,No Tumor,1564,bbe4e3817fcf574daf45adf8a2915106,0,
+test,no_image_168_fe2231.jpg,Train/No Tumor/images/image(168).jpg,Train,No Tumor,1572,fe2231f523d6d1cabd4670f11b829773,0,
+test,no_image_178_40da03.jpg,Val/No Tumor/images/image(178).jpg,Val,No Tumor,2099,40da03aa22fb2373f965134a85094f8d,0,
+test,no_image_182_ebd0a5.jpg,Train/No Tumor/images/image(182).jpg,Train,No Tumor,1577,ebd0a54a7b151a9578e4c27c595caffa,0,
+test,no_image_185_7eace6.jpg,Train/No Tumor/images/image(185).jpg,Train,No Tumor,1579,7eace6952937acb0916cd41bb3c4d656,0,
+test,no_image_286_9d40a3.jpg,Train/No Tumor/images/image(286).jpg,Train,No Tumor,1618,9d40a35639acf70d3ea40c067f5a9896,0,
+test,no_image_41_55059c.jpg,Train/No Tumor/images/image (41).jpg,Train,No Tumor,1534,55059c3698134cd82579dcff019f52e4,0,
+test,no_image_62_5ed04e.jpg,Train/No Tumor/images/image (62).jpg,Train,No Tumor,1441,5ed04e936c2ca5be7b78620bfe7be8d8,0,
+test,no_image_65_726978.jpg,Val/No Tumor/images/image(65).jpg,Val,No Tumor,2107,7269784311c0416571c63e4f7b433e2a,0,
+test,no_image_67_7b87a4.jpg,Train/No Tumor/images/image(67).jpg,Train,No Tumor,1639,7b87a432aa0fd085c8175861d59926c3,0,
+test,no_image_68_dfaa0b.jpg,Val/No Tumor/images/image(68).jpg,Val,No Tumor,2108,dfaa0b739de61f939192be4eea7fd516,0,
+test,no_image_6_eb3ccb.jpg,Val/No Tumor/images/image (6).jpg,Val,No Tumor,2095,eb3ccb11fd49250218e47830e8f58773,0,
+test,no_image_78_214c51.jpg,Train/No Tumor/images/image(78).jpg,Train,No Tumor,1564,214c518a9af5f41f30aca88cb982b58a,0,
+test,pi_Te_pi_0048_6078a3.jpg,Train/Pituitary/images/Te-pi_0048.jpg,Train,Pituitary,1673,6078a37d0e605b0880a35c6518422e5c,1,2
+test,pi_Te_pi_0057_d8cb15.jpg,Train/Pituitary/images/Te-pi_0057.jpg,Train,Pituitary,1677,d8cb1517b9ce63976399d055101efc7c,1,2
+test,pi_Tr_pi_0041_efd4f6.jpg,Train/Pituitary/images/Tr-pi_0041.jpg,Train,Pituitary,1697,efd4f6a5889ec223c48ae44cd62002e2,1,2
+test,pi_Tr_pi_0162_8edd7c.jpg,Train/Pituitary/images/Tr-pi_0162.jpg,Train,Pituitary,1725,8edd7c1e42fbec99ecf6b434bdf38ca9,2,2
+test,pi_Tr_pi_0191_cecbe2.jpg,Train/Pituitary/images/Tr-pi_0191.jpg,Train,Pituitary,1731,cecbe26c4f85228c92b698662f8bf733,1,2
+test,pi_Tr_pi_0192_1ee2d1.jpg,Train/Pituitary/images/Tr-pi_0192.jpg,Train,Pituitary,1731,1ee2d17432bcc76ed5f7c644628147e2,1,2
+test,pi_Tr_pi_0193_ff90bc.jpg,Train/Pituitary/images/Tr-pi_0193.jpg,Train,Pituitary,1731,ff90bc5bbdf94733049ce3228346ba61,1,2
+test,pi_Tr_pi_0252_8031fa.jpg,Train/Pituitary/images/Tr-pi_0252.jpg,Train,Pituitary,1685,8031fab19ad201e9f689ab982c473113,1,2
+test,pi_Tr_pi_0335_995975.jpg,Train/Pituitary/images/Tr-pi_0335.jpg,Train,Pituitary,1685,995975e9381242f7186f0e9fdcff9eb9,1,2
+test,pi_Tr_pi_0371_3525fd.jpg,Train/Pituitary/images/Tr-pi_0371.jpg,Train,Pituitary,1773,3525fdc2d011353aeb69c292511d698c,1,2
+test,pi_Tr_pi_0419_ea1cbc.jpg,Train/Pituitary/images/Tr-pi_0419.jpg,Train,Pituitary,1785,ea1cbcaab205d163cfb0b5e6654fb690,1,2
+test,pi_Tr_pi_0420_3f5b46.jpg,Train/Pituitary/images/Tr-pi_0420.jpg,Train,Pituitary,1785,3f5b4623c84ff56c36418f65d7967c5e,1,2
+test,pi_Tr_pi_0421_dcdb31.jpg,Train/Pituitary/images/Tr-pi_0421.jpg,Train,Pituitary,1785,dcdb3141b9fc09eb77989b501e72e114,1,2
+test,pi_Tr_pi_0494_da520a.jpg,Train/Pituitary/images/Tr-pi_0494.jpg,Train,Pituitary,1800,da520a37b39d74a87452a53b5ae35118,1,2
+test,pi_Tr_pi_0508_e6d2f6.jpg,Train/Pituitary/images/Tr-pi_0508.jpg,Train,Pituitary,1804,e6d2f6325690eac3122c2235be73aab5,1,2
+test,pi_Tr_pi_0509_4990b6.jpg,Train/Pituitary/images/Tr-pi_0509.jpg,Train,Pituitary,1804,4990b6b540339c92e1107ccb133b0f78,1,2
+test,pi_Tr_pi_0510_7fadc2.jpg,Train/Pituitary/images/Tr-pi_0510.jpg,Train,Pituitary,1804,7fadc2f4fa8f1ae624d904e0176160b3,1,2
+test,pi_Tr_pi_0559_c956f6.jpg,Train/Pituitary/images/Tr-pi_0559.jpg,Train,Pituitary,1816,c956f6e9720055f8673665414be2eed5,1,2
+test,pi_Tr_pi_0560_b24fed.jpg,Train/Pituitary/images/Tr-pi_0560.jpg,Train,Pituitary,1816,b24fed598dd81e7f83dab8de4cebe7d7,1,2
+test,pi_Tr_pi_0563_481e36.jpg,Train/Pituitary/images/Tr-pi_0563.jpg,Train,Pituitary,1817,481e36ec6798f3a743579a2dcbd3e2e4,1,2
+test,pi_Tr_pi_0571_25c38d.jpg,Train/Pituitary/images/Tr-pi_0571.jpg,Train,Pituitary,1817,25c38d351aafda12a04848a75657a5ad,1,2
+test,pi_Tr_pi_0640_a160db.jpg,Train/Pituitary/images/Tr-pi_0640.jpg,Train,Pituitary,1830,a160dbccc1838ad87b9a3499caa659d7,1,2
+test,pi_Tr_pi_0649_b6d9c5.jpg,Train/Pituitary/images/Tr-pi_0649.jpg,Train,Pituitary,1830,b6d9c5f8ffbc84a944aafc52d2821c80,1,2
+test,pi_Tr_pi_0864_3d9aad.jpg,Train/Pituitary/images/Tr-pi_0864.jpg,Train,Pituitary,1858,3d9aad2ddf5eef8bbc1dfa939d221ff3,1,2
+test,pi_Tr_pi_0902_51ee3a.jpg,Val/Pituitary/images/Tr-pi_0902.jpg,Val,Pituitary,2116,51ee3a33f3ab17e147665a41d90c3686,1,2
+test,pi_Tr_pi_0925_f5aa96.jpg,Train/Pituitary/images/Tr-pi_0925.jpg,Train,Pituitary,1874,f5aa9697ff25fc4af5ace846abffa50e,1,2
+test,pi_Tr_pi_1063_92de44.jpg,Val/Pituitary/images/Tr-pi_1063.jpg,Val,Pituitary,2123,92de441887b9f7e9b46064850d0188fa,1,2
+test,pi_Tr_pi_1071_e32cf8.jpg,Val/Pituitary/images/Tr-pi_1071.jpg,Val,Pituitary,2124,e32cf86f033fe18f55578fe9baa4e848,1,2
+test,pi_Tr_pi_1161_4a04f6.jpg,Train/Pituitary/images/Tr-pi_1161.jpg,Train,Pituitary,1908,4a04f6191bd56edff0a96dcfe1b22ee4,1,2
+test,pi_Tr_pi_1251_71afc5.jpg,Val/Pituitary/images/Tr-pi_1251.jpg,Val,Pituitary,1921,71afc557bdf83d58d678427f30aeaed2,1,2
+test,pi_Tr_pi_1252_763860.jpg,Train/Pituitary/images/Tr-pi_1252.jpg,Train,Pituitary,1921,7638601e46e87ca17caaa1a404e0f11a,1,2
+test,pi_Tr_pi_1328_06b6f1.jpg,Train/Pituitary/images/Tr-pi_1328.jpg,Train,Pituitary,1930,06b6f14419060a22f738e36368abc491,1,2
+test,pi_Tr_pi_1357_6c9b1a.jpg,Train/Pituitary/images/Tr-pi_1357.jpg,Train,Pituitary,1935,6c9b1a041f37529274dcd923d3045c1e,1,2
+test,pi_Tr_pi_1359_4ea06c.jpg,Train/Pituitary/images/Tr-pi_1359.jpg,Train,Pituitary,1936,4ea06c543302b6e533584d25cd72fbce,1,2
+test,pi_Tr_pi_1436_c4b724.jpg,Val/Pituitary/images/Tr-pi_1436.jpg,Val,Pituitary,1948,c4b72424eacd1bd479fae33990d10898,1,2
+test,pi_Tr_pi_1437_300182.jpg,Train/Pituitary/images/Tr-pi_1437.jpg,Train,Pituitary,1948,300182c362b7a5abbebbafb9586b142c,1,2
+test,pi_Tr_pi_1444_9267e8.jpg,Train/Pituitary/images/Tr-pi_1444.jpg,Train,Pituitary,1949,9267e8617cf829a7006008416af883e4,1,2
+test,pi_p_417_7e1ed0.jpg,Train/Pituitary/images/p (417).jpg,Train,Pituitary,1980,7e1ed08f8368601ad7e8f5d677c70f56,1,2
+test,pi_p_418_ed0f83.jpg,Train/Pituitary/images/p (418).jpg,Train,Pituitary,1980,ed0f83467509c01cdf7fb872fdec4bcb,1,2
+test,pi_p_434_791295.jpg,Train/Pituitary/images/p (434).jpg,Train,Pituitary,1773,7912950ce96728c38ce5ac89b5b11bfc,1,2
+test,pi_p_560_8a85a2.jpg,Train/Pituitary/images/p (560).jpg,Train,Pituitary,1994,8a85a280593a98abf380f207dfe0ec5d,1,2
+test,pi_p_561_d33c17.jpg,Train/Pituitary/images/p (561).jpg,Train,Pituitary,1994,d33c174ae090371f4c1e9d09c598d02a,1,2
+test,pi_p_562_b8dc48.jpg,Train/Pituitary/images/p (562).jpg,Train,Pituitary,1994,b8dc48e6b05155aba08ca65e0e992773,1,2
+test,pi_p_614_a95af5.jpg,Train/Pituitary/images/p (614).jpg,Train,Pituitary,1816,a95af5857ac3b52bf7f79d179acc8214,1,2
+test,pi_p_65_f53734.jpg,Train/Pituitary/images/p (65).jpg,Train,Pituitary,1817,f53734c5878a35dce5f71e9fb45b05fc,1,2
+test,pi_p_733_db7a36.jpg,Train/Pituitary/images/p (733).jpg,Train,Pituitary,1670,db7a363aa91dfc89d516eee5e8ac67d1,1,2
+test,pi_p_735_803ea5.jpg,Train/Pituitary/images/p (735).jpg,Train,Pituitary,1670,803ea5ee7c42a5adfb82037b4e4e08c2,1,2
+test,pi_p_736_4abece.jpg,Val/Pituitary/images/p (736).jpg,Val,Pituitary,1670,4abecec5a599d58af987cc0e3360edc1,1,2
+test,pi_p_73_963c17.jpg,Train/Pituitary/images/p (73).jpg,Train,Pituitary,1830,963c17b84217495d72c6b4655195fb82,1,2
+test,pi_p_754_a818b6.jpg,Train/Pituitary/images/p (754).jpg,Train,Pituitary,1673,a818b6c86278b6f521d9dd40953626f9,1,2
+test,pi_p_755_142cc8.jpg,Train/Pituitary/images/p (755).jpg,Train,Pituitary,1673,142cc8f72a979ca75eb6cf79e611c8eb,2,2
+test,pi_p_786_62d587.jpg,Train/Pituitary/images/p (786).jpg,Train,Pituitary,1677,62d58706b1eb9aac46d6a395b524b578,1,2
+test,pi_p_787_f988ea.jpg,Train/Pituitary/images/p (787).jpg,Train,Pituitary,1677,f988eacc4d1f3b1a39b60090af7ec0a1,1,2
+train,gl_Te_glTr_0005_00ff17.jpg,Train/Glioma/images/Te-glTr_0005.jpg,Train,Glioma,1,00ff170dab2988e442309f7812c13276,1,0
+train,gl_Te_gl_0114_ce1d8d.jpg,Train/Glioma/images/Te-gl_0114.jpg,Train,Glioma,38,ce1d8d77d5af467dd5d71024143323a5,1,0
+train,gl_Te_gl_0151_76157e.jpg,Train/Glioma/images/Te-gl_0151.jpg,Train,Glioma,51,76157e09efb57b458906d04303d77b63,1,0
+train,gl_Te_gl_0172_6881fc.jpg,Train/Glioma/images/Te-gl_0172.jpg,Train,Glioma,52,6881fcff435c38c611b041b603409b70,1,0
+train,gl_Te_gl_0178_72a780.jpg,Train/Glioma/images/Te-gl_0178.jpg,Train,Glioma,55,72a78040c72cf55bc1857deb7ac4b877,1,0
+train,gl_Te_gl_0184_879974.jpg,Train/Glioma/images/Te-gl_0184.jpg,Train,Glioma,57,87997437a47a13da53e2fba43c116eea,1,0
+train,gl_Te_gl_0187_3087e1.jpg,Train/Glioma/images/Te-gl_0187.jpg,Train,Glioma,58,3087e1ad087630d14708141a7e33131c,1,0
+train,gl_Te_gl_0198_8baeb4.jpg,Train/Glioma/images/Te-gl_0198.jpg,Train,Glioma,62,8baeb45430db31d9aa93523a1815e0bb,1,0
+train,gl_Te_gl_0225_e70907.jpg,Train/Glioma/images/Te-gl_0225.jpg,Train,Glioma,67,e709075013a76cef21fcf43a53a20259,1,0
+train,gl_Te_gl_0229_646b74.jpg,Train/Glioma/images/Te-gl_0229.jpg,Train,Glioma,68,646b74ba6baee36107cd2efe04276a97,1,0
+train,gl_Te_gl_0241_f5de63.jpg,Train/Glioma/images/Te-gl_0241.jpg,Train,Glioma,72,f5de630f2d0dcc9edf0acf41db77a27a,1,0
+train,gl_Te_gl_0245_acb7e8.jpg,Train/Glioma/images/Te-gl_0245.jpg,Train,Glioma,73,acb7e8f554290f4004c973eacfd0f18c,1,0
+train,gl_Te_gl_0250_1c8eb3.jpg,Train/Glioma/images/Te-gl_0250.jpg,Train,Glioma,75,1c8eb3d78daaa877c08200bcceb5597f,1,0
+train,gl_Te_gl_0256_44d150.jpg,Train/Glioma/images/Te-gl_0256.jpg,Train,Glioma,77,44d1502377d09971023874623712e5c3,1,0
+train,gl_Te_gl_0266_60fc2f.jpg,Train/Glioma/images/Te-gl_0266.jpg,Train,Glioma,82,60fc2f1f86e6b5250f05e3ba61428c0f,1,0
+train,gl_Te_gl_0272_78cdc6.jpg,Train/Glioma/images/Te-gl_0272.jpg,Train,Glioma,83,78cdc69804677e4ff6aaf5102be7a807,1,0
+train,gl_Te_gl_0286_9a3b13.jpg,Train/Glioma/images/Te-gl_0286.jpg,Train,Glioma,90,9a3b13f1f35f377cd97f3dafe28a0347,1,0
+train,gl_Te_gl_0287_d736ad.jpg,Train/Glioma/images/Te-gl_0287.jpg,Train,Glioma,90,d736ad7d5cfeada119ed608d73c138f9,1,0
+train,gl_Tr_glTr_0003_6d7f39.jpg,Train/Glioma/images/Tr-glTr_0003.jpg,Train,Glioma,94,6d7f39c87a8eb5bfedb34cf22d6c94f7,2,0
+train,gl_Tr_gl_0031_30b3c3.jpg,Train/Glioma/images/Tr-gl_0031.jpg,Train,Glioma,102,30b3c3cf17479966811dffc382791f86,1,0
+train,gl_Tr_gl_0044_4bb4ae.jpg,Train/Glioma/images/Tr-gl_0044.jpg,Train,Glioma,109,4bb4ae13ef152e84c2ae9ed2416411cf,1,0
+train,gl_Tr_gl_0050_672d9f.jpg,Train/Glioma/images/Tr-gl_0050.jpg,Train,Glioma,112,672d9fced922fb2641792536b4efcfb5,3,0
+train,gl_Tr_gl_0051_35bcc4.jpg,Train/Glioma/images/Tr-gl_0051.jpg,Train,Glioma,113,35bcc470ccaa812512befb068bffddb0,1,0
+train,gl_Tr_gl_0097_916954.jpg,Train/Glioma/images/Tr-gl_0097.jpg,Train,Glioma,123,91695480c4bc3f3358ba1b31574aad8a,1,0
+train,gl_Tr_gl_0120_5249c4.jpg,Train/Glioma/images/Tr-gl_0120.jpg,Train,Glioma,123,5249c47d0ffcc5960c2b8c7f4df114bf,1,0
+train,gl_Tr_gl_0136_1e0ec5.jpg,Train/Glioma/images/Tr-gl_0136.jpg,Train,Glioma,132,1e0ec51723c260a8b11677d4e3a259bd,1,0
+train,gl_Tr_gl_0137_17115a.jpg,Train/Glioma/images/Tr-gl_0137.jpg,Train,Glioma,132,17115a935268063ba14abcf23c703f98,2,0
+train,gl_Tr_gl_0138_1e2140.jpg,Train/Glioma/images/Tr-gl_0138.jpg,Train,Glioma,132,1e2140eb3c0ae0a043269ac9eb0f7d5f,2,0
+train,gl_Tr_gl_0160_9fbdd3.jpg,Train/Glioma/images/Tr-gl_0160.jpg,Train,Glioma,134,9fbdd388ba1f84313728d3503d2d61f3,2,0
+train,gl_Tr_gl_0165_a8f19b.jpg,Train/Glioma/images/Tr-gl_0165.jpg,Train,Glioma,136,a8f19b2dbeef8a01c1587fc3604b4db1,1,0
+train,gl_Tr_gl_0207_1a2336.jpg,Train/Glioma/images/Tr-gl_0207.jpg,Train,Glioma,143,1a2336af6a21369b4f86c637da5d5f61,1,0
+train,gl_Tr_gl_0208_9e295d.jpg,Train/Glioma/images/Tr-gl_0208.jpg,Train,Glioma,143,9e295d806b37355883bc4c8de26f6b82,1,0
+train,gl_Tr_gl_0215_8caffa.jpg,Train/Glioma/images/Tr-gl_0215.jpg,Train,Glioma,144,8caffa58a9d8b21fa1a160baff52a8f1,1,0
+train,gl_Tr_gl_0216_753ae7.jpg,Train/Glioma/images/Tr-gl_0216.jpg,Train,Glioma,144,753ae7a81d034c0cca7ac0f2b3cee107,1,0
+train,gl_Tr_gl_0244_4941b2.jpg,Train/Glioma/images/Tr-gl_0244.jpg,Train,Glioma,146,4941b264db559d8ab1b88a7e7cf12e29,1,0
+train,gl_Tr_gl_0245_12bb24.jpg,Val/Glioma/images/Tr-gl_0245.jpg,Val,Glioma,146,12bb24f696aeebc791da35fff292cb2b,1,0
+train,gl_Tr_gl_0246_3052ad.jpg,Train/Glioma/images/Tr-gl_0246.jpg,Train,Glioma,146,3052ad5f4bfbd9ad57a3110994a5bc0d,1,0
+train,gl_Tr_gl_0307_4ecd21.jpg,Val/Glioma/images/Tr-gl_0307.jpg,Val,Glioma,152,4ecd2111ff544dbfc6f66e3581e33bdc,1,0
+train,gl_Tr_gl_0308_0d7e19.jpg,Train/Glioma/images/Tr-gl_0308.jpg,Train,Glioma,152,0d7e19f30598f83f153721f56f184ae3,1,0
+train,gl_Tr_gl_0313_f72018.jpg,Train/Glioma/images/Tr-gl_0313.jpg,Train,Glioma,153,f720184a2ee549681bbc41f7d3c2e68d,1,0
+train,gl_Tr_gl_0314_8d5903.jpg,Val/Glioma/images/Tr-gl_0314.jpg,Val,Glioma,153,8d59034c6dbc46da979ef34e9c618ff4,1,0
+train,gl_Tr_gl_0315_6af3fd.jpg,Train/Glioma/images/Tr-gl_0315.jpg,Train,Glioma,153,6af3fdabc13651afce9e694106649601,1,0
+train,gl_Tr_gl_0336_b43433.jpg,Train/Glioma/images/Tr-gl_0336.jpg,Train,Glioma,156,b43433569302452119526b2eef4b1b6a,1,0
+train,gl_Tr_gl_0362_f37728.jpg,Train/Glioma/images/Tr-gl_0362.jpg,Train,Glioma,158,f37728d66b36de1edc4b46f4b765e3ae,1,0
+train,gl_Tr_gl_0374_3a0d34.jpg,Train/Glioma/images/Tr-gl_0374.jpg,Train,Glioma,162,3a0d34453927708a3f026b93df411204,1,0
+train,gl_Tr_gl_0375_b087af.jpg,Val/Glioma/images/Tr-gl_0375.jpg,Val,Glioma,162,b087afb6b705a1a7052046d1e1c62c41,1,0
+train,gl_Tr_gl_0376_f8bad9.jpg,Train/Glioma/images/Tr-gl_0376.jpg,Train,Glioma,162,f8bad9fc610683b156907420321f16c6,1,0
+train,gl_Tr_gl_0377_61ead7.jpg,Train/Glioma/images/Tr-gl_0377.jpg,Train,Glioma,163,61ead754dd0ad8e0341e6a280e31f6ac,1,0
+train,gl_Tr_gl_0410_655dfe.jpg,Train/Glioma/images/Tr-gl_0410.jpg,Train,Glioma,134,655dfef8eada4225da03b47baa685689,1,0
+train,gl_Tr_gl_0411_dd4e32.jpg,Train/Glioma/images/Tr-gl_0411.jpg,Train,Glioma,134,dd4e329c8e317ae22be23f255ad9999f,2,0
+train,gl_Tr_gl_0431_f3aceb.jpg,Train/Glioma/images/Tr-gl_0431.jpg,Train,Glioma,169,f3aceb5493367d8ebc9984677d0c379f,1,0
+train,gl_Tr_gl_0432_6d3f84.jpg,Train/Glioma/images/Tr-gl_0432.jpg,Train,Glioma,169,6d3f84c7005a14ca8163aa29173b9384,1,0
+train,gl_Tr_gl_0433_a9c105.jpg,Train/Glioma/images/Tr-gl_0433.jpg,Train,Glioma,170,a9c105bf220365475b2ef87f93feb136,1,0
+train,gl_Tr_gl_0439_d3292a.jpg,Train/Glioma/images/Tr-gl_0439.jpg,Train,Glioma,171,d3292a7c6d0a98080f376d6d56c5956a,1,0
+train,gl_Tr_gl_0460_fcee37.jpg,Train/Glioma/images/Tr-gl_0460.jpg,Train,Glioma,173,fcee3731d8b91ef8e06fd1690a61b960,1,0
+train,gl_Tr_gl_0480_66f361.jpg,Train/Glioma/images/Tr-gl_0480.jpg,Train,Glioma,179,66f361de481d8e90b6323be16f546a3b,1,0
+train,gl_Tr_gl_0481_7da540.jpg,Train/Glioma/images/Tr-gl_0481.jpg,Train,Glioma,179,7da540281a96fbda9faf7078cb4f8043,1,0
+train,gl_Tr_gl_0489_4ae210.jpg,Train/Glioma/images/Tr-gl_0489.jpg,Train,Glioma,181,4ae210298624ce4c732f60b40cd69dfe,1,0
+train,gl_Tr_gl_0495_2dfd98.jpg,Val/Glioma/images/Tr-gl_0495.jpg,Val,Glioma,2019,2dfd98a077d127fb8c7e9f07e3408da7,1,0
+train,gl_Tr_gl_0504_506123.jpg,Train/Glioma/images/Tr-gl_0504.jpg,Train,Glioma,183,506123a87656c66ef8ec90154a3e251e,1,0
+train,gl_Tr_gl_0505_8a2367.jpg,Val/Glioma/images/Tr-gl_0505.jpg,Val,Glioma,183,8a23676aa4bb8f5f72d7f9334307853c,1,0
+train,gl_Tr_gl_0547_f86f12.jpg,Train/Glioma/images/Tr-gl_0547.jpg,Train,Glioma,187,f86f127862e8232a1f276a5d4e399b11,1,0
+train,gl_Tr_gl_0549_ba157a.jpg,Val/Glioma/images/Tr-gl_0549.jpg,Val,Glioma,187,ba157a160e8034a11e432253a27d0bc2,1,0
+train,gl_Tr_gl_0552_e97a68.jpg,Train/Glioma/images/Tr-gl_0552.jpg,Train,Glioma,187,e97a685853960e98735380116011e207,1,0
+train,gl_Tr_gl_0589_85e231.jpg,Train/Glioma/images/Tr-gl_0589.jpg,Train,Glioma,194,85e231ac0e10d6d6ed89ec6be755de66,1,0
+train,gl_Tr_gl_0592_e82e86.jpg,Train/Glioma/images/Tr-gl_0592.jpg,Train,Glioma,194,e82e86e94a965b81c6a4c11d1d34a7a0,1,0
+train,gl_Tr_gl_0593_bb6a06.jpg,Train/Glioma/images/Tr-gl_0593.jpg,Train,Glioma,194,bb6a0675cadbf4dd6b1af609b85f097a,1,0
+train,gl_Tr_gl_0600_40f0e5.jpg,Train/Glioma/images/Tr-gl_0600.jpg,Train,Glioma,195,40f0e5b3becee2552656a49d47d54549,2,0
+train,gl_Tr_gl_0601_d29f48.jpg,Train/Glioma/images/Tr-gl_0601.jpg,Train,Glioma,195,d29f4887fe50215d36757e2eed8df0ba,2,0
+train,gl_Tr_gl_0602_6db18d.jpg,Train/Glioma/images/Tr-gl_0602.jpg,Train,Glioma,195,6db18d97975ac5621bad5b72015b1bba,2,0
+train,gl_Tr_gl_0615_c68bd3.jpg,Train/Glioma/images/Tr-gl_0615.jpg,Train,Glioma,196,c68bd36a49ec513f06b6eb9ab2ea875d,1,0
+train,gl_Tr_gl_0623_27b928.jpg,Train/Glioma/images/Tr-gl_0623.jpg,Train,Glioma,198,27b9289f930ee009fdfd0fae2ab7412a,1,0
+train,gl_Tr_gl_0627_b72643.jpg,Train/Glioma/images/Tr-gl_0627.jpg,Train,Glioma,200,b726430a21a07672193ca6d48ec6fda3,1,0
+train,gl_Tr_gl_0638_9446de.jpg,Train/Glioma/images/Tr-gl_0638.jpg,Train,Glioma,203,9446de46943621a8238045be3b9f580b,2,0
+train,gl_Tr_gl_0651_4a46f7.jpg,Train/Glioma/images/Tr-gl_0651.jpg,Train,Glioma,208,4a46f76bd2fe9883020154cf977bc094,1,0
+train,gl_Tr_gl_0652_4435c1.jpg,Train/Glioma/images/Tr-gl_0652.jpg,Train,Glioma,208,4435c186fc3e3ce2bc4ebed70469f5bd,1,0
+train,gl_Tr_gl_0660_2354cb.jpg,Train/Glioma/images/Tr-gl_0660.jpg,Train,Glioma,209,2354cb16a68f5090afa712cb215aa971,1,0
+train,gl_Tr_gl_0735_75657a.jpg,Train/Glioma/images/Tr-gl_0735.jpg,Train,Glioma,217,75657a384cb8e13f355f0686d0e690ec,2,0
+train,gl_Tr_gl_0751_8ed9a6.jpg,Train/Glioma/images/Tr-gl_0751.jpg,Train,Glioma,218,8ed9a65ceab792971998265a4d7071f7,1,0
+train,gl_Tr_gl_0864_55244c.jpg,Train/Glioma/images/Tr-gl_0864.jpg,Train,Glioma,223,55244c967c30e1a15a672ea0dde0b26d,1,0
+train,gl_Tr_gl_0865_fdbe2a.jpg,Val/Glioma/images/Tr-gl_0865.jpg,Val,Glioma,223,fdbe2ae2ea2fcdbd6b3cb6f90db879d1,1,0
+train,gl_Tr_gl_0866_3d74f8.jpg,Train/Glioma/images/Tr-gl_0866.jpg,Train,Glioma,223,3d74f885c4e90a9b3ebd3a11d84d2109,1,0
+train,gl_Tr_gl_0882_004a44.jpg,Train/Glioma/images/Tr-gl_0882.jpg,Train,Glioma,225,004a443b3551d474cccc050afc0d8f60,1,0
+train,gl_Tr_gl_0916_51b3ce.jpg,Train/Glioma/images/Tr-gl_0916.jpg,Train,Glioma,228,51b3ce16e0aa971bffc0e2d05b8cea26,1,0
+train,gl_Tr_gl_0933_b12c9f.jpg,Val/Glioma/images/Tr-gl_0933.jpg,Val,Glioma,2023,b12c9fac78717704fe4c12ca9eb84faa,1,0
+train,gl_Tr_gl_0937_9d5d90.jpg,Train/Glioma/images/Tr-gl_0937.jpg,Train,Glioma,233,9d5d9028122defa6bf4e4150291f8e4b,1,0
+train,gl_Tr_gl_0964_dce226.jpg,Train/Glioma/images/Tr-gl_0964.jpg,Train,Glioma,241,dce226e9ac9ff58847e1be3efaae8e64,1,0
+train,gl_Tr_gl_0965_0285e9.jpg,Train/Glioma/images/Tr-gl_0965.jpg,Train,Glioma,242,0285e982c40248a99280748bc1c99ab5,1,0
+train,gl_Tr_gl_0969_4583a3.jpg,Val/Glioma/images/Tr-gl_0969.jpg,Val,Glioma,2024,4583a3b977f682fcbc32ef89d9b48fa6,1,0
+train,gl_Tr_gl_0983_68327b.jpg,Train/Glioma/images/Tr-gl_0983.jpg,Train,Glioma,248,68327b400f68fb967d4fcdfd64c00242,2,0
+train,gl_Tr_gl_0989_07599c.jpg,Train/Glioma/images/Tr-gl_0989.jpg,Train,Glioma,251,07599cd91695c63b1d4007b63f2e8fea,1,0
+train,gl_Tr_gl_1006_f38b97.jpg,Train/Glioma/images/Tr-gl_1006.jpg,Train,Glioma,256,f38b9715fda3a3d1ffb5609d684ad7e2,1,0
+train,gl_Tr_gl_1009_7cfac0.jpg,Train/Glioma/images/Tr-gl_1009.jpg,Train,Glioma,259,7cfac01181875d27050a700d8fcf380c,1,0
+train,gl_Tr_gl_1012_3a1c6a.jpg,Train/Glioma/images/Tr-gl_1012.jpg,Train,Glioma,261,3a1c6a6005aed0d58d053c6b91ad06e9,1,0
+train,gl_Tr_gl_1016_21d001.jpg,Train/Glioma/images/Tr-gl_1016.jpg,Train,Glioma,265,21d001e8427a1e9415661f07541288ae,1,0
+train,gl_Tr_gl_1027_640078.jpg,Train/Glioma/images/Tr-gl_1027.jpg,Train,Glioma,270,6400780dc4354d9741e617580e68e883,1,0
+train,gl_Tr_gl_1038_2e1224.jpg,Train/Glioma/images/Tr-gl_1038.jpg,Train,Glioma,273,2e122430f4f93bb996aee9d8158c5031,1,0
+train,gl_Tr_gl_1039_adbb27.jpg,Train/Glioma/images/Tr-gl_1039.jpg,Train,Glioma,273,adbb27715ea4fbb5c1988972b1607266,1,0
+train,gl_Tr_gl_1069_80c5e8.jpg,Train/Glioma/images/Tr-gl_1069.jpg,Train,Glioma,281,80c5e8d0700d566a609365414c7dbc3f,1,0
+train,gl_Tr_gl_1082_aad2b6.jpg,Train/Glioma/images/Tr-gl_1082.jpg,Train,Glioma,282,aad2b6a1ff1e602a0c889cc1099c50ea,1,0
+train,gl_Tr_gl_1097_ad51ed.jpg,Train/Glioma/images/Tr-gl_1097.jpg,Train,Glioma,284,ad51ed0dd64869f8176032acf89aa587,1,0
+train,gl_Tr_gl_1099_1eb74f.jpg,Train/Glioma/images/Tr-gl_1099.jpg,Train,Glioma,286,1eb74f66266770c2d58be6aa26ee6b64,1,0
+train,gl_Tr_gl_1122_d8b35e.jpg,Train/Glioma/images/Tr-gl_1122.jpg,Train,Glioma,293,d8b35e09ba112639e0bf90297d359e70,1,0
+train,gl_Tr_gl_1133_34c75e.jpg,Train/Glioma/images/Tr-gl_1133.jpg,Train,Glioma,294,34c75e70dfce1261ed38730c73a58d17,1,0
+train,gl_Tr_gl_1134_838b1f.jpg,Val/Glioma/images/Tr-gl_1134.jpg,Val,Glioma,294,838b1fab973b212c2f447bc3666ce5ac,1,0
+train,gl_Tr_gl_1137_3e36a8.jpg,Train/Glioma/images/Tr-gl_1137.jpg,Train,Glioma,295,3e36a8c5c2b227b2a3520bdb746460fb,1,0
+train,gl_Tr_gl_1138_ea5a68.jpg,Val/Glioma/images/Tr-gl_1138.jpg,Val,Glioma,295,ea5a68cc823f55739d1d0fa4d563eb89,1,0
+train,gl_Tr_gl_1139_017752.jpg,Train/Glioma/images/Tr-gl_1139.jpg,Train,Glioma,295,0177523fb2d33ca0833074da946904fc,1,0
+train,gl_Tr_gl_1168_8e2894.jpg,Train/Glioma/images/Tr-gl_1168.jpg,Train,Glioma,303,8e2894eec1b4572e6fbe1991145fa099,1,0
+train,gl_Tr_gl_1169_c20689.jpg,Train/Glioma/images/Tr-gl_1169.jpg,Train,Glioma,303,c206891dc27d96d0ace77ce4714b7187,1,0
+train,gl_Tr_gl_1173_082d72.jpg,Train/Glioma/images/Tr-gl_1173.jpg,Train,Glioma,305,082d72b80d71ee60939e2f474fc01bcb,1,0
+train,gl_Tr_gl_1178_f8a78c.jpg,Train/Glioma/images/Tr-gl_1178.jpg,Train,Glioma,308,f8a78ca7ff7fead06a041dd0b34c1768,1,0
+train,gl_Tr_gl_1184_376d9e.jpg,Train/Glioma/images/Tr-gl_1184.jpg,Train,Glioma,310,376d9e80980171bf6b0b86c8f376cf4b,1,0
+train,gl_Tr_gl_1207_dc76de.jpg,Train/Glioma/images/Tr-gl_1207.jpg,Train,Glioma,318,dc76deea21b8fd587606eb50ba4d4fd4,1,0
+train,gl_Tr_gl_1226_273d6d.jpg,Train/Glioma/images/Tr-gl_1226.jpg,Train,Glioma,324,273d6df213a902c35acd85542ba9008d,1,0
+train,gl_Tr_gl_1227_464be8.jpg,Train/Glioma/images/Tr-gl_1227.jpg,Train,Glioma,325,464be8c40c607ab45ec79c9a57fc96c7,1,0
+train,gl_Tr_gl_1229_1e0a20.jpg,Train/Glioma/images/Tr-gl_1229.jpg,Train,Glioma,327,1e0a20b970070b2195233e0ca08505a6,2,0
+train,gl_Tr_gl_1231_63aa24.jpg,Train/Glioma/images/Tr-gl_1231.jpg,Train,Glioma,329,63aa248cf0f59e97bf9359662e8d6538,1,0
+train,gl_Tr_gl_1262_f70cf7.jpg,Train/Glioma/images/Tr-gl_1262.jpg,Train,Glioma,338,f70cf7c0fcd9d0657cc0b15d9fb1a42f,4,0
+train,gl_Tr_gl_1263_759df3.jpg,Train/Glioma/images/Tr-gl_1263.jpg,Train,Glioma,339,759df33be6135881eb3f4c5ed44764eb,2,0
+train,gl_Tr_gl_1264_9eede1.jpg,Val/Glioma/images/Tr-gl_1264.jpg,Val,Glioma,2027,9eede1979845931581bef1ee73845e44,3,0
+train,gl_Tr_gl_1266_db4bd9.jpg,Train/Glioma/images/Tr-gl_1266.jpg,Train,Glioma,340,db4bd91a0d4cd6779f46ce41cdb6f90d,1,0
+train,gl_Tr_gl_1267_e8114a.jpg,Train/Glioma/images/Tr-gl_1267.jpg,Train,Glioma,341,e8114aafc90d7b737633865b69592f60,1,0
+train,gl_Tr_gl_1268_23ba48.jpg,Train/Glioma/images/Tr-gl_1268.jpg,Train,Glioma,342,23ba488fcd897bc3f193976025805ef7,1,0
+train,gl_Tr_gl_1279_02f595.jpg,Train/Glioma/images/Tr-gl_1279.jpg,Train,Glioma,90,02f595c9a0613273773fcb167a17e5df,2,0
+train,gl_Tr_gl_1289_1c7eae.jpg,Val/Glioma/images/Tr-gl_1289.jpg,Val,Glioma,2028,1c7eaea9b2d0f5bf45d87b2a529ad153,1,0
+train,gl_Tr_gl_1304_a281d8.jpg,Train/Glioma/images/Tr-gl_1304.jpg,Train,Glioma,347,a281d8ebc216ebddfa5424ee7c93dc7b,1,0
+train,gl_gg_104_e0899a.jpg,Train/Glioma/images/gg (104).jpg,Train,Glioma,351,e0899a5f9770bbf1afb1d32f5ed7bd48,1,0
+train,gl_gg_10_d83a72.jpg,Val/Glioma/images/gg (10).jpg,Val,Glioma,294,d83a7284c900e17366a2eb77c176b5c5,1,0
+train,gl_gg_110_82b9f2.jpg,Train/Glioma/images/gg (110).jpg,Train,Glioma,357,82b9f20d86c1b2a21506594e7ef5b0c2,1,0
+train,gl_gg_114_25fbd6.jpg,Train/Glioma/images/gg (114).jpg,Train,Glioma,360,25fbd63ae53c2c19f5b79f88ec8614d3,1,0
+train,gl_gg_117_4b5063.jpg,Train/Glioma/images/gg (117).jpg,Train,Glioma,363,4b50636891e0addbecf27170eb076a46,1,0
+train,gl_gg_11_2f073d.jpg,Train/Glioma/images/gg (11).jpg,Train,Glioma,356,2f073d4c902dc57e1fda33fdfa571ab0,1,0
+train,gl_gg_121_b2b001.jpg,Train/Glioma/images/gg (121).jpg,Train,Glioma,366,b2b0013fbb7a1cb8987b659a470d6d7e,1,0
+train,gl_gg_124_fc352a.jpg,Train/Glioma/images/gg (124).jpg,Train,Glioma,369,fc352abf8db2945102b3f4e09d795375,1,0
+train,gl_gg_126_298899.jpg,Train/Glioma/images/gg (126).jpg,Train,Glioma,371,298899fe10bce8a89a9722c0ec89b9c5,3,0
+train,gl_gg_12_44ae55.jpg,Train/Glioma/images/gg (12).jpg,Train,Glioma,356,44ae55cbbbdae253d3155e09c04e1b98,1,0
+train,gl_gg_13_d872a5.jpg,Train/Glioma/images/gg (13).jpg,Train,Glioma,356,d872a5b30e91e6462308433c503a1951,1,0
+train,gl_gg_142_5cc733.jpg,Train/Glioma/images/gg (142).jpg,Train,Glioma,376,5cc73379b578dcb998587cdf4f508694,1,0
+train,gl_gg_157_7549d6.jpg,Train/Glioma/images/gg (157).jpg,Train,Glioma,382,7549d627234880ca6dab9aedba05894c,1,0
+train,gl_gg_172_37d36c.jpg,Train/Glioma/images/gg (172).jpg,Train,Glioma,390,37d36c266302441f37524068a1b6b7d2,2,0
+train,gl_gg_173_d17ee8.jpg,Train/Glioma/images/gg (173).jpg,Train,Glioma,391,d17ee88064e393f92e34ebdc786c8d7a,2,0
+train,gl_gg_176_40ee05.jpg,Train/Glioma/images/gg (176).jpg,Train,Glioma,393,40ee05f78f586139f9113a0fe5f6fce6,1,0
+train,gl_gg_187_2fb4f2.jpg,Train/Glioma/images/gg (187).jpg,Train,Glioma,397,2fb4f2967acbc4ea8f25aa2a9d21c50a,1,0
+train,gl_gg_192_e35ae0.jpg,Train/Glioma/images/gg (192).jpg,Train,Glioma,402,e35ae0d728142045cbcfe7a32a1358ca,1,0
+train,gl_gg_199_55459d.jpg,Train/Glioma/images/gg (199).jpg,Train,Glioma,409,55459d82fcb7a65c3a25efdef369bd7f,1,0
+train,gl_gg_200_0040cd.jpg,Train/Glioma/images/gg (200).jpg,Train,Glioma,409,0040cdb1fcacbc875732842826875882,1,0
+train,gl_gg_201_fc3a6f.jpg,Train/Glioma/images/gg (201).jpg,Train,Glioma,410,fc3a6f9dd2de3c962fc688ec31eb7e85,1,0
+train,gl_gg_202_2a0eb0.jpg,Train/Glioma/images/gg (202).jpg,Train,Glioma,410,2a0eb0c2fe2fd78c6b05eee35879cc90,1,0
+train,gl_gg_203_97956d.jpg,Train/Glioma/images/gg (203).jpg,Train,Glioma,411,97956d9cffc24a8b4c84a53d62c9f999,1,0
+train,gl_gg_204_ac54ce.jpg,Train/Glioma/images/gg (204).jpg,Train,Glioma,412,ac54ce58abbd346dfb9782586b04d824,1,0
+train,gl_gg_211_9ee931.jpg,Train/Glioma/images/gg (211).jpg,Train,Glioma,417,9ee9317636e27c0af7ef6a71267701b3,1,0
+train,gl_gg_212_1c4cb2.jpg,Train/Glioma/images/gg (212).jpg,Train,Glioma,418,1c4cb24d2ee755f35ea09aaddca8e89f,1,0
+train,gl_gg_213_07a619.jpg,Train/Glioma/images/gg (213).jpg,Train,Glioma,418,07a619069d444c84ae8a8432aaf0d35c,1,0
+train,gl_gg_214_e8846b.jpg,Train/Glioma/images/gg (214).jpg,Train,Glioma,418,e8846b27d6407d2d29f7625e50189ff9,1,0
+train,gl_gg_216_5e7a0f.jpg,Train/Glioma/images/gg (216).jpg,Train,Glioma,419,5e7a0fd4daa46d394b919b410f0779b6,1,0
+train,gl_gg_222_826972.jpg,Train/Glioma/images/gg (222).jpg,Train,Glioma,422,826972701617118073d830ffb6ef3b26,1,0
+train,gl_gg_224_8489b2.jpg,Train/Glioma/images/gg (224).jpg,Train,Glioma,424,8489b2232e8955af58920439fa249809,1,0
+train,gl_gg_226_b38dfa.jpg,Train/Glioma/images/gg (226).jpg,Train,Glioma,426,b38dfab85ba628962aee281ff795470b,1,0
+train,gl_gg_235_e2922c.jpg,Train/Glioma/images/gg (235).jpg,Train,Glioma,433,e2922cf2dd5a93ac7c30eab97770c94e,1,0
+train,gl_gg_236_837bf3.jpg,Train/Glioma/images/gg (236).jpg,Train,Glioma,433,837bf38953f6e343fb0ff2081549fa5c,1,0
+train,gl_gg_239_59e38b.jpg,Val/Glioma/images/gg (239).jpg,Val,Glioma,2036,59e38b55a26092287a1932056b967a99,1,0
+train,gl_gg_242_ca5fb1.jpg,Train/Glioma/images/gg (242).jpg,Train,Glioma,437,ca5fb14dafdf03a6660209e1c8d3b921,1,0
+train,gl_gg_248_c5ebfe.jpg,Train/Glioma/images/gg (248).jpg,Train,Glioma,443,c5ebfe90853a0cca601d3f4a774e0bd4,1,0
+train,gl_gg_249_cba425.jpg,Train/Glioma/images/gg (249).jpg,Train,Glioma,444,cba425fcbcab052724ce3f9ddee62fb4,1,0
+train,gl_gg_256_b6b12e.jpg,Train/Glioma/images/gg (256).jpg,Train,Glioma,451,b6b12e89d05a02062bc5b434967c523a,1,0
+train,gl_gg_25_115d2a.jpg,Train/Glioma/images/gg (25).jpg,Train,Glioma,445,115d2a6bc883024c6bfdb011a852453d,1,0
+train,gl_gg_262_466f5d.jpg,Train/Glioma/images/gg (262).jpg,Train,Glioma,456,466f5dd4d26efbe6230f371dcfdc2c53,1,0
+train,gl_gg_263_db0e7d.jpg,Train/Glioma/images/gg (263).jpg,Train,Glioma,456,db0e7dd50fd090c36697141f6454bbb0,1,0
+train,gl_gg_267_082785.jpg,Train/Glioma/images/gg (267).jpg,Train,Glioma,458,0827854decf4411c1eb33fe3e237d5cb,1,0
+train,gl_gg_269_780d97.jpg,Train/Glioma/images/gg (269).jpg,Train,Glioma,460,780d97c64a4f73879d4fa85c57373e3b,1,0
+train,gl_gg_270_171eda.jpg,Train/Glioma/images/gg (270).jpg,Train,Glioma,460,171eda85f1b1822d4765f51941ed134b,1,0
+train,gl_gg_282_8e08bd.jpg,Train/Glioma/images/gg (282).jpg,Train,Glioma,94,8e08bd9ac53dafccecec10c5cfc5b958,1,0
+train,gl_gg_285_b91696.jpg,Train/Glioma/images/gg (285).jpg,Train,Glioma,94,b91696171460c180cc93c18cfac1b936,2,0
+train,gl_gg_309_786392.jpg,Train/Glioma/images/gg (309).jpg,Train,Glioma,471,7863927d8ce5c0b4fec7730cca880865,1,0
+train,gl_gg_310_d6ecde.jpg,Val/Glioma/images/gg (310).jpg,Val,Glioma,471,d6ecdea242988ebc70886e7ad83aa5f2,1,0
+train,gl_gg_311_1c6bf5.jpg,Train/Glioma/images/gg (311).jpg,Train,Glioma,471,1c6bf5bf2f12692b184bbd67c5016fee,1,0
+train,gl_gg_313_54ae3c.jpg,Train/Glioma/images/gg (313).jpg,Train,Glioma,472,54ae3cd16ff35416a609c3c60741775e,1,0
+train,gl_gg_314_0eed4c.jpg,Train/Glioma/images/gg (314).jpg,Train,Glioma,472,0eed4c6545f705337599ded98047ed8d,1,0
+train,gl_gg_325_e4a702.jpg,Train/Glioma/images/gg (325).jpg,Train,Glioma,474,e4a7029704602d385ef0bdc1963932af,1,0
+train,gl_gg_329_54de1c.jpg,Train/Glioma/images/gg (329).jpg,Train,Glioma,476,54de1c95e5ee943c709f2ca8b46efbf3,1,0
+train,gl_gg_337_9d251f.jpg,Train/Glioma/images/gg (337).jpg,Train,Glioma,478,9d251f7d07cc28eb61ac0e8cec4b8d0e,1,0
+train,gl_gg_338_458374.jpg,Train/Glioma/images/gg (338).jpg,Train,Glioma,478,4583749670744f6fc82e723057072e17,1,0
+train,gl_gg_34_e3525a.jpg,Train/Glioma/images/gg (34).jpg,Train,Glioma,480,e3525a0084109e9f2b24b0b2befea026,1,0
+train,gl_gg_359_a0a391.jpg,Val/Glioma/images/gg (359).jpg,Val,Glioma,2047,a0a391fed2347077cd148c520996577a,1,0
+train,gl_gg_35_e84dbd.jpg,Val/Glioma/images/gg (35).jpg,Val,Glioma,2046,e84dbdb6fbb8ebd0c48408921b499483,1,0
+train,gl_gg_363_0c8a62.jpg,Train/Glioma/images/gg (363).jpg,Train,Glioma,486,0c8a62dd147b5d4503e3692426eeab5b,1,0
+train,gl_gg_369_5bf4f4.jpg,Train/Glioma/images/gg (369).jpg,Train,Glioma,490,5bf4f41e11a7257ddef1c33a9a302da7,1,0
+train,gl_gg_370_81b619.jpg,Train/Glioma/images/gg (370).jpg,Train,Glioma,491,81b619f642d7c488b02d39b90c65e7c5,1,0
+train,gl_gg_371_336cb2.jpg,Train/Glioma/images/gg (371).jpg,Train,Glioma,491,336cb23ac6416a1a01eff278566733b3,2,0
+train,gl_gg_39_521661.jpg,Train/Glioma/images/gg (39).jpg,Train,Glioma,499,521661253c78cfd934b2db5a238287eb,1,0
+train,gl_gg_3_11cb96.jpg,Train/Glioma/images/gg (3).jpg,Train,Glioma,466,11cb96e78a96a9ba4835f0f934f96f32,2,0
+train,gl_gg_404_ad0dbf.jpg,Train/Glioma/images/gg (404).jpg,Train,Glioma,505,ad0dbfa4512e7e3c69975fc1b8540ba7,1,0
+train,gl_gg_40_e95e7c.jpg,Train/Glioma/images/gg (40).jpg,Train,Glioma,503,e95e7c7c7275dd396ad6b02f953eab52,1,0
+train,gl_gg_417_fb56a1.jpg,Train/Glioma/images/gg (417).jpg,Train,Glioma,510,fb56a1f2253fd1f681576dcceeef6a15,1,0
+train,gl_gg_418_8490c3.jpg,Train/Glioma/images/gg (418).jpg,Train,Glioma,510,8490c3edace2b595074394ee38329885,3,0
+train,gl_gg_419_7073ef.jpg,Train/Glioma/images/gg (419).jpg,Train,Glioma,510,7073efc6a5c7d13e9f608e37705557de,2,0
+train,gl_gg_423_24be0c.jpg,Train/Glioma/images/gg (423).jpg,Train,Glioma,513,24be0cf29b1c05c8774d518b031e2048,1,0
+train,gl_gg_425_e8065a.jpg,Train/Glioma/images/gg (425).jpg,Train,Glioma,514,e8065a7b2453aeb33ecf394d1adf523d,1,0
+train,gl_gg_427_07a9b1.jpg,Val/Glioma/images/gg (427).jpg,Val,Glioma,2052,07a9b13a2163d5ce41e7055d3fbb79c5,1,0
+train,gl_gg_429_37c30a.jpg,Train/Glioma/images/gg (429).jpg,Train,Glioma,517,37c30a97ffdb0e639c806378271d2567,1,0
+train,gl_gg_436_a1d9d0.jpg,Train/Glioma/images/gg (436).jpg,Train,Glioma,523,a1d9d070968e97029aee04e6b4164acf,1,0
+train,gl_gg_438_befca6.jpg,Train/Glioma/images/gg (438).jpg,Train,Glioma,523,befca6106c216ce7bf5148b2d2ac34ca,1,0
+train,gl_gg_440_f306d6.jpg,Train/Glioma/images/gg (440).jpg,Train,Glioma,523,f306d63f533131c801961168c99ea02d,1,0
+train,gl_gg_447_9fb9d7.jpg,Train/Glioma/images/gg (447).jpg,Train,Glioma,109,9fb9d7cd2fa0f6e5815aa9a76228dd88,1,0
+train,gl_gg_449_c486ab.jpg,Train/Glioma/images/gg (449).jpg,Train,Glioma,109,c486ab53f0c967db35a72452749ab16f,1,0
+train,gl_gg_450_887d71.jpg,Train/Glioma/images/gg (450).jpg,Train,Glioma,527,887d71316ff56d7e78843a128838e19b,1,0
+train,gl_gg_458_669d6e.jpg,Train/Glioma/images/gg (458).jpg,Train,Glioma,532,669d6edbb64bd9c08c7285fda4c5d81c,3,0
+train,gl_gg_462_44ca11.jpg,Train/Glioma/images/gg (462).jpg,Train,Glioma,536,44ca116088a32452d2d4042f25378958,2,0
+train,gl_gg_474_d5ffc1.jpg,Train/Glioma/images/gg (474).jpg,Train,Glioma,113,d5ffc12b109c40d5e9da08fda0f02904,1,0
+train,gl_gg_478_f27187.jpg,Train/Glioma/images/gg (478).jpg,Train,Glioma,113,f271878a7cce3d9a9bcdc00e7071cf49,1,0
+train,gl_gg_501_064f67.jpg,Train/Glioma/images/gg (501).jpg,Train,Glioma,550,064f67055d9f1fb382a4c353fc39affd,1,0
+train,gl_gg_518_b818df.jpg,Train/Glioma/images/gg (518).jpg,Train,Glioma,555,b818dfa9cee18026320d2d5f999a6ad0,1,0
+train,gl_gg_519_94eee3.jpg,Train/Glioma/images/gg (519).jpg,Train,Glioma,555,94eee3184ce3a9690001fe2be09a9c52,1,0
+train,gl_gg_522_fafc54.jpg,Train/Glioma/images/gg (522).jpg,Train,Glioma,556,fafc54f455ffdd34a5ef167b10f4a953,1,0
+train,gl_gg_546_d9fb4d.jpg,Train/Glioma/images/gg (546).jpg,Train,Glioma,561,d9fb4d91c8612454057290e553f9b900,1,0
+train,gl_gg_550_185fad.jpg,Val/Glioma/images/gg (550).jpg,Val,Glioma,561,185fad828e500107da309bf37ff2b9d9,1,0
+train,gl_gg_551_0624c0.jpg,Train/Glioma/images/gg (551).jpg,Train,Glioma,561,0624c09e42ce745449edd634d353c206,2,0
+train,gl_gg_552_bbae03.jpg,Train/Glioma/images/gg (552).jpg,Train,Glioma,1,bbae03da0ba534ce7c2778109d71a46b,1,0
+train,gl_gg_584_5952e9.jpg,Train/Glioma/images/gg (584).jpg,Train,Glioma,574,5952e9f8acc9eda2b562a1f4bcede1c6,1,0
+train,gl_gg_5_9a1e71.jpg,Train/Glioma/images/gg (5).jpg,Train,Glioma,466,9a1e716c0f9842721b595750fb5df692,2,0
+train,gl_gg_608_8e1232.jpg,Train/Glioma/images/gg (608).jpg,Train,Glioma,578,8e1232d9d640a5acc6649d65d9452e63,1,0
+train,gl_gg_609_69f167.jpg,Train/Glioma/images/gg (609).jpg,Train,Glioma,578,69f16717cd6fdc7f531423e9929ca0e0,1,0
+train,gl_gg_611_354407.jpg,Train/Glioma/images/gg (611).jpg,Train,Glioma,578,354407de365f40e83003c4c0e9f5eeff,1,0
+train,gl_gg_654_c30b78.jpg,Train/Glioma/images/gg (654).jpg,Train,Glioma,584,c30b780632c07bc26e396164f5b188f6,1,0
+train,gl_gg_663_0f9261.jpg,Train/Glioma/images/gg (663).jpg,Train,Glioma,585,0f92615af0d4ad2ce5bc73cbebd3c6da,1,0
+train,gl_gg_680_a86ac8.jpg,Train/Glioma/images/gg (680).jpg,Train,Glioma,588,a86ac8be14f75abf21a798932d916fc8,1,0
+train,gl_gg_68_e44f8f.jpg,Train/Glioma/images/gg (68).jpg,Train,Glioma,587,e44f8f15e4eeee4ff77d1af1c9996899,1,0
+train,gl_gg_6_242daa.jpg,Train/Glioma/images/gg (6).jpg,Train,Glioma,466,242daa9f85ee4a9f78f404952f33be01,1,0
+train,gl_gg_722_5f3688.jpg,Train/Glioma/images/gg (722).jpg,Train,Glioma,597,5f3688c720fa1e4ae26dd93603b34357,2,0
+train,gl_gg_723_289f72.jpg,Train/Glioma/images/gg (723).jpg,Train,Glioma,597,289f7254eaecf0b2b16b1f9c6c41caa6,1,0
+train,gl_gg_72_909eef.jpg,Val/Glioma/images/gg (72).jpg,Val,Glioma,598,909eefa81766d83c4113b0a2e98c6c84,1,0
+train,gl_gg_73_3867bc.jpg,Train/Glioma/images/gg (73).jpg,Train,Glioma,598,3867bcfdea3f23ad4abb5839e606dfc5,1,0
+train,gl_gg_74_922baa.jpg,Train/Glioma/images/gg (74).jpg,Train,Glioma,600,922baa6cfef2eea3ef48e270159fbee2,1,0
+train,gl_gg_759_66033a.jpg,Train/Glioma/images/gg (759).jpg,Train,Glioma,605,66033aade58fc367fab8fc23ffdbe1eb,1,0
+train,gl_gg_760_ff04cb.jpg,Train/Glioma/images/gg (760).jpg,Train,Glioma,605,ff04cb3f67c352727217d7619ed66228,1,0
+train,gl_gg_761_c49cd3.jpg,Train/Glioma/images/gg (761).jpg,Train,Glioma,605,c49cd3f6c529cf4288f14b98694d19f7,1,0
+train,gl_gg_794_8c3b11.jpg,Train/Glioma/images/gg (794).jpg,Train,Glioma,614,8c3b11ee012500129d92e2598d95c7d1,1,0
+train,gl_gg_80_d768df.jpg,Train/Glioma/images/gg (80).jpg,Train,Glioma,617,d768df63acd70f0e586afa0386e674a6,1,0
+train,gl_gg_814_53362d.jpg,Train/Glioma/images/gg (814).jpg,Train,Glioma,619,53362d2e942dc084bf9b237cdfd52a12,1,0
+train,gl_gg_816_91535c.jpg,Train/Glioma/images/gg (816).jpg,Train,Glioma,619,91535c43ea84393d91269c672267db46,1,0
+train,gl_gg_817_d578eb.jpg,Train/Glioma/images/gg (817).jpg,Train,Glioma,619,d578ebe553b12010514b821ce04f206a,1,0
+train,gl_gg_822_9698d8.jpg,Train/Glioma/images/gg (822).jpg,Train,Glioma,622,9698d84a795c7f5c258d65273a93b453,2,0
+train,gl_gg_823_de1523.jpg,Train/Glioma/images/gg (823).jpg,Train,Glioma,622,de15230e3b22b6e42ffc94fd76562109,1,0
+train,gl_gg_96_3ce564.jpg,Train/Glioma/images/gg (96).jpg,Train,Glioma,627,3ce564f75e88806c7509cc712e2f8b3f,1,0
+train,me_Tr_me_0050_af24e8.jpg,Train/Meningioma/images/Tr-me_0050.jpg,Train,Meningioma,645,af24e88f0aefda340fb451ff6af5d058,1,1
+train,me_Tr_me_0053_7eb9a2.jpg,Train/Meningioma/images/Tr-me_0053.jpg,Train,Meningioma,647,7eb9a21b2572a200380d669deec10093,1,1
+train,me_Tr_me_0060_5677db.jpg,Train/Meningioma/images/Tr-me_0060.jpg,Train,Meningioma,649,5677db98e9c02ce6ae6f4256ae403161,1,1
+train,me_Tr_me_0068_adc62f.jpg,Train/Meningioma/images/Tr-me_0068.jpg,Train,Meningioma,649,adc62f7690e83a23df2837a6d997b0cb,1,1
+train,me_Tr_me_0069_db7b0d.jpg,Train/Meningioma/images/Tr-me_0069.jpg,Train,Meningioma,652,db7b0d4c4f11a3ba40e41447a5184004,1,1
+train,me_Tr_me_0071_b0481c.jpg,Train/Meningioma/images/Tr-me_0071.jpg,Train,Meningioma,653,b0481c04cf82055b53bed325556f744e,1,1
+train,me_Tr_me_0072_383f63.jpg,Train/Meningioma/images/Tr-me_0072.jpg,Train,Meningioma,654,383f63f6b5d9060d348790184abecf11,1,1
+train,me_Tr_me_0078_98e2e6.jpg,Train/Meningioma/images/Tr-me_0078.jpg,Train,Meningioma,656,98e2e68df70ced05b204324c98d1c704,1,1
+train,me_Tr_me_0090_091d6a.jpg,Train/Meningioma/images/Tr-me_0090.jpg,Train,Meningioma,659,091d6a71364dc2dc94b015801db80785,1,1
+train,me_Tr_me_0092_9e12af.jpg,Train/Meningioma/images/Tr-me_0092.jpg,Train,Meningioma,659,9e12af4fa751b42bc7b852a6fae32c4a,1,1
+train,me_Tr_me_0104_2a7d66.jpg,Train/Meningioma/images/Tr-me_0104.jpg,Train,Meningioma,663,2a7d661581676de65dafc35075f0ac5d,1,1
+train,me_Tr_me_0106_778ce1.jpg,Train/Meningioma/images/Tr-me_0106.jpg,Train,Meningioma,665,778ce126d0c749f845287fd68e9f1f70,1,1
+train,me_Tr_me_0108_514343.jpg,Train/Meningioma/images/Tr-me_0108.jpg,Train,Meningioma,665,51434385186924a4000a00052e6ba49a,1,1
+train,me_Tr_me_0136_41d3e6.jpg,Train/Meningioma/images/Tr-me_0136.jpg,Train,Meningioma,671,41d3e66a692f1b5b73ad9ad7b3fd4f70,1,1
+train,me_Tr_me_0146_43c21b.jpg,Train/Meningioma/images/Tr-me_0146.jpg,Train,Meningioma,674,43c21b8f62bedafc1eccddff1e3d314a,1,1
+train,me_Tr_me_0147_071781.jpg,Train/Meningioma/images/Tr-me_0147.jpg,Train,Meningioma,674,071781f8dd8fec5ffcd8acc3614f3fd0,1,1
+train,me_Tr_me_0151_e0b022.jpg,Train/Meningioma/images/Tr-me_0151.jpg,Train,Meningioma,676,e0b0221b6ce51300e5e6ffa252ea47a1,1,1
+train,me_Tr_me_0160_afff5b.jpg,Train/Meningioma/images/Tr-me_0160.jpg,Train,Meningioma,681,afff5b96048b9460b5852f197171615e,1,1
+train,me_Tr_me_0163_b5b621.jpg,Train/Meningioma/images/Tr-me_0163.jpg,Train,Meningioma,683,b5b62148f3d154ce160e50f3cf9e663b,1,1
+train,me_Tr_me_0165_9bddc5.jpg,Train/Meningioma/images/Tr-me_0165.jpg,Train,Meningioma,684,9bddc55489570d45923469f3ac6ff0af,1,1
+train,me_Tr_me_0166_26d4e0.jpg,Train/Meningioma/images/Tr-me_0166.jpg,Train,Meningioma,685,26d4e0c507a30dedccefa893b2152c96,1,1
+train,me_Tr_me_0175_ab5256.jpg,Train/Meningioma/images/Tr-me_0175.jpg,Train,Meningioma,686,ab525628d00898aa6b1088d9c1d5a785,1,1
+train,me_Tr_me_0176_af3a4c.jpg,Train/Meningioma/images/Tr-me_0176.jpg,Train,Meningioma,687,af3a4cf5d54bd454b733bfe3d2177b4a,1,1
+train,me_Tr_me_0179_41fc6c.jpg,Train/Meningioma/images/Tr-me_0179.jpg,Train,Meningioma,689,41fc6c383287f88162c8196ae30cc6fc,1,1
+train,me_Tr_me_0185_03290d.jpg,Train/Meningioma/images/Tr-me_0185.jpg,Train,Meningioma,693,03290da01cde8965f005e1a85584699d,1,1
+train,me_Tr_me_0187_f2fda5.jpg,Train/Meningioma/images/Tr-me_0187.jpg,Train,Meningioma,694,f2fda57f000c42ab14bb61db2346ea34,1,1
+train,me_Tr_me_0193_f642d0.jpg,Train/Meningioma/images/Tr-me_0193.jpg,Train,Meningioma,696,f642d06be875c343c1c498cfaa2fbd25,1,1
+train,me_Tr_me_0204_fd90d3.jpg,Train/Meningioma/images/Tr-me_0204.jpg,Train,Meningioma,699,fd90d34d5f8fb9e36e9a3a74ce51152b,1,1
+train,me_Tr_me_0205_d134cc.jpg,Train/Meningioma/images/Tr-me_0205.jpg,Train,Meningioma,686,d134cc2aacfba636c30a9fa60b6e7861,1,1
+train,me_Tr_me_0207_31801f.jpg,Train/Meningioma/images/Tr-me_0207.jpg,Train,Meningioma,701,31801f8fb7b8f28b4c4df67356e80c54,1,1
+train,me_Tr_me_0217_64ef8e.jpg,Train/Meningioma/images/Tr-me_0217.jpg,Train,Meningioma,703,64ef8e768d1740cfbf5eea4e11faeb87,1,1
+train,me_Tr_me_0221_508ec8.jpg,Train/Meningioma/images/Tr-me_0221.jpg,Train,Meningioma,705,508ec8c92ef0d93996cca647608f389a,1,1
+train,me_Tr_me_0229_a6217c.jpg,Train/Meningioma/images/Tr-me_0229.jpg,Train,Meningioma,711,a6217c69806da4eac0493ed430a49ce2,1,1
+train,me_Tr_me_0233_c65ca5.jpg,Train/Meningioma/images/Tr-me_0233.jpg,Train,Meningioma,705,c65ca5e91472afeec9c32c45b2cc8e94,1,1
+train,me_Tr_me_0239_495291.jpg,Train/Meningioma/images/Tr-me_0239.jpg,Train,Meningioma,717,4952912db3852a6eb65ebac7e708af0f,1,1
+train,me_Tr_me_0241_1abf1f.jpg,Train/Meningioma/images/Tr-me_0241.jpg,Train,Meningioma,719,1abf1f6791ad06b291c641afb3387d4b,1,1
+train,me_Tr_me_0244_d307a9.jpg,Train/Meningioma/images/Tr-me_0244.jpg,Train,Meningioma,720,d307a9fd900a43f8dfc2ce2a82f5c4a1,1,1
+train,me_Tr_me_0246_bcfe5d.jpg,Train/Meningioma/images/Tr-me_0246.jpg,Train,Meningioma,694,bcfe5da82e0e26fa012aee044c72752c,1,1
+train,me_Tr_me_0252_48d460.jpg,Train/Meningioma/images/Tr-me_0252.jpg,Train,Meningioma,721,48d4604e4ee04865bb44d75a597b3253,2,1
+train,me_Tr_me_0255_12749e.jpg,Train/Meningioma/images/Tr-me_0255.jpg,Train,Meningioma,723,12749ee3aa08e216a88d7ed4490abed8,1,1
+train,me_Tr_me_0337_0052c3.jpg,Train/Meningioma/images/Tr-me_0337.jpg,Train,Meningioma,727,0052c398399075925e0fad61910613b0,1,1
+train,me_Tr_me_0338_eef956.jpg,Train/Meningioma/images/Tr-me_0338.jpg,Train,Meningioma,728,eef95654225118f1cdb960392c071ccb,1,1
+train,me_Tr_me_0339_d60fd0.jpg,Val/Meningioma/images/Tr-me_0339.jpg,Val,Meningioma,2060,d60fd0bca159d6e73d3d2fb26d17387e,1,1
+train,me_Tr_me_0363_952fbc.jpg,Train/Meningioma/images/Tr-me_0363.jpg,Train,Meningioma,703,952fbccffb5c6dfdf5ef3623e8aa50d8,1,1
+train,me_Tr_me_0367_61dca9.jpg,Train/Meningioma/images/Tr-me_0367.jpg,Train,Meningioma,735,61dca9a24624df985808863d27ec355b,1,1
+train,me_Tr_me_0371_ce7032.jpg,Train/Meningioma/images/Tr-me_0371.jpg,Train,Meningioma,737,ce703250d344390d3bacacfff4b1aa4c,1,1
+train,me_Tr_me_0372_69351c.jpg,Train/Meningioma/images/Tr-me_0372.jpg,Train,Meningioma,737,69351c291ed94d748cd01f12f5371689,1,1
+train,me_Tr_me_0377_a6b670.jpg,Train/Meningioma/images/Tr-me_0377.jpg,Train,Meningioma,739,a6b6704e0982fac4c91243e79f986ed2,1,1
+train,me_Tr_me_0378_eac4f0.jpg,Train/Meningioma/images/Tr-me_0378.jpg,Train,Meningioma,739,eac4f0398bdc1a9fb08e8fb23ff8a5cb,1,1
+train,me_Tr_me_0381_8be200.jpg,Train/Meningioma/images/Tr-me_0381.jpg,Train,Meningioma,739,8be200462962aac8530a2923817b77cf,1,1
+train,me_Tr_me_0384_65b4b9.jpg,Train/Meningioma/images/Tr-me_0384.jpg,Train,Meningioma,742,65b4b9da83c3b62d2e646b8dcd01bc5e,1,1
+train,me_Tr_me_0393_7a3cc9.jpg,Train/Meningioma/images/Tr-me_0393.jpg,Train,Meningioma,746,7a3cc9573e8db9a7c27e77676f05b752,1,1
+train,me_Tr_me_0394_5f73d7.jpg,Train/Meningioma/images/Tr-me_0394.jpg,Train,Meningioma,746,5f73d732c057dbbe35b324f9392e6c69,1,1
+train,me_Tr_me_0396_33ff0d.jpg,Train/Meningioma/images/Tr-me_0396.jpg,Train,Meningioma,746,33ff0dcb636c08e64c758126d79296ef,1,1
+train,me_Tr_me_0398_61fe7b.jpg,Train/Meningioma/images/Tr-me_0398.jpg,Train,Meningioma,747,61fe7bbb23bee02b93d7a31919c81763,1,1
+train,me_Tr_me_0399_2c2db4.jpg,Train/Meningioma/images/Tr-me_0399.jpg,Train,Meningioma,747,2c2db413ad93fb543a45eb54969681b2,2,1
+train,me_Tr_me_0401_b50425.jpg,Train/Meningioma/images/Tr-me_0401.jpg,Train,Meningioma,747,b50425936e8320537662f275bcbdee9e,1,1
+train,me_Tr_me_0405_904ce8.jpg,Train/Meningioma/images/Tr-me_0405.jpg,Train,Meningioma,749,904ce80c82798d0ba8f7ec72154eb2f5,1,1
+train,me_Tr_me_0432_2b2491.jpg,Train/Meningioma/images/Tr-me_0432.jpg,Train,Meningioma,760,2b249150af233c89ec8f8f348589edc0,1,1
+train,me_Tr_me_0440_9f7036.jpg,Train/Meningioma/images/Tr-me_0440.jpg,Train,Meningioma,765,9f70361b9c467e994f33708b08035e1d,1,1
+train,me_Tr_me_0441_1682b7.jpg,Train/Meningioma/images/Tr-me_0441.jpg,Train,Meningioma,765,1682b76cd279491cd2d1637b65585fd8,1,1
+train,me_Tr_me_0442_65d193.jpg,Train/Meningioma/images/Tr-me_0442.jpg,Train,Meningioma,765,65d193f72d882ecc85d495ddceb5952a,1,1
+train,me_Tr_me_0457_77bab0.jpg,Train/Meningioma/images/Tr-me_0457.jpg,Train,Meningioma,769,77bab0df8f6f1e865169be0bb002cfe5,1,1
+train,me_Tr_me_0465_a98835.jpg,Train/Meningioma/images/Tr-me_0465.jpg,Train,Meningioma,772,a988352ee935e979a6127adc74ea95c9,1,1
+train,me_Tr_me_0471_6d3a3e.jpg,Train/Meningioma/images/Tr-me_0471.jpg,Train,Meningioma,775,6d3a3e0434095ab7625d36b01a0da79a,1,1
+train,me_Tr_me_0472_be42b9.jpg,Train/Meningioma/images/Tr-me_0472.jpg,Train,Meningioma,775,be42b9f33409e068fe4e58112817f8ba,1,1
+train,me_Tr_me_0473_bb56ed.jpg,Train/Meningioma/images/Tr-me_0473.jpg,Train,Meningioma,775,bb56ede0de548afa6638c8305fb2756c,1,1
+train,me_Tr_me_0474_02ce19.jpg,Train/Meningioma/images/Tr-me_0474.jpg,Train,Meningioma,776,02ce190a311e14641b51bede1078c3ea,1,1
+train,me_Tr_me_0475_45fbc3.jpg,Train/Meningioma/images/Tr-me_0475.jpg,Train,Meningioma,777,45fbc3f69078f45a6eba905c1adf8ed6,1,1
+train,me_Tr_me_0484_41e360.jpg,Train/Meningioma/images/Tr-me_0484.jpg,Train,Meningioma,780,41e360617b457c363e237082c4dcbec6,1,1
+train,me_Tr_me_0485_106e92.jpg,Train/Meningioma/images/Tr-me_0485.jpg,Train,Meningioma,781,106e925b7e142713845baf46a2838366,1,1
+train,me_Tr_me_0486_cd839e.jpg,Train/Meningioma/images/Tr-me_0486.jpg,Train,Meningioma,781,cd839ee79a313312aff9d721ec87874e,1,1
+train,me_Tr_me_0491_89a763.jpg,Train/Meningioma/images/Tr-me_0491.jpg,Train,Meningioma,784,89a763239a5f6cd336c69abf5f007156,1,1
+train,me_Tr_me_0494_4e2d2f.jpg,Train/Meningioma/images/Tr-me_0494.jpg,Train,Meningioma,786,4e2d2f024238ed8780a89b42071a9810,1,1
+train,me_Tr_me_0502_eb5df9.jpg,Train/Meningioma/images/Tr-me_0502.jpg,Train,Meningioma,788,eb5df931a913f24524064f1771148ee1,1,1
+train,me_Tr_me_0508_0b41b7.jpg,Train/Meningioma/images/Tr-me_0508.jpg,Train,Meningioma,792,0b41b709a8a8f4fb6be27a17ace36739,1,1
+train,me_Tr_me_0519_654d8e.jpg,Train/Meningioma/images/Tr-me_0519.jpg,Train,Meningioma,797,654d8e6a22a2620202516de9456f275e,1,1
+train,me_Tr_me_0543_fea0fd.jpg,Train/Meningioma/images/Tr-me_0543.jpg,Train,Meningioma,808,fea0fd15090f46030849e0192acf76f2,1,1
+train,me_Tr_me_0545_853e40.jpg,Train/Meningioma/images/Tr-me_0545.jpg,Train,Meningioma,810,853e40e4f6633f41482f53264744283d,1,1
+train,me_Tr_me_0564_28b96f.jpg,Train/Meningioma/images/Tr-me_0564.jpg,Train,Meningioma,823,28b96f796e1317bcf34ae9b988655842,1,1
+train,me_Tr_me_0567_f8d265.jpg,Train/Meningioma/images/Tr-me_0567.jpg,Train,Meningioma,826,f8d26541216f9c1c8f378241a744f8af,1,1
+train,me_Tr_me_0568_150d02.jpg,Train/Meningioma/images/Tr-me_0568.jpg,Train,Meningioma,827,150d021ba344b82937b256851338d9ea,1,1
+train,me_Tr_me_0579_fa5e45.jpg,Train/Meningioma/images/Tr-me_0579.jpg,Train,Meningioma,834,fa5e4543cf6de9ecc6136f6f696c2636,1,1
+train,me_Tr_me_0580_af8655.jpg,Train/Meningioma/images/Tr-me_0580.jpg,Train,Meningioma,835,af8655fa7cbdcf1c9fcbc913770bfc8b,1,1
+train,me_Tr_me_0584_c2440e.jpg,Train/Meningioma/images/Tr-me_0584.jpg,Train,Meningioma,838,c2440e8082b675f25bbf9e5c44ebfc8e,1,1
+train,me_Tr_me_0585_29f733.jpg,Train/Meningioma/images/Tr-me_0585.jpg,Train,Meningioma,839,29f733259e56d12658ac97f781f883b6,2,1
+train,me_Tr_me_0588_c40148.jpg,Train/Meningioma/images/Tr-me_0588.jpg,Train,Meningioma,840,c401481f43efff80bc02a753f432d413,1,1
+train,me_Tr_me_0597_23050d.jpg,Train/Meningioma/images/Tr-me_0597.jpg,Train,Meningioma,843,23050df779adb7e9c757c1ccd78e2621,1,1
+train,me_Tr_me_0598_734732.jpg,Train/Meningioma/images/Tr-me_0598.jpg,Train,Meningioma,843,7347320ac0b2925c77e714f9c648aabc,1,1
+train,me_Tr_me_0599_ce5a85.jpg,Train/Meningioma/images/Tr-me_0599.jpg,Train,Meningioma,843,ce5a85c0f4f140a1969fca8cd583d033,1,1
+train,me_Tr_me_0639_8c67a4.jpg,Train/Meningioma/images/Tr-me_0639.jpg,Train,Meningioma,863,8c67a47cb4561c4793edd13d70ef18e3,1,1
+train,me_Tr_me_0640_91c502.jpg,Train/Meningioma/images/Tr-me_0640.jpg,Train,Meningioma,864,91c502ed9f3e82ea92e0ff055004f00b,1,1
+train,me_Tr_me_0652_c02b9e.jpg,Train/Meningioma/images/Tr-me_0652.jpg,Train,Meningioma,871,c02b9e6e7e96f35574aee9cbf4ef994e,1,1
+train,me_Tr_me_0666_5c6f5d.jpg,Train/Meningioma/images/Tr-me_0666.jpg,Train,Meningioma,880,5c6f5d1c7cb5a57c8c16114dae99d359,1,1
+train,me_Tr_me_0668_eda230.jpg,Train/Meningioma/images/Tr-me_0668.jpg,Train,Meningioma,880,eda23054bec76204dae03c56a29ad268,1,1
+train,me_Tr_me_0669_42972b.jpg,Train/Meningioma/images/Tr-me_0669.jpg,Train,Meningioma,880,42972b5b6d74f1e935b9244afc7dd3f5,1,1
+train,me_Tr_me_0675_ba101d.jpg,Train/Meningioma/images/Tr-me_0675.jpg,Train,Meningioma,885,ba101d243407427f2ae072f4dd2d913a,1,1
+train,me_Tr_me_0689_aa560d.jpg,Train/Meningioma/images/Tr-me_0689.jpg,Train,Meningioma,896,aa560d32693ec5bb2f88ef204f8fc617,1,1
+train,me_Tr_me_0697_9db421.jpg,Train/Meningioma/images/Tr-me_0697.jpg,Train,Meningioma,898,9db4212fbefc0cfbbc9b8fbaffb6c62b,1,1
+train,me_Tr_me_0704_7e978a.jpg,Train/Meningioma/images/Tr-me_0704.jpg,Train,Meningioma,903,7e978a42fd9f1b9b5b71fac38abc75bb,1,1
+train,me_Tr_me_0712_2c1214.jpg,Train/Meningioma/images/Tr-me_0712.jpg,Train,Meningioma,908,2c12140171e871250ed7cc3fbaeddf3a,1,1
+train,me_Tr_me_0713_559063.jpg,Train/Meningioma/images/Tr-me_0713.jpg,Train,Meningioma,909,559063c923e6b23869e9399cf9f9eee9,1,1
+train,me_Tr_me_0715_84219c.jpg,Train/Meningioma/images/Tr-me_0715.jpg,Train,Meningioma,910,84219cfc206308360aac015674da6f33,1,1
+train,me_Tr_me_0794_c3aa5b.jpg,Train/Meningioma/images/Tr-me_0794.jpg,Train,Meningioma,948,c3aa5bcdbe44fc74833b7bd86b8d076e,1,1
+train,me_Tr_me_0798_580e8e.jpg,Train/Meningioma/images/Tr-me_0798.jpg,Train,Meningioma,951,580e8e3da25f48cedd4bd39ec50118e9,1,1
+train,me_Tr_me_0810_6f176b.jpg,Train/Meningioma/images/Tr-me_0810.jpg,Train,Meningioma,953,6f176b023a093706ea952482782f5205,1,1
+train,me_Tr_me_0818_1f5279.jpg,Train/Meningioma/images/Tr-me_0818.jpg,Train,Meningioma,956,1f527936508193b2577f19fe0df36323,1,1
+train,me_Tr_me_0837_03fc86.jpg,Train/Meningioma/images/Tr-me_0837.jpg,Train,Meningioma,961,03fc864ad45448663c694459c90d9920,1,1
+train,me_Tr_me_0841_6f9635.jpg,Train/Meningioma/images/Tr-me_0841.jpg,Train,Meningioma,963,6f9635b3910bec7506ac0e11836caaba,1,1
+train,me_Tr_me_0849_d59a61.jpg,Train/Meningioma/images/Tr-me_0849.jpg,Train,Meningioma,967,d59a61bd33aa0438bc644f9190fd2572,1,1
+train,me_Tr_me_0860_14f6f2.jpg,Train/Meningioma/images/Tr-me_0860.jpg,Train,Meningioma,968,14f6f239eafc9268b3e906580ec2ed71,1,1
+train,me_Tr_me_0869_e36511.jpg,Train/Meningioma/images/Tr-me_0869.jpg,Train,Meningioma,973,e365110c0e28059a235bff8fdf1a51db,1,1
+train,me_Tr_me_0878_c14ce4.jpg,Train/Meningioma/images/Tr-me_0878.jpg,Train,Meningioma,976,c14ce4336be24aca29f1f2cf58a04af2,1,1
+train,me_Tr_me_0879_c4e095.jpg,Train/Meningioma/images/Tr-me_0879.jpg,Train,Meningioma,977,c4e09599263649e1e81cafb04ca80a50,1,1
+train,me_Tr_me_0881_533f69.jpg,Train/Meningioma/images/Tr-me_0881.jpg,Train,Meningioma,977,533f69a8f0ebf57d03070e1e630fe6ee,1,1
+train,me_Tr_me_0888_0c0f86.jpg,Train/Meningioma/images/Tr-me_0888.jpg,Train,Meningioma,981,0c0f86e8c22a933610fba6c86c68e205,1,1
+train,me_Tr_me_0891_6ac35d.jpg,Train/Meningioma/images/Tr-me_0891.jpg,Train,Meningioma,983,6ac35de2630c016b30cbeef436c72358,1,1
+train,me_Tr_me_0903_b2c2c9.jpg,Train/Meningioma/images/Tr-me_0903.jpg,Train,Meningioma,992,b2c2c904ec993450dc50fe75398ff587,1,1
+train,me_Tr_me_0904_305cfe.jpg,Train/Meningioma/images/Tr-me_0904.jpg,Train,Meningioma,992,305cfe4edd44780f241e91611b8de8b0,1,1
+train,me_Tr_me_0905_5d1b3f.jpg,Train/Meningioma/images/Tr-me_0905.jpg,Train,Meningioma,992,5d1b3f4731ba67d6bd4992c0bee0c029,1,1
+train,me_Tr_me_0938_ce5961.jpg,Train/Meningioma/images/Tr-me_0938.jpg,Train,Meningioma,1005,ce5961f23f9124549aa426a5bea9d06e,1,1
+train,me_Tr_me_0962_af490a.jpg,Train/Meningioma/images/Tr-me_0962.jpg,Train,Meningioma,1016,af490a6476f9799d9f038ca6bf206681,1,1
+train,me_Tr_me_0971_59e772.jpg,Train/Meningioma/images/Tr-me_0971.jpg,Train,Meningioma,1021,59e7725c63abd0dd7baf99008b3d7fb4,1,1
+train,me_Tr_me_0972_377b98.jpg,Train/Meningioma/images/Tr-me_0972.jpg,Train,Meningioma,1021,377b9820cbf564a6b96dab40c6d8ec96,1,1
+train,me_Tr_me_0978_116aae.jpg,Train/Meningioma/images/Tr-me_0978.jpg,Train,Meningioma,1023,116aae4ab8d83fa8b2b2fb5b51ee6aef,1,1
+train,me_Tr_me_0990_64bc6d.jpg,Train/Meningioma/images/Tr-me_0990.jpg,Train,Meningioma,1027,64bc6d9f77d23ee01e17bb725368cdc8,1,1
+train,me_Tr_me_1009_85eab1.jpg,Train/Meningioma/images/Tr-me_1009.jpg,Train,Meningioma,1033,85eab185a753968392794ef198ac7ad9,1,1
+train,me_Tr_me_1010_dccbb6.jpg,Train/Meningioma/images/Tr-me_1010.jpg,Train,Meningioma,1034,dccbb6b3035a810298cf55c8084d9075,1,1
+train,me_Tr_me_1017_590135.jpg,Train/Meningioma/images/Tr-me_1017.jpg,Train,Meningioma,1039,590135a0ca53e2510d88fa02cf136730,1,1
+train,me_Tr_me_1021_525f54.jpg,Train/Meningioma/images/Tr-me_1021.jpg,Train,Meningioma,1042,525f545ff659781442a8fe28cc8d78d3,1,1
+train,me_Tr_me_1029_d6bc94.jpg,Train/Meningioma/images/Tr-me_1029.jpg,Train,Meningioma,1046,d6bc94fe607a1ca89a2476e153a48481,1,1
+train,me_Tr_me_1061_489050.jpg,Train/Meningioma/images/Tr-me_1061.jpg,Train,Meningioma,1063,48905040394b799fe6ebe12c045860a9,1,1
+train,me_Tr_me_1064_6d31a7.jpg,Train/Meningioma/images/Tr-me_1064.jpg,Train,Meningioma,1065,6d31a7b9631f5d3cd9fcd7d0068afe45,1,1
+train,me_Tr_me_1074_5488c0.jpg,Train/Meningioma/images/Tr-me_1074.jpg,Train,Meningioma,1068,5488c09fced23c64dfd21ddeebb30de0,1,1
+train,me_Tr_me_1077_2c1072.jpg,Train/Meningioma/images/Tr-me_1077.jpg,Train,Meningioma,1070,2c10726a171c82634d599783fe368862,1,1
+train,me_Tr_me_1079_e16581.jpg,Train/Meningioma/images/Tr-me_1079.jpg,Train,Meningioma,1071,e1658165b3fd1522614ab661229706d2,1,1
+train,me_Tr_me_1086_99088c.jpg,Train/Meningioma/images/Tr-me_1086.jpg,Train,Meningioma,1074,99088c0ec3abdcb34faef8681487be33,1,1
+train,me_Tr_me_1088_d117d5.jpg,Train/Meningioma/images/Tr-me_1088.jpg,Train,Meningioma,1076,d117d57c7fac53596e98f50243589b03,1,1
+train,me_Tr_me_1093_b10fa1.jpg,Train/Meningioma/images/Tr-me_1093.jpg,Train,Meningioma,1079,b10fa1e9081f3433c213668832111249,3,1
+train,me_Tr_me_1094_6afbcd.jpg,Train/Meningioma/images/Tr-me_1094.jpg,Train,Meningioma,1080,6afbcd1089cecebd0ef2472fa5c5678e,2,1
+train,me_Tr_me_1105_9d4371.jpg,Train/Meningioma/images/Tr-me_1105.jpg,Train,Meningioma,1084,9d43719918dc739b1616b2081514ebad,1,1
+train,me_Tr_me_1114_cbcf08.jpg,Train/Meningioma/images/Tr-me_1114.jpg,Train,Meningioma,1091,cbcf0819c42348a2a60405cafab3fa31,1,1
+train,me_Tr_me_1132_5f3177.jpg,Train/Meningioma/images/Tr-me_1132.jpg,Train,Meningioma,1097,5f31772e4080c27ad5ece20139f7f0a3,1,1
+train,me_Tr_me_1136_b29718.jpg,Train/Meningioma/images/Tr-me_1136.jpg,Train,Meningioma,1099,b297184b6b00cbfe9b53c109acb2c15b,1,1
+train,me_Tr_me_1138_525b79.jpg,Train/Meningioma/images/Tr-me_1138.jpg,Train,Meningioma,1100,525b7915ced006004bdf9f8d5c5aac66,1,1
+train,me_Tr_me_1148_359ed9.jpg,Train/Meningioma/images/Tr-me_1148.jpg,Train,Meningioma,1104,359ed93a98bc2e779b7b7b586f50d9f5,1,1
+train,me_Tr_me_1149_403319.jpg,Train/Meningioma/images/Tr-me_1149.jpg,Train,Meningioma,1105,4033191d30bae4c5709fe9c7254a33ec,1,1
+train,me_Tr_me_1158_61d08f.jpg,Train/Meningioma/images/Tr-me_1158.jpg,Train,Meningioma,1110,61d08f03958abe035cca71b5fc065171,1,1
+train,me_Tr_me_1169_debf7d.jpg,Train/Meningioma/images/Tr-me_1169.jpg,Train,Meningioma,1116,debf7d6f5caa924046b4e7af0d6f31e6,1,1
+train,me_Tr_me_1171_0fbed3.jpg,Train/Meningioma/images/Tr-me_1171.jpg,Train,Meningioma,1117,0fbed3028e43bbf023e7698491a5da8c,1,1
+train,me_Tr_me_1183_a56a79.jpg,Train/Meningioma/images/Tr-me_1183.jpg,Train,Meningioma,1126,a56a7991f408218710ae9a49e53aa214,1,1
+train,me_Tr_me_1189_e7561f.jpg,Train/Meningioma/images/Tr-me_1189.jpg,Train,Meningioma,1127,e7561f9bfe23cdb0f6748b8ebb7a4fc2,1,1
+train,me_Tr_me_1198_8f5bfa.jpg,Val/Meningioma/images/Tr-me_1198.jpg,Val,Meningioma,2069,8f5bfa0737b3ae58a652f5b8e0adea70,1,1
+train,me_Tr_me_1208_61cd20.jpg,Train/Meningioma/images/Tr-me_1208.jpg,Train,Meningioma,1133,61cd206642f32b8978e848a82de5c286,1,1
+train,me_Tr_me_1223_41dead.jpg,Val/Meningioma/images/Tr-me_1223.jpg,Val,Meningioma,2072,41dead393404dec744a6a9104afc5128,1,1
+train,me_Tr_me_1228_a8d90e.jpg,Train/Meningioma/images/Tr-me_1228.jpg,Train,Meningioma,1146,a8d90e0546f629a171423d9727cc9007,1,1
+train,me_Tr_me_1238_075b03.jpg,Train/Meningioma/images/Tr-me_1238.jpg,Train,Meningioma,1151,075b0386dc97d72bf6b05561c5695318,1,1
+train,me_Tr_me_1242_b36171.jpg,Train/Meningioma/images/Tr-me_1242.jpg,Train,Meningioma,1153,b36171ba86e6502a430444805b296010,1,1
+train,me_Tr_me_1244_a25ad3.jpg,Train/Meningioma/images/Tr-me_1244.jpg,Train,Meningioma,1155,a25ad352f752076df05a49c699425474,1,1
+train,me_Tr_me_1254_a83bb4.jpg,Train/Meningioma/images/Tr-me_1254.jpg,Train,Meningioma,1156,a83bb4ed037490314e5a66ef6420636f,1,1
+train,me_Tr_me_1255_6ba22d.jpg,Train/Meningioma/images/Tr-me_1255.jpg,Train,Meningioma,1156,6ba22d193e4551f1df164e301b0d3feb,1,1
+train,me_Tr_me_1256_30bbea.jpg,Val/Meningioma/images/Tr-me_1256.jpg,Val,Meningioma,1156,30bbea32222e73d61e3fe2b1f192a2ac,1,1
+train,me_Tr_me_1286_e98e1c.jpg,Train/Meningioma/images/Tr-me_1286.jpg,Train,Meningioma,1162,e98e1c487ccd0b4142544c80ff483383,1,1
+train,me_Tr_me_1304_61963a.jpg,Train/Meningioma/images/Tr-me_1304.jpg,Train,Meningioma,1166,61963aec3bc96887666eae7698263c0c,1,1
+train,me_Tr_me_1321_6f94dc.jpg,Train/Meningioma/images/Tr-me_1321.jpg,Train,Meningioma,1168,6f94dc0c4fe69b220aa8188366a1ab17,1,1
+train,me_Tr_me_1322_7e201d.jpg,Train/Meningioma/images/Tr-me_1322.jpg,Train,Meningioma,1168,7e201d2286232ff3552bb8e97ccd88bf,1,1
+train,me_Tr_me_1323_e5c3e0.jpg,Train/Meningioma/images/Tr-me_1323.jpg,Train,Meningioma,1169,e5c3e05e9514dd40f3fc272df4cd629d,1,1
+train,me_Tr_me_1332_a44ffe.jpg,Train/Meningioma/images/Tr-me_1332.jpg,Train,Meningioma,1170,a44ffea5819a848a26f9377ceb195167,1,1
+train,me_m1_105_16f2a3.jpg,Train/Meningioma/images/m1(105).jpg,Train,Meningioma,1210,16f2a3d1ff82713cd26416530cbe8b32,1,1
+train,me_m1_107_92f98c.jpg,Train/Meningioma/images/m1(107).jpg,Train,Meningioma,1211,92f98ce99049e0f45368950818983be9,1,1
+train,me_m1_116_546d13.jpg,Train/Meningioma/images/m1(116).jpg,Train,Meningioma,1215,546d13394a216dca4e057415eee7468a,1,1
+train,me_m1_117_dc3df6.jpg,Train/Meningioma/images/m1(117).jpg,Train,Meningioma,1216,dc3df669de55c11542df0a986ba3e1e8,1,1
+train,me_m1_12_deda53.jpg,Train/Meningioma/images/m1(12).jpg,Train,Meningioma,1218,deda53fba5fff5371017b18f1f85b360,1,1
+train,me_m1_132_ae6d26.jpg,Train/Meningioma/images/m1(132).jpg,Train,Meningioma,1224,ae6d267fc228ffe00a7cd13558e28189,1,1
+train,me_m1_138_948510.jpg,Train/Meningioma/images/m1(138).jpg,Train,Meningioma,1229,94851083e65e9740bdce56b434bacc79,1,1
+train,me_m1_148_5523b1.jpg,Train/Meningioma/images/m1(148).jpg,Train,Meningioma,1231,5523b18a36e7a739bcf83d444c5d8216,1,1
+train,me_m1_159_47452c.jpg,Train/Meningioma/images/m1(159).jpg,Train,Meningioma,1233,47452c1ea25eed994f73362f40904be4,1,1
+train,me_m1_163_74aae4.jpg,Train/Meningioma/images/m1(163).jpg,Train,Meningioma,1234,74aae49f79d7becec6a6461d068b978c,1,1
+train,me_m1_192_39aa0b.jpg,Train/Meningioma/images/m1(192).jpg,Train,Meningioma,694,39aa0b7a41c1da85ceb2be85bac58ec1,1,1
+train,me_m1_193_cbdb9a.jpg,Train/Meningioma/images/m1(193).jpg,Train,Meningioma,689,cbdb9a5b45202d5dd374c92b252dac8c,1,1
+train,me_m1_194_5d5864.jpg,Train/Meningioma/images/m1(194).jpg,Train,Meningioma,1248,5d58643818e2775a569390c4aa3c1d8d,1,1
+train,me_m1_196_b41f5c.jpg,Val/Meningioma/images/m1(196).jpg,Val,Meningioma,2081,b41f5c6d2d27eaf8ba9059884dfaf150,1,1
+train,me_m1_19_0c0590.jpg,Train/Meningioma/images/m1(19).jpg,Train,Meningioma,1246,0c0590000393382f1012a881123f3f89,1,1
+train,me_m1_20_7b7a06.jpg,Train/Meningioma/images/m1(20).jpg,Train,Meningioma,1246,7b7a0658d9e3b9d118733a2cc805d66f,1,1
+train,me_m1_21_e2ba56.jpg,Train/Meningioma/images/m1(21).jpg,Train,Meningioma,1246,e2ba56425d5e02b372e0764db37a2fd6,1,1
+train,me_m1_63_e8ea88.jpg,Train/Meningioma/images/m1(63).jpg,Train,Meningioma,1273,e8ea88425d4b66e49a7a357e3c415efa,1,1
+train,me_m1_69_15b928.jpg,Train/Meningioma/images/m1(69).jpg,Train,Meningioma,727,15b928dbfd1483fe6b8d7a6d29de548a,1,1
+train,me_m1_6_6d6c95.jpg,Train/Meningioma/images/m1(6).jpg,Train,Meningioma,1271,6d6c9585464724be8ab0183e2c069635,1,1
+train,me_m1_70_aff916.jpg,Val/Meningioma/images/m1(70).jpg,Val,Meningioma,727,aff916e1a74b807cd36ae32c29dff92f,1,1
+train,me_m1_78_d1b072.jpg,Train/Meningioma/images/m1(78).jpg,Train,Meningioma,1185,d1b072052d59b319b6d424d9f83464ee,1,1
+train,me_m1_79_64575e.jpg,Train/Meningioma/images/m1(79).jpg,Train,Meningioma,1185,64575e39d433ad458a47667e64b2546a,1,1
+train,me_m1_7_0998f1.jpg,Train/Meningioma/images/m1(7).jpg,Train,Meningioma,1278,0998f1d7c82c65530ed31227b91f2e67,1,1
+train,me_m1_85_a19dad.jpg,Train/Meningioma/images/m1(85).jpg,Train,Meningioma,1280,a19dad052822b589ade2a9e4d2c7e893,1,1
+train,me_m1_92_04905e.jpg,Train/Meningioma/images/m1(92).jpg,Train,Meningioma,1282,04905e66c59d8c32359598bbaf766723,1,1
+train,me_m2_100_42a144.jpg,Train/Meningioma/images/m2 (100).jpg,Train,Meningioma,1284,42a144c748c7fd548738aef2f0a9c98b,1,1
+train,me_m2_130_6a6983.jpg,Train/Meningioma/images/m2 (130).jpg,Train,Meningioma,749,6a69837c5f3d7e5907bb78b9e0a1f400,1,1
+train,me_m2_131_990282.jpg,Train/Meningioma/images/m2 (131).jpg,Train,Meningioma,749,990282f3319002755dbe17db562ec545,1,1
+train,me_m2_1_77b374.jpg,Train/Meningioma/images/m2 (1).jpg,Train,Meningioma,769,77b374735f70272cdf34d119a1bbe74d,1,1
+train,me_m2_29_d32f40.jpg,Train/Meningioma/images/m2 (29).jpg,Train,Meningioma,1291,d32f40926c53a0460ae3694fe5b20642,1,1
+train,me_m2_48_710afc.jpg,Train/Meningioma/images/m2 (48).jpg,Train,Meningioma,1292,710afcbe1c8d11df172059d9ef94cb7a,1,1
+train,me_m2_81_76ee9f.jpg,Train/Meningioma/images/m2 (81).jpg,Train,Meningioma,1298,76ee9fefdb1c9f66c789bb928f25fef2,1,1
+train,me_m3_115_000404.jpg,Train/Meningioma/images/m3 (115).jpg,Train,Meningioma,1301,00040409d120315633f74805ce0ae401,1,1
+train,me_m3_128_100f57.jpg,Train/Meningioma/images/m3 (128).jpg,Train,Meningioma,1304,100f5780e9c77a7d944c6f5daf0f9f40,1,1
+train,me_m3_137_53f439.jpg,Train/Meningioma/images/m3 (137).jpg,Train,Meningioma,1307,53f439ab757f6a5a77152133bd4f9173,1,1
+train,me_m3_139_501b81.jpg,Train/Meningioma/images/m3 (139).jpg,Train,Meningioma,1308,501b81f4a3f7dd7015e95e760083e99f,1,1
+train,me_m3_141_3b549f.jpg,Train/Meningioma/images/m3 (141).jpg,Train,Meningioma,1310,3b549f96ee394e4de88e5d112ddddbd7,1,1
+train,me_m3_150_9d5dc6.jpg,Val/Meningioma/images/m3 (150).jpg,Val,Meningioma,2084,9d5dc684e5f820dbb0a9009fe9ad69ca,1,1
+train,me_m3_151_030265.jpg,Train/Meningioma/images/m3 (151).jpg,Train,Meningioma,1313,03026579332e5d3a42a6f067ad36189f,1,1
+train,me_m3_163_178fc2.jpg,Train/Meningioma/images/m3 (163).jpg,Train,Meningioma,1317,178fc2a90a6331a94c27abc2f4fbdf97,1,1
+train,me_m3_19_04fb91.jpg,Train/Meningioma/images/m3 (19).jpg,Train,Meningioma,1325,04fb9169eca651531b3ceb258369be07,1,1
+train,me_m3_232_c39142.jpg,Train/Meningioma/images/m3 (232).jpg,Train,Meningioma,1336,c39142101136c41f56c61fc14532e6ff,1,1
+train,me_m3_240_61064c.jpg,Train/Meningioma/images/m3 (240).jpg,Train,Meningioma,1341,61064c9194c007f78f3c857c6c8c88ea,1,1
+train,me_m3_247_6d6432.jpg,Train/Meningioma/images/m3 (247).jpg,Train,Meningioma,810,6d64327436e3dc0bfc3e51d1e9aa781a,1,1
+train,me_m3_39_487e8d.jpg,Train/Meningioma/images/m3 (39).jpg,Train,Meningioma,1347,487e8da00f43ca6e20a546e2e96f4697,1,1
+train,me_m3_56_42c8e0.jpg,Train/Meningioma/images/m3 (56).jpg,Train,Meningioma,1356,42c8e028421be81dc50e0a9f90f799a3,1,1
+train,me_m3_58_6f8ac9.jpg,Val/Meningioma/images/m3 (58).jpg,Val,Meningioma,2087,6f8ac9bef506bc2dcc8788e1b4423ecc,1,1
+train,me_m3_62_b6a7e9.jpg,Train/Meningioma/images/m3 (62).jpg,Train,Meningioma,1358,b6a7e993dcb08274d4354db087b5948f,1,1
+train,me_m3_93_dfd9af.jpg,Train/Meningioma/images/m3 (93).jpg,Train,Meningioma,1365,dfd9afadc7427a75ca090570855407b6,1,1
+train,me_m_113_743f76.jpg,Train/Meningioma/images/m (113).jpg,Train,Meningioma,1174,743f762d2ac7bae8ec11c02528501f81,1,1
+train,me_m_117_9a6948.jpg,Train/Meningioma/images/m (117).jpg,Train,Meningioma,1177,9a6948cb8125e94744421fd00d476223,1,1
+train,me_m_121_7332c7.jpg,Train/Meningioma/images/m (121).jpg,Train,Meningioma,1179,7332c7762622f6c452e97dbd6217bd3f,1,1
+train,me_m_132_91bafa.jpg,Train/Meningioma/images/m (132).jpg,Train,Meningioma,1182,91bafaffd9304fb147b593d40ecd395e,1,1
+train,me_m_133_14c343.jpg,Train/Meningioma/images/m (133).jpg,Train,Meningioma,1182,14c343d6c9b06b1e4dc056b7c4eff3aa,1,1
+train,me_m_134_f4268a.jpg,Train/Meningioma/images/m (134).jpg,Train,Meningioma,1182,f4268a57902569931009056a303c3fd7,1,1
+train,me_m_136_2c0dee.jpg,Train/Meningioma/images/m (136).jpg,Train,Meningioma,1183,2c0dee0abda36291e494f0d5c9f41738,1,1
+train,me_m_138_d676e5.jpg,Train/Meningioma/images/m (138).jpg,Train,Meningioma,1184,d676e5354726abce4f22a596ccf1bd66,1,1
+train,me_m_139_dd9a4a.jpg,Train/Meningioma/images/m (139).jpg,Train,Meningioma,1184,dd9a4ad4080bd6a959008b4adfb2028f,1,1
+train,me_m_142_c62dfb.jpg,Train/Meningioma/images/m (142).jpg,Train,Meningioma,1185,c62dfb00bf514ffcff7a22e2c2ba0702,1,1
+train,me_m_143_75f00a.jpg,Train/Meningioma/images/m (143).jpg,Train,Meningioma,1186,75f00a14e0e9f88c56aab673399f4ca2,1,1
+train,me_m_157_a79f5b.jpg,Train/Meningioma/images/m (157).jpg,Train,Meningioma,645,a79f5bb2e910c5fae2ac14e8c51a0fea,1,1
+train,me_m_158_127ed9.jpg,Train/Meningioma/images/m (158).jpg,Train,Meningioma,645,127ed9f4f41d1ef2f7449c6a8ccd9549,1,1
+train,me_m_181_c4b56f.jpg,Train/Meningioma/images/m (181).jpg,Train,Meningioma,653,c4b56f8b312a90de24c62d87eb6df354,1,1
+train,me_m_190_9fd8a6.jpg,Train/Meningioma/images/m (190).jpg,Train,Meningioma,656,9fd8a6e107cd64d8624acb7659f550ee,1,1
+train,me_m_192_eb5571.jpg,Train/Meningioma/images/m (192).jpg,Train,Meningioma,656,eb5571c9796744fd99cfa0a37a1e86b3,1,1
+train,me_m_193_c12a70.jpg,Train/Meningioma/images/m (193).jpg,Train,Meningioma,1192,c12a70274eaf08c1784a28b65cca7935,1,1
+train,me_m_194_e62bad.jpg,Train/Meningioma/images/m (194).jpg,Train,Meningioma,1192,e62badf1a272b7f04818ff0878168e93,1,1
+train,me_m_195_40a7f5.jpg,Train/Meningioma/images/m (195).jpg,Train,Meningioma,1192,40a7f5f0c130416d97e1f77663d5d08e,1,1
+train,me_m_19_d693c2.jpg,Val/Meningioma/images/m (19).jpg,Val,Meningioma,649,d693c2dae601c96e748bbadb559c96ce,1,1
+train,me_m_23_1c59dc.jpg,Train/Meningioma/images/m (23).jpg,Train,Meningioma,659,1c59dcb8e6d81155fbd1ad1f9c704cfa,1,1
+train,me_m_40_169180.jpg,Train/Meningioma/images/m (40).jpg,Train,Meningioma,665,169180da98297897e67896c53be44ea8,1,1
+train,me_m_65_6ebfcd.jpg,Val/Meningioma/images/m (65).jpg,Val,Meningioma,671,6ebfcde896493722e60b9a3fadfacec7,1,1
+train,me_m_75_746044.jpg,Val/Meningioma/images/m (75).jpg,Val,Meningioma,674,746044e708c7363b5d1ede437103bba0,1,1
+train,me_m_92_5f67ec.jpg,Train/Meningioma/images/m (92).jpg,Train,Meningioma,685,5f67ecd8833c688c2706928665527257,1,1
+train,me_m_94_631d75.jpg,Val/Meningioma/images/m (94).jpg,Val,Meningioma,685,631d75740d4d816d204e0deb1e3cee16,1,1
+train,me_m_9_b3071e.jpg,Train/Meningioma/images/m (9).jpg,Train,Meningioma,1205,b3071eb84d7888560f94ac77d20e7fa7,1,1
+train,no_1_c4396f.jpg,Train/No Tumor/images/1.jpg,Train,No Tumor,1366,c4396f1df3b6050228d3d2d42fc1d7f1,0,
+train,no_3_7be661.jpg,Train/No Tumor/images/3.jpg,Train,No Tumor,1367,7be661c7ec1d3c648894b51bb7ffdf3e,0,
+train,no_5_926f65.jpg,Train/No Tumor/images/5.jpg,Train,No Tumor,1369,926f65ec2134bb2982eb97716421a6a9,0,
+train,no_7_961071.jpg,Train/No Tumor/images/7.jpg,Train,No Tumor,1371,961071052eb301a3e0cd452df5cfa975,0,
+train,no_Tr_noTr_0008_d3a847.jpg,Train/No Tumor/images/Tr-noTr_0008.jpg,Train,No Tumor,1373,d3a84740886274142b7e238219f08978,0,
+train,no_Tr_no_0016_bc7e75.jpg,Train/No Tumor/images/Tr-no_0016.jpg,Train,No Tumor,1377,bc7e75fa5d8cff54b445b79275272d54,0,
+train,no_Tr_no_0020_7f4d91.jpg,Train/No Tumor/images/Tr-no_0020.jpg,Train,No Tumor,1379,7f4d91f6e5c91dc0501e9d9562042f58,0,
+train,no_Tr_no_0022_1b4b38.jpg,Train/No Tumor/images/Tr-no_0022.jpg,Train,No Tumor,1380,1b4b38b48c59b8b5fec6724ef2f58f6c,0,
+train,no_Tr_no_0027_ce0edd.jpg,Train/No Tumor/images/Tr-no_0027.jpg,Train,No Tumor,1382,ce0edd8064f376cf8360d63c4d9ebdd8,0,
+train,no_Tr_no_0037_547162.jpg,Train/No Tumor/images/Tr-no_0037.jpg,Train,No Tumor,1386,547162f38043fe5cf612896adbaa193e,0,
+train,no_Tr_no_0051_cd055b.jpg,Train/No Tumor/images/Tr-no_0051.jpg,Train,No Tumor,1388,cd055b6d7034c48351ea16440d65cfd6,0,
+train,no_Tr_no_0059_d795de.jpg,Train/No Tumor/images/Tr-no_0059.jpg,Train,No Tumor,1389,d795de8b9314fe99576e961fd4859590,0,
+train,no_Tr_no_0097_8ae9f5.jpg,Train/No Tumor/images/Tr-no_0097.jpg,Train,No Tumor,1393,8ae9f5d827f2145cbdadfcbb8d42ab55,0,
+train,no_Tr_no_0112_c2c542.jpg,Train/No Tumor/images/Tr-no_0112.jpg,Train,No Tumor,1395,c2c5423dd557bd3557a8bd8d4f359acf,0,
+train,no_Tr_no_0140_e450fb.jpg,Train/No Tumor/images/Tr-no_0140.jpg,Train,No Tumor,1396,e450fb2bea94fad366ddebacbe26a4bb,0,
+train,no_Tr_no_0141_503ecf.jpg,Train/No Tumor/images/Tr-no_0141.jpg,Train,No Tumor,1397,503ecf3f3f5172bced6ec09580c6999e,0,
+train,no_Tr_no_0161_e83c5b.jpg,Train/No Tumor/images/Tr-no_0161.jpg,Train,No Tumor,1400,e83c5b3fc278777d5a563a2c45f855b1,0,
+train,no_Tr_no_0204_879cb1.jpg,Train/No Tumor/images/Tr-no_0204.jpg,Train,No Tumor,1405,879cb1806c88af383eb66731e8559585,0,
+train,no_Tr_no_0215_75b704.jpg,Train/No Tumor/images/Tr-no_0215.jpg,Train,No Tumor,1408,75b704201c2125c4ac02a0acf836802d,0,
+train,no_Tr_no_0218_7ce25d.jpg,Train/No Tumor/images/Tr-no_0218.jpg,Train,No Tumor,1409,7ce25d17c7839af995b51e5e308cbd08,0,
+train,no_Tr_no_0219_46bdd1.jpg,Train/No Tumor/images/Tr-no_0219.jpg,Train,No Tumor,1410,46bdd15e88da99beefcb999aea360457,0,
+train,no_Tr_no_0220_4203b8.jpg,Train/No Tumor/images/Tr-no_0220.jpg,Train,No Tumor,1411,4203b88f2ff81d366a5a4a77674314f6,0,
+train,no_Tr_no_0226_d52e77.jpg,Train/No Tumor/images/Tr-no_0226.jpg,Train,No Tumor,1412,d52e77fd0e12cfd96d437f00bce28eef,0,
+train,no_Tr_no_0234_46e615.jpg,Train/No Tumor/images/Tr-no_0234.jpg,Train,No Tumor,1413,46e6159f43133d0a4739a0f84fa10411,0,
+train,no_Tr_no_0243_ae6059.jpg,Train/No Tumor/images/Tr-no_0243.jpg,Train,No Tumor,1380,ae6059e90daa310d82dccfcf62a603c3,0,
+train,no_Tr_no_0248_2e793e.jpg,Train/No Tumor/images/Tr-no_0248.jpg,Train,No Tumor,1414,2e793e328d071f0be0cd3a7445d15dc6,0,
+train,no_Tr_no_0259_a5b037.jpg,Train/No Tumor/images/Tr-no_0259.jpg,Train,No Tumor,1417,a5b0372146c50f2e7c56d4da3ecb9944,0,
+train,no_Tr_no_0269_05b456.jpg,Train/No Tumor/images/Tr-no_0269.jpg,Train,No Tumor,1421,05b45654c9c3196486ab02d5045a9e80,0,
+train,no_Tr_no_0277_382a30.jpg,Train/No Tumor/images/Tr-no_0277.jpg,Train,No Tumor,1423,382a309c1662909431e041df2e825b7e,0,
+train,no_Tr_no_0278_6c188e.jpg,Train/No Tumor/images/Tr-no_0278.jpg,Train,No Tumor,1424,6c188ec1074e64b3581b6ee4b9e306c6,0,
+train,no_Tr_no_0281_7c17b4.jpg,Train/No Tumor/images/Tr-no_0281.jpg,Train,No Tumor,1425,7c17b4d2dae9f464590fd5ede35aa935,0,
+train,no_Tr_no_0285_b69911.jpg,Train/No Tumor/images/Tr-no_0285.jpg,Train,No Tumor,1428,b69911cbf8a9ff126740fa9e4b07da7b,0,
+train,no_Tr_no_0287_1a13b0.jpg,Train/No Tumor/images/Tr-no_0287.jpg,Train,No Tumor,1430,1a13b0afb7e336c9738f7546648d5cc9,0,
+train,no_Tr_no_0312_a0bb7f.jpg,Train/No Tumor/images/Tr-no_0312.jpg,Train,No Tumor,1435,a0bb7fb086b7397c51527ca0506f45b1,0,
+train,no_Tr_no_0318_c6aa58.jpg,Train/No Tumor/images/Tr-no_0318.jpg,Train,No Tumor,1438,c6aa58f0d3713e5aec0cf8b373ba02e5,0,
+train,no_Tr_no_0330_e7e6c4.jpg,Train/No Tumor/images/Tr-no_0330.jpg,Train,No Tumor,1440,e7e6c4c4d3f3a59be6cac0eca3a8301c,0,
+train,no_Tr_no_0331_b3985d.jpg,Train/No Tumor/images/Tr-no_0331.jpg,Train,No Tumor,1388,b3985de17782311036e2c40e43eba428,0,
+train,no_Tr_no_0366_24e83d.jpg,Train/No Tumor/images/Tr-no_0366.jpg,Train,No Tumor,1445,24e83deaaae9ab0f15565690e474f5fc,0,
+train,no_Tr_no_0399_61f523.jpg,Val/No Tumor/images/Tr-no_0399.jpg,Val,No Tumor,1523,61f523f2d494d9d0088307e5c68b8b8c,0,
+train,no_Tr_no_0400_58ba60.jpg,Train/No Tumor/images/Tr-no_0400.jpg,Train,No Tumor,1446,58ba604efb12ac059627587f90ab766c,0,
+train,no_Tr_no_0403_35770e.jpg,Train/No Tumor/images/Tr-no_0403.jpg,Train,No Tumor,1447,35770e4cfd325c0befa733e11da1191c,0,
+train,no_Tr_no_0418_76eee5.jpg,Train/No Tumor/images/Tr-no_0418.jpg,Train,No Tumor,1448,76eee50be56a3486539a5f5c7514f7d4,0,
+train,no_Tr_no_0423_34c41a.jpg,Train/No Tumor/images/Tr-no_0423.jpg,Train,No Tumor,1450,34c41ac2288b30b780067d5c5e03bd2d,0,
+train,no_Tr_no_0431_5d7755.jpg,Train/No Tumor/images/Tr-no_0431.jpg,Train,No Tumor,1452,5d77551a1ce22a63b2f6c6d67fb2c21c,0,
+train,no_Tr_no_0437_0fa7f7.jpg,Train/No Tumor/images/Tr-no_0437.jpg,Train,No Tumor,1454,0fa7f729317cf24cda100573ba341551,0,
+train,no_Tr_no_0447_408553.jpg,Train/No Tumor/images/Tr-no_0447.jpg,Train,No Tumor,1458,4085530e6e7bbfd869721186d27c4cb2,0,
+train,no_Tr_no_0450_27bf28.jpg,Train/No Tumor/images/Tr-no_0450.jpg,Train,No Tumor,1460,27bf28d7237860a1f1f03e3d72d5c0c2,0,
+train,no_Tr_no_0461_ef6645.jpg,Train/No Tumor/images/Tr-no_0461.jpg,Train,No Tumor,1451,ef664509ea1faf76cf1571f5ab019268,0,
+train,no_Tr_no_0466_701f3d.jpg,Train/No Tumor/images/Tr-no_0466.jpg,Train,No Tumor,1452,701f3d2c3c2d028e24885363196826b9,0,
+train,no_Tr_no_0472_3537e0.jpg,Train/No Tumor/images/Tr-no_0472.jpg,Train,No Tumor,1463,3537e01c0387d344dbd0bb6c1b48b613,0,
+train,no_Tr_no_0475_e0ca72.jpg,Train/No Tumor/images/Tr-no_0475.jpg,Train,No Tumor,1465,e0ca72d2d0e2ca3255f9417d3348fcd6,0,
+train,no_Tr_no_0480_e99824.jpg,Train/No Tumor/images/Tr-no_0480.jpg,Train,No Tumor,1466,e99824501d736f8433418be8da3c32d5,0,
+train,no_Tr_no_0487_fddcf0.jpg,Train/No Tumor/images/Tr-no_0487.jpg,Train,No Tumor,1468,fddcf00af911d95ce15591680ed85f09,0,
+train,no_Tr_no_0492_0c3b79.jpg,Val/No Tumor/images/Tr-no_0492.jpg,Val,No Tumor,1523,0c3b792e4a80db8bf2e0d6d0e4b2f989,0,
+train,no_Tr_no_0493_fd58ef.jpg,Train/No Tumor/images/Tr-no_0493.jpg,Train,No Tumor,1470,fd58ef09df5df296227e78b0ed4e5e09,0,
+train,no_Tr_no_0519_2c78a4.jpg,Train/No Tumor/images/Tr-no_0519.jpg,Train,No Tumor,1459,2c78a41ae700682d357fb1bf937fd2fa,0,
+train,no_Tr_no_0523_7bfcc8.jpg,Train/No Tumor/images/Tr-no_0523.jpg,Train,No Tumor,1475,7bfcc82552adae4a42fa943ae97051da,0,
+train,no_Tr_no_0525_bd59d0.jpg,Train/No Tumor/images/Tr-no_0525.jpg,Train,No Tumor,1477,bd59d0d9c33dd953aa066d1dd0f0ab2c,0,
+train,no_Tr_no_0531_548e33.jpg,Train/No Tumor/images/Tr-no_0531.jpg,Train,No Tumor,1480,548e33ed869f17e827138225845df8e2,0,
+train,no_Tr_no_0535_228c0c.jpg,Train/No Tumor/images/Tr-no_0535.jpg,Train,No Tumor,1481,228c0c1d9f4f44edfb33e085d3e5aa42,0,
+train,no_Tr_no_0539_ba0bb0.jpg,Val/No Tumor/images/Tr-no_0539.jpg,Val,No Tumor,1459,ba0bb0472cea6599718e4c5e4ef4919d,0,
+train,no_Tr_no_0550_c935e3.jpg,Train/No Tumor/images/Tr-no_0550.jpg,Train,No Tumor,1483,c935e37b5a06c84dab5f2c95ddb94d63,0,
+train,no_Tr_no_0551_fa656f.jpg,Train/No Tumor/images/Tr-no_0551.jpg,Train,No Tumor,1484,fa656f0c1a51c3b4cbd5c9e712656cc8,0,
+train,no_Tr_no_0571_c38d7a.jpg,Train/No Tumor/images/Tr-no_0571.jpg,Train,No Tumor,1427,c38d7a4dc353798c0c237e748f3c7f4d,0,
+train,no_Tr_no_0579_826a11.jpg,Train/No Tumor/images/Tr-no_0579.jpg,Train,No Tumor,1384,826a11ea67b9ff6782afc3b610256590,0,
+train,no_Tr_no_0580_085ef2.jpg,Train/No Tumor/images/Tr-no_0580.jpg,Train,No Tumor,1485,085ef243d950892e7f2c83e3b87113f2,0,
+train,no_Tr_no_0595_638b18.jpg,Train/No Tumor/images/Tr-no_0595.jpg,Train,No Tumor,1488,638b1882d110457448e482c8d3c036e6,0,
+train,no_Tr_no_0600_2811b1.jpg,Train/No Tumor/images/Tr-no_0600.jpg,Train,No Tumor,1460,2811b13cce8f394e60e6cb34b62b9470,0,
+train,no_Tr_no_0604_85375c.jpg,Train/No Tumor/images/Tr-no_0604.jpg,Train,No Tumor,1490,85375c22142305cdb972864739699dec,0,
+train,no_Tr_no_0608_f7c3d7.jpg,Train/No Tumor/images/Tr-no_0608.jpg,Train,No Tumor,1493,f7c3d7c58f682a5d80dde15d4a99f111,0,
+train,no_Tr_no_0626_ad4aa8.jpg,Train/No Tumor/images/Tr-no_0626.jpg,Train,No Tumor,1451,ad4aa8c9caaf095ebe33a671029eabc5,0,
+train,no_Tr_no_0631_4b11f2.jpg,Train/No Tumor/images/Tr-no_0631.jpg,Train,No Tumor,1498,4b11f2852ff89ac0fb40f27016ef8095,0,
+train,no_Tr_no_0633_5b6ca7.jpg,Train/No Tumor/images/Tr-no_0633.jpg,Train,No Tumor,1446,5b6ca7a5a94398ac120fdb5d1003a120,0,
+train,no_Tr_no_0641_467e1d.jpg,Train/No Tumor/images/Tr-no_0641.jpg,Train,No Tumor,1486,467e1d92491f2b2d7ae13bd01f6887e7,0,
+train,no_Tr_no_0658_ec31b7.jpg,Train/No Tumor/images/Tr-no_0658.jpg,Train,No Tumor,1468,ec31b7121aa4197845d4eacdc8b395ed,0,
+train,no_Tr_no_0673_8b4b5c.jpg,Train/No Tumor/images/Tr-no_0673.jpg,Train,No Tumor,1475,8b4b5c62f084ff63f9a28175bec42b4b,0,
+train,no_Tr_no_0674_c2b349.jpg,Train/No Tumor/images/Tr-no_0674.jpg,Train,No Tumor,1480,c2b3493019f00747b8a94f6306a24ec5,0,
+train,no_Tr_no_0683_6afe88.jpg,Train/No Tumor/images/Tr-no_0683.jpg,Train,No Tumor,1502,6afe882e0167cc6566c5ce845c1bf57c,0,
+train,no_Tr_no_0685_730de0.jpg,Train/No Tumor/images/Tr-no_0685.jpg,Train,No Tumor,1503,730de075c07f305e41117039084f42cd,0,
+train,no_Tr_no_0686_da8398.jpg,Train/No Tumor/images/Tr-no_0686.jpg,Train,No Tumor,1396,da8398426642aed940e6301d2b8b8a40,0,
+train,no_Tr_no_0748_e25f55.jpg,Train/No Tumor/images/Tr-no_0748.jpg,Train,No Tumor,1371,e25f555e0aab054df7c21bdfab765bd1,0,
+train,no_Tr_no_0755_8f9ec2.jpg,Train/No Tumor/images/Tr-no_0755.jpg,Train,No Tumor,1382,8f9ec2113e9f7af3f7a2cb064d6a5219,0,
+train,no_Tr_no_0757_bc86c8.jpg,Train/No Tumor/images/Tr-no_0757.jpg,Train,No Tumor,1384,bc86c80c2aef5bfaff0e1de6a2bcdd7b,0,
+train,no_Tr_no_0758_fd37cc.jpg,Train/No Tumor/images/Tr-no_0758.jpg,Train,No Tumor,1485,fd37cc0d1c694adab8be908736c09e9f,0,
+train,no_Tr_no_0760_9c3b9a.jpg,Train/No Tumor/images/Tr-no_0760.jpg,Train,No Tumor,1505,9c3b9a6d3a731fd2c9e717d6fb9a9a31,0,
+train,no_Tr_no_0761_f845ac.jpg,Train/No Tumor/images/Tr-no_0761.jpg,Train,No Tumor,1387,f845ac5512c4131c93fd549f1d5f76f8,0,
+train,no_Tr_no_0766_0a5a16.jpg,Train/No Tumor/images/Tr-no_0766.jpg,Train,No Tumor,1483,0a5a167b9b5bbd9a197faf2f9d3cc4cd,0,
+train,no_Tr_no_0778_aa82d2.jpg,Train/No Tumor/images/Tr-no_0778.jpg,Train,No Tumor,1484,aa82d22245d3899379a36767c0bc306d,0,
+train,no_Tr_no_0787_21e97c.jpg,Train/No Tumor/images/Tr-no_0787.jpg,Train,No Tumor,1506,21e97c9a3c476333e5cb7cd6365f5bba,0,
+train,no_Tr_no_0804_47801c.jpg,Train/No Tumor/images/Tr-no_0804.jpg,Train,No Tumor,1382,47801c8e328f4aa292067f2cf5a2108d,0,
+train,no_Tr_no_0806_f77a4a.jpg,Train/No Tumor/images/Tr-no_0806.jpg,Train,No Tumor,1384,f77a4a5753806915e692e24626e54300,0,
+train,no_Tr_no_0809_931c5d.jpg,Train/No Tumor/images/Tr-no_0809.jpg,Train,No Tumor,1387,931c5d28f03fa83a1c120b6546c38c90,0,
+train,no_Tr_no_0812_47ce5e.jpg,Train/No Tumor/images/Tr-no_0812.jpg,Train,No Tumor,1459,47ce5e9e135a1b4f68b89fbda45a1852,0,
+train,no_Tr_no_0832_46aa3d.jpg,Train/No Tumor/images/Tr-no_0832.jpg,Train,No Tumor,1503,46aa3d5b123fbc56a0fb7f6c1e16c710,0,
+train,no_Tr_no_0843_0c85d6.jpg,Train/No Tumor/images/Tr-no_0843.jpg,Train,No Tumor,1475,0c85d632696a6d165b301924d77c252f,0,
+train,no_Tr_no_0857_37bd24.jpg,Train/No Tumor/images/Tr-no_0857.jpg,Train,No Tumor,1458,37bd24249462db354ca545d74fa77915,0,
+train,no_Tr_no_0863_cd2247.jpg,Train/No Tumor/images/Tr-no_0863.jpg,Train,No Tumor,1486,cd224714f16dd2c0f38cf7e374d341cb,0,
+train,no_Tr_no_0952_1b1413.jpg,Train/No Tumor/images/Tr-no_0952.jpg,Train,No Tumor,1463,1b14139e419799044ee696be63dd40fd,0,
+train,no_Tr_no_0958_8e843d.jpg,Train/No Tumor/images/Tr-no_0958.jpg,Train,No Tumor,1458,8e843db6827579ba56a39ea0ff73eff4,0,
+train,no_Tr_no_0983_dcef70.jpg,Train/No Tumor/images/Tr-no_0983.jpg,Train,No Tumor,1396,dcef70022c5c6d430c69a8b31336557c,0,
+train,no_Tr_no_0996_d7d9c6.jpg,Train/No Tumor/images/Tr-no_0996.jpg,Train,No Tumor,1412,d7d9c66e4d2c772d6900dcc443c840f0,0,
+train,no_Tr_no_1001_f11fea.jpg,Train/No Tumor/images/Tr-no_1001.jpg,Train,No Tumor,1387,f11fea5655ad9a8a49edc1584f003cc3,0,
+train,no_Tr_no_1002_6d3cd8.jpg,Train/No Tumor/images/Tr-no_1002.jpg,Train,No Tumor,1427,6d3cd89ba4e6da860ad7c9e18e73db77,0,
+train,no_Tr_no_1012_263448.jpg,Train/No Tumor/images/Tr-no_1012.jpg,Train,No Tumor,1423,26344889747a45f401bb2ebae9e5b14a,0,
+train,no_Tr_no_1020_b4e35c.jpg,Train/No Tumor/images/Tr-no_1020.jpg,Train,No Tumor,1485,b4e35c8ff7a8c169d3f6010bd0720935,0,
+train,no_Tr_no_1042_62f2a2.jpg,Train/No Tumor/images/Tr-no_1042.jpg,Train,No Tumor,1397,62f2a2935995581ff512bb7d7e226094,0,
+train,no_Tr_no_1045_6aebc0.jpg,Train/No Tumor/images/Tr-no_1045.jpg,Train,No Tumor,1468,6aebc01d66126c7e6307bfdf938e11e8,0,
+train,no_Tr_no_1054_72325c.jpg,Train/No Tumor/images/Tr-no_1054.jpg,Train,No Tumor,1371,72325cce2b3a1f3833d38e8e82a1e996,0,
+train,no_Tr_no_1060_30833b.jpg,Train/No Tumor/images/Tr-no_1060.jpg,Train,No Tumor,1511,30833b6b027eb1ca54cdd37ae88213e6,0,
+train,no_Tr_no_1065_f273d7.jpg,Train/No Tumor/images/Tr-no_1065.jpg,Train,No Tumor,1379,f273d736e6185af12edcae1b43d9a85a,0,
+train,no_Tr_no_1078_75378a.jpg,Train/No Tumor/images/Tr-no_1078.jpg,Train,No Tumor,1513,75378ac81f02855ccf2b17a8492f3941,0,
+train,no_Tr_no_1119_d4213c.jpg,Train/No Tumor/images/Tr-no_1119.jpg,Train,No Tumor,1483,d4213cadb7fdc260baf35de0ef3072bd,0,
+train,no_Tr_no_1171_13fd32.jpg,Train/No Tumor/images/Tr-no_1171.jpg,Train,No Tumor,1519,13fd32f4b20c92e1f12c974210ec3248,0,
+train,no_Tr_no_1172_2fa892.jpg,Train/No Tumor/images/Tr-no_1172.jpg,Train,No Tumor,1470,2fa892e95bf969a3e775861b4b58c511,0,
+train,no_Tr_no_1186_8ec6e1.jpg,Train/No Tumor/images/Tr-no_1186.jpg,Train,No Tumor,1427,8ec6e1ed44d7d21459724a8a98fa337a,0,
+train,no_Tr_no_1192_053d3b.jpg,Train/No Tumor/images/Tr-no_1192.jpg,Train,No Tumor,1379,053d3b21509586bc70eb5c30f0c62518,0,
+train,no_Tr_no_1200_8c081a.jpg,Train/No Tumor/images/Tr-no_1200.jpg,Train,No Tumor,1505,8c081a6eefc508c837325b8c6f57a854,0,
+train,no_Tr_no_1254_6822ce.jpg,Train/No Tumor/images/Tr-no_1254.jpg,Train,No Tumor,1520,6822cef55523e42099b4cd5215fc5e7f,0,
+train,no_Tr_no_1263_2c573b.jpg,Train/No Tumor/images/Tr-no_1263.jpg,Train,No Tumor,1505,2c573b33740bcc44dc5abdff6d0a4788,0,
+train,no_Tr_no_1278_2abc47.jpg,Train/No Tumor/images/Tr-no_1278.jpg,Train,No Tumor,1446,2abc47341e8db1dbae4bfc4927c567c9,0,
+train,no_Tr_no_1280_bc77b5.jpg,Train/No Tumor/images/Tr-no_1280.jpg,Train,No Tumor,1521,bc77b5699966f57f079ea9cc34aaa863,0,
+train,no_Tr_no_1310_82cd6e.jpg,Train/No Tumor/images/Tr-no_1310.jpg,Train,No Tumor,1452,82cd6e9c75e1f5f3a5dec7aa9af4152c,0,
+train,no_Tr_no_1315_ff58c0.jpg,Train/No Tumor/images/Tr-no_1315.jpg,Train,No Tumor,1454,ff58c0337e6a89a733ea65e825f8f70b,0,
+train,no_Tr_no_1326_c7c3a5.jpg,Train/No Tumor/images/Tr-no_1326.jpg,Train,No Tumor,1463,c7c3a5865c5c22d7ca1806184587ab0e,0,
+train,no_Tr_no_1334_f825d9.jpg,Train/No Tumor/images/Tr-no_1334.jpg,Train,No Tumor,1451,f825d9cb0b4beaddc1dea88a76a9e51e,0,
+train,no_Tr_no_1375_8b364e.jpg,Train/No Tumor/images/Tr-no_1375.jpg,Train,No Tumor,1523,8b364e62b8b70b84b04afbb7d56da0ba,0,
+train,no_Tr_no_1378_285db1.jpg,Train/No Tumor/images/Tr-no_1378.jpg,Train,No Tumor,1521,285db1c9a5fbb4fb570b51385f02566e,0,
+train,no_Tr_no_1409_b59209.jpg,Train/No Tumor/images/Tr-no_1409.jpg,Train,No Tumor,1397,b592098cdbf51462723470716807c340,0,
+train,no_Tr_no_1414_9951c8.jpg,Train/No Tumor/images/Tr-no_1414.jpg,Train,No Tumor,1525,9951c8e998cb2da2f8d5045e8fd6c804,0,
+train,no_Tr_no_1423_b41544.jpg,Train/No Tumor/images/Tr-no_1423.jpg,Train,No Tumor,1454,b41544b9caf43da688fe3aa4918f0853,0,
+train,no_Tr_no_1441_78af9b.jpg,Train/No Tumor/images/Tr-no_1441.jpg,Train,No Tumor,1460,78af9b32838cc236c50d12fe90d2eea3,0,
+train,no_Tr_no_1465_ccffd5.jpg,Train/No Tumor/images/Tr-no_1465.jpg,Train,No Tumor,1486,ccffd5b014d043687ba5d980285bda36,0,
+train,no_Tr_no_1469_f16702.jpg,Train/No Tumor/images/Tr-no_1469.jpg,Train,No Tumor,1488,f16702fd77330c1ff702156bb2eec3c4,0,
+train,no_Tr_no_1473_d27fe2.jpg,Train/No Tumor/images/Tr-no_1473.jpg,Train,No Tumor,1506,d27fe2b6904669a2188ad7786bc378a8,0,
+train,no_Tr_no_1475_608ac1.jpg,Train/No Tumor/images/Tr-no_1475.jpg,Train,No Tumor,1527,608ac1b24562e7434643d178ad575f30,0,
+train,no_Tr_no_1493_cfc354.jpg,Train/No Tumor/images/Tr-no_1493.jpg,Train,No Tumor,1503,cfc354c136aa814cb77f6e13c01fc1de,0,
+train,no_Tr_no_1503_919650.jpg,Train/No Tumor/images/Tr-no_1503.jpg,Train,No Tumor,1528,9196508eb4743f8c5dd7a9b41ba8fef7,0,
+train,no_Tr_no_1527_a9f8ab.jpg,Train/No Tumor/images/Tr-no_1527.jpg,Train,No Tumor,1521,a9f8abb969de54e2908d44023505ed80,0,
+train,no_Tr_no_1555_f21be8.jpg,Train/No Tumor/images/Tr-no_1555.jpg,Train,No Tumor,1531,f21be8a602b3c452302e3819116013e1,0,
+train,no_image_101_b9504d.jpg,Train/No Tumor/images/image(101).jpg,Train,No Tumor,1546,b9504d1f84629a48b2de81a52aa0468a,0,
+train,no_image_103_208670.jpg,Train/No Tumor/images/image(103).jpg,Train,No Tumor,1536,208670d4d74e93c59795a71a6e8edaf1,0,
+train,no_image_123_2f35b7.jpg,Train/No Tumor/images/image(123).jpg,Train,No Tumor,1556,2f35b768985c28a9db52a8885761ef1d,0,
+train,no_image_124_2b88a1.jpg,Train/No Tumor/images/image(124).jpg,Train,No Tumor,1557,2b88a1dec72667cd75871abd7d53d60e,0,
+train,no_image_126_33b2d8.jpg,Train/No Tumor/images/image(126).jpg,Train,No Tumor,1558,33b2d802fee882d771f27d16823bbf4c,0,
+train,no_image_134_b110f3.jpg,Train/No Tumor/images/image(134).jpg,Train,No Tumor,1562,b110f342fe10d1c76cbd4b5b5a57cc75,0,
+train,no_image_13_300e16.jpg,Train/No Tumor/images/image(13).jpg,Train,No Tumor,1559,300e1604b650132eb5b2b28c9888fb5b,0,
+train,no_image_14_04ad12.jpg,Val/No Tumor/images/image(14).jpg,Val,No Tumor,1538,04ad12436c5b59dac34ff27b48e8dd9a,0,
+train,no_image_151_b22b7e.jpg,Train/No Tumor/images/image(151).jpg,Train,No Tumor,1567,b22b7e9d2aed996018b249972c69b6cf,0,
+train,no_image_153_665bf1.jpg,Train/No Tumor/images/image(153).jpg,Train,No Tumor,1568,665bf16ea1489fb798ee0dd3acaade79,0,
+train,no_image_163_632120.jpg,Train/No Tumor/images/image(163).jpg,Train,No Tumor,1571,632120a6491595c8f2646222e132159e,0,
+train,no_image_175_9fd7bb.jpg,Train/No Tumor/images/image(175).jpg,Train,No Tumor,1484,9fd7bb93bb0e52f47db21ccdc091a9fc,0,
+train,no_image_17_be5ba9.jpg,Val/No Tumor/images/image(17).jpg,Val,No Tumor,1539,be5ba993f511e6965ff3ced4fec3cc1c,0,
+train,no_image_184_b2545b.jpg,Train/No Tumor/images/image(184).jpg,Train,No Tumor,1578,b2545b21f51c996ff97cf0b2d1664cb7,0,
+train,no_image_192_92d345.jpg,Train/No Tumor/images/image(192).jpg,Train,No Tumor,1582,92d345cb0e551329cb0ab0041b1d531f,0,
+train,no_image_193_d6cec9.jpg,Train/No Tumor/images/image(193).jpg,Train,No Tumor,1583,d6cec9e5ebd13844f8dfb633dd9fbfca,0,
+train,no_image_205_ada579.jpg,Train/No Tumor/images/image(205).jpg,Train,No Tumor,1588,ada5790e0748c54695e1b607911550f7,0,
+train,no_image_208_61d0ae.jpg,Train/No Tumor/images/image(208).jpg,Train,No Tumor,1589,61d0aeacb5768eca8d91ed7915c5648b,0,
+train,no_image_20_5562ea.jpg,Train/No Tumor/images/image(20).jpg,Train,No Tumor,1543,5562eae4e5ebc10b36e46caeb073fbc5,0,
+train,no_image_210_1e98f5.jpg,Train/No Tumor/images/image(210).jpg,Train,No Tumor,1590,1e98f507c83df39e1aefd1e4c2724d7d,0,
+train,no_image_218_d5f0f3.jpg,Train/No Tumor/images/image(218).jpg,Train,No Tumor,1592,d5f0f355c306acc7712226cd99f60ef6,0,
+train,no_image_223_7cc3f4.jpg,Train/No Tumor/images/image(223).jpg,Train,No Tumor,1593,7cc3f40df3f7b00c6fa119ecfb93730f,0,
+train,no_image_226_536683.jpg,Val/No Tumor/images/image(226).jpg,Val,No Tumor,2102,536683a3268a40e970d63d2a83f58c6e,0,
+train,no_image_227_48103b.jpg,Train/No Tumor/images/image(227).jpg,Train,No Tumor,1595,48103b0bdb35c0ee3d45c8b302098f96,0,
+train,no_image_22_2b6b3b.jpg,Train/No Tumor/images/image(22).jpg,Train,No Tumor,1538,2b6b3b3e38f7708c531f92f22b10c2da,0,
+train,no_image_237_d7b8c5.jpg,Train/No Tumor/images/image(237).jpg,Train,No Tumor,1598,d7b8c5133dfd63f6de881062d5fc9f93,0,
+train,no_image_248_e7b4c1.jpg,Val/No Tumor/images/image(248).jpg,Val,No Tumor,2103,e7b4c1b1e5960e4aca362afb5f48d833,0,
+train,no_image_24_e0b9f4.jpg,Train/No Tumor/images/image(24).jpg,Train,No Tumor,1542,e0b9f49e9c57547db3d4490d1d96642a,0,
+train,no_image_255_71d0f7.jpg,Train/No Tumor/images/image(255).jpg,Train,No Tumor,1602,71d0f7ccc4fdf4cffccebc64b18c3c9d,0,
+train,no_image_259_f02674.jpg,Train/No Tumor/images/image(259).jpg,Train,No Tumor,1604,f026747e5401d8a361e0566ad9166b5d,0,
+train,no_image_25_c767af.jpg,Train/No Tumor/images/image(25).jpg,Train,No Tumor,1601,c767afc139c419a9bb2d0fe292730951,0,
+train,no_image_263_957341.jpg,Train/No Tumor/images/image(263).jpg,Train,No Tumor,1608,957341c21149e99a0984b0bbea8aef84,0,
+train,no_image_264_c87dbb.jpg,Train/No Tumor/images/image(264).jpg,Train,No Tumor,1609,c87dbb8684ebdb40acbc8b63f000a7c8,0,
+train,no_image_267_ede592.jpg,Train/No Tumor/images/image(267).jpg,Train,No Tumor,1610,ede59256d2365fe6e3ae7e4a3f04e659,0,
+train,no_image_26_68ebae.jpg,Train/No Tumor/images/image(26).jpg,Train,No Tumor,1605,68ebae69c42bbb3a6f525a0d966c66fe,0,
+train,no_image_272_35be81.jpg,Train/No Tumor/images/image(272).jpg,Train,No Tumor,1613,35be81f4e30b52843e0ec3b93aaf79a7,0,
+train,no_image_273_854e55.jpg,Train/No Tumor/images/image(273).jpg,Train,No Tumor,1614,854e55da7ca2dbd62216ee61e2052f95,0,
+train,no_image_282_be2baf.jpg,Train/No Tumor/images/image(282).jpg,Train,No Tumor,1616,be2baf9b6e3702b044ea69563fdd0b52,0,
+train,no_image_284_a6513f.jpg,Train/No Tumor/images/image(284).jpg,Train,No Tumor,1617,a6513fef0e52dd67af6e6026f1a66155,0,
+train,no_image_290_b57daf.jpg,Train/No Tumor/images/image(290).jpg,Train,No Tumor,1470,b57daf6bdf4eba86d249368f83891067,0,
+train,no_image_298_42e06a.jpg,Train/No Tumor/images/image(298).jpg,Train,No Tumor,1619,42e06a1398060931e5f7490470f50954,0,
+train,no_image_301_2d3b04.jpg,Train/No Tumor/images/image(301).jpg,Train,No Tumor,1621,2d3b04b209470ffb0f5ffb3850808f21,0,
+train,no_image_303_5a1aba.jpg,Train/No Tumor/images/image(303).jpg,Train,No Tumor,1622,5a1aba37d7122d6aaaf131fa6cd52797,0,
+train,no_image_305_53706d.jpg,Train/No Tumor/images/image(305).jpg,Train,No Tumor,1623,53706d21755245c6f3d4d925ecf1be89,0,
+train,no_image_312_7eb482.jpg,Train/No Tumor/images/image(312).jpg,Train,No Tumor,1626,7eb4824fa78d9e22f5131ef19990dfb0,0,
+train,no_image_313_b52c60.jpg,Train/No Tumor/images/image(313).jpg,Train,No Tumor,1627,b52c60c8b8d5b52ddaddebf06e9d22b1,0,
+train,no_image_314_90d1f9.jpg,Train/No Tumor/images/image(314).jpg,Train,No Tumor,1628,90d1f9c0e7c3c4e120469f78524532c1,0,
+train,no_image_323_05fe39.jpg,Train/No Tumor/images/image(323).jpg,Train,No Tumor,1631,05fe39a899414d2dab6cad25c301b32c,0,
+train,no_image_32_700028.jpg,Val/No Tumor/images/image (32).jpg,Val,No Tumor,2093,70002894f13c8a26346d6453071d2494,0,
+train,no_image_44_a50b5f.jpg,Train/No Tumor/images/image (44).jpg,Train,No Tumor,1536,a50b5fb2a4c2fd2a9b4df80a688f4beb,0,
+train,no_image_49_e4919b.jpg,Train/No Tumor/images/image (49).jpg,Train,No Tumor,1539,e4919b2d20d5aabc8b17d194cd10ac9b,0,
+train,no_image_4_cedd18.jpg,Train/No Tumor/images/image(4).jpg,Train,No Tumor,1633,cedd18ecd91954fb35b741a30a606b49,0,
+train,no_image_4ceee6.jpg,Train/No Tumor/images/image.jpg,Train,No Tumor,1653,4ceee6f7d03d8681912af6196397b40f,0,
+train,no_image_50_5cba73.jpg,Train/No Tumor/images/image(50).jpg,Train,No Tumor,1539,5cba73d939059697c0183cf830f339bd,0,
+train,no_image_51_cc712e.jpg,Train/No Tumor/images/image(51).jpg,Train,No Tumor,1440,cc712e0106aa07953906b25f2e7a5598,0,
+train,no_image_53_e1a71b.jpg,Train/No Tumor/images/image (53).jpg,Train,No Tumor,1440,e1a71b45c129191ed5a338f10040977f,0,
+train,no_image_56_e9688d.jpg,Train/No Tumor/images/image (56).jpg,Train,No Tumor,1542,e9688d2d202570fb3f0a9fff97162b64,0,
+train,no_image_57_6495fc.jpg,Train/No Tumor/images/image (57).jpg,Train,No Tumor,1543,6495fc05280819be82ed863052127a82,0,
+train,no_image_57_c921d7.jpg,Train/No Tumor/images/image(57).jpg,Train,No Tumor,1636,c921d7f6620c88b5c5414b33a6e39f28,0,
+train,no_image_5_8fe49f.jpg,Val/No Tumor/images/image(5).jpg,Val,No Tumor,1538,8fe49fdfd19a97616394d4ece3d0184b,0,
+train,no_image_61_e97938.jpg,Val/No Tumor/images/image(61).jpg,Val,No Tumor,2106,e97938b59008eb5d836975b7948ed67b,0,
+train,no_image_62_9c8568.jpg,Train/No Tumor/images/image(62).jpg,Train,No Tumor,1638,9c856845544d5264bebfadbad48eb175,0,
+train,no_image_71_4bb4e2.jpg,Train/No Tumor/images/image(71).jpg,Train,No Tumor,1640,4bb4e278677833186fa60a9e12178ef1,0,
+train,no_image_7_99d63f.jpg,Val/No Tumor/images/image (7).jpg,Val,No Tumor,1640,99d63f3b7ed4fea3146e21a7ca61f375,0,
+train,no_image_81_11118f.jpg,Train/No Tumor/images/image(81).jpg,Train,No Tumor,1410,11118ff96dd17a149cba79f43a30ec31,0,
+train,no_image_89_8280a2.jpg,Val/No Tumor/images/image(89).jpg,Val,No Tumor,2110,8280a26ded8958ad876c053fca1a0101,0,
+train,no_image_93_5de79e.jpg,Train/No Tumor/images/image(93).jpg,Train,No Tumor,1648,5de79e41a296c0bbe949d1a1cbe42a37,0,
+train,no_image_94_7d155a.jpg,Train/No Tumor/images/image(94).jpg,Train,No Tumor,1649,7d155aa15e05feb5fd008361b3b38db2,0,
+train,no_image_96_7c54fe.jpg,Val/No Tumor/images/image(96).jpg,Val,No Tumor,2111,7c54fe7973d3fe9c702eed7aba12f9b5,0,
+train,no_image_98_d389e6.jpg,Train/No Tumor/images/image(98).jpg,Train,No Tumor,1651,d389e6f867c213b6a564e29455113322,0,
+train,no_image_9_eef725.jpg,Train/No Tumor/images/image(9).jpg,Train,No Tumor,1644,eef725fec0cda3c3cbfff364722dd54f,0,
+train,pi_Te_pi_0011_21fd69.jpg,Train/Pituitary/images/Te-pi_0011.jpg,Train,Pituitary,1655,21fd69e01d027e69ab1163a49d30020a,1,2
+train,pi_Te_pi_0019_ebd8b1.jpg,Train/Pituitary/images/Te-pi_0019.jpg,Train,Pituitary,1658,ebd8b1bd13930659e06d649c88bffdc4,1,2
+train,pi_Te_pi_0035_a86502.jpg,Train/Pituitary/images/Te-pi_0035.jpg,Train,Pituitary,1666,a865024f77922f56c14ca307e147540e,1,2
+train,pi_Te_pi_0040_885b1a.jpg,Train/Pituitary/images/Te-pi_0040.jpg,Train,Pituitary,1668,885b1a108637b3408c2414cf343b46a9,1,2
+train,pi_Te_pi_0046_708b5a.jpg,Train/Pituitary/images/Te-pi_0046.jpg,Train,Pituitary,1671,708b5a91fb311d91634f459794a110d4,2,2
+train,pi_Te_pi_0047_320905.jpg,Train/Pituitary/images/Te-pi_0047.jpg,Train,Pituitary,1672,32090537558a95377797cb0b67de2845,1,2
+train,pi_Te_pi_0068_f5d263.jpg,Train/Pituitary/images/Te-pi_0068.jpg,Train,Pituitary,1683,f5d263da27d91a5cc03758f87f288060,2,2
+train,pi_Tr_piTr_0002_47e978.jpg,Train/Pituitary/images/Tr-piTr_0002.jpg,Train,Pituitary,1684,47e978374252ed34566a8c1f34a7bfcd,1,2
+train,pi_Tr_pi_0018_6ea162.jpg,Train/Pituitary/images/Tr-pi_0018.jpg,Train,Pituitary,1689,6ea1621c669c09b594422b4566671d37,1,2
+train,pi_Tr_pi_0019_e86020.jpg,Train/Pituitary/images/Tr-pi_0019.jpg,Train,Pituitary,1689,e860206763706c534de4f6feb8b83f4b,1,2
+train,pi_Tr_pi_0020_c9a026.jpg,Train/Pituitary/images/Tr-pi_0020.jpg,Train,Pituitary,1690,c9a026c5f5bc2a425ba22a4f3ddb4135,1,2
+train,pi_Tr_pi_0028_9d3ebb.jpg,Train/Pituitary/images/Tr-pi_0028.jpg,Train,Pituitary,1692,9d3ebbb8c69f7b32f5f22f238bc82525,2,2
+train,pi_Tr_pi_0030_5ee9cf.jpg,Train/Pituitary/images/Tr-pi_0030.jpg,Train,Pituitary,1693,5ee9cff6443e7ccdd96792a8fc985aa4,1,2
+train,pi_Tr_pi_0038_3ffee4.jpg,Train/Pituitary/images/Tr-pi_0038.jpg,Train,Pituitary,1695,3ffee433f297021ef2f8e89596a14a74,1,2
+train,pi_Tr_pi_0040_61f1e9.jpg,Train/Pituitary/images/Tr-pi_0040.jpg,Train,Pituitary,1696,61f1e9cb51889b296e6fea08867bc5d4,1,2
+train,pi_Tr_pi_0053_a21807.jpg,Train/Pituitary/images/Tr-pi_0053.jpg,Train,Pituitary,1700,a21807ab933dfc8c7a94e4dd408cc75f,1,2
+train,pi_Tr_pi_0057_80e8c6.jpg,Train/Pituitary/images/Tr-pi_0057.jpg,Train,Pituitary,1700,80e8c657872c400a572791ebd38f7171,1,2
+train,pi_Tr_pi_0072_8cfd27.jpg,Train/Pituitary/images/Tr-pi_0072.jpg,Train,Pituitary,1703,8cfd271014f3d46319faf6ed0e174ad2,1,2
+train,pi_Tr_pi_0078_636039.jpg,Train/Pituitary/images/Tr-pi_0078.jpg,Train,Pituitary,1705,636039acd57dccb1ee282ae9b2002cae,1,2
+train,pi_Tr_pi_0080_750a9d.jpg,Train/Pituitary/images/Tr-pi_0080.jpg,Train,Pituitary,1704,750a9de05c8969fac6482996f3fbfadc,1,2
+train,pi_Tr_pi_0100_7584bc.jpg,Train/Pituitary/images/Tr-pi_0100.jpg,Train,Pituitary,1705,7584bc10be284982237c791cea07fbb6,1,2
+train,pi_Tr_pi_0104_9df78b.jpg,Train/Pituitary/images/Tr-pi_0104.jpg,Train,Pituitary,1712,9df78b6c780898a0ce89e72d6d9366a3,1,2
+train,pi_Tr_pi_0130_1b061a.jpg,Train/Pituitary/images/Tr-pi_0130.jpg,Train,Pituitary,1717,1b061a02a9a44365f4585cc6da51ee4b,1,2
+train,pi_Tr_pi_0133_56aafb.jpg,Train/Pituitary/images/Tr-pi_0133.jpg,Train,Pituitary,1717,56aafbe6c058fb2d55035e92ea473239,1,2
+train,pi_Tr_pi_0135_0d2fa8.jpg,Train/Pituitary/images/Tr-pi_0135.jpg,Train,Pituitary,1717,0d2fa8c45560e8bbee05d96cf6ceece2,1,2
+train,pi_Tr_pi_0145_94a8a8.jpg,Train/Pituitary/images/Tr-pi_0145.jpg,Train,Pituitary,1720,94a8a892ec5a8d9f9cc3a5d49088ffde,1,2
+train,pi_Tr_pi_0156_ca3b1c.jpg,Train/Pituitary/images/Tr-pi_0156.jpg,Train,Pituitary,1720,ca3b1cc4cc349068c3b934d7396df5a3,1,2
+train,pi_Tr_pi_0161_3a883e.jpg,Train/Pituitary/images/Tr-pi_0161.jpg,Train,Pituitary,1724,3a883e16cfb247a869eb1f7aa0cec9f5,1,2
+train,pi_Tr_pi_0164_7bbc92.jpg,Train/Pituitary/images/Tr-pi_0164.jpg,Train,Pituitary,1724,7bbc92dcb1cf03d74d7c2bbfa28327a3,1,2
+train,pi_Tr_pi_0169_9ac2bb.jpg,Train/Pituitary/images/Tr-pi_0169.jpg,Train,Pituitary,1726,9ac2bb858e51e57e9652feba3728004e,1,2
+train,pi_Tr_pi_0171_24cc7b.jpg,Train/Pituitary/images/Tr-pi_0171.jpg,Train,Pituitary,1726,24cc7b2af7a6a59e5106ac77e6e98193,1,2
+train,pi_Tr_pi_0198_eeddaa.jpg,Train/Pituitary/images/Tr-pi_0198.jpg,Train,Pituitary,1732,eeddaa4317188e98f655c363a20c51d2,1,2
+train,pi_Tr_pi_0199_376756.jpg,Train/Pituitary/images/Tr-pi_0199.jpg,Train,Pituitary,1732,37675664e769daa0a87a5bb618e861b9,1,2
+train,pi_Tr_pi_0201_a78eb9.jpg,Train/Pituitary/images/Tr-pi_0201.jpg,Train,Pituitary,1732,a78eb9c96af571ee3a0ac266a9933021,1,2
+train,pi_Tr_pi_0214_11ce3e.jpg,Train/Pituitary/images/Tr-pi_0214.jpg,Train,Pituitary,1736,11ce3ed99a783030bd1528ac705edf80,1,2
+train,pi_Tr_pi_0236_d0d838.jpg,Train/Pituitary/images/Tr-pi_0236.jpg,Train,Pituitary,1741,d0d8381c98c8a1ab0a04c9312e91b49f,1,2
+train,pi_Tr_pi_0237_c4c50b.jpg,Train/Pituitary/images/Tr-pi_0237.jpg,Train,Pituitary,1741,c4c50b302fa2842bdd8a9ff7e92923c0,1,2
+train,pi_Tr_pi_0246_fed961.jpg,Train/Pituitary/images/Tr-pi_0246.jpg,Train,Pituitary,1744,fed9619dd7164b3ec32b73b2d73e182e,1,2
+train,pi_Tr_pi_0272_2e6074.jpg,Train/Pituitary/images/Tr-pi_0272.jpg,Train,Pituitary,1752,2e6074938c4209cf9015dd05c6aa8326,1,2
+train,pi_Tr_pi_0273_3d3ca3.jpg,Train/Pituitary/images/Tr-pi_0273.jpg,Train,Pituitary,1752,3d3ca385ca3c5c2e785614492bf8afc2,1,2
+train,pi_Tr_pi_0282_52dc34.jpg,Train/Pituitary/images/Tr-pi_0282.jpg,Train,Pituitary,1754,52dc34068dd818e43151164a466fc93e,1,2
+train,pi_Tr_pi_0284_736465.jpg,Train/Pituitary/images/Tr-pi_0284.jpg,Train,Pituitary,1754,736465cd2bd6dd5dee3b0048e9fa2942,1,2
+train,pi_Tr_pi_0285_ef85b5.jpg,Train/Pituitary/images/Tr-pi_0285.jpg,Train,Pituitary,1754,ef85b5d097e17f37e09b1e25121137c3,1,2
+train,pi_Tr_pi_0298_5f3f43.jpg,Train/Pituitary/images/Tr-pi_0298.jpg,Train,Pituitary,1757,5f3f431a86bc7ad0af74887a07cccb70,2,2
+train,pi_Tr_pi_0305_61c65c.jpg,Train/Pituitary/images/Tr-pi_0305.jpg,Train,Pituitary,1758,61c65c6c6ae02bb607fa393508f75b34,1,2
+train,pi_Tr_pi_0309_65ba82.jpg,Train/Pituitary/images/Tr-pi_0309.jpg,Train,Pituitary,1758,65ba821e87aad17fccae4adba98d66ee,1,2
+train,pi_Tr_pi_0310_2bd6a0.jpg,Train/Pituitary/images/Tr-pi_0310.jpg,Train,Pituitary,1758,2bd6a059962700c1e6140ad564c0e252,1,2
+train,pi_Tr_pi_0313_570706.jpg,Train/Pituitary/images/Tr-pi_0313.jpg,Train,Pituitary,1759,5707068ba5a8f46f63748ff22e27407c,1,2
+train,pi_Tr_pi_0317_8eff79.jpg,Train/Pituitary/images/Tr-pi_0317.jpg,Train,Pituitary,1759,8eff79f4cbfa690ca5e0bf96c8b6928a,1,2
+train,pi_Tr_pi_0334_8073bd.jpg,Train/Pituitary/images/Tr-pi_0334.jpg,Train,Pituitary,1763,8073bd7d580c2b9ce18e1afe5af519fd,1,2
+train,pi_Tr_pi_0337_32d4b2.jpg,Train/Pituitary/images/Tr-pi_0337.jpg,Train,Pituitary,1764,32d4b28a2c8ea856660f4a9874989ab4,1,2
+train,pi_Tr_pi_0338_7ec62e.jpg,Train/Pituitary/images/Tr-pi_0338.jpg,Train,Pituitary,1764,7ec62e0140d76cf6be5e2981c41246f6,2,2
+train,pi_Tr_pi_0345_fa728d.jpg,Train/Pituitary/images/Tr-pi_0345.jpg,Train,Pituitary,1763,fa728d5e8ffc27d33344ffce5a9770c6,1,2
+train,pi_Tr_pi_0356_cad598.jpg,Train/Pituitary/images/Tr-pi_0356.jpg,Train,Pituitary,1763,cad5981831799c3ca47cc7dc5f948f59,2,2
+train,pi_Tr_pi_0370_945f2b.jpg,Train/Pituitary/images/Tr-pi_0370.jpg,Train,Pituitary,1772,945f2bc04f0fee91a1072debb3ba2430,1,2
+train,pi_Tr_pi_0392_8b7b66.jpg,Train/Pituitary/images/Tr-pi_0392.jpg,Train,Pituitary,1777,8b7b666492e551fbaacae5b23dc09ff2,1,2
+train,pi_Tr_pi_0404_43129e.jpg,Train/Pituitary/images/Tr-pi_0404.jpg,Train,Pituitary,1781,43129e4c872fec2fe1ff07dba13871c6,1,2
+train,pi_Tr_pi_0405_42f53b.jpg,Train/Pituitary/images/Tr-pi_0405.jpg,Train,Pituitary,1781,42f53b692ef649959f0f7ec02770989e,1,2
+train,pi_Tr_pi_0413_289e45.jpg,Train/Pituitary/images/Tr-pi_0413.jpg,Train,Pituitary,1784,289e45e8ff011ba74dd8718d8d85b74d,1,2
+train,pi_Tr_pi_0415_12abed.jpg,Train/Pituitary/images/Tr-pi_0415.jpg,Train,Pituitary,1784,12abed97827b3a0376e15d934e725f82,1,2
+train,pi_Tr_pi_0416_94ddb2.jpg,Train/Pituitary/images/Tr-pi_0416.jpg,Train,Pituitary,1784,94ddb2d3488d2fe781348f2668da27db,1,2
+train,pi_Tr_pi_0474_55d372.jpg,Train/Pituitary/images/Tr-pi_0474.jpg,Train,Pituitary,1795,55d372181efc89d2bfad024ff98caec5,1,2
+train,pi_Tr_pi_0475_3f8c11.jpg,Train/Pituitary/images/Tr-pi_0475.jpg,Train,Pituitary,1795,3f8c114461eed8ebefde2800bdd8c387,1,2
+train,pi_Tr_pi_0479_1c2dab.jpg,Train/Pituitary/images/Tr-pi_0479.jpg,Train,Pituitary,1795,1c2dab36ed7e8f8c2970e55595cbce38,1,2
+train,pi_Tr_pi_0490_980028.jpg,Train/Pituitary/images/Tr-pi_0490.jpg,Train,Pituitary,1798,9800283bc95be324b14410c836e30010,1,2
+train,pi_Tr_pi_0491_3b4774.jpg,Train/Pituitary/images/Tr-pi_0491.jpg,Train,Pituitary,1798,3b4774f5debca296f33daf6f368d1fcb,1,2
+train,pi_Tr_pi_0492_88155d.jpg,Train/Pituitary/images/Tr-pi_0492.jpg,Train,Pituitary,1798,88155d7a46f2756df7454f352a67516b,1,2
+train,pi_Tr_pi_0495_ab5434.jpg,Train/Pituitary/images/Tr-pi_0495.jpg,Train,Pituitary,1801,ab5434953407399ec87f273c8ee36e15,1,2
+train,pi_Tr_pi_0496_5f5816.jpg,Train/Pituitary/images/Tr-pi_0496.jpg,Train,Pituitary,1801,5f5816b6cf9f05df20460757b828bce1,1,2
+train,pi_Tr_pi_0497_6456a2.jpg,Train/Pituitary/images/Tr-pi_0497.jpg,Train,Pituitary,1801,6456a22976fd362e43da9492d3648c69,1,2
+train,pi_Tr_pi_0499_ebb63a.jpg,Train/Pituitary/images/Tr-pi_0499.jpg,Train,Pituitary,1802,ebb63a46b78deec4d8a837cf92632c34,1,2
+train,pi_Tr_pi_0501_c1013a.jpg,Train/Pituitary/images/Tr-pi_0501.jpg,Train,Pituitary,1802,c1013a88f2a09f686e66c7d70396e34d,1,2
+train,pi_Tr_pi_0502_6889d5.jpg,Train/Pituitary/images/Tr-pi_0502.jpg,Train,Pituitary,1802,6889d57b13686bd875c066c133d371df,1,2
+train,pi_Tr_pi_0519_9046cd.jpg,Train/Pituitary/images/Tr-pi_0519.jpg,Train,Pituitary,1806,9046cdaa862e3b037a5ef2a407d7a2e2,1,2
+train,pi_Tr_pi_0550_4f729d.jpg,Train/Pituitary/images/Tr-pi_0550.jpg,Train,Pituitary,1655,4f729d1f77bb9590069e778c4ea19c7a,1,2
+train,pi_Tr_pi_0551_63d5dd.jpg,Train/Pituitary/images/Tr-pi_0551.jpg,Train,Pituitary,1815,63d5dd6d307d2a6b2a7413fa6e1bd6ea,1,2
+train,pi_Tr_pi_0552_f72b79.jpg,Train/Pituitary/images/Tr-pi_0552.jpg,Train,Pituitary,1815,f72b79dc923211364acedb111f3c3f9d,1,2
+train,pi_Tr_pi_0555_3a05ce.jpg,Train/Pituitary/images/Tr-pi_0555.jpg,Train,Pituitary,1656,3a05ceb8f2c0e3128081aa5940cc4866,1,2
+train,pi_Tr_pi_0579_8f0af8.jpg,Train/Pituitary/images/Tr-pi_0579.jpg,Train,Pituitary,1658,8f0af8faede97d57f2ac455ff8da7808,1,2
+train,pi_Tr_pi_0581_bc3990.jpg,Train/Pituitary/images/Tr-pi_0581.jpg,Train,Pituitary,1658,bc3990c0e899038913fae805093a8e71,1,2
+train,pi_Tr_pi_0595_db991a.jpg,Train/Pituitary/images/Tr-pi_0595.jpg,Train,Pituitary,1824,db991a14f61622b085ef5c539b48893d,1,2
+train,pi_Tr_pi_0612_403e88.jpg,Train/Pituitary/images/Tr-pi_0612.jpg,Train,Pituitary,1826,403e886f2160e7135ab63eca2234bb96,1,2
+train,pi_Tr_pi_0613_12cb0a.jpg,Train/Pituitary/images/Tr-pi_0613.jpg,Train,Pituitary,1826,12cb0aea4d0f4c93ffc3b2399eac1f7a,1,2
+train,pi_Tr_pi_0633_be8bb6.jpg,Train/Pituitary/images/Tr-pi_0633.jpg,Train,Pituitary,1666,be8bb6228e0636ade80e470f6d4bc748,1,2
+train,pi_Tr_pi_0641_5fa32a.jpg,Train/Pituitary/images/Tr-pi_0641.jpg,Train,Pituitary,1831,5fa32aee97599f3e8cb1dd5ee87b6520,1,2
+train,pi_Tr_pi_0783_fce731.jpg,Train/Pituitary/images/Tr-pi_0783.jpg,Train,Pituitary,1838,fce73112cc20ebf24a6a95309a34545c,1,2
+train,pi_Tr_pi_0784_76fb3d.jpg,Train/Pituitary/images/Tr-pi_0784.jpg,Train,Pituitary,1838,76fb3decaf0c893f66f183b2ca600265,1,2
+train,pi_Tr_pi_0785_85b8b6.jpg,Train/Pituitary/images/Tr-pi_0785.jpg,Train,Pituitary,1838,85b8b6b9be8e8bcab24e171e92a206aa,1,2
+train,pi_Tr_pi_0792_86627b.jpg,Train/Pituitary/images/Tr-pi_0792.jpg,Train,Pituitary,1839,86627bd56e21a0a8a26864aa536b43a1,1,2
+train,pi_Tr_pi_0793_29d73e.jpg,Train/Pituitary/images/Tr-pi_0793.jpg,Train,Pituitary,1839,29d73e858132269475baeb7e1bf8d6a3,1,2
+train,pi_Tr_pi_0794_b5f434.jpg,Train/Pituitary/images/Tr-pi_0794.jpg,Train,Pituitary,1839,b5f43421c0d11360432e4179b5f7d72d,1,2
+train,pi_Tr_pi_0805_fb778b.jpg,Train/Pituitary/images/Tr-pi_0805.jpg,Train,Pituitary,1841,fb778b1f8fa81aaf4bb44141737b0e0b,1,2
+train,pi_Tr_pi_0806_51d12b.jpg,Train/Pituitary/images/Tr-pi_0806.jpg,Train,Pituitary,1841,51d12bb96590e8b7eada99b683afe62d,1,2
+train,pi_Tr_pi_0807_742c5a.jpg,Train/Pituitary/images/Tr-pi_0807.jpg,Train,Pituitary,1841,742c5a42bee357af9520218d81dd197d,1,2
+train,pi_Tr_pi_0812_d075ae.jpg,Val/Pituitary/images/Tr-pi_0812.jpg,Val,Pituitary,2112,d075ae911f6b97e58c5d3e33d5d934bf,2,2
+train,pi_Tr_pi_0826_7e85b0.jpg,Train/Pituitary/images/Tr-pi_0826.jpg,Train,Pituitary,1845,7e85b0cf731be2f3e74199cdb3688333,1,2
+train,pi_Tr_pi_0827_453b33.jpg,Train/Pituitary/images/Tr-pi_0827.jpg,Train,Pituitary,1845,453b3362aa9f91d233632dec2165b08c,1,2
+train,pi_Tr_pi_0828_95c032.jpg,Train/Pituitary/images/Tr-pi_0828.jpg,Train,Pituitary,1846,95c0323de09174ae928e6a6e87a3182f,1,2
+train,pi_Tr_pi_0832_139a60.jpg,Train/Pituitary/images/Tr-pi_0832.jpg,Train,Pituitary,1848,139a60b82c99af927f2f320ba850843a,1,2
+train,pi_Tr_pi_0833_33d925.jpg,Val/Pituitary/images/Tr-pi_0833.jpg,Val,Pituitary,2113,33d92536ad9d05b5190993876dd2cd28,1,2
+train,pi_Tr_pi_0837_74bd73.jpg,Train/Pituitary/images/Tr-pi_0837.jpg,Train,Pituitary,1850,74bd73360c46d9cd268f4517b838ce36,1,2
+train,pi_Tr_pi_0838_afa1e5.jpg,Train/Pituitary/images/Tr-pi_0838.jpg,Train,Pituitary,1850,afa1e59b805fbbcb421368ad158e42df,1,2
+train,pi_Tr_pi_0839_1cd05d.jpg,Train/Pituitary/images/Tr-pi_0839.jpg,Train,Pituitary,1850,1cd05d73bbc4bd32316a91fa13290a13,1,2
+train,pi_Tr_pi_0844_e19cf5.jpg,Train/Pituitary/images/Tr-pi_0844.jpg,Train,Pituitary,1851,e19cf5e00f80736c8da793d5354c55e0,1,2
+train,pi_Tr_pi_0847_7ca9d7.jpg,Train/Pituitary/images/Tr-pi_0847.jpg,Train,Pituitary,1852,7ca9d7836bf9bd9c6be7c67a5ef81a58,1,2
+train,pi_Tr_pi_0848_510fd3.jpg,Train/Pituitary/images/Tr-pi_0848.jpg,Train,Pituitary,1852,510fd3f9cfb86a396088e8419253e1dc,1,2
+train,pi_Tr_pi_0854_bd53cf.jpg,Train/Pituitary/images/Tr-pi_0854.jpg,Train,Pituitary,1855,bd53cf2f12384a6a42794eb89fca35e2,1,2
+train,pi_Tr_pi_0857_c752cc.jpg,Train/Pituitary/images/Tr-pi_0857.jpg,Train,Pituitary,1856,c752cc4707ff9e1d688f347563f69bd9,1,2
+train,pi_Tr_pi_0859_ca9afb.jpg,Train/Pituitary/images/Tr-pi_0859.jpg,Train,Pituitary,1857,ca9afb398680b1980b2e95b9d5bc0b15,1,2
+train,pi_Tr_pi_0867_ba3b73.jpg,Train/Pituitary/images/Tr-pi_0867.jpg,Train,Pituitary,1860,ba3b7355ec918f457a796bc9fc3e972e,1,2
+train,pi_Tr_pi_0868_028ab5.jpg,Train/Pituitary/images/Tr-pi_0868.jpg,Train,Pituitary,1860,028ab5ee72c5c2ba5366195a23f2d770,1,2
+train,pi_Tr_pi_0870_a16d10.jpg,Train/Pituitary/images/Tr-pi_0870.jpg,Train,Pituitary,1861,a16d10cfe6a2858eb3485545c5f4738b,1,2
+train,pi_Tr_pi_0882_8bc719.jpg,Train/Pituitary/images/Tr-pi_0882.jpg,Train,Pituitary,1863,8bc7190bf645697870696a234309124c,1,2
+train,pi_Tr_pi_0883_f5e594.jpg,Train/Pituitary/images/Tr-pi_0883.jpg,Train,Pituitary,1863,f5e594cc2693e2688e2c38b841c108d2,1,2
+train,pi_Tr_pi_0884_7c912a.jpg,Val/Pituitary/images/Tr-pi_0884.jpg,Val,Pituitary,1863,7c912aba7cfa5bb3fc361637231dd4e0,1,2
+train,pi_Tr_pi_0897_94fb1a.jpg,Val/Pituitary/images/Tr-pi_0897.jpg,Val,Pituitary,2115,94fb1a9e5bb33b10fdde473087a3fce6,1,2
+train,pi_Tr_pi_0909_6d6267.jpg,Train/Pituitary/images/Tr-pi_0909.jpg,Train,Pituitary,1870,6d626726516f781c78aa1f7ec58631c8,1,2
+train,pi_Tr_pi_0921_f6dc2a.jpg,Train/Pituitary/images/Tr-pi_0921.jpg,Train,Pituitary,1873,f6dc2ae8af4a8f61996d62b30bbbceca,1,2
+train,pi_Tr_pi_0930_b8e526.jpg,Train/Pituitary/images/Tr-pi_0930.jpg,Train,Pituitary,1876,b8e526559bb0d296f97e2fbc3b129aef,1,2
+train,pi_Tr_pi_0939_20aab1.jpg,Train/Pituitary/images/Tr-pi_0939.jpg,Train,Pituitary,1879,20aab11e9bacfe54cdb8d6e030007c3d,1,2
+train,pi_Tr_pi_0984_beeed0.jpg,Val/Pituitary/images/Tr-pi_0984.jpg,Val,Pituitary,2119,beeed09efa63b5ba0dba313a8a770da7,1,2
+train,pi_Tr_pi_0988_c90535.jpg,Train/Pituitary/images/Tr-pi_0988.jpg,Train,Pituitary,1885,c9053542992a4aa3a96c75a58e6cdb96,1,2
+train,pi_Tr_pi_0991_bc4458.jpg,Train/Pituitary/images/Tr-pi_0991.jpg,Train,Pituitary,1886,bc44589553260f9c1965a1a7b07f14b8,1,2
+train,pi_Tr_pi_0992_b2c134.jpg,Train/Pituitary/images/Tr-pi_0992.jpg,Train,Pituitary,1886,b2c13463540e744e726722d8ec789571,1,2
+train,pi_Tr_pi_0999_747b11.jpg,Val/Pituitary/images/Tr-pi_0999.jpg,Val,Pituitary,2120,747b115a06d9ef39d8b7ec762816bcec,1,2
+train,pi_Tr_pi_1006_c9a1a7.jpg,Train/Pituitary/images/Tr-pi_1006.jpg,Train,Pituitary,1887,c9a1a731fc01cd0657aa2a5efa2ff0d3,1,2
+train,pi_Tr_pi_1007_f24884.jpg,Train/Pituitary/images/Tr-pi_1007.jpg,Train,Pituitary,1887,f248840c4f461a3afab3c5b4e33a6837,1,2
+train,pi_Tr_pi_1009_66a6d9.jpg,Train/Pituitary/images/Tr-pi_1009.jpg,Train,Pituitary,1888,66a6d9c3455a44341ff8c051ad4f01dd,1,2
+train,pi_Tr_pi_1036_c00659.jpg,Train/Pituitary/images/Tr-pi_1036.jpg,Train,Pituitary,1891,c006591ef185b678c080090ad19a2ad1,1,2
+train,pi_Tr_pi_1060_66474a.jpg,Val/Pituitary/images/Tr-pi_1060.jpg,Val,Pituitary,2122,66474af57edbc13d1558df643f0e1f51,1,2
+train,pi_Tr_pi_1095_ed120c.jpg,Val/Pituitary/images/Tr-pi_1095.jpg,Val,Pituitary,1898,ed120c77cdae17c4e8349cd579d47c89,1,2
+train,pi_Tr_pi_1096_405648.jpg,Train/Pituitary/images/Tr-pi_1096.jpg,Train,Pituitary,1898,40564884ec9d864aced4f5935d3d8950,1,2
+train,pi_Tr_pi_1097_eade42.jpg,Val/Pituitary/images/Tr-pi_1097.jpg,Val,Pituitary,1898,eade42eb685eb5754b7745469fe0fff8,1,2
+train,pi_Tr_pi_1101_e14e47.jpg,Train/Pituitary/images/Tr-pi_1101.jpg,Train,Pituitary,1899,e14e47aaaf3a94fd5dfa4fc6709e6457,1,2
+train,pi_Tr_pi_1112_80e0a6.jpg,Val/Pituitary/images/Tr-pi_1112.jpg,Val,Pituitary,2127,80e0a6aa6a7ad38168e9b8882633b0bb,1,2
+train,pi_Tr_pi_1117_dae956.jpg,Val/Pituitary/images/Tr-pi_1117.jpg,Val,Pituitary,1902,dae956b8593298f240e2626abe856de9,1,2
+train,pi_Tr_pi_1118_be4aae.jpg,Train/Pituitary/images/Tr-pi_1118.jpg,Train,Pituitary,1902,be4aae1069b73825aaf4922cb3a6a2c4,1,2
+train,pi_Tr_pi_1119_4a747b.jpg,Val/Pituitary/images/Tr-pi_1119.jpg,Val,Pituitary,1902,4a747b7ffdf0ade0b5d70e52263e8962,1,2
+train,pi_Tr_pi_1142_2a7633.jpg,Train/Pituitary/images/Tr-pi_1142.jpg,Train,Pituitary,1905,2a76337afe68e9229cdc91d559384b57,1,2
+train,pi_Tr_pi_1153_176516.jpg,Train/Pituitary/images/Tr-pi_1153.jpg,Train,Pituitary,1907,17651689762003c4daffc3050e56362a,2,2
+train,pi_Tr_pi_1167_5ba9cf.jpg,Train/Pituitary/images/Tr-pi_1167.jpg,Train,Pituitary,1909,5ba9cff853a5b46199796e4bc784df8f,1,2
+train,pi_Tr_pi_1169_df691b.jpg,Train/Pituitary/images/Tr-pi_1169.jpg,Train,Pituitary,1910,df691b455857626f711e13133791d583,1,2
+train,pi_Tr_pi_1196_19efce.jpg,Train/Pituitary/images/Tr-pi_1196.jpg,Train,Pituitary,1914,19efcebf14eb04f272c9eed748979229,2,2
+train,pi_Tr_pi_1197_6b48f2.jpg,Train/Pituitary/images/Tr-pi_1197.jpg,Train,Pituitary,1915,6b48f24684ba63c75ce498cd52f21270,1,2
+train,pi_Tr_pi_1200_6294be.jpg,Val/Pituitary/images/Tr-pi_1200.jpg,Val,Pituitary,2128,6294be8d158196cd504ddc6a8b0a9847,1,2
+train,pi_Tr_pi_1212_3f4a12.jpg,Val/Pituitary/images/Tr-pi_1212.jpg,Val,Pituitary,2129,3f4a12c1ccc24dc7d69f0dda3670a811,1,2
+train,pi_Tr_pi_1231_96d714.jpg,Val/Pituitary/images/Tr-pi_1231.jpg,Val,Pituitary,1918,96d714cac3c204aeaea07d8c26ee7f55,1,2
+train,pi_Tr_pi_1232_6c42f7.jpg,Train/Pituitary/images/Tr-pi_1232.jpg,Train,Pituitary,1918,6c42f719ca13c6bf14f3374dd5329104,1,2
+train,pi_Tr_pi_1233_489aa8.jpg,Train/Pituitary/images/Tr-pi_1233.jpg,Train,Pituitary,1918,489aa82ec5d947c9c740e1c8aea2807f,1,2
+train,pi_Tr_pi_1234_4fa76c.jpg,Train/Pituitary/images/Tr-pi_1234.jpg,Train,Pituitary,1919,4fa76c88fe58ef7f171cc483c46621ad,1,2
+train,pi_Tr_pi_1235_2cba34.jpg,Val/Pituitary/images/Tr-pi_1235.jpg,Val,Pituitary,1919,2cba34e72f0d738a3f4a6714a3481b8a,1,2
+train,pi_Tr_pi_1238_7cb326.jpg,Train/Pituitary/images/Tr-pi_1238.jpg,Train,Pituitary,1920,7cb3263477b7031290716618352b4cf4,1,2
+train,pi_Tr_pi_1239_828eff.jpg,Train/Pituitary/images/Tr-pi_1239.jpg,Train,Pituitary,1920,828eff8d4f4df986189ba5dda4c1ca11,1,2
+train,pi_Tr_pi_1240_c9162f.jpg,Val/Pituitary/images/Tr-pi_1240.jpg,Val,Pituitary,1920,c9162fc066dbf2d22eeae1effe4c8ec7,1,2
+train,pi_Tr_pi_1258_e6130a.jpg,Train/Pituitary/images/Tr-pi_1258.jpg,Train,Pituitary,1922,e6130a277630eabb0934d2f85950190d,1,2
+train,pi_Tr_pi_1259_e3f6e5.jpg,Val/Pituitary/images/Tr-pi_1259.jpg,Val,Pituitary,1922,e3f6e544e2b51fe8ad53a4e9e43b1c28,1,2
+train,pi_Tr_pi_1271_96a992.jpg,Train/Pituitary/images/Tr-pi_1271.jpg,Train,Pituitary,1925,96a992e25e9950960b91b95bb5b3afbf,2,2
+train,pi_Tr_pi_1282_6b4519.jpg,Val/Pituitary/images/Tr-pi_1282.jpg,Val,Pituitary,2131,6b4519bdc74b971c7fac33a82ca3de66,1,2
+train,pi_Tr_pi_1308_9e150c.jpg,Train/Pituitary/images/Tr-pi_1308.jpg,Train,Pituitary,1928,9e150c99d3c8eac83f92896ea2c4dd5a,1,2
+train,pi_Tr_pi_1314_f468dc.jpg,Val/Pituitary/images/Tr-pi_1314.jpg,Val,Pituitary,2132,f468dcd6d4ff085f5993f3e4cde61fd6,1,2
+train,pi_Tr_pi_1318_31e909.jpg,Val/Pituitary/images/Tr-pi_1318.jpg,Val,Pituitary,2133,31e9093795e1e0e8974f2248bdf917e8,1,2
+train,pi_Tr_pi_1352_6e8e7f.jpg,Train/Pituitary/images/Tr-pi_1352.jpg,Train,Pituitary,1933,6e8e7f1bc4a300e142c757422d824cb7,1,2
+train,pi_Tr_pi_1354_f42939.jpg,Train/Pituitary/images/Tr-pi_1354.jpg,Train,Pituitary,1934,f42939bda4e5fd1ba44e84d01a0125ea,1,2
+train,pi_Tr_pi_1355_bd88d4.jpg,Train/Pituitary/images/Tr-pi_1355.jpg,Train,Pituitary,1934,bd88d480e797aeae9072fd3542a3d3c5,1,2
+train,pi_Tr_pi_1365_7cc02e.jpg,Train/Pituitary/images/Tr-pi_1365.jpg,Train,Pituitary,1937,7cc02ea4219b558d389060b71ba47376,1,2
+train,pi_Tr_pi_1368_279cba.jpg,Train/Pituitary/images/Tr-pi_1368.jpg,Train,Pituitary,1939,279cba9380ca5df6261838706c5f1e19,1,2
+train,pi_Tr_pi_1384_85fc5f.jpg,Train/Pituitary/images/Tr-pi_1384.jpg,Train,Pituitary,1941,85fc5f4ff3c43b6158f34d48ce430ee5,1,2
+train,pi_Tr_pi_1390_e6c50f.jpg,Train/Pituitary/images/Tr-pi_1390.jpg,Train,Pituitary,1943,e6c50feaad6b291f2f123fcbbfc52501,1,2
+train,pi_Tr_pi_1391_0c233c.jpg,Val/Pituitary/images/Tr-pi_1391.jpg,Val,Pituitary,1943,0c233cf95bafc9f2a1b1bcde9819cd24,1,2
+train,pi_Tr_pi_1408_3300cd.jpg,Train/Pituitary/images/Tr-pi_1408.jpg,Train,Pituitary,1944,3300cd44de4d8712335f8312c6b3e542,1,2
+train,pi_Tr_pi_1420_e63729.jpg,Train/Pituitary/images/Tr-pi_1420.jpg,Train,Pituitary,1946,e637298432e95bdd29a7e24ad1577bee,1,2
+train,pi_Tr_pi_1429_9dfaae.jpg,Train/Pituitary/images/Tr-pi_1429.jpg,Train,Pituitary,1947,9dfaae50a9a7cc2fad496239d0b5c6dc,1,2
+train,pi_Tr_pi_1430_25edfd.jpg,Val/Pituitary/images/Tr-pi_1430.jpg,Val,Pituitary,1947,25edfde03bdf69db7654f1be885112da,1,2
+train,pi_Tr_pi_1431_8e221b.jpg,Train/Pituitary/images/Tr-pi_1431.jpg,Train,Pituitary,1947,8e221bfe0c4800581c5e134d33eb9ea0,1,2
+train,pi_Tr_pi_1453_784ece.jpg,Train/Pituitary/images/Tr-pi_1453.jpg,Train,Pituitary,1951,784ece2b3ed569312db95c83e31b3c03,1,2
+train,pi_p_128_7cc334.jpg,Train/Pituitary/images/p (128).jpg,Train,Pituitary,1956,7cc334cf9c150fe0785001dc3c3f55c1,1,2
+train,pi_p_140_99e089.jpg,Train/Pituitary/images/p (140).jpg,Train,Pituitary,1961,99e0890275f773a6baa17d02fc0bdefb,1,2
+train,pi_p_151_a33e36.jpg,Train/Pituitary/images/p (151).jpg,Train,Pituitary,1700,a33e36ee114f55774fee891ad832faea,1,2
+train,pi_p_165_5361de.jpg,Train/Pituitary/images/p (165).jpg,Train,Pituitary,1703,5361de7a899e788fcef9884e1f6dbb8e,1,2
+train,pi_p_166_4175b5.jpg,Train/Pituitary/images/p (166).jpg,Train,Pituitary,1704,4175b5a494fff4c633fce58001414c1e,1,2
+train,pi_p_169_c9c9ce.jpg,Train/Pituitary/images/p (169).jpg,Train,Pituitary,1704,c9c9ce6ea684fd6876a37cb04dd81e2d,1,2
+train,pi_p_18_23bb73.jpg,Train/Pituitary/images/p (18).jpg,Train,Pituitary,1705,23bb738272f8716c20015e5d8bb1cf1e,1,2
+train,pi_p_192_e28a54.jpg,Train/Pituitary/images/p (192).jpg,Train,Pituitary,1712,e28a54ecbf0e916f52f6aae22f9067e4,1,2
+train,pi_p_199_d4b2e2.jpg,Train/Pituitary/images/p (199).jpg,Train,Pituitary,1964,d4b2e2be1dcc9276dfae8c33251860c1,1,2
+train,pi_p_213_bca2f8.jpg,Train/Pituitary/images/p (213).jpg,Train,Pituitary,1966,bca2f816ebdc116ed42cc5a8086cd05b,1,2
+train,pi_p_214_f4203b.jpg,Train/Pituitary/images/p (214).jpg,Train,Pituitary,1966,f4203b464671311c06c8a20af4803136,1,2
+train,pi_p_215_928bca.jpg,Train/Pituitary/images/p (215).jpg,Train,Pituitary,1967,928bca276c184fecac543e2fb6b72236,1,2
+train,pi_p_229_64f64f.jpg,Train/Pituitary/images/p (229).jpg,Train,Pituitary,1968,64f64fe797b24accaf7fb9e854fd9f30,1,2
+train,pi_p_248_93e05a.jpg,Train/Pituitary/images/p (248).jpg,Train,Pituitary,1724,93e05a21d69334441341e5013c9bc5c7,1,2
+train,pi_p_250_eaa225.jpg,Train/Pituitary/images/p (250).jpg,Train,Pituitary,1726,eaa2258d854255da21ee9999cd7f462d,1,2
+train,pi_p_254_e48191.jpg,Train/Pituitary/images/p (254).jpg,Train,Pituitary,1969,e48191f0e2b40b0c3e86fa2921b26818,1,2
+train,pi_p_25_7ad78e.jpg,Train/Pituitary/images/p (25).jpg,Train,Pituitary,1720,7ad78e159261f055095d5413fbeacaf4,1,2
+train,pi_p_310_752d31.jpg,Train/Pituitary/images/p (310).jpg,Train,Pituitary,1741,752d313554ba660125a4c1c0b6ca2ccf,1,2
+train,pi_p_321_3f132d.jpg,Train/Pituitary/images/p (321).jpg,Train,Pituitary,1744,3f132d52ed0c60d270e240f2ebe6d519,1,2
+train,pi_p_322_b6d6b4.jpg,Train/Pituitary/images/p (322).jpg,Train,Pituitary,1744,b6d6b4a9af66e1c2a2e8f9ef97234529,1,2
+train,pi_p_371_dee5a6.jpg,Train/Pituitary/images/p (371).jpg,Train,Pituitary,1757,dee5a62f9cad4e425f63acfd0d8a435a,1,2
+train,pi_p_373_4cd985.jpg,Train/Pituitary/images/p (373).jpg,Train,Pituitary,1757,4cd9853ade7413ad6ba61871b07746e4,1,2
+train,pi_p_382_1048d3.jpg,Train/Pituitary/images/p (382).jpg,Train,Pituitary,1759,1048d3d14b3056b1fa0fd6e90931a899,1,2
+train,pi_p_386_2888c5.jpg,Train/Pituitary/images/p (386).jpg,Train,Pituitary,1975,2888c566c6f8838aaec9dd80b29e296c,2,2
+train,pi_p_401_374575.jpg,Train/Pituitary/images/p (401).jpg,Train,Pituitary,1976,37457510060f921594eef92f068f2dc9,1,2
+train,pi_p_415_58dbbe.jpg,Train/Pituitary/images/p (415).jpg,Train,Pituitary,1978,58dbbe600f95a2cdd89c3f8ca587eac9,1,2
+train,pi_p_427_3acf58.jpg,Train/Pituitary/images/p (427).jpg,Train,Pituitary,1982,3acf5860ff852eed0d60c56904126e9e,1,2
+train,pi_p_428_3beeeb.jpg,Train/Pituitary/images/p (428).jpg,Train,Pituitary,1982,3beeeb105d217b545c9b1e62b8497adf,1,2
+train,pi_p_431_7cc0af.jpg,Train/Pituitary/images/p (431).jpg,Train,Pituitary,1772,7cc0af4852da3d91e60e133c93218520,1,2
+train,pi_p_450_30fe81.jpg,Train/Pituitary/images/p (450).jpg,Train,Pituitary,1986,30fe81c2268b8bbf2bd1bd72e156443b,1,2
+train,pi_p_451_fd3d5f.jpg,Train/Pituitary/images/p (451).jpg,Train,Pituitary,1986,fd3d5f357f50d70c3dc8852c85cb620f,1,2
+train,pi_p_465_98b76e.jpg,Train/Pituitary/images/p (465).jpg,Train,Pituitary,1988,98b76ee22beba74f64e078327cba5de0,1,2
+train,pi_p_466_80ee34.jpg,Train/Pituitary/images/p (466).jpg,Train,Pituitary,1988,80ee348cf9536e5715d02ecbb51d7927,1,2
+train,pi_p_467_8265e7.jpg,Train/Pituitary/images/p (467).jpg,Train,Pituitary,1989,8265e7d7aae4663d22ba93651d32f4bb,1,2
+train,pi_p_468_90f9c3.jpg,Train/Pituitary/images/p (468).jpg,Train,Pituitary,1989,90f9c3ae53a34de694c55059329be834,1,2
+train,pi_p_504_45587e.jpg,Train/Pituitary/images/p (504).jpg,Train,Pituitary,1990,45587ea3aba61eed50a07b81acf021ed,1,2
+train,pi_p_505_69d9ff.jpg,Train/Pituitary/images/p (505).jpg,Train,Pituitary,1990,69d9ffd57d7fdbc68bc178f266ffdefc,1,2
+train,pi_p_507_dcc35a.jpg,Train/Pituitary/images/p (507).jpg,Train,Pituitary,1990,dcc35abc8fcb327942b24d5fe2a19601,1,2
+train,pi_p_56_c70d2b.jpg,Train/Pituitary/images/p (56).jpg,Train,Pituitary,1806,c70d2b7ad5446536ef55d4cbe26e2cc0,2,2
+train,pi_p_573_c498ad.jpg,Train/Pituitary/images/p (573).jpg,Train,Pituitary,1808,c498adbb77a2bee57baef968d71230f4,1,2
+train,pi_p_575_dc9baf.jpg,Train/Pituitary/images/p (575).jpg,Train,Pituitary,1808,dc9bafc905b94e812df689a59d6945f0,1,2
+train,pi_p_576_8f6478.jpg,Train/Pituitary/images/p (576).jpg,Train,Pituitary,1808,8f6478b364633513a4e83ae6ac7b9dc5,1,2
+train,pi_p_577_0b09ca.jpg,Train/Pituitary/images/p (577).jpg,Train,Pituitary,1997,0b09caa0fbd3cc55eba640c8c49b2010,1,2
+train,pi_p_584_4e4052.jpg,Train/Pituitary/images/p (584).jpg,Train,Pituitary,1999,4e40529acd13ce706ffe973191986ca9,1,2
+train,pi_p_58_209262.jpg,Train/Pituitary/images/p (58).jpg,Train,Pituitary,1806,2092626d48d87e9339fab7d1c4c4ac1a,1,2
+train,pi_p_603_1e42dc.jpg,Train/Pituitary/images/p (603).jpg,Train,Pituitary,1655,1e42dcef2fdbe33f2c937508bf11b88d,1,2
+train,pi_p_611_e004a4.jpg,Train/Pituitary/images/p (611).jpg,Train,Pituitary,1656,e004a4fe5b219a898cd6fa61d9c8706d,1,2
+train,pi_p_612_e71ae7.jpg,Train/Pituitary/images/p (612).jpg,Train,Pituitary,1656,e71ae7bbb3386646a1459e5ed4655c75,1,2
+train,pi_p_660_209de8.jpg,Train/Pituitary/images/p (660).jpg,Train,Pituitary,1824,209de8d8dcd6fb5fa9c5f71ebac03c0f,1,2
+train,pi_p_661_af400a.jpg,Train/Pituitary/images/p (661).jpg,Train,Pituitary,1824,af400abcb33c1d5c68bbfdc75666aa3f,1,2
+train,pi_p_677_70dcff.jpg,Train/Pituitary/images/p (677).jpg,Train,Pituitary,1826,70dcff3f12be3d0e595b33385709dfde,1,2
+train,pi_p_699_0d1551.jpg,Train/Pituitary/images/p (699).jpg,Train,Pituitary,1666,0d1551cac77563ae4fcbd36368b3f974,1,2
+train,pi_p_709_6a60c4.jpg,Train/Pituitary/images/p (709).jpg,Train,Pituitary,1831,6a60c4903b6518ab0a94985ca5a205bd,1,2
+train,pi_p_711_9b5020.jpg,Train/Pituitary/images/p (711).jpg,Train,Pituitary,1831,9b5020b95f2bde4b413e347e997bcf8d,1,2
+train,pi_p_719_286ee4.jpg,Train/Pituitary/images/p (719).jpg,Train,Pituitary,1668,286ee4dc6ff9c7881afc0f0988c183a0,1,2
+train,pi_p_720_e731d8.jpg,Train/Pituitary/images/p (720).jpg,Train,Pituitary,1668,e731d89b2f46aa558517dbd5fdab5ebb,1,2
+train,pi_p_744_abe9d6.jpg,Train/Pituitary/images/p (744).jpg,Train,Pituitary,1671,abe9d61e5d4912718fd44e6fb768a330,1,2
+train,pi_p_746_9309ea.jpg,Train/Pituitary/images/p (746).jpg,Train,Pituitary,1671,9309ea52242d9172f04f9c5ab076c843,1,2
+train,pi_p_748_b2f460.jpg,Train/Pituitary/images/p (748).jpg,Train,Pituitary,1672,b2f46088cb8b97bad9455d452dfadd96,1,2
+train,pi_p_74_ffcdf9.jpg,Train/Pituitary/images/p (74).jpg,Train,Pituitary,2005,ffcdf912201b6d4ae5ed87e1b7bc0e2f,1,2
+train,pi_p_750_bd93ce.jpg,Train/Pituitary/images/p (750).jpg,Train,Pituitary,1672,bd93ce215391ea5c66e125a9587f42b4,1,2
+train,pi_p_751_667db1.jpg,Train/Pituitary/images/p (751).jpg,Train,Pituitary,2006,667db113b8954435f1ceab3122f5b296,2,2
+train,pi_p_75_a12733.jpg,Train/Pituitary/images/p (75).jpg,Train,Pituitary,2005,a127331d8eb16a3476ae8d68c25e792c,1,2
+train,pi_p_767_69734c.jpg,Val/Pituitary/images/p (767).jpg,Val,Pituitary,2139,69734cadea1d067a4e1350444788f1f7,1,2
+train,pi_p_774_04cc25.jpg,Train/Pituitary/images/p (774).jpg,Train,Pituitary,2009,04cc2589b2eefe0bb0517edb65aab879,1,2
+train,pi_p_82_8c03f4.jpg,Train/Pituitary/images/p (82).jpg,Train,Pituitary,2015,8c03f4a6096e16d6ece59b10ae822f69,1,2
+train,pi_p_83_abbf20.jpg,Train/Pituitary/images/p (83).jpg,Train,Pituitary,2015,abbf2007117a27593eb146c5d9310cfc,1,2
+train,pi_p_87_e6bf67.jpg,Train/Pituitary/images/p (87).jpg,Train,Pituitary,2015,e6bf670ed6df076faa4f4b79c803d1cb,2,2
+train,pi_p_98_025e05.jpg,Train/Pituitary/images/p (98).jpg,Train,Pituitary,1684,025e0598ddd1b6352639e3179abec3b0,1,2
+train,pi_p_99_c27674.jpg,Train/Pituitary/images/p (99).jpg,Train,Pituitary,1684,c27674cd26e0b87c48e9c103bb68f3c8,1,2
+val,gl_Te_gl_0027_5a5bd4.jpg,Train/Glioma/images/Te-gl_0027.jpg,Train,Glioma,10,5a5bd45bee7bf9c0f3d7015817aa4e37,2,0
+val,gl_Te_gl_0030_5010cc.jpg,Train/Glioma/images/Te-gl_0030.jpg,Train,Glioma,12,5010cccfc40358013c4605bb99bd2d00,1,0
+val,gl_Te_gl_0224_d2da74.jpg,Train/Glioma/images/Te-gl_0224.jpg,Train,Glioma,66,d2da74529f8660d4b0a5dbcc05fffb84,1,0
+val,gl_Te_gl_0236_350894.jpg,Train/Glioma/images/Te-gl_0236.jpg,Train,Glioma,12,350894952553ff064db7d56311912f8f,1,0
+val,gl_Te_gl_0261_daabdb.jpg,Train/Glioma/images/Te-gl_0261.jpg,Train,Glioma,80,daabdb4c5a01385db0fefad0380242b1,1,0
+val,gl_Tr_gl_0047_50f5b3.jpg,Train/Glioma/images/Tr-gl_0047.jpg,Train,Glioma,111,50f5b3aeb49c7cc0dfae43c89174ff40,2,0
+val,gl_Tr_gl_0163_78d5b9.jpg,Train/Glioma/images/Tr-gl_0163.jpg,Train,Glioma,135,78d5b9cf36c0ba68a72c6163990351b1,1,0
+val,gl_Tr_gl_0164_a962d0.jpg,Train/Glioma/images/Tr-gl_0164.jpg,Train,Glioma,135,a962d0df04185c5b26d6c381ac9fdd9a,1,0
+val,gl_Tr_gl_0400_58acdf.jpg,Val/Glioma/images/Tr-gl_0400.jpg,Val,Glioma,164,58acdf9a2291765ec0c73c918d795d35,1,0
+val,gl_Tr_gl_0401_2a124d.jpg,Train/Glioma/images/Tr-gl_0401.jpg,Train,Glioma,164,2a124d08d275c54506a10c3534982747,1,0
+val,gl_Tr_gl_0402_ca0d6d.jpg,Val/Glioma/images/Tr-gl_0402.jpg,Val,Glioma,164,ca0d6da297cfc274f7aef2ee475f0806,1,0
+val,gl_Tr_gl_0428_300989.jpg,Train/Glioma/images/Tr-gl_0428.jpg,Train,Glioma,167,30098901b369f6eac1f2648d416e3f19,1,0
+val,gl_Tr_gl_0553_f89db1.jpg,Train/Glioma/images/Tr-gl_0553.jpg,Train,Glioma,188,f89db17e42333d0a882c714d60603f1b,1,0
+val,gl_Tr_gl_0554_bfaea9.jpg,Train/Glioma/images/Tr-gl_0554.jpg,Train,Glioma,188,bfaea9f848c09324e86fe63bd28624ba,1,0
+val,gl_Tr_gl_0689_190cc4.jpg,Train/Glioma/images/Tr-gl_0689.jpg,Train,Glioma,214,190cc4b8e832f9ea225726d186c8c36d,1,0
+val,gl_Tr_gl_0915_66d49a.jpg,Train/Glioma/images/Tr-gl_0915.jpg,Train,Glioma,227,66d49abde1c10364f06d75dcf564165a,1,0
+val,gl_Tr_gl_0932_5f4584.jpg,Train/Glioma/images/Tr-gl_0932.jpg,Train,Glioma,231,5f4584866c1cb8845aea93c36dd43185,1,0
+val,gl_Tr_gl_0936_ebb26d.jpg,Train/Glioma/images/Tr-gl_0936.jpg,Train,Glioma,232,ebb26da59a85bda7e9d336a574c29653,1,0
+val,gl_Tr_gl_1019_979091.jpg,Train/Glioma/images/Tr-gl_1019.jpg,Train,Glioma,267,9790913f6fad6eb81c007eca925b8fba,1,0
+val,gl_Tr_gl_1029_499077.jpg,Train/Glioma/images/Tr-gl_1029.jpg,Train,Glioma,272,4990777e0d5c238e09503a9eaa02baf4,1,0
+val,gl_Tr_gl_1030_3b32ae.jpg,Train/Glioma/images/Tr-gl_1030.jpg,Train,Glioma,272,3b32ae80dc3fffa02e6f694a7d929aec,1,0
+val,gl_Tr_gl_1045_12de1c.jpg,Train/Glioma/images/Tr-gl_1045.jpg,Train,Glioma,278,12de1cf81baff27873b396af4df38e47,1,0
+val,gl_Tr_gl_1102_716f81.jpg,Train/Glioma/images/Tr-gl_1102.jpg,Train,Glioma,287,716f8107c593ca86a61768ed7bcdb83e,1,0
+val,gl_Tr_gl_1104_4fbc7e.jpg,Train/Glioma/images/Tr-gl_1104.jpg,Train,Glioma,289,4fbc7e2f019aed6376623be142cb0647,1,0
+val,gl_Tr_gl_1120_3d1051.jpg,Train/Glioma/images/Tr-gl_1120.jpg,Train,Glioma,291,3d1051c4429fcb8cd0e70b5c31f169ca,1,0
+val,gl_Tr_gl_1130_a29492.jpg,Val/Glioma/images/Tr-gl_1130.jpg,Val,Glioma,2025,a294924aa8ce485db06c12f92ba9518b,1,0
+val,gl_Tr_gl_1140_ee9fc8.jpg,Train/Glioma/images/Tr-gl_1140.jpg,Train,Glioma,296,ee9fc86baae4b272ef1b2bb4f4c739b3,1,0
+val,gl_Tr_gl_1141_65cb54.jpg,Val/Glioma/images/Tr-gl_1141.jpg,Val,Glioma,296,65cb540db04b594c5d2036e9a0ec1da8,1,0
+val,gl_Tr_gl_1155_53d01e.jpg,Train/Glioma/images/Tr-gl_1155.jpg,Train,Glioma,69,53d01e530faa0807d05d74ef37ee391c,1,0
+val,gl_Tr_gl_1156_fe5a94.jpg,Val/Glioma/images/Tr-gl_1156.jpg,Val,Glioma,69,fe5a94e4016d3f43f89d9276b850f664,1,0
+val,gl_Tr_gl_1157_320fae.jpg,Train/Glioma/images/Tr-gl_1157.jpg,Train,Glioma,69,320fae9ab99d2594410dd97ef594572e,1,0
+val,gl_Tr_gl_1197_8877bc.jpg,Train/Glioma/images/Tr-gl_1197.jpg,Train,Glioma,315,8877bc54e2d170b015cdfdc115531931,1,0
+val,gl_gg_218_04c9ba.jpg,Train/Glioma/images/gg (218).jpg,Train,Glioma,421,04c9bad009208efc25fbe4b03379231e,1,0
+val,gl_gg_219_8ffdfc.jpg,Train/Glioma/images/gg (219).jpg,Train,Glioma,421,8ffdfc735df4216cf27d6b2f7d2d3c59,1,0
+val,gl_gg_233_c9eb4a.jpg,Train/Glioma/images/gg (233).jpg,Train,Glioma,431,c9eb4a28cf8403be32a32c1062a9d14b,1,0
+val,gl_gg_268_a7b1d4.jpg,Train/Glioma/images/gg (268).jpg,Train,Glioma,459,a7b1d41d3d14f7b6ce902243f24b1406,1,0
+val,gl_gg_393_3d8b0e.jpg,Train/Glioma/images/gg (393).jpg,Train,Glioma,500,3d8b0ed935cbd62589361bb64c36b600,1,0
+val,gl_gg_415_e15bbc.jpg,Train/Glioma/images/gg (415).jpg,Train,Glioma,509,e15bbcb0d089b5cc126132370c9240f4,2,0
+val,gl_gg_45_b6698e.jpg,Val/Glioma/images/gg (45).jpg,Val,Glioma,534,b6698e8f61975c9668a2c7562eb5fb1b,1,0
+val,gl_gg_46_1bf31c.jpg,Train/Glioma/images/gg (46).jpg,Train,Glioma,534,1bf31c8c9f9e2f109c543f6898728bc6,1,0
+val,gl_gg_47_0fd7a8.jpg,Val/Glioma/images/gg (47).jpg,Val,Glioma,534,0fd7a8d29c5818423af378e1ab6ad95d,1,0
+val,gl_gg_504_560406.jpg,Train/Glioma/images/gg (504).jpg,Train,Glioma,551,5604069e39088506844e3ff66dd75fde,1,0
+val,gl_gg_505_666b83.jpg,Val/Glioma/images/gg (505).jpg,Val,Glioma,551,666b838054fd7e375467097da27f99b2,1,0
+val,gl_gg_506_456d38.jpg,Val/Glioma/images/gg (506).jpg,Val,Glioma,551,456d38ff33cef03e54bdbf648575086c,1,0
+val,gl_gg_50_5d96ad.jpg,Train/Glioma/images/gg (50).jpg,Train,Glioma,548,5d96adb244a5838f0a38536100210a64,1,0
+val,gl_gg_520_5c1ecb.jpg,Val/Glioma/images/gg (520).jpg,Val,Glioma,2055,5c1ecb66d936331bbdf762b1eec36296,2,0
+val,gl_gg_54_38fac8.jpg,Val/Glioma/images/gg (54).jpg,Val,Glioma,2057,38fac8ffda567a4043f82ebc77146cbe,1,0
+val,gl_gg_639_814cd3.jpg,Train/Glioma/images/gg (639).jpg,Train,Glioma,10,814cd3caeb600b847ce76fd07ff7323c,1,0
+val,gl_gg_640_029fc7.jpg,Train/Glioma/images/gg (640).jpg,Train,Glioma,10,029fc7f34433fc5df3399425380030e3,1,0
+val,gl_gg_670_1277b8.jpg,Train/Glioma/images/gg (670).jpg,Train,Glioma,586,1277b8814b4ffe45c8b5f1081f1a4d13,1,0
+val,gl_gg_671_4dcabe.jpg,Train/Glioma/images/gg (671).jpg,Train,Glioma,586,4dcabe886f99ea03f42b10066b9f3503,1,0
+val,gl_gg_796_7cb79a.jpg,Train/Glioma/images/gg (796).jpg,Train,Glioma,616,7cb79a014aed05a6e36abc57eceb5b1b,1,0
+val,gl_gg_84_4edd04.jpg,Train/Glioma/images/gg (84).jpg,Train,Glioma,624,4edd04b662312704dc1727ac497d7436,2,0
+val,me_Tr_me_0032_f229db.jpg,Train/Meningioma/images/Tr-me_0032.jpg,Train,Meningioma,637,f229dbf08b15a10bbeb02cc5664f0e7b,1,1
+val,me_Tr_me_0120_dec9db.jpg,Train/Meningioma/images/Tr-me_0120.jpg,Train,Meningioma,668,dec9dbdf02f56e0bc68a277f3a4eb80e,1,1
+val,me_Tr_me_0131_d810c7.jpg,Train/Meningioma/images/Tr-me_0131.jpg,Train,Meningioma,668,d810c7f8c37566e4b01be637d2f0de6c,1,1
+val,me_Tr_me_0138_40f266.jpg,Train/Meningioma/images/Tr-me_0138.jpg,Train,Meningioma,672,40f266b177b75cad650cb55b3ac2c521,1,1
+val,me_Tr_me_0140_d10d6c.jpg,Train/Meningioma/images/Tr-me_0140.jpg,Train,Meningioma,672,d10d6c9613ae753fcae8db563464b939,1,1
+val,me_Tr_me_0178_6970ea.jpg,Train/Meningioma/images/Tr-me_0178.jpg,Train,Meningioma,688,6970ea1e4ca82e1f2093bc3369a67d78,1,1
+val,me_Tr_me_0235_c5f2c0.jpg,Train/Meningioma/images/Tr-me_0235.jpg,Train,Meningioma,714,c5f2c0a999fa7cfcdaaca8989ce56c98,1,1
+val,me_Tr_me_0402_64965a.jpg,Train/Meningioma/images/Tr-me_0402.jpg,Train,Meningioma,748,64965ac07db0e5a6226a93e988ae3ed9,1,1
+val,me_Tr_me_0507_5dfb3a.jpg,Train/Meningioma/images/Tr-me_0507.jpg,Train,Meningioma,791,5dfb3ace8add4d989e23e11888734d4e,1,1
+val,me_Tr_me_0521_c18795.jpg,Train/Meningioma/images/Tr-me_0521.jpg,Train,Meningioma,799,c1879542ddaf5854c11b17a4b939da3c,1,1
+val,me_Tr_me_0552_79c64f.jpg,Train/Meningioma/images/Tr-me_0552.jpg,Train,Meningioma,816,79c64f112b7fbee617ce5044125dbb99,1,1
+val,me_Tr_me_0553_d1a113.jpg,Train/Meningioma/images/Tr-me_0553.jpg,Train,Meningioma,817,d1a1137f23b47f98b5781761d833950a,1,1
+val,me_Tr_me_0600_31fc51.jpg,Train/Meningioma/images/Tr-me_0600.jpg,Train,Meningioma,844,31fc514e6e5cf7caf9d9f031a1f88cd7,1,1
+val,me_Tr_me_0607_53711b.jpg,Train/Meningioma/images/Tr-me_0607.jpg,Train,Meningioma,848,53711b8dd8df01042a9bc841bcc732a6,1,1
+val,me_Tr_me_0647_cac447.jpg,Train/Meningioma/images/Tr-me_0647.jpg,Train,Meningioma,868,cac4470ca8ae2e3306324adc23be571d,1,1
+val,me_Tr_me_0653_adc276.jpg,Train/Meningioma/images/Tr-me_0653.jpg,Train,Meningioma,872,adc276f9f227ce4d53d7ad14ee96124b,1,1
+val,me_Tr_me_0680_e6406a.jpg,Train/Meningioma/images/Tr-me_0680.jpg,Train,Meningioma,888,e6406a5b79badcfdb32fe76a4e6bc230,1,1
+val,me_Tr_me_0684_c72f49.jpg,Train/Meningioma/images/Tr-me_0684.jpg,Train,Meningioma,892,c72f49a7c814ba35aff54ea2d07df31d,1,1
+val,me_Tr_me_0698_47d0da.jpg,Train/Meningioma/images/Tr-me_0698.jpg,Train,Meningioma,899,47d0da77bfedba8d8c2e0bbe228145e7,1,1
+val,me_Tr_me_0702_737e8e.jpg,Train/Meningioma/images/Tr-me_0702.jpg,Train,Meningioma,901,737e8efab7b8b126dab948da35f92683,1,1
+val,me_Tr_me_0746_b4c5d0.jpg,Train/Meningioma/images/Tr-me_0746.jpg,Train,Meningioma,920,b4c5d04d2093c702cfeeae4aef7b6214,1,1
+val,me_Tr_me_0759_4a239d.jpg,Train/Meningioma/images/Tr-me_0759.jpg,Train,Meningioma,928,4a239db4d6da652cfbb820008037a8bd,1,1
+val,me_Tr_me_0815_dc2aa2.jpg,Train/Meningioma/images/Tr-me_0815.jpg,Train,Meningioma,955,dc2aa28f98a3573e08476f7165877f21,1,1
+val,me_Tr_me_0840_5fdd2e.jpg,Train/Meningioma/images/Tr-me_0840.jpg,Train,Meningioma,962,5fdd2ea97458b88cd308cdd1cc7f2e49,1,1
+val,me_Tr_me_0862_54e6cc.jpg,Train/Meningioma/images/Tr-me_0862.jpg,Train,Meningioma,969,54e6cc591f204f7165a6669a73a1804c,1,1
+val,me_Tr_me_0863_eac832.jpg,Train/Meningioma/images/Tr-me_0863.jpg,Train,Meningioma,969,eac832c196ab9ef0c7765aa1e5326f48,1,1
+val,me_Tr_me_0940_207312.jpg,Train/Meningioma/images/Tr-me_0940.jpg,Train,Meningioma,1006,20731256195c21e5eb8409248e44b62f,1,1
+val,me_Tr_me_1012_5883c0.jpg,Train/Meningioma/images/Tr-me_1012.jpg,Train,Meningioma,1036,5883c051a9c044023c1bf31a78d6cf91,1,1
+val,me_Tr_me_1035_4784a5.jpg,Train/Meningioma/images/Tr-me_1035.jpg,Train,Meningioma,1050,4784a5cdb19e6bb2aab8e9a0758a2892,1,1
+val,me_Tr_me_1073_c092ae.jpg,Train/Meningioma/images/Tr-me_1073.jpg,Train,Meningioma,1067,c092ae4d98d2a920176bb0aa94d446ed,1,1
+val,me_Tr_me_1146_5d8860.jpg,Train/Meningioma/images/Tr-me_1146.jpg,Train,Meningioma,1103,5d8860cb810f0fcdbd9d978eeedc89ee,1,1
+val,me_Tr_me_1231_4c1d55.jpg,Train/Meningioma/images/Tr-me_1231.jpg,Train,Meningioma,1149,4c1d55e4ed16ed2f7ccfed8be935c530,1,1
+val,me_Tr_me_1235_a84e00.jpg,Val/Meningioma/images/Tr-me_1235.jpg,Val,Meningioma,2074,a84e00b771c06f42744353d70aad1aa6,1,1
+val,me_m1_152_81d75e.jpg,Train/Meningioma/images/m1(152).jpg,Train,Meningioma,1232,81d75ed803855c42170b2350fd76c5b7,1,1
+val,me_m1_182_bc13bd.jpg,Train/Meningioma/images/m1(182).jpg,Train,Meningioma,1242,bc13bdda7abe567471c96696ca0a85ea,1,1
+val,me_m1_191_b4bd91.jpg,Train/Meningioma/images/m1(191).jpg,Train,Meningioma,1247,b4bd91a63fbf5728851decd9e867aa20,1,1
+val,me_m1_44_56eeb1.jpg,Train/Meningioma/images/m1(44).jpg,Train,Meningioma,1266,56eeb1cc1160102342ebbc00c2f497f7,1,1
+val,me_m1_47_96f2d8.jpg,Train/Meningioma/images/m1(47).jpg,Train,Meningioma,1266,96f2d8cdddd202797bf745485378d52f,1,1
+val,me_m1_49_6ea4e2.jpg,Train/Meningioma/images/m1(49).jpg,Train,Meningioma,1266,6ea4e2fcc69e8394ce34c8256cabe049,1,1
+val,me_m1_68_4a7a02.jpg,Train/Meningioma/images/m1(68).jpg,Train,Meningioma,1277,4a7a0241f329fd3a77e85af3c52277f4,1,1
+val,me_m2_52_628100.jpg,Train/Meningioma/images/m2 (52).jpg,Train,Meningioma,1293,628100a306b30a6859c520b50851de12,1,1
+val,me_m2_56_77d54f.jpg,Train/Meningioma/images/m2 (56).jpg,Train,Meningioma,1295,77d54faf3252e578192985de0b8b5daa,1,1
+val,me_m3_132_f08aab.jpg,Train/Meningioma/images/m3 (132).jpg,Train,Meningioma,1305,f08aabf9cf97d6d305ea86b21ea2c89f,1,1
+val,me_m3_14_3f541f.jpg,Train/Meningioma/images/m3 (14).jpg,Train,Meningioma,1309,3f541ffee83deff715601bc95d12929e,1,1
+val,me_m3_21_0e56e0.jpg,Train/Meningioma/images/m3 (21).jpg,Train,Meningioma,1331,0e56e0bf0ef70c65b7526c7f16337115,1,1
+val,me_m3_230_16c920.jpg,Train/Meningioma/images/m3 (230).jpg,Train,Meningioma,1334,16c920c022d84e8f7e815899c21cb177,1,1
+val,me_m3_41_1fd091.jpg,Train/Meningioma/images/m3 (41).jpg,Train,Meningioma,1349,1fd091646c59840b25ad17768dabe001,1,1
+val,me_m3_68_4d05cc.jpg,Train/Meningioma/images/m3 (68).jpg,Train,Meningioma,1359,4d05ccfcff306d08eb83f593ea22f42a,1,1
+val,me_m_201_f0d00c.jpg,Train/Meningioma/images/m (201).jpg,Train,Meningioma,1196,f0d00c23ca029d2383805888eec12f64,1,1
+val,me_m_4_3e3326.jpg,Train/Meningioma/images/m (4).jpg,Train,Meningioma,1200,3e3326be368c6318f3592d9131b2bf17,1,1
+val,me_m_67_ba11ff.jpg,Train/Meningioma/images/m (67).jpg,Train,Meningioma,672,ba11ff2135d9c60ad583d71fb86a801d,1,1
+val,me_m_7_afd1de.jpg,Train/Meningioma/images/m (7).jpg,Train,Meningioma,668,afd1defa35d35be573edd6d85db3088d,1,1
+val,no_Tr_no_0049_161079.jpg,Val/No Tumor/images/Tr-no_0049.jpg,Val,No Tumor,2088,161079c84cf9c4d249f1550b210ad227,0,
+val,no_Tr_no_0178_55bc23.jpg,Val/No Tumor/images/Tr-no_0178.jpg,Val,No Tumor,1574,55bc232802b2c8122e875919c6ccbcfa,0,
+val,no_Tr_no_0314_26db07.jpg,Train/No Tumor/images/Tr-no_0314.jpg,Train,No Tumor,1436,26db07a732a8dc8659b8a1e7d9df4d97,0,
+val,no_Tr_no_0419_7b0494.jpg,Train/No Tumor/images/Tr-no_0419.jpg,Train,No Tumor,1449,7b0494c300f1eb9ed3b55ef1c715db74,0,
+val,no_Tr_no_0481_a0a5d2.jpg,Train/No Tumor/images/Tr-no_0481.jpg,Train,No Tumor,1467,a0a5d277244205e68bbb70073837d5f1,0,
+val,no_Tr_no_0499_51deaa.jpg,Train/No Tumor/images/Tr-no_0499.jpg,Train,No Tumor,1471,51deaae698ce5ef826679a4b243219b1,0,
+val,no_Tr_no_0515_3a7809.jpg,Train/No Tumor/images/Tr-no_0515.jpg,Train,No Tumor,1474,3a78092a0aad3cce032ef34c559fa343,0,
+val,no_Tr_no_0528_d2bf9b.jpg,Train/No Tumor/images/Tr-no_0528.jpg,Train,No Tumor,1478,d2bf9b4b26f582755c413f49713aa096,0,
+val,no_Tr_no_0532_aead5a.jpg,Val/No Tumor/images/Tr-no_0532.jpg,Val,No Tumor,2092,aead5a250295abad3594f474bf6aec9e,0,
+val,no_Tr_no_0547_02e13b.jpg,Train/No Tumor/images/Tr-no_0547.jpg,Train,No Tumor,1482,02e13b0f5d022f8b668a098e355a2687,0,
+val,no_Tr_no_0570_6124c8.jpg,Train/No Tumor/images/Tr-no_0570.jpg,Train,No Tumor,1482,6124c8062de1213b0c506b62b8054252,0,
+val,no_Tr_no_0572_a0cf78.jpg,Train/No Tumor/images/Tr-no_0572.jpg,Train,No Tumor,1370,a0cf78c17b7d5af66b1248afdb69a1cd,0,
+val,no_Tr_no_0577_61e676.jpg,Train/No Tumor/images/Tr-no_0577.jpg,Train,No Tumor,1471,61e676baf05abcdf63de77990e42e059,0,
+val,no_Tr_no_0628_95ca29.jpg,Train/No Tumor/images/Tr-no_0628.jpg,Train,No Tumor,1497,95ca29ffc6b31852b41c19dac3ce46ad,0,
+val,no_Tr_no_0672_b62f35.jpg,Train/No Tumor/images/Tr-no_0672.jpg,Train,No Tumor,1474,b62f35eb6d7157ee89335243367761f1,0,
+val,no_Tr_no_0675_f98f1a.jpg,Train/No Tumor/images/Tr-no_0675.jpg,Train,No Tumor,1501,f98f1aefd1d86bd6accbd76511fd9081,0,
+val,no_Tr_no_0746_b0a695.jpg,Train/No Tumor/images/Tr-no_0746.jpg,Train,No Tumor,1370,b0a6951b92aa859847f0f6d1cd959537,0,
+val,no_Tr_no_0751_c07735.jpg,Train/No Tumor/images/Tr-no_0751.jpg,Train,No Tumor,1471,c07735308845e8cd9bccb2faf612d456,0,
+val,no_Tr_no_0795_793e29.jpg,Train/No Tumor/images/Tr-no_0795.jpg,Train,No Tumor,1370,793e29fa0d0944c1742c86e1a7bc877a,0,
+val,no_Tr_no_0955_5a4d85.jpg,Train/No Tumor/images/Tr-no_0955.jpg,Train,No Tumor,1509,5a4d851748a37166340f438a6c29c54f,0,
+val,no_Tr_no_1084_93d4bb.jpg,Train/No Tumor/images/Tr-no_1084.jpg,Train,No Tumor,1514,93d4bba38c027c84aee1f2a001e685a4,0,
+val,no_Tr_no_1113_43a7b1.jpg,Train/No Tumor/images/Tr-no_1113.jpg,Train,No Tumor,1482,43a7b114cc14ecb127e3feb427e8a2dc,0,
+val,no_Tr_no_1114_25faac.jpg,Train/No Tumor/images/Tr-no_1114.jpg,Train,No Tumor,1516,25faac854458973ea07975165f80c035,0,
+val,no_Tr_no_1133_1b2d32.jpg,Train/No Tumor/images/Tr-no_1133.jpg,Train,No Tumor,1517,1b2d322078b0e4fe2357333142491edd,0,
+val,no_Tr_no_1213_e01c3d.jpg,Train/No Tumor/images/Tr-no_1213.jpg,Train,No Tumor,1501,e01c3de160daf3552a43b39951573283,0,
+val,no_Tr_no_1219_898144.jpg,Train/No Tumor/images/Tr-no_1219.jpg,Train,No Tumor,1474,89814495e863126d591a7b47090efd7a,0,
+val,no_Tr_no_1329_0e43b4.jpg,Train/No Tumor/images/Tr-no_1329.jpg,Train,No Tumor,1509,0e43b455db097ad74940603293580d14,0,
+val,no_image_105_ddc6fd.jpg,Train/No Tumor/images/image(105).jpg,Train,No Tumor,1547,ddc6fd51d45cb3a708c10fb921485ce9,0,
+val,no_image_119_505fa0.jpg,Train/No Tumor/images/image(119).jpg,Train,No Tumor,1554,505fa0f6548ddc2720ec422ea7b9ac36,0,
+val,no_image_174_bdad00.jpg,Train/No Tumor/images/image(174).jpg,Train,No Tumor,1574,bdad00de17000453a6986b7064548f21,0,
+val,no_image_190_1f6dfa.jpg,Train/No Tumor/images/image(190).jpg,Train,No Tumor,1581,1f6dfa12ce7c3c884d7e2a5a9b802e65,0,
+val,no_image_214_792fae.jpg,Val/No Tumor/images/image(214).jpg,Val,No Tumor,2096,792fae23c6cb29875f3b74d1337f197a,0,
+val,no_image_233_59b7c5.jpg,Train/No Tumor/images/image(233).jpg,Train,No Tumor,1597,59b7c567c4721c98531ff66c9bc484ee,0,
+val,no_image_240_2979f0.jpg,Train/No Tumor/images/image(240).jpg,Train,No Tumor,1599,2979f0422f022037f032b69fda8cbcba,0,
+val,no_image_243_45d9d8.jpg,Train/No Tumor/images/image(243).jpg,Train,No Tumor,1600,45d9d86e82aba98bf0ab19f33a5a8f5c,0,
+val,no_image_262_0f4f52.jpg,Train/No Tumor/images/image(262).jpg,Train,No Tumor,1607,0f4f52fdf26e4689daa7eff79a2e17ba,0,
+val,no_image_299_fdd974.jpg,Train/No Tumor/images/image(299).jpg,Train,No Tumor,1620,fdd97467cf80bd5546b940765620ea96,0,
+val,no_image_3_ab557c.jpg,Val/No Tumor/images/image(3).jpg,Val,No Tumor,1635,ab557cb36fe189781cb124e8119945b1,0,
+val,no_image_52_1b1e28.jpg,Train/No Tumor/images/image (52).jpg,Train,No Tumor,1541,1b1e28388b7c7f2ad38d65480a08d6c1,0,
+val,no_image_52_c03743.jpg,Train/No Tumor/images/image(52).jpg,Train,No Tumor,1635,c03743fd455214695410b07a45445df6,0,
+val,no_image_58_2a24c3.jpg,Train/No Tumor/images/image (58).jpg,Train,No Tumor,1544,2a24c37fe4b7a2244a110e1b0f759a64,0,
+val,no_image_58_855c40.jpg,Train/No Tumor/images/image(58).jpg,Train,No Tumor,1637,855c4050a3a928dd2f2ee9f800cb8873,0,
+val,no_image_80_37fc92.jpg,Val/No Tumor/images/image(80).jpg,Val,No Tumor,2109,37fc92773f176bc7552b147b56889ebf,0,
+val,no_image_91_c447fd.jpg,Train/No Tumor/images/image(91).jpg,Train,No Tumor,1646,c447fd25166699ce8984ddf18b0f55a2,0,
+val,no_image_9_b39053.jpg,Val/No Tumor/images/image (9).jpg,Val,No Tumor,2096,b3905360b422866cc9fd7ab95900f822,0,
+val,pi_Te_pi_0030_32df1d.jpg,Train/Pituitary/images/Te-pi_0030.jpg,Train,Pituitary,1663,32df1d85b60fd7224c1f509c8871f4a0,1,2
+val,pi_Te_pi_0064_c257d5.jpg,Train/Pituitary/images/Te-pi_0064.jpg,Train,Pituitary,1681,c257d5c468ffc8eba7d9c60061a5bad6,1,2
+val,pi_Tr_pi_0102_047ef9.jpg,Train/Pituitary/images/Tr-pi_0102.jpg,Train,Pituitary,1711,047ef95470b8ae6d1d3ab41f11d31f90,1,2
+val,pi_Tr_pi_0173_b5077d.jpg,Train/Pituitary/images/Tr-pi_0173.jpg,Train,Pituitary,1727,b5077d81490086cdb53ac47cfa8d340f,1,2
+val,pi_Tr_pi_0175_7e1b7f.jpg,Train/Pituitary/images/Tr-pi_0175.jpg,Train,Pituitary,1727,7e1b7fd5f766fe2dff2b0927fc077b6c,1,2
+val,pi_Tr_pi_0178_36cfb3.jpg,Train/Pituitary/images/Tr-pi_0178.jpg,Train,Pituitary,1728,36cfb3430d88d059f78823c4668f150d,1,2
+val,pi_Tr_pi_0180_1ffff0.jpg,Train/Pituitary/images/Tr-pi_0180.jpg,Train,Pituitary,1727,1ffff01d0c49e8e462618fe2e625cbe2,1,2
+val,pi_Tr_pi_0200_307fee.jpg,Train/Pituitary/images/Tr-pi_0200.jpg,Train,Pituitary,1728,307feec9aa5363b7e4d649de4bda8955,1,2
+val,pi_Tr_pi_0206_9220ca.jpg,Train/Pituitary/images/Tr-pi_0206.jpg,Train,Pituitary,1733,9220ca9023e74a57fd1f0535d12373fa,1,2
+val,pi_Tr_pi_0223_3087dd.jpg,Train/Pituitary/images/Tr-pi_0223.jpg,Train,Pituitary,1739,3087dd86997b974309f0a2acd70ef599,1,2
+val,pi_Tr_pi_0493_eac7df.jpg,Train/Pituitary/images/Tr-pi_0493.jpg,Train,Pituitary,1799,eac7dfb175117a32cf94a109c4cfc6bf,1,2
+val,pi_Tr_pi_0514_2e70eb.jpg,Train/Pituitary/images/Tr-pi_0514.jpg,Train,Pituitary,1799,2e70eb8c2a3cd668c9ee302d71898b81,1,2
+val,pi_Tr_pi_0543_d09c1b.jpg,Train/Pituitary/images/Tr-pi_0543.jpg,Train,Pituitary,1739,d09c1bab08bc4c26c15b48160c065db9,1,2
+val,pi_Tr_pi_0592_f870dd.jpg,Train/Pituitary/images/Tr-pi_0592.jpg,Train,Pituitary,1823,f870dd47f847ac5a15c13627a866c6db,1,2
+val,pi_Tr_pi_0593_f3b1b4.jpg,Train/Pituitary/images/Tr-pi_0593.jpg,Train,Pituitary,1823,f3b1b408b379e96e2284aceddd98fc16,1,2
+val,pi_Tr_pi_0615_53cfe0.jpg,Train/Pituitary/images/Tr-pi_0615.jpg,Train,Pituitary,1663,53cfe0131c8a47fc8c7102af1abbda0b,1,2
+val,pi_Tr_pi_0629_8fa9a4.jpg,Train/Pituitary/images/Tr-pi_0629.jpg,Train,Pituitary,1828,8fa9a4d352375e1c0827508a3e9aab3d,1,2
+val,pi_Tr_pi_0731_d18c08.jpg,Train/Pituitary/images/Tr-pi_0731.jpg,Train,Pituitary,1681,d18c085cf707ab560de3cdaba68b52f0,1,2
+val,pi_Tr_pi_0777_f9a823.jpg,Train/Pituitary/images/Tr-pi_0777.jpg,Train,Pituitary,1837,f9a823c9163eb96c3fb99b5a9b234aab,1,2
+val,pi_Tr_pi_0778_d61146.jpg,Val/Pituitary/images/Tr-pi_0778.jpg,Val,Pituitary,1837,d611465d149d7fc4e672f4cebc8579bc,1,2
+val,pi_Tr_pi_0845_5d98b4.jpg,Val/Pituitary/images/Tr-pi_0845.jpg,Val,Pituitary,2114,5d98b421f1cc23a423ac49614501cdd7,1,2
+val,pi_Tr_pi_0853_f4d5a7.jpg,Train/Pituitary/images/Tr-pi_0853.jpg,Train,Pituitary,1854,f4d5a7e763b2668268cebb8edc64c176,1,2
+val,pi_Tr_pi_0886_03da7b.jpg,Train/Pituitary/images/Tr-pi_0886.jpg,Train,Pituitary,1864,03da7bb3df0ff3bc359244b0f93c46d7,1,2
+val,pi_Tr_pi_0929_7ceebb.jpg,Train/Pituitary/images/Tr-pi_0929.jpg,Train,Pituitary,1875,7ceebba8a0452ce2626932afcfb09060,1,2
+val,pi_Tr_pi_1025_9a15c1.jpg,Val/Pituitary/images/Tr-pi_1025.jpg,Val,Pituitary,2121,9a15c1f3ec35e209f17c34a5b5af6340,1,2
+val,pi_Tr_pi_1069_2da0f3.jpg,Train/Pituitary/images/Tr-pi_1069.jpg,Train,Pituitary,1894,2da0f35f4648a47c9248c6aed1004fc8,1,2
+val,pi_Tr_pi_1070_3a87f4.jpg,Train/Pituitary/images/Tr-pi_1070.jpg,Train,Pituitary,1894,3a87f4b30e758316ebcc16360e267d14,1,2
+val,pi_Tr_pi_1185_6d9812.jpg,Train/Pituitary/images/Tr-pi_1185.jpg,Train,Pituitary,1913,6d9812290229d3c76fc17f5fe468e02e,2,2
+val,pi_Tr_pi_1186_0b66ab.jpg,Train/Pituitary/images/Tr-pi_1186.jpg,Train,Pituitary,1913,0b66ab3d6be077a02b60e4d1557a9511,2,2
+val,pi_Tr_pi_1187_28e72b.jpg,Train/Pituitary/images/Tr-pi_1187.jpg,Train,Pituitary,1913,28e72b7df05811a20df5039dbea915d7,2,2
+val,pi_p_27_a21250.jpg,Train/Pituitary/images/p (27).jpg,Train,Pituitary,1728,a212502411049ea5b1f13ccf7097f4c9,1,2
+val,pi_p_29_a1a4da.jpg,Train/Pituitary/images/p (29).jpg,Train,Pituitary,1739,a1a4da2064d72997e1817bfbe38c13f9,1,2
+val,pi_p_309_49f8bb.jpg,Train/Pituitary/images/p (309).jpg,Train,Pituitary,1973,49f8bb0a9faf1d83027bd0622676d127,1,2
+val,pi_p_448_776551.jpg,Train/Pituitary/images/p (448).jpg,Train,Pituitary,1984,77655169acf02a63d16db36b55753f91,1,2
+val,pi_p_449_8c995b.jpg,Train/Pituitary/images/p (449).jpg,Train,Pituitary,1984,8c995b7c105da33062f4725437f6cf29,1,2
+val,pi_p_460_4570e8.jpg,Train/Pituitary/images/p (460).jpg,Train,Pituitary,1987,4570e8d9aa6f530cb2f977ee49749a86,1,2
+val,pi_p_581_3cf014.jpg,Train/Pituitary/images/p (581).jpg,Train,Pituitary,1998,3cf014dafce3221534705f4633bbdd0d,1,2
+val,pi_p_582_66a367.jpg,Train/Pituitary/images/p (582).jpg,Train,Pituitary,1998,66a3675e850a18a5aa55931262282178,1,2
+val,pi_p_583_b9d97f.jpg,Train/Pituitary/images/p (583).jpg,Train,Pituitary,1998,b9d97f691af934c8631f6e44ead8f1fd,1,2
+val,pi_p_656_f73a40.jpg,Train/Pituitary/images/p (656).jpg,Train,Pituitary,1823,f73a4078defeaf0fec7f36accb7a0ae5,1,2
+val,pi_p_776_b24b5a.jpg,Train/Pituitary/images/p (776).jpg,Train,Pituitary,2010,b24b5a97d95fc7b34bbf73682304899f,1,2
+val,pi_p_777_56f3ae.jpg,Train/Pituitary/images/p (777).jpg,Train,Pituitary,2010,56f3aecb5e0e036585d1742211214e09,1,2
+val,pi_p_778_055cfb.jpg,Train/Pituitary/images/p (778).jpg,Train,Pituitary,2010,055cfb1fd574bf0a829d1bcb492af651,1,2
+val,pi_p_783_1c546d.jpg,Train/Pituitary/images/p (783).jpg,Train,Pituitary,2013,1c546d804eec4c5efe4b7da2cef8897e,1,2
+val,pi_p_784_1012dc.jpg,Train/Pituitary/images/p (784).jpg,Train,Pituitary,2013,1012dcb362bf71b3c8e64dae28f6392e,1,2
+val,pi_p_793_44f3a0.jpg,Train/Pituitary/images/p (793).jpg,Train,Pituitary,2014,44f3a0cfff5eecfffd132c006e6c378b,1,2
+val,pi_p_795_c236b2.jpg,Train/Pituitary/images/p (795).jpg,Train,Pituitary,2014,c236b21447d8f7de6f2062ba7f114eeb,1,2
+val,pi_p_796_651613.jpg,Train/Pituitary/images/p (796).jpg,Train,Pituitary,2014,651613adf31040c4286d17770466d3e8,1,2
+val,pi_p_818_42018f.jpg,Train/Pituitary/images/p (818).jpg,Train,Pituitary,1681,42018f75704d12a4ba020fa402a17cc9,1,2
+val,pi_p_95_d19394.jpg,Train/Pituitary/images/p (95).jpg,Train,Pituitary,2017,d193940d4758dc4c0e04080c1d737760,1,2
+val,pi_p_96_dceac0.jpg,Train/Pituitary/images/p (96).jpg,Train,Pituitary,2017,dceac0ac63e83eba11a3ae308b4a4d4d,2,2
+val,pi_p_97_5de00e.jpg,Train/Pituitary/images/p (97).jpg,Train,Pituitary,2017,5de00e5a3c614a1c16df639777f91491,2,2

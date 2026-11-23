@@ -1,0 +1,160 @@
+{
+ "rows": [
+  {
+   "batch": "real glioma (subset_v1 train)",
+   "accepted": 245,
+   "multi_lesion": 0.123,
+   "brain_mean": [
+    72.61,
+    10.45
+   ],
+   "contrast": [
+    30.99,
+    5.33
+   ],
+   "sharpness": [
+    185.73,
+    55.53
+   ],
+   "head_fraction": [
+    0.47,
+    0.1
+   ],
+   "dhash_between_real_median": 114.0
+  },
+  {
+   "batch": "s_test",
+   "generated": 55,
+   "rejected": 4,
+   "rejected_in_blind_review": 1,
+   "accepted": 51,
+   "unique_refs": 51,
+   "unchanged": 39,
+   "corrected": 8,
+   "drawn": 1,
+   "blind": 3,
+   "detected@0.25": 0.979,
+   "n_with_draft": 48,
+   "multi_lesion": 0.118,
+   "n_labeled": 51,
+   "brain_mean": [
+    69.38,
+    12.34
+   ],
+   "contrast": [
+    27.4,
+    3.89
+   ],
+   "sharpness": [
+    202.92,
+    93.55
+   ],
+   "head_fraction": [
+    0.51,
+    0.1
+   ],
+   "dhash_to_ref_median": 104.0,
+   "ssim_to_ref_median": 0.409,
+   "dhash_nearest_train_min": 44,
+   "near_dups": 0,
+   "rq3_auc_handcrafted": 0.981,
+   "rq3_auc_detector": 0.96
+  },
+  {
+   "batch": "train_low",
+   "generated": 183,
+   "rejected": 1,
+   "rejected_in_blind_review": 0,
+   "accepted": 182,
+   "unique_refs": 61,
+   "unchanged": 170,
+   "corrected": 11,
+   "drawn": 1,
+   "blind": 0,
+   "detected@0.25": 0.995,
+   "n_with_draft": 182,
+   "multi_lesion": 0.264,
+   "n_labeled": 182,
+   "brain_mean": [
+    69.63,
+    13.9
+   ],
+   "contrast": [
+    26.53,
+    4.91
+   ],
+   "sharpness": [
+    191.13,
+    84.34
+   ],
+   "head_fraction": [
+    0.53,
+    0.1
+   ],
+   "dhash_to_ref_median": 100.0,
+   "ssim_to_ref_median": 0.388,
+   "dhash_nearest_train_min": 43,
+   "near_dups": 0,
+   "rq3_auc_handcrafted": 0.984,
+   "rq3_auc_detector": 0.971
+  },
+  {
+   "batch": "train_full",
+   "generated": 245,
+   "rejected": 0,
+   "rejected_in_blind_review": 0,
+   "accepted": 245,
+   "unique_refs": 245,
+   "unchanged": 227,
+   "corrected": 13,
+   "drawn": 5,
+   "blind": 0,
+   "detected@0.25": 0.98,
+   "n_with_draft": 245,
+   "multi_lesion": 0.131,
+   "n_labeled": 245,
+   "brain_mean": [
+    70.27,
+    13.47
+   ],
+   "contrast": [
+    26.67,
+    4.66
+   ],
+   "sharpness": [
+    185.03,
+    82.66
+   ],
+   "head_fraction": [
+    0.52,
+    0.1
+   ],
+   "dhash_to_ref_median": 101.0,
+   "ssim_to_ref_median": 0.382,
+   "dhash_nearest_train_min": 36,
+   "near_dups": 0,
+   "rq3_auc_handcrafted": 0.98,
+   "rq3_auc_detector": 0.957
+  }
+ ],
+ "rq3_overall": {
+  "handcrafted": {
+   "auc": 0.9819426180514047,
+   "ci95": [
+    0.974521944958612,
+    0.9888228570674505
+   ],
+   "n_real": 350,
+   "n_synthetic": 478
+  },
+  "detector": {
+   "auc": 0.962602111974497,
+   "ci95": [
+    0.9369173329453421,
+    0.9824286589285477
+   ],
+   "n_real": 105,
+   "n_synthetic": 478
+  }
+ }
+}

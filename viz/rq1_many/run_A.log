@@ -1,0 +1,53 @@
+31 models
+[1/31] bonus
+[2/31] A_full_s0@epoch0
+[3/31] A_full_s0@epoch25
+[4/31] A_full_s0@epoch50
+[5/31] A_full_s0@epoch75
+[6/31] A_full_s0@best
+[7/31] A_full_s1@epoch0
+[8/31] A_full_s1@epoch25
+[9/31] A_full_s1@epoch50
+[10/31] A_full_s1@epoch75
+[11/31] A_full_s1@best
+[12/31] A_full_s2@epoch0
+[13/31] A_full_s2@epoch25
+[14/31] A_full_s2@epoch50
+[15/31] A_full_s2@epoch75
+[16/31] A_full_s2@best
+[17/31] A_low_s0@epoch0
+[18/31] A_low_s0@epoch25
+[19/31] A_low_s0@epoch50
+[20/31] A_low_s0@epoch75
+[21/31] A_low_s0@best
+[22/31] A_low_s1@epoch0
+[23/31] A_low_s1@epoch25
+[24/31] A_low_s1@epoch50
+[25/31] A_low_s1@epoch75
+[26/31] A_low_s1@best
+[27/31] A_low_s2@epoch0
+[28/31] A_low_s2@epoch25
+[29/31] A_low_s2@epoch50
+[30/31] A_low_s2@epoch75
+[31/31] A_low_s2@best
+
+RQ1 [dataset] 202 images, 51 with glioma, 138 groups
+  AP50         real 0.721 s_test 0.909 gap +0.188 [0.101, 0.279] | gap>0 sure 19/24 | same order 207/276, both sure same 76, opposite 1, syn sure/real not 39 | tau 0.50 [0.16, 0.64] per seed {'0': 0.57, '1': 0.5, '2': 0.43}
+  recall@0.25  real 0.657 s_test 0.874 gap +0.216 [0.126, 0.312] | gap>0 sure 21/24 | same order 215/276, both sure same 81, opposite 3, syn sure/real not 29 | tau 0.65 [0.33, 0.68] per seed {'0': 0.55, '1': 0.72, '2': 0.64}
+  AP50-95      real 0.483 s_test 0.461 gap -0.022 [-0.091, 0.053] | gap>0 sure 1/24 | same order 208/276, both sure same 88, opposite 2, syn sure/real not 36 | tau 0.51 [0.26, 0.62] per seed {'0': 0.57, '1': 0.57, '2': 0.29}
+  A_low - A_full AP50         real -0.140 [-0.239, -0.057]  s_test -0.029 [-0.07, -0.004]  difference +0.111 [0.019, 0.214]
+  A_low - A_full recall@0.25  real -0.184 [-0.301, -0.084]  s_test -0.088 [-0.158, -0.033]  difference +0.096 [-0.024, 0.219]
+  A_low - A_full AP50-95      real -0.135 [-0.222, -0.064]  s_test +0.000 [-0.035, 0.031]  difference +0.135 [0.053, 0.232]
+
+RQ1 [samelabeler] 196 images, 45 with glioma, 134 groups
+  AP50         real 0.701 s_test 0.905 gap +0.204 [0.102, 0.316] | gap>0 sure 18/24 | same order 209/276, both sure same 62, opposite 0, syn sure/real not 73 | tau 0.51 [0.15, 0.62] per seed {'0': 0.57, '1': 0.57, '2': 0.5}
+  recall@0.25  real 0.655 s_test 0.868 gap +0.213 [0.111, 0.315] | gap>0 sure 21/24 | same order 204/276, both sure same 79, opposite 0, syn sure/real not 42 | tau 0.60 [0.33, 0.67] per seed {'0': 0.69, '1': 0.69, '2': 0.42}
+  AP50-95      real 0.352 s_test 0.467 gap +0.115 [0.024, 0.21] | gap>0 sure 14/24 | same order 221/276, both sure same 73, opposite 0, syn sure/real not 59 | tau 0.60 [0.25, 0.66] per seed {'0': 0.79, '1': 0.71, '2': 0.5}
+  A_low - A_full AP50         real -0.085 [-0.174, -0.014]  s_test -0.027 [-0.068, 0.0]  difference +0.059 [-0.013, 0.15]
+  A_low - A_full recall@0.25  real -0.167 [-0.292, -0.064]  s_test -0.087 [-0.164, -0.023]  difference +0.080 [-0.039, 0.213]
+  A_low - A_full AP50-95      real -0.040 [-0.096, 0.009]  s_test -0.005 [-0.042, 0.026]  difference +0.035 [-0.024, 0.1]
+
+RQ2 (full real test, best.pt)
+  A_full   AP50-95 0.621 ± 0.035  AP50 0.867  recall 0.825  bg FP 0.067
+  A_low    AP50-95 0.488 ± 0.008  AP50 0.730  recall 0.644  bg FP 0.059
+  A_low - A_full: -0.133 [-0.213, -0.06]

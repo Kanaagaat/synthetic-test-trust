@@ -1,0 +1,23 @@
+{
+ "weights": "bonus_task/runs/exp_epochs100/weights/best.pt",
+ "conf_draft": 0.25,
+ "synthetic": {
+  "n": 10,
+  "detected@0.25": 1.0,
+  "glioma@0.25": 1.0,
+  "top_conf_median": 0.926,
+  "top_conf_mean": 0.92
+ },
+ "real_val_glioma": {
+  "n": 53,
+  "detected@0.25": 0.981,
+  "glioma@0.25": 0.981,
+  "top_conf_median": 0.898,
+  "top_conf_mean": 0.849
+ },
+ "synthetic_pred_classes@0.25": {
+  "Glioma": 13,
+  "Meningioma": 0,
+  "Pituitary": 1
+ }
+}

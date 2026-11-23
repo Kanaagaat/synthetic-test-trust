@@ -1,0 +1,7 @@
+metric,scenario,pairs,both_same,s_test_only,real_only,both_opposite,neither,kendall_tau_b,tau_lo,tau_hi
+AP50,dataset,2556,468,421,777,78,812,0.2332,0.1128,0.3391
+AP50,samelabeler,2556,481,592,592,75,816,0.252,0.0983,0.3694
+recall@0.25,dataset,2556,477,362,843,105,769,0.283,0.1334,0.3426
+recall@0.25,samelabeler,2556,484,501,680,114,777,0.2551,0.1019,0.3481
+AP50-95,dataset,2556,618,369,833,63,673,0.3615,0.2319,0.4288
+AP50-95,samelabeler,2556,549,556,544,41,866,0.3505,0.2052,0.4296

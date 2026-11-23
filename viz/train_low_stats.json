@@ -1,0 +1,1606 @@
+{
+ "purpose": "train_low",
+ "n": 173,
+ "real_glioma_train": {
+  "brain_mean": {
+   "mean": 72.61,
+   "sd": 10.45
+  },
+  "contrast_std": {
+   "mean": 30.99,
+   "sd": 5.33
+  },
+  "edge_var": {
+   "mean": 185.73,
+   "sd": 55.53
+  },
+  "head_fraction": {
+   "mean": 0.47,
+   "sd": 0.1
+  }
+ },
+ "synthetic": {
+  "brain_mean": {
+   "mean": 69.8,
+   "sd": 13.28
+  },
+  "contrast_std": {
+   "mean": 26.75,
+   "sd": 4.78
+  },
+  "edge_var": {
+   "mean": 192.42,
+   "sd": 84.39
+  },
+  "head_fraction": {
+   "mean": 0.53,
+   "sd": 0.1
+  }
+ },
+ "similarity": {
+  "dhash_to_ref_median": 100.0,
+  "dhash_to_nearest_train_min": 43,
+  "n_within_near_dup_threshold": 0,
+  "ssim_to_ref_median": 0.384,
+  "dhash_between_different_refs_median": 115.0
+ },
+ "per_image": [
+  {
+   "file": "generated/train_low/syn_gl_lo_0000.jpg",
+   "ref": "gl_Te_gl_0184_879974.jpg",
+   "dhash_to_ref": 124,
+   "ssim_to_ref": 0.198,
+   "nearest_train": "gl_gg_74_922baa.jpg",
+   "dhash_to_nearest_train": 84,
+   "ssim_to_nearest_train": 0.319
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0002.jpg",
+   "ref": "gl_Te_gl_0184_879974.jpg",
+   "dhash_to_ref": 125,
+   "ssim_to_ref": 0.147,
+   "nearest_train": "pi_p_192_e28a54.jpg",
+   "dhash_to_nearest_train": 77,
+   "ssim_to_nearest_train": 0.174
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0001.jpg",
+   "ref": "gl_Te_gl_0184_879974.jpg",
+   "dhash_to_ref": 138,
+   "ssim_to_ref": 0.234,
+   "nearest_train": "no_image_151_b22b7e.jpg",
+   "dhash_to_nearest_train": 86,
+   "ssim_to_nearest_train": 0.147
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0003.jpg",
+   "ref": "gl_Te_gl_0198_8baeb4.jpg",
+   "dhash_to_ref": 122,
+   "ssim_to_ref": 0.327,
+   "nearest_train": "gl_gg_192_e35ae0.jpg",
+   "dhash_to_nearest_train": 83,
+   "ssim_to_nearest_train": 0.345
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0004.jpg",
+   "ref": "gl_Te_gl_0198_8baeb4.jpg",
+   "dhash_to_ref": 115,
+   "ssim_to_ref": 0.34,
+   "nearest_train": "me_Tr_me_0668_eda230.jpg",
+   "dhash_to_nearest_train": 79,
+   "ssim_to_nearest_train": 0.333
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0005.jpg",
+   "ref": "gl_Te_gl_0198_8baeb4.jpg",
+   "dhash_to_ref": 90,
+   "ssim_to_ref": 0.334,
+   "nearest_train": "gl_Te_gl_0184_879974.jpg",
+   "dhash_to_nearest_train": 84,
+   "ssim_to_nearest_train": 0.249
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0006.jpg",
+   "ref": "gl_Te_gl_0225_e70907.jpg",
+   "dhash_to_ref": 105,
+   "ssim_to_ref": 0.313,
+   "nearest_train": "gl_gg_96_3ce564.jpg",
+   "dhash_to_nearest_train": 85,
+   "ssim_to_nearest_train": 0.292
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0007.jpg",
+   "ref": "gl_Te_gl_0225_e70907.jpg",
+   "dhash_to_ref": 118,
+   "ssim_to_ref": 0.322,
+   "nearest_train": "gl_gg_425_e8065a.jpg",
+   "dhash_to_nearest_train": 85,
+   "ssim_to_nearest_train": 0.323
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0008.jpg",
+   "ref": "gl_Te_gl_0225_e70907.jpg",
+   "dhash_to_ref": 100,
+   "ssim_to_ref": 0.3,
+   "nearest_train": "no_image_151_b22b7e.jpg",
+   "dhash_to_nearest_train": 82,
+   "ssim_to_nearest_train": 0.174
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0009.jpg",
+   "ref": "gl_Te_gl_0229_646b74.jpg",
+   "dhash_to_ref": 72,
+   "ssim_to_ref": 0.557,
+   "nearest_train": "gl_gg_478_f27187.jpg",
+   "dhash_to_nearest_train": 43,
+   "ssim_to_nearest_train": 0.641
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0010.jpg",
+   "ref": "gl_Te_gl_0229_646b74.jpg",
+   "dhash_to_ref": 79,
+   "ssim_to_ref": 0.572,
+   "nearest_train": "me_m_193_c12a70.jpg",
+   "dhash_to_nearest_train": 45,
+   "ssim_to_nearest_train": 0.569
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0011.jpg",
+   "ref": "gl_Te_gl_0229_646b74.jpg",
+   "dhash_to_ref": 83,
+   "ssim_to_ref": 0.534,
+   "nearest_train": "gl_gg_611_354407.jpg",
+   "dhash_to_nearest_train": 72,
+   "ssim_to_nearest_train": 0.549
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0012.jpg",
+   "ref": "gl_Te_gl_0241_f5de63.jpg",
+   "dhash_to_ref": 127,
+   "ssim_to_ref": 0.314,
+   "nearest_train": "no_image_284_a6513f.jpg",
+   "dhash_to_nearest_train": 79,
+   "ssim_to_nearest_train": 0.436
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0013.jpg",
+   "ref": "gl_Te_gl_0241_f5de63.jpg",
+   "dhash_to_ref": 109,
+   "ssim_to_ref": 0.349,
+   "nearest_train": "pi_Tr_pi_1282_6b4519.jpg",
+   "dhash_to_nearest_train": 61,
+   "ssim_to_nearest_train": 0.344
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0014.jpg",
+   "ref": "gl_Te_gl_0241_f5de63.jpg",
+   "dhash_to_ref": 108,
+   "ssim_to_ref": 0.302,
+   "nearest_train": "me_Tr_me_0381_8be200.jpg",
+   "dhash_to_nearest_train": 57,
+   "ssim_to_nearest_train": 0.365
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0015.jpg",
+   "ref": "gl_Tr_glTr_0003_6d7f39.jpg",
+   "dhash_to_ref": 115,
+   "ssim_to_ref": 0.412,
+   "nearest_train": "me_Tr_me_0372_69351c.jpg",
+   "dhash_to_nearest_train": 71,
+   "ssim_to_nearest_train": 0.366
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0017.jpg",
+   "ref": "gl_Tr_glTr_0003_6d7f39.jpg",
+   "dhash_to_ref": 99,
+   "ssim_to_ref": 0.384,
+   "nearest_train": "no_image_284_a6513f.jpg",
+   "dhash_to_nearest_train": 67,
+   "ssim_to_nearest_train": 0.426
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0016.jpg",
+   "ref": "gl_Tr_glTr_0003_6d7f39.jpg",
+   "dhash_to_ref": 111,
+   "ssim_to_ref": 0.407,
+   "nearest_train": "no_image_284_a6513f.jpg",
+   "dhash_to_nearest_train": 77,
+   "ssim_to_nearest_train": 0.423
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0018.jpg",
+   "ref": "gl_Tr_gl_0051_35bcc4.jpg",
+   "dhash_to_ref": 57,
+   "ssim_to_ref": 0.599,
+   "nearest_train": "gl_Tr_gl_0051_35bcc4.jpg",
+   "dhash_to_nearest_train": 57,
+   "ssim_to_nearest_train": 0.599
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0019.jpg",
+   "ref": "gl_Tr_gl_0051_35bcc4.jpg",
+   "dhash_to_ref": 64,
+   "ssim_to_ref": 0.607,
+   "nearest_train": "me_m_94_631d75.jpg",
+   "dhash_to_nearest_train": 56,
+   "ssim_to_nearest_train": 0.573
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0020.jpg",
+   "ref": "gl_Tr_gl_0051_35bcc4.jpg",
+   "dhash_to_ref": 66,
+   "ssim_to_ref": 0.597,
+   "nearest_train": "gl_Te_gl_0287_d736ad.jpg",
+   "dhash_to_nearest_train": 61,
+   "ssim_to_nearest_train": 0.61
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0021.jpg",
+   "ref": "gl_Tr_gl_0136_1e0ec5.jpg",
+   "dhash_to_ref": 83,
+   "ssim_to_ref": 0.594,
+   "nearest_train": "gl_Tr_gl_1134_838b1f.jpg",
+   "dhash_to_nearest_train": 46,
+   "ssim_to_nearest_train": 0.455
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0022.jpg",
+   "ref": "gl_Tr_gl_0136_1e0ec5.jpg",
+   "dhash_to_ref": 79,
+   "ssim_to_ref": 0.581,
+   "nearest_train": "gl_Tr_gl_0051_35bcc4.jpg",
+   "dhash_to_nearest_train": 49,
+   "ssim_to_nearest_train": 0.584
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0023.jpg",
+   "ref": "gl_Tr_gl_0136_1e0ec5.jpg",
+   "dhash_to_ref": 70,
+   "ssim_to_ref": 0.62,
+   "nearest_train": "me_m_94_631d75.jpg",
+   "dhash_to_nearest_train": 50,
+   "ssim_to_nearest_train": 0.565
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0024.jpg",
+   "ref": "gl_Tr_gl_0137_17115a.jpg",
+   "dhash_to_ref": 91,
+   "ssim_to_ref": 0.547,
+   "nearest_train": "gl_Tr_gl_1139_017752.jpg",
+   "dhash_to_nearest_train": 56,
+   "ssim_to_nearest_train": 0.494
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0026.jpg",
+   "ref": "gl_Tr_gl_0137_17115a.jpg",
+   "dhash_to_ref": 87,
+   "ssim_to_ref": 0.583,
+   "nearest_train": "gl_Tr_gl_0120_5249c4.jpg",
+   "dhash_to_nearest_train": 59,
+   "ssim_to_nearest_train": 0.579
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0025.jpg",
+   "ref": "gl_Tr_gl_0137_17115a.jpg",
+   "dhash_to_ref": 83,
+   "ssim_to_ref": 0.538,
+   "nearest_train": "no_image_298_42e06a.jpg",
+   "dhash_to_nearest_train": 72,
+   "ssim_to_nearest_train": 0.429
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0027.jpg",
+   "ref": "gl_Tr_gl_0138_1e2140.jpg",
+   "dhash_to_ref": 101,
+   "ssim_to_ref": 0.56,
+   "nearest_train": "gl_Tr_gl_0160_9fbdd3.jpg",
+   "dhash_to_nearest_train": 50,
+   "ssim_to_nearest_train": 0.618
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0029.jpg",
+   "ref": "gl_Tr_gl_0138_1e2140.jpg",
+   "dhash_to_ref": 107,
+   "ssim_to_ref": 0.537,
+   "nearest_train": "gl_Tr_gl_0160_9fbdd3.jpg",
+   "dhash_to_nearest_train": 54,
+   "ssim_to_nearest_train": 0.551
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0028.jpg",
+   "ref": "gl_Tr_gl_0138_1e2140.jpg",
+   "dhash_to_ref": 97,
+   "ssim_to_ref": 0.575,
+   "nearest_train": "gl_Tr_gl_0410_655dfe.jpg",
+   "dhash_to_nearest_train": 46,
+   "ssim_to_nearest_train": 0.6
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0030.jpg",
+   "ref": "gl_Tr_gl_0160_9fbdd3.jpg",
+   "dhash_to_ref": 62,
+   "ssim_to_ref": 0.57,
+   "nearest_train": "gl_Tr_gl_1134_838b1f.jpg",
+   "dhash_to_nearest_train": 50,
+   "ssim_to_nearest_train": 0.489
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0031.jpg",
+   "ref": "gl_Tr_gl_0160_9fbdd3.jpg",
+   "dhash_to_ref": 72,
+   "ssim_to_ref": 0.566,
+   "nearest_train": "no_Tr_no_0277_382a30.jpg",
+   "dhash_to_nearest_train": 63,
+   "ssim_to_nearest_train": 0.47
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0032.jpg",
+   "ref": "gl_Tr_gl_0160_9fbdd3.jpg",
+   "dhash_to_ref": 102,
+   "ssim_to_ref": 0.443,
+   "nearest_train": "no_image_24_e0b9f4.jpg",
+   "dhash_to_nearest_train": 76,
+   "ssim_to_nearest_train": 0.411
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0033.jpg",
+   "ref": "gl_Tr_gl_0410_655dfe.jpg",
+   "dhash_to_ref": 62,
+   "ssim_to_ref": 0.5,
+   "nearest_train": "pi_p_720_e731d8.jpg",
+   "dhash_to_nearest_train": 55,
+   "ssim_to_nearest_train": 0.43
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0034.jpg",
+   "ref": "gl_Tr_gl_0410_655dfe.jpg",
+   "dhash_to_ref": 53,
+   "ssim_to_ref": 0.649,
+   "nearest_train": "gl_Tr_gl_0051_35bcc4.jpg",
+   "dhash_to_nearest_train": 44,
+   "ssim_to_nearest_train": 0.681
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0036.jpg",
+   "ref": "gl_Tr_gl_0411_dd4e32.jpg",
+   "dhash_to_ref": 62,
+   "ssim_to_ref": 0.586,
+   "nearest_train": "me_Tr_me_0849_d59a61.jpg",
+   "dhash_to_nearest_train": 52,
+   "ssim_to_nearest_train": 0.481
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0035.jpg",
+   "ref": "gl_Tr_gl_0410_655dfe.jpg",
+   "dhash_to_ref": 65,
+   "ssim_to_ref": 0.586,
+   "nearest_train": "gl_Tr_gl_1133_34c75e.jpg",
+   "dhash_to_nearest_train": 61,
+   "ssim_to_nearest_train": 0.493
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0037.jpg",
+   "ref": "gl_Tr_gl_0411_dd4e32.jpg",
+   "dhash_to_ref": 69,
+   "ssim_to_ref": 0.554,
+   "nearest_train": "gl_Tr_gl_0410_655dfe.jpg",
+   "dhash_to_nearest_train": 61,
+   "ssim_to_nearest_train": 0.588
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0038.jpg",
+   "ref": "gl_Tr_gl_0411_dd4e32.jpg",
+   "dhash_to_ref": 52,
+   "ssim_to_ref": 0.605,
+   "nearest_train": "gl_Tr_gl_0411_dd4e32.jpg",
+   "dhash_to_nearest_train": 52,
+   "ssim_to_nearest_train": 0.605
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0039.jpg",
+   "ref": "gl_Tr_gl_0460_fcee37.jpg",
+   "dhash_to_ref": 108,
+   "ssim_to_ref": 0.365,
+   "nearest_train": "gl_gg_759_66033a.jpg",
+   "dhash_to_nearest_train": 61,
+   "ssim_to_nearest_train": 0.368
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0040.jpg",
+   "ref": "gl_Tr_gl_0460_fcee37.jpg",
+   "dhash_to_ref": 124,
+   "ssim_to_ref": 0.393,
+   "nearest_train": "gl_gg_309_786392.jpg",
+   "dhash_to_nearest_train": 63,
+   "ssim_to_nearest_train": 0.53
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0041.jpg",
+   "ref": "gl_Tr_gl_0460_fcee37.jpg",
+   "dhash_to_ref": 103,
+   "ssim_to_ref": 0.408,
+   "nearest_train": "me_Tr_me_0398_61fe7b.jpg",
+   "dhash_to_nearest_train": 77,
+   "ssim_to_nearest_train": 0.403
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0042.jpg",
+   "ref": "gl_Tr_gl_0489_4ae210.jpg",
+   "dhash_to_ref": 104,
+   "ssim_to_ref": 0.489,
+   "nearest_train": "gl_gg_440_f306d6.jpg",
+   "dhash_to_nearest_train": 61,
+   "ssim_to_nearest_train": 0.54
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0043.jpg",
+   "ref": "gl_Tr_gl_0489_4ae210.jpg",
+   "dhash_to_ref": 102,
+   "ssim_to_ref": 0.458,
+   "nearest_train": "no_image_298_42e06a.jpg",
+   "dhash_to_nearest_train": 63,
+   "ssim_to_nearest_train": 0.432
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0045.jpg",
+   "ref": "gl_Tr_gl_0504_506123.jpg",
+   "dhash_to_ref": 97,
+   "ssim_to_ref": 0.392,
+   "nearest_train": "pi_Tr_pi_0793_29d73e.jpg",
+   "dhash_to_nearest_train": 69,
+   "ssim_to_nearest_train": 0.345
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0044.jpg",
+   "ref": "gl_Tr_gl_0489_4ae210.jpg",
+   "dhash_to_ref": 85,
+   "ssim_to_ref": 0.555,
+   "nearest_train": "no_image_298_42e06a.jpg",
+   "dhash_to_nearest_train": 72,
+   "ssim_to_nearest_train": 0.471
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0047.jpg",
+   "ref": "gl_Tr_gl_0504_506123.jpg",
+   "dhash_to_ref": 130,
+   "ssim_to_ref": 0.406,
+   "nearest_train": "me_Tr_me_0381_8be200.jpg",
+   "dhash_to_nearest_train": 63,
+   "ssim_to_nearest_train": 0.391
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0046.jpg",
+   "ref": "gl_Tr_gl_0504_506123.jpg",
+   "dhash_to_ref": 138,
+   "ssim_to_ref": 0.355,
+   "nearest_train": "no_image_284_a6513f.jpg",
+   "dhash_to_nearest_train": 74,
+   "ssim_to_nearest_train": 0.445
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0048.jpg",
+   "ref": "gl_Tr_gl_0505_8a2367.jpg",
+   "dhash_to_ref": 114,
+   "ssim_to_ref": 0.443,
+   "nearest_train": "gl_gg_760_ff04cb.jpg",
+   "dhash_to_nearest_train": 63,
+   "ssim_to_nearest_train": 0.443
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0049.jpg",
+   "ref": "gl_Tr_gl_0505_8a2367.jpg",
+   "dhash_to_ref": 127,
+   "ssim_to_ref": 0.347,
+   "nearest_train": "me_Tr_me_0068_adc62f.jpg",
+   "dhash_to_nearest_train": 74,
+   "ssim_to_nearest_train": 0.284
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0050.jpg",
+   "ref": "gl_Tr_gl_0505_8a2367.jpg",
+   "dhash_to_ref": 107,
+   "ssim_to_ref": 0.329,
+   "nearest_train": "pi_Tr_pi_0282_52dc34.jpg",
+   "dhash_to_nearest_train": 67,
+   "ssim_to_nearest_train": 0.223
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0051.jpg",
+   "ref": "gl_Tr_gl_0615_c68bd3.jpg",
+   "dhash_to_ref": 127,
+   "ssim_to_ref": 0.347,
+   "nearest_train": "no_Tr_no_0475_e0ca72.jpg",
+   "dhash_to_nearest_train": 78,
+   "ssim_to_nearest_train": 0.539
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0052.jpg",
+   "ref": "gl_Tr_gl_0615_c68bd3.jpg",
+   "dhash_to_ref": 133,
+   "ssim_to_ref": 0.349,
+   "nearest_train": "me_Tr_me_0372_69351c.jpg",
+   "dhash_to_nearest_train": 70,
+   "ssim_to_nearest_train": 0.356
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0054.jpg",
+   "ref": "gl_Tr_gl_0627_b72643.jpg",
+   "dhash_to_ref": 105,
+   "ssim_to_ref": 0.508,
+   "nearest_train": "gl_gg_440_f306d6.jpg",
+   "dhash_to_nearest_train": 66,
+   "ssim_to_nearest_train": 0.539
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0055.jpg",
+   "ref": "gl_Tr_gl_0627_b72643.jpg",
+   "dhash_to_ref": 93,
+   "ssim_to_ref": 0.481,
+   "nearest_train": "me_Tr_me_0978_116aae.jpg",
+   "dhash_to_nearest_train": 73,
+   "ssim_to_nearest_train": 0.471
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0053.jpg",
+   "ref": "gl_Tr_gl_0615_c68bd3.jpg",
+   "dhash_to_ref": 99,
+   "ssim_to_ref": 0.481,
+   "nearest_train": "gl_gg_814_53362d.jpg",
+   "dhash_to_nearest_train": 61,
+   "ssim_to_nearest_train": 0.511
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0058.jpg",
+   "ref": "gl_Tr_gl_0638_9446de.jpg",
+   "dhash_to_ref": 120,
+   "ssim_to_ref": 0.373,
+   "nearest_train": "pi_p_56_c70d2b.jpg",
+   "dhash_to_nearest_train": 72,
+   "ssim_to_nearest_train": 0.177
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0056.jpg",
+   "ref": "gl_Tr_gl_0627_b72643.jpg",
+   "dhash_to_ref": 81,
+   "ssim_to_ref": 0.546,
+   "nearest_train": "gl_Tr_gl_0589_85e231.jpg",
+   "dhash_to_nearest_train": 48,
+   "ssim_to_nearest_train": 0.633
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0057.jpg",
+   "ref": "gl_Tr_gl_0638_9446de.jpg",
+   "dhash_to_ref": 124,
+   "ssim_to_ref": 0.387,
+   "nearest_train": "pi_Tr_pi_0282_52dc34.jpg",
+   "dhash_to_nearest_train": 63,
+   "ssim_to_nearest_train": 0.267
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0060.jpg",
+   "ref": "gl_Tr_gl_0983_68327b.jpg",
+   "dhash_to_ref": 142,
+   "ssim_to_ref": 0.237,
+   "nearest_train": "pi_Tr_pi_0405_42f53b.jpg",
+   "dhash_to_nearest_train": 82,
+   "ssim_to_nearest_train": 0.303
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0059.jpg",
+   "ref": "gl_Tr_gl_0638_9446de.jpg",
+   "dhash_to_ref": 126,
+   "ssim_to_ref": 0.347,
+   "nearest_train": "me_Tr_me_1223_41dead.jpg",
+   "dhash_to_nearest_train": 72,
+   "ssim_to_nearest_train": 0.284
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0061.jpg",
+   "ref": "gl_Tr_gl_0983_68327b.jpg",
+   "dhash_to_ref": 125,
+   "ssim_to_ref": 0.277,
+   "nearest_train": "me_Tr_me_1228_a8d90e.jpg",
+   "dhash_to_nearest_train": 83,
+   "ssim_to_nearest_train": 0.357
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0063.jpg",
+   "ref": "gl_Tr_gl_1082_aad2b6.jpg",
+   "dhash_to_ref": 107,
+   "ssim_to_ref": 0.356,
+   "nearest_train": "gl_Tr_gl_0866_3d74f8.jpg",
+   "dhash_to_nearest_train": 93,
+   "ssim_to_nearest_train": 0.217
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0062.jpg",
+   "ref": "gl_Tr_gl_0983_68327b.jpg",
+   "dhash_to_ref": 95,
+   "ssim_to_ref": 0.279,
+   "nearest_train": "pi_Tr_pi_1390_e6c50f.jpg",
+   "dhash_to_nearest_train": 80,
+   "ssim_to_nearest_train": 0.307
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0066.jpg",
+   "ref": "gl_Tr_gl_1184_376d9e.jpg",
+   "dhash_to_ref": 113,
+   "ssim_to_ref": 0.331,
+   "nearest_train": "no_image_314_90d1f9.jpg",
+   "dhash_to_nearest_train": 66,
+   "ssim_to_nearest_train": 0.121
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0064.jpg",
+   "ref": "gl_Tr_gl_1082_aad2b6.jpg",
+   "dhash_to_ref": 114,
+   "ssim_to_ref": 0.242,
+   "nearest_train": "pi_p_465_98b76e.jpg",
+   "dhash_to_nearest_train": 84,
+   "ssim_to_nearest_train": 0.267
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0065.jpg",
+   "ref": "gl_Tr_gl_1082_aad2b6.jpg",
+   "dhash_to_ref": 112,
+   "ssim_to_ref": 0.323,
+   "nearest_train": "pi_Tr_pi_1258_e6130a.jpg",
+   "dhash_to_nearest_train": 95,
+   "ssim_to_nearest_train": 0.233
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0068.jpg",
+   "ref": "gl_Tr_gl_1184_376d9e.jpg",
+   "dhash_to_ref": 126,
+   "ssim_to_ref": 0.293,
+   "nearest_train": "me_m1_78_d1b072.jpg",
+   "dhash_to_nearest_train": 79,
+   "ssim_to_nearest_train": 0.361
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0067.jpg",
+   "ref": "gl_Tr_gl_1184_376d9e.jpg",
+   "dhash_to_ref": 94,
+   "ssim_to_ref": 0.443,
+   "nearest_train": "me_Tr_me_0971_59e772.jpg",
+   "dhash_to_nearest_train": 53,
+   "ssim_to_nearest_train": 0.482
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0070.jpg",
+   "ref": "gl_Tr_gl_1264_9eede1.jpg",
+   "dhash_to_ref": 86,
+   "ssim_to_ref": 0.299,
+   "nearest_train": "gl_Tr_gl_1264_9eede1.jpg",
+   "dhash_to_nearest_train": 86,
+   "ssim_to_nearest_train": 0.299
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0069.jpg",
+   "ref": "gl_Tr_gl_1264_9eede1.jpg",
+   "dhash_to_ref": 73,
+   "ssim_to_ref": 0.371,
+   "nearest_train": "gl_Tr_gl_1264_9eede1.jpg",
+   "dhash_to_nearest_train": 73,
+   "ssim_to_nearest_train": 0.371
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0072.jpg",
+   "ref": "gl_gg_114_25fbd6.jpg",
+   "dhash_to_ref": 92,
+   "ssim_to_ref": 0.337,
+   "nearest_train": "pi_p_322_b6d6b4.jpg",
+   "dhash_to_nearest_train": 84,
+   "ssim_to_nearest_train": 0.276
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0073.jpg",
+   "ref": "gl_gg_114_25fbd6.jpg",
+   "dhash_to_ref": 104,
+   "ssim_to_ref": 0.292,
+   "nearest_train": "pi_Tr_pi_0392_8b7b66.jpg",
+   "dhash_to_nearest_train": 82,
+   "ssim_to_nearest_train": 0.248
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0071.jpg",
+   "ref": "gl_Tr_gl_1264_9eede1.jpg",
+   "dhash_to_ref": 112,
+   "ssim_to_ref": 0.283,
+   "nearest_train": "gl_gg_12_44ae55.jpg",
+   "dhash_to_nearest_train": 88,
+   "ssim_to_nearest_train": 0.262
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0074.jpg",
+   "ref": "gl_gg_114_25fbd6.jpg",
+   "dhash_to_ref": 93,
+   "ssim_to_ref": 0.297,
+   "nearest_train": "pi_p_466_80ee34.jpg",
+   "dhash_to_nearest_train": 81,
+   "ssim_to_nearest_train": 0.23
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0075.jpg",
+   "ref": "gl_gg_124_fc352a.jpg",
+   "dhash_to_ref": 92,
+   "ssim_to_ref": 0.316,
+   "nearest_train": "me_Tr_me_0669_42972b.jpg",
+   "dhash_to_nearest_train": 86,
+   "ssim_to_nearest_train": 0.235
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0076.jpg",
+   "ref": "gl_gg_124_fc352a.jpg",
+   "dhash_to_ref": 80,
+   "ssim_to_ref": 0.396,
+   "nearest_train": "me_Tr_me_0564_28b96f.jpg",
+   "dhash_to_nearest_train": 70,
+   "ssim_to_nearest_train": 0.391
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0078.jpg",
+   "ref": "gl_gg_203_97956d.jpg",
+   "dhash_to_ref": 123,
+   "ssim_to_ref": 0.32,
+   "nearest_train": "gl_gg_425_e8065a.jpg",
+   "dhash_to_nearest_train": 89,
+   "ssim_to_nearest_train": 0.297
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0077.jpg",
+   "ref": "gl_gg_124_fc352a.jpg",
+   "dhash_to_ref": 112,
+   "ssim_to_ref": 0.279,
+   "nearest_train": "no_image_134_b110f3.jpg",
+   "dhash_to_nearest_train": 66,
+   "ssim_to_nearest_train": 0.206
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0079.jpg",
+   "ref": "gl_gg_203_97956d.jpg",
+   "dhash_to_ref": 130,
+   "ssim_to_ref": 0.222,
+   "nearest_train": "me_Tr_me_0972_377b98.jpg",
+   "dhash_to_nearest_train": 77,
+   "ssim_to_nearest_train": 0.307
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0080.jpg",
+   "ref": "gl_gg_203_97956d.jpg",
+   "dhash_to_ref": 112,
+   "ssim_to_ref": 0.309,
+   "nearest_train": "gl_gg_213_07a619.jpg",
+   "dhash_to_nearest_train": 93,
+   "ssim_to_nearest_train": 0.398
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0081.jpg",
+   "ref": "gl_gg_211_9ee931.jpg",
+   "dhash_to_ref": 98,
+   "ssim_to_ref": 0.233,
+   "nearest_train": "me_Tr_me_1148_359ed9.jpg",
+   "dhash_to_nearest_train": 86,
+   "ssim_to_nearest_train": 0.296
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0082.jpg",
+   "ref": "gl_gg_211_9ee931.jpg",
+   "dhash_to_ref": 114,
+   "ssim_to_ref": 0.33,
+   "nearest_train": "pi_Tr_pi_0130_1b061a.jpg",
+   "dhash_to_nearest_train": 87,
+   "ssim_to_nearest_train": 0.32
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0083.jpg",
+   "ref": "gl_gg_211_9ee931.jpg",
+   "dhash_to_ref": 89,
+   "ssim_to_ref": 0.29,
+   "nearest_train": "gl_gg_211_9ee931.jpg",
+   "dhash_to_nearest_train": 89,
+   "ssim_to_nearest_train": 0.29
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0084.jpg",
+   "ref": "gl_gg_212_1c4cb2.jpg",
+   "dhash_to_ref": 80,
+   "ssim_to_ref": 0.411,
+   "nearest_train": "gl_gg_212_1c4cb2.jpg",
+   "dhash_to_nearest_train": 80,
+   "ssim_to_nearest_train": 0.411
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0085.jpg",
+   "ref": "gl_gg_212_1c4cb2.jpg",
+   "dhash_to_ref": 121,
+   "ssim_to_ref": 0.313,
+   "nearest_train": "no_image_134_b110f3.jpg",
+   "dhash_to_nearest_train": 75,
+   "ssim_to_nearest_train": 0.225
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0086.jpg",
+   "ref": "gl_gg_212_1c4cb2.jpg",
+   "dhash_to_ref": 101,
+   "ssim_to_ref": 0.392,
+   "nearest_train": "gl_gg_235_e2922c.jpg",
+   "dhash_to_nearest_train": 87,
+   "ssim_to_nearest_train": 0.329
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0087.jpg",
+   "ref": "gl_gg_213_07a619.jpg",
+   "dhash_to_ref": 86,
+   "ssim_to_ref": 0.395,
+   "nearest_train": "gl_gg_212_1c4cb2.jpg",
+   "dhash_to_nearest_train": 83,
+   "ssim_to_nearest_train": 0.375
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0088.jpg",
+   "ref": "gl_gg_213_07a619.jpg",
+   "dhash_to_ref": 84,
+   "ssim_to_ref": 0.421,
+   "nearest_train": "gl_gg_124_fc352a.jpg",
+   "dhash_to_nearest_train": 71,
+   "ssim_to_nearest_train": 0.369
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0089.jpg",
+   "ref": "gl_gg_213_07a619.jpg",
+   "dhash_to_ref": 107,
+   "ssim_to_ref": 0.263,
+   "nearest_train": "no_Tr_no_1423_b41544.jpg",
+   "dhash_to_nearest_train": 87,
+   "ssim_to_nearest_train": 0.231
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0090.jpg",
+   "ref": "gl_gg_214_e8846b.jpg",
+   "dhash_to_ref": 97,
+   "ssim_to_ref": 0.297,
+   "nearest_train": "no_image_134_b110f3.jpg",
+   "dhash_to_nearest_train": 86,
+   "ssim_to_nearest_train": 0.256
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0092.jpg",
+   "ref": "gl_gg_214_e8846b.jpg",
+   "dhash_to_ref": 118,
+   "ssim_to_ref": 0.333,
+   "nearest_train": "no_image_151_b22b7e.jpg",
+   "dhash_to_nearest_train": 86,
+   "ssim_to_nearest_train": 0.249
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0091.jpg",
+   "ref": "gl_gg_214_e8846b.jpg",
+   "dhash_to_ref": 108,
+   "ssim_to_ref": 0.202,
+   "nearest_train": "gl_gg_80_d768df.jpg",
+   "dhash_to_nearest_train": 88,
+   "ssim_to_nearest_train": 0.229
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0093.jpg",
+   "ref": "gl_gg_226_b38dfa.jpg",
+   "dhash_to_ref": 94,
+   "ssim_to_ref": 0.28,
+   "nearest_train": "gl_gg_235_e2922c.jpg",
+   "dhash_to_nearest_train": 86,
+   "ssim_to_nearest_train": 0.307
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0094.jpg",
+   "ref": "gl_gg_226_b38dfa.jpg",
+   "dhash_to_ref": 116,
+   "ssim_to_ref": 0.156,
+   "nearest_train": "me_Tr_me_1242_b36171.jpg",
+   "dhash_to_nearest_train": 90,
+   "ssim_to_nearest_train": 0.128
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0095.jpg",
+   "ref": "gl_gg_226_b38dfa.jpg",
+   "dhash_to_ref": 108,
+   "ssim_to_ref": 0.157,
+   "nearest_train": "gl_gg_371_336cb2.jpg",
+   "dhash_to_nearest_train": 76,
+   "ssim_to_nearest_train": 0.126
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0096.jpg",
+   "ref": "gl_gg_262_466f5d.jpg",
+   "dhash_to_ref": 95,
+   "ssim_to_ref": 0.344,
+   "nearest_train": "me_Tr_me_0545_853e40.jpg",
+   "dhash_to_nearest_train": 76,
+   "ssim_to_nearest_train": 0.25
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0097.jpg",
+   "ref": "gl_gg_262_466f5d.jpg",
+   "dhash_to_ref": 105,
+   "ssim_to_ref": 0.388,
+   "nearest_train": "me_m3_247_6d6432.jpg",
+   "dhash_to_nearest_train": 74,
+   "ssim_to_nearest_train": 0.437
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0099.jpg",
+   "ref": "gl_gg_263_db0e7d.jpg",
+   "dhash_to_ref": 94,
+   "ssim_to_ref": 0.428,
+   "nearest_train": "me_Tr_me_0398_61fe7b.jpg",
+   "dhash_to_nearest_train": 81,
+   "ssim_to_nearest_train": 0.368
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0098.jpg",
+   "ref": "gl_gg_262_466f5d.jpg",
+   "dhash_to_ref": 104,
+   "ssim_to_ref": 0.362,
+   "nearest_train": "gl_Te_gl_0178_72a780.jpg",
+   "dhash_to_nearest_train": 84,
+   "ssim_to_nearest_train": 0.351
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0100.jpg",
+   "ref": "gl_gg_263_db0e7d.jpg",
+   "dhash_to_ref": 120,
+   "ssim_to_ref": 0.307,
+   "nearest_train": "gl_gg_722_5f3688.jpg",
+   "dhash_to_nearest_train": 81,
+   "ssim_to_nearest_train": 0.322
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0101.jpg",
+   "ref": "gl_gg_263_db0e7d.jpg",
+   "dhash_to_ref": 109,
+   "ssim_to_ref": 0.407,
+   "nearest_train": "me_Tr_me_0502_eb5df9.jpg",
+   "dhash_to_nearest_train": 88,
+   "ssim_to_nearest_train": 0.4
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0103.jpg",
+   "ref": "gl_gg_269_780d97.jpg",
+   "dhash_to_ref": 108,
+   "ssim_to_ref": 0.326,
+   "nearest_train": "me_Tr_me_0399_2c2db4.jpg",
+   "dhash_to_nearest_train": 87,
+   "ssim_to_nearest_train": 0.299
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0102.jpg",
+   "ref": "gl_gg_269_780d97.jpg",
+   "dhash_to_ref": 108,
+   "ssim_to_ref": 0.323,
+   "nearest_train": "me_Tr_me_0564_28b96f.jpg",
+   "dhash_to_nearest_train": 75,
+   "ssim_to_nearest_train": 0.384
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0105.jpg",
+   "ref": "gl_gg_270_171eda.jpg",
+   "dhash_to_ref": 101,
+   "ssim_to_ref": 0.226,
+   "nearest_train": "gl_gg_371_336cb2.jpg",
+   "dhash_to_nearest_train": 74,
+   "ssim_to_nearest_train": 0.189
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0104.jpg",
+   "ref": "gl_gg_269_780d97.jpg",
+   "dhash_to_ref": 118,
+   "ssim_to_ref": 0.314,
+   "nearest_train": "gl_gg_73_3867bc.jpg",
+   "dhash_to_nearest_train": 84,
+   "ssim_to_nearest_train": 0.374
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0106.jpg",
+   "ref": "gl_gg_270_171eda.jpg",
+   "dhash_to_ref": 105,
+   "ssim_to_ref": 0.207,
+   "nearest_train": "gl_gg_212_1c4cb2.jpg",
+   "dhash_to_nearest_train": 84,
+   "ssim_to_nearest_train": 0.283
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0107.jpg",
+   "ref": "gl_gg_270_171eda.jpg",
+   "dhash_to_ref": 93,
+   "ssim_to_ref": 0.376,
+   "nearest_train": "me_Tr_me_1148_359ed9.jpg",
+   "dhash_to_nearest_train": 81,
+   "ssim_to_nearest_train": 0.357
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0108.jpg",
+   "ref": "gl_gg_282_8e08bd.jpg",
+   "dhash_to_ref": 83,
+   "ssim_to_ref": 0.434,
+   "nearest_train": "no_image_284_a6513f.jpg",
+   "dhash_to_nearest_train": 61,
+   "ssim_to_nearest_train": 0.44
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0109.jpg",
+   "ref": "gl_gg_282_8e08bd.jpg",
+   "dhash_to_ref": 94,
+   "ssim_to_ref": 0.443,
+   "nearest_train": "no_Tr_no_0243_ae6059.jpg",
+   "dhash_to_nearest_train": 74,
+   "ssim_to_nearest_train": 0.099
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0110.jpg",
+   "ref": "gl_gg_282_8e08bd.jpg",
+   "dhash_to_ref": 93,
+   "ssim_to_ref": 0.421,
+   "nearest_train": "no_image_314_90d1f9.jpg",
+   "dhash_to_nearest_train": 78,
+   "ssim_to_nearest_train": 0.059
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0111.jpg",
+   "ref": "gl_gg_285_b91696.jpg",
+   "dhash_to_ref": 96,
+   "ssim_to_ref": 0.37,
+   "nearest_train": "no_image_267_ede592.jpg",
+   "dhash_to_nearest_train": 67,
+   "ssim_to_nearest_train": 0.411
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0112.jpg",
+   "ref": "gl_gg_285_b91696.jpg",
+   "dhash_to_ref": 80,
+   "ssim_to_ref": 0.417,
+   "nearest_train": "no_Tr_no_0787_21e97c.jpg",
+   "dhash_to_nearest_train": 62,
+   "ssim_to_nearest_train": 0.11
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0113.jpg",
+   "ref": "gl_gg_285_b91696.jpg",
+   "dhash_to_ref": 109,
+   "ssim_to_ref": 0.355,
+   "nearest_train": "me_Tr_me_0372_69351c.jpg",
+   "dhash_to_nearest_train": 72,
+   "ssim_to_nearest_train": 0.286
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0115.jpg",
+   "ref": "gl_gg_329_54de1c.jpg",
+   "dhash_to_ref": 109,
+   "ssim_to_ref": 0.46,
+   "nearest_train": "no_image_226_536683.jpg",
+   "dhash_to_nearest_train": 72,
+   "ssim_to_nearest_train": 0.46
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0114.jpg",
+   "ref": "gl_gg_329_54de1c.jpg",
+   "dhash_to_ref": 115,
+   "ssim_to_ref": 0.487,
+   "nearest_train": "gl_gg_447_9fb9d7.jpg",
+   "dhash_to_nearest_train": 52,
+   "ssim_to_nearest_train": 0.456
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0116.jpg",
+   "ref": "gl_gg_329_54de1c.jpg",
+   "dhash_to_ref": 140,
+   "ssim_to_ref": 0.371,
+   "nearest_train": "me_Tr_me_0372_69351c.jpg",
+   "dhash_to_nearest_train": 78,
+   "ssim_to_nearest_train": 0.426
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0117.jpg",
+   "ref": "gl_gg_34_e3525a.jpg",
+   "dhash_to_ref": 126,
+   "ssim_to_ref": 0.385,
+   "nearest_train": "me_m3_19_04fb91.jpg",
+   "dhash_to_nearest_train": 74,
+   "ssim_to_nearest_train": 0.345
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0118.jpg",
+   "ref": "gl_gg_34_e3525a.jpg",
+   "dhash_to_ref": 127,
+   "ssim_to_ref": 0.404,
+   "nearest_train": "me_Tr_me_0567_f8d265.jpg",
+   "dhash_to_nearest_train": 79,
+   "ssim_to_nearest_train": 0.472
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0119.jpg",
+   "ref": "gl_gg_34_e3525a.jpg",
+   "dhash_to_ref": 117,
+   "ssim_to_ref": 0.388,
+   "nearest_train": "me_Tr_me_0545_853e40.jpg",
+   "dhash_to_nearest_train": 86,
+   "ssim_to_nearest_train": 0.235
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0120.jpg",
+   "ref": "gl_gg_359_a0a391.jpg",
+   "dhash_to_ref": 122,
+   "ssim_to_ref": 0.276,
+   "nearest_train": "gl_gg_96_3ce564.jpg",
+   "dhash_to_nearest_train": 87,
+   "ssim_to_nearest_train": 0.296
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0121.jpg",
+   "ref": "gl_gg_359_a0a391.jpg",
+   "dhash_to_ref": 77,
+   "ssim_to_ref": 0.358,
+   "nearest_train": "gl_gg_359_a0a391.jpg",
+   "dhash_to_nearest_train": 77,
+   "ssim_to_nearest_train": 0.358
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0122.jpg",
+   "ref": "gl_gg_359_a0a391.jpg",
+   "dhash_to_ref": 126,
+   "ssim_to_ref": 0.316,
+   "nearest_train": "me_Tr_me_0564_28b96f.jpg",
+   "dhash_to_nearest_train": 82,
+   "ssim_to_nearest_train": 0.383
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0123.jpg",
+   "ref": "gl_gg_35_e84dbd.jpg",
+   "dhash_to_ref": 113,
+   "ssim_to_ref": 0.383,
+   "nearest_train": "me_Tr_me_0704_7e978a.jpg",
+   "dhash_to_nearest_train": 83,
+   "ssim_to_nearest_train": 0.323
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0124.jpg",
+   "ref": "gl_gg_35_e84dbd.jpg",
+   "dhash_to_ref": 131,
+   "ssim_to_ref": 0.372,
+   "nearest_train": "me_Tr_me_0597_23050d.jpg",
+   "dhash_to_nearest_train": 86,
+   "ssim_to_nearest_train": 0.313
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0125.jpg",
+   "ref": "gl_gg_35_e84dbd.jpg",
+   "dhash_to_ref": 82,
+   "ssim_to_ref": 0.419,
+   "nearest_train": "me_Tr_me_0704_7e978a.jpg",
+   "dhash_to_nearest_train": 72,
+   "ssim_to_nearest_train": 0.33
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0127.jpg",
+   "ref": "gl_gg_370_81b619.jpg",
+   "dhash_to_ref": 122,
+   "ssim_to_ref": 0.24,
+   "nearest_train": "no_image_151_b22b7e.jpg",
+   "dhash_to_nearest_train": 75,
+   "ssim_to_nearest_train": 0.154
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0126.jpg",
+   "ref": "gl_gg_370_81b619.jpg",
+   "dhash_to_ref": 114,
+   "ssim_to_ref": 0.174,
+   "nearest_train": "gl_gg_192_e35ae0.jpg",
+   "dhash_to_nearest_train": 80,
+   "ssim_to_nearest_train": 0.264
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0128.jpg",
+   "ref": "gl_gg_370_81b619.jpg",
+   "dhash_to_ref": 111,
+   "ssim_to_ref": 0.225,
+   "nearest_train": "gl_Te_gl_0266_60fc2f.jpg",
+   "dhash_to_nearest_train": 81,
+   "ssim_to_nearest_train": 0.283
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0129.jpg",
+   "ref": "gl_gg_371_336cb2.jpg",
+   "dhash_to_ref": 80,
+   "ssim_to_ref": 0.311,
+   "nearest_train": "gl_gg_213_07a619.jpg",
+   "dhash_to_nearest_train": 65,
+   "ssim_to_nearest_train": 0.399
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0130.jpg",
+   "ref": "gl_gg_371_336cb2.jpg",
+   "dhash_to_ref": 125,
+   "ssim_to_ref": 0.233,
+   "nearest_train": "pi_p_192_e28a54.jpg",
+   "dhash_to_nearest_train": 82,
+   "ssim_to_nearest_train": 0.316
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0132.jpg",
+   "ref": "gl_gg_3_11cb96.jpg",
+   "dhash_to_ref": 99,
+   "ssim_to_ref": 0.47,
+   "nearest_train": "me_Tr_me_1238_075b03.jpg",
+   "dhash_to_nearest_train": 59,
+   "ssim_to_nearest_train": 0.537
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0133.jpg",
+   "ref": "gl_gg_3_11cb96.jpg",
+   "dhash_to_ref": 79,
+   "ssim_to_ref": 0.504,
+   "nearest_train": "pi_p_720_e731d8.jpg",
+   "dhash_to_nearest_train": 56,
+   "ssim_to_nearest_train": 0.455
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0131.jpg",
+   "ref": "gl_gg_371_336cb2.jpg",
+   "dhash_to_ref": 107,
+   "ssim_to_ref": 0.245,
+   "nearest_train": "gl_gg_124_fc352a.jpg",
+   "dhash_to_nearest_train": 85,
+   "ssim_to_nearest_train": 0.369
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0134.jpg",
+   "ref": "gl_gg_3_11cb96.jpg",
+   "dhash_to_ref": 95,
+   "ssim_to_ref": 0.462,
+   "nearest_train": "gl_Tr_gl_1168_8e2894.jpg",
+   "dhash_to_nearest_train": 74,
+   "ssim_to_nearest_train": 0.372
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0136.jpg",
+   "ref": "gl_gg_417_fb56a1.jpg",
+   "dhash_to_ref": 80,
+   "ssim_to_ref": 0.404,
+   "nearest_train": "no_image_284_a6513f.jpg",
+   "dhash_to_nearest_train": 61,
+   "ssim_to_nearest_train": 0.445
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0135.jpg",
+   "ref": "gl_gg_417_fb56a1.jpg",
+   "dhash_to_ref": 96,
+   "ssim_to_ref": 0.313,
+   "nearest_train": "pi_Tr_pi_1318_31e909.jpg",
+   "dhash_to_nearest_train": 52,
+   "ssim_to_nearest_train": 0.336
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0137.jpg",
+   "ref": "gl_gg_417_fb56a1.jpg",
+   "dhash_to_ref": 121,
+   "ssim_to_ref": 0.368,
+   "nearest_train": "gl_Tr_gl_0589_85e231.jpg",
+   "dhash_to_nearest_train": 68,
+   "ssim_to_nearest_train": 0.405
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0138.jpg",
+   "ref": "gl_gg_418_8490c3.jpg",
+   "dhash_to_ref": 98,
+   "ssim_to_ref": 0.355,
+   "nearest_train": "pi_Tr_pi_1318_31e909.jpg",
+   "dhash_to_nearest_train": 64,
+   "ssim_to_nearest_train": 0.198
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0139.jpg",
+   "ref": "gl_gg_418_8490c3.jpg",
+   "dhash_to_ref": 77,
+   "ssim_to_ref": 0.384,
+   "nearest_train": "pi_Tr_pi_0794_b5f434.jpg",
+   "dhash_to_nearest_train": 66,
+   "ssim_to_nearest_train": 0.324
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0140.jpg",
+   "ref": "gl_gg_418_8490c3.jpg",
+   "dhash_to_ref": 81,
+   "ssim_to_ref": 0.386,
+   "nearest_train": "me_Tr_me_0068_adc62f.jpg",
+   "dhash_to_nearest_train": 62,
+   "ssim_to_nearest_train": 0.357
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0141.jpg",
+   "ref": "gl_gg_419_7073ef.jpg",
+   "dhash_to_ref": 101,
+   "ssim_to_ref": 0.307,
+   "nearest_train": "pi_Tr_pi_1318_31e909.jpg",
+   "dhash_to_nearest_train": 75,
+   "ssim_to_nearest_train": 0.218
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0142.jpg",
+   "ref": "gl_gg_419_7073ef.jpg",
+   "dhash_to_ref": 95,
+   "ssim_to_ref": 0.297,
+   "nearest_train": "pi_Tr_pi_1097_eade42.jpg",
+   "dhash_to_nearest_train": 69,
+   "ssim_to_nearest_train": 0.159
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0144.jpg",
+   "ref": "gl_gg_427_07a9b1.jpg",
+   "dhash_to_ref": 125,
+   "ssim_to_ref": 0.322,
+   "nearest_train": "gl_Tr_gl_0050_672d9f.jpg",
+   "dhash_to_nearest_train": 79,
+   "ssim_to_nearest_train": 0.362
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0145.jpg",
+   "ref": "gl_gg_427_07a9b1.jpg",
+   "dhash_to_ref": 112,
+   "ssim_to_ref": 0.208,
+   "nearest_train": "gl_Tr_gl_0050_672d9f.jpg",
+   "dhash_to_nearest_train": 84,
+   "ssim_to_nearest_train": 0.207
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0143.jpg",
+   "ref": "gl_gg_419_7073ef.jpg",
+   "dhash_to_ref": 95,
+   "ssim_to_ref": 0.306,
+   "nearest_train": "pi_Tr_pi_1318_31e909.jpg",
+   "dhash_to_nearest_train": 63,
+   "ssim_to_nearest_train": 0.208
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0146.jpg",
+   "ref": "gl_gg_427_07a9b1.jpg",
+   "dhash_to_ref": 91,
+   "ssim_to_ref": 0.391,
+   "nearest_train": "me_Tr_me_0545_853e40.jpg",
+   "dhash_to_nearest_train": 85,
+   "ssim_to_nearest_train": 0.351
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0147.jpg",
+   "ref": "gl_gg_474_d5ffc1.jpg",
+   "dhash_to_ref": 76,
+   "ssim_to_ref": 0.572,
+   "nearest_train": "me_m_94_631d75.jpg",
+   "dhash_to_nearest_train": 55,
+   "ssim_to_nearest_train": 0.5
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0148.jpg",
+   "ref": "gl_gg_474_d5ffc1.jpg",
+   "dhash_to_ref": 78,
+   "ssim_to_ref": 0.479,
+   "nearest_train": "pi_p_720_e731d8.jpg",
+   "dhash_to_nearest_train": 63,
+   "ssim_to_nearest_train": 0.41
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0149.jpg",
+   "ref": "gl_gg_474_d5ffc1.jpg",
+   "dhash_to_ref": 93,
+   "ssim_to_ref": 0.496,
+   "nearest_train": "pi_Tr_pi_1112_80e0a6.jpg",
+   "dhash_to_nearest_train": 57,
+   "ssim_to_nearest_train": 0.456
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0150.jpg",
+   "ref": "gl_gg_478_f27187.jpg",
+   "dhash_to_ref": 92,
+   "ssim_to_ref": 0.549,
+   "nearest_train": "gl_Tr_gl_0375_b087af.jpg",
+   "dhash_to_nearest_train": 62,
+   "ssim_to_nearest_train": 0.542
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0151.jpg",
+   "ref": "gl_gg_478_f27187.jpg",
+   "dhash_to_ref": 71,
+   "ssim_to_ref": 0.674,
+   "nearest_train": "gl_Tr_gl_0160_9fbdd3.jpg",
+   "dhash_to_nearest_train": 51,
+   "ssim_to_nearest_train": 0.626
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0152.jpg",
+   "ref": "gl_gg_478_f27187.jpg",
+   "dhash_to_ref": 75,
+   "ssim_to_ref": 0.588,
+   "nearest_train": "gl_gg_608_8e1232.jpg",
+   "dhash_to_nearest_train": 69,
+   "ssim_to_nearest_train": 0.576
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0154.jpg",
+   "ref": "gl_gg_5_9a1e71.jpg",
+   "dhash_to_ref": 83,
+   "ssim_to_ref": 0.504,
+   "nearest_train": "pi_Tr_pi_0633_be8bb6.jpg",
+   "dhash_to_nearest_train": 59,
+   "ssim_to_nearest_train": 0.461
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0153.jpg",
+   "ref": "gl_gg_5_9a1e71.jpg",
+   "dhash_to_ref": 111,
+   "ssim_to_ref": 0.401,
+   "nearest_train": "no_Tr_no_0787_21e97c.jpg",
+   "dhash_to_nearest_train": 67,
+   "ssim_to_nearest_train": 0.108
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0157.jpg",
+   "ref": "gl_gg_608_8e1232.jpg",
+   "dhash_to_ref": 81,
+   "ssim_to_ref": 0.548,
+   "nearest_train": "gl_Tr_gl_1134_838b1f.jpg",
+   "dhash_to_nearest_train": 45,
+   "ssim_to_nearest_train": 0.474
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0156.jpg",
+   "ref": "gl_gg_608_8e1232.jpg",
+   "dhash_to_ref": 69,
+   "ssim_to_ref": 0.569,
+   "nearest_train": "me_m_194_e62bad.jpg",
+   "dhash_to_nearest_train": 44,
+   "ssim_to_nearest_train": 0.592
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0155.jpg",
+   "ref": "gl_gg_5_9a1e71.jpg",
+   "dhash_to_ref": 62,
+   "ssim_to_ref": 0.448,
+   "nearest_train": "gl_gg_474_d5ffc1.jpg",
+   "dhash_to_nearest_train": 51,
+   "ssim_to_nearest_train": 0.503
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0159.jpg",
+   "ref": "gl_gg_609_69f167.jpg",
+   "dhash_to_ref": 80,
+   "ssim_to_ref": 0.563,
+   "nearest_train": "gl_Tr_gl_0552_e97a68.jpg",
+   "dhash_to_nearest_train": 48,
+   "ssim_to_nearest_train": 0.637
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0160.jpg",
+   "ref": "gl_gg_609_69f167.jpg",
+   "dhash_to_ref": 71,
+   "ssim_to_ref": 0.58,
+   "nearest_train": "me_m_192_eb5571.jpg",
+   "dhash_to_nearest_train": 54,
+   "ssim_to_nearest_train": 0.568
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0158.jpg",
+   "ref": "gl_gg_608_8e1232.jpg",
+   "dhash_to_ref": 67,
+   "ssim_to_ref": 0.497,
+   "nearest_train": "gl_gg_608_8e1232.jpg",
+   "dhash_to_nearest_train": 67,
+   "ssim_to_nearest_train": 0.497
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0163.jpg",
+   "ref": "gl_gg_611_354407.jpg",
+   "dhash_to_ref": 69,
+   "ssim_to_ref": 0.491,
+   "nearest_train": "gl_gg_608_8e1232.jpg",
+   "dhash_to_nearest_train": 69,
+   "ssim_to_nearest_train": 0.461
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0162.jpg",
+   "ref": "gl_gg_611_354407.jpg",
+   "dhash_to_ref": 58,
+   "ssim_to_ref": 0.605,
+   "nearest_train": "gl_gg_611_354407.jpg",
+   "dhash_to_nearest_train": 58,
+   "ssim_to_nearest_train": 0.605
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0161.jpg",
+   "ref": "gl_gg_609_69f167.jpg",
+   "dhash_to_ref": 100,
+   "ssim_to_ref": 0.439,
+   "nearest_train": "no_Tr_no_0475_e0ca72.jpg",
+   "dhash_to_nearest_train": 69,
+   "ssim_to_nearest_train": 0.588
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0164.jpg",
+   "ref": "gl_gg_611_354407.jpg",
+   "dhash_to_ref": 81,
+   "ssim_to_ref": 0.495,
+   "nearest_train": "gl_Tr_gl_0375_b087af.jpg",
+   "dhash_to_nearest_train": 65,
+   "ssim_to_nearest_train": 0.535
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0166.jpg",
+   "ref": "gl_gg_6_242daa.jpg",
+   "dhash_to_ref": 86,
+   "ssim_to_ref": 0.444,
+   "nearest_train": "gl_gg_609_69f167.jpg",
+   "dhash_to_nearest_train": 62,
+   "ssim_to_nearest_train": 0.527
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0165.jpg",
+   "ref": "gl_gg_6_242daa.jpg",
+   "dhash_to_ref": 72,
+   "ssim_to_ref": 0.549,
+   "nearest_train": "gl_Tr_gl_0375_b087af.jpg",
+   "dhash_to_nearest_train": 49,
+   "ssim_to_nearest_train": 0.6
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0168.jpg",
+   "ref": "gl_gg_722_5f3688.jpg",
+   "dhash_to_ref": 92,
+   "ssim_to_ref": 0.396,
+   "nearest_train": "gl_gg_262_466f5d.jpg",
+   "dhash_to_nearest_train": 86,
+   "ssim_to_nearest_train": 0.415
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0169.jpg",
+   "ref": "gl_gg_722_5f3688.jpg",
+   "dhash_to_ref": 108,
+   "ssim_to_ref": 0.347,
+   "nearest_train": "gl_gg_235_e2922c.jpg",
+   "dhash_to_nearest_train": 83,
+   "ssim_to_nearest_train": 0.337
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0167.jpg",
+   "ref": "gl_gg_6_242daa.jpg",
+   "dhash_to_ref": 87,
+   "ssim_to_ref": 0.541,
+   "nearest_train": "gl_Tr_gl_0313_f72018.jpg",
+   "dhash_to_nearest_train": 53,
+   "ssim_to_nearest_train": 0.619
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0170.jpg",
+   "ref": "gl_gg_722_5f3688.jpg",
+   "dhash_to_ref": 102,
+   "ssim_to_ref": 0.2,
+   "nearest_train": "me_Tr_me_0666_5c6f5d.jpg",
+   "dhash_to_nearest_train": 80,
+   "ssim_to_nearest_train": 0.255
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0172.jpg",
+   "ref": "gl_gg_723_289f72.jpg",
+   "dhash_to_ref": 111,
+   "ssim_to_ref": 0.38,
+   "nearest_train": "gl_Tr_gl_1137_3e36a8.jpg",
+   "dhash_to_nearest_train": 89,
+   "ssim_to_nearest_train": 0.265
+  },
+  {
+   "file": "generated/train_low/syn_gl_lo_0171.jpg",
+   "ref": "gl_gg_723_289f72.jpg",
+   "dhash_to_ref": 114,
+   "ssim_to_ref": 0.304,
+   "nearest_train": "gl_gg_226_b38dfa.jpg",
+   "dhash_to_nearest_train": 85,
+   "ssim_to_nearest_train": 0.351
+  }
+ ]
+}

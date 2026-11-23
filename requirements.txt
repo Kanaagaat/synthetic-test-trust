@@ -1,0 +1,9 @@
+# Training ran on Colab (torch 2.14.1+cu130, Python 3.13.16); evaluation was tested with the versions below.
+ultralytics==8.4.190
+torch>=2.14
+torchvision>=0.29
+numpy>=2.5
+pillow>=13.0
+matplotlib>=3.11
+opencv-python>=5.1
+PyYAML>=6.0

@@ -1,0 +1,5 @@
+batch,accepted,multi_lesion,brain_mean,contrast,sharpness,head_fraction,dhash_between_real_median,generated,rejected,rejected_in_blind_review,unique_refs,unchanged,corrected,drawn,blind,detected@0.25,n_with_draft,n_labeled,dhash_to_ref_median,ssim_to_ref_median,dhash_nearest_train_min,near_dups,rq3_auc_handcrafted,rq3_auc_detector
+real glioma (subset_v1 train),245,0.123,72.61 ± 10.45,30.99 ± 5.33,185.73 ± 55.53,0.47 ± 0.1,114.0,,,,,,,,,,,,,,,,,
+s_test,51,0.118,69.38 ± 12.34,27.4 ± 3.89,202.92 ± 93.55,0.51 ± 0.1,,55,4,1,51,39,8,1,3,0.979,48,51,104.0,0.409,44,0,0.981,0.96
+train_low,182,0.264,69.63 ± 13.9,26.53 ± 4.91,191.13 ± 84.34,0.53 ± 0.1,,183,1,0,61,170,11,1,0,0.995,182,182,100.0,0.388,43,0,0.984,0.971
+train_full,245,0.131,70.27 ± 13.47,26.67 ± 4.66,185.03 ± 82.66,0.52 ± 0.1,,245,0,0,245,227,13,5,0,0.98,245,245,101.0,0.382,36,0,0.98,0.957

@@ -1,0 +1,46 @@
+{
+ "run": "A_full_s0_ctrl",
+ "variant": "A_full",
+ "seed": 0,
+ "variant_info": {
+  "train_images": 945,
+  "glioma_images": 245,
+  "note": "all real train images",
+  "list_sha1": "5cee55c6881a"
+ },
+ "val_all": {
+  "mAP50": 0.931510997909392,
+  "mAP50-95": 0.7001620513993622
+ },
+ "val_glioma": {
+  "AP50": 0.9578199601589833,
+  "AP50-95": 0.7147850093681236
+ },
+ "minutes_this_session": 21.7,
+ "settings": {
+  "imgsz": 512,
+  "epochs": 100,
+  "batch": 16,
+  "optimizer": "SGD",
+  "lr0": 0.01,
+  "lrf": 0.01,
+  "momentum": 0.937,
+  "weight_decay": 0.0005,
+  "warmup_epochs": 3.0,
+  "cos_lr": false,
+  "patience": 50,
+  "deterministic": true,
+  "close_mosaic": 10,
+  "workers": 2,
+  "save_period": 25,
+  "plots": false
+ },
+ "env": {
+  "ultralytics": "8.4.190",
+  "torch": "2.14.1+cu130",
+  "cuda": "13.0",
+  "gpu": "Tesla T4",
+  "python": "3.13.16"
+ },
+ "finished_utc": "2026-11-22T19:02:08+00:00"
+}

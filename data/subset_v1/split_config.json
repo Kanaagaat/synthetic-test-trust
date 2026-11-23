@@ -1,0 +1,85 @@
+{
+  "dataset_version": "subset_v1",
+  "created_utc": "2026-11-16T11:28:18Z",
+  "source": "data/clean_v1 (Step 2 of notebook.ipynb, built from the Kaggle archive)",
+  "random_seed": 42,
+  "rng": "numpy.random.default_rng(seed)",
+  "method": "Group images by exact MD5, dHash near-duplicates and consecutive file numbers; drop groups with ambiguous annotations or several class folders; keep one copy per MD5; sample whole groups per class (max images per group) to the target size; assign each group to the split furthest below its target share.",
+  "dhash": {
+    "bits": 256,
+    "thumbnail": "17x16 grayscale, LANCZOS",
+    "near_duplicate_max_distance": 28,
+    "consecutive_files_max_distance": 48
+  },
+  "max_images_per_group": 3,
+  "target_images_per_class": {
+    "Glioma": 350,
+    "Meningioma": 350,
+    "Pituitary": 350,
+    "No Tumor": 300
+  },
+  "split_fractions": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "class_names": [
+    "Glioma",
+    "Meningioma",
+    "Pituitary"
+  ],
+  "class_remap_from_original": {
+    "0 Glioma": 0,
+    "1 Meningioma": 1,
+    "3 Pituitary": 2,
+    "2 No Tumor": "no boxes (background)"
+  },
+  "images_per_split": {
+    "train": 945,
+    "val": 202,
+    "test": 203
+  },
+  "images_per_split_and_folder": {
+    "train": {
+      "Glioma": 245,
+      "Meningioma": 245,
+      "No Tumor": 210,
+      "Pituitary": 245
+    },
+    "val": {
+      "Glioma": 53,
+      "Meningioma": 52,
+      "No Tumor": 45,
+      "Pituitary": 52
+    },
+    "test": {
+      "Glioma": 52,
+      "Meningioma": 53,
+      "No Tumor": 45,
+      "Pituitary": 53
+    }
+  },
+  "objects_per_split_and_class": {
+    "train": {
+      "Glioma": 283,
+      "Meningioma": 251,
+      "Pituitary": 259
+    },
+    "val": {
+      "Glioma": 58,
+      "Meningioma": 52,
+      "Pituitary": 57
+    },
+    "test": {
+      "Glioma": 59,
+      "Meningioma": 53,
+      "Pituitary": 55
+    }
+  },
+  "groups_per_split": {
+    "train": 627,
+    "val": 139,
+    "test": 138
+  },
+  "min_dhash_distance_between_splits": 32
+}

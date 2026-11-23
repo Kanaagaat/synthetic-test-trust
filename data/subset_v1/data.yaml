@@ -1,0 +1,10 @@
+# Brain tumor detection subset v1 (see split_config.json).
+# 'path' is replaced with the absolute dataset folder by the training notebook.
+path: .
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: Glioma
+  1: Meningioma
+  2: Pituitary

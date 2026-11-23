@@ -1,0 +1,53 @@
+name,decision,box_checked,n_draft,n_final,draft_iou_mean,reason,time
+gl_Te_gl_0015_27df96,save,blind,0,1,0.0,,2026-11-21T22:43:13
+gl_Te_gl_0146_dc599f,save,blind,0,1,0.0,,2026-11-21T22:43:17
+gl_Te_gl_0195_348ca9,save,blind,0,1,0.0,,2026-11-21T22:43:22
+gl_Te_gl_0277_51a658,save,blind,0,1,0.0,,2026-11-21T22:43:26
+gl_Tr_gl_0038_70cc51,save,blind,0,1,0.0,,2026-11-21T22:43:31
+gl_Tr_gl_0060_110474,save,blind,0,1,0.0,,2026-11-21T22:43:39
+gl_Tr_gl_0153_f9deb3,save,blind,0,1,0.0,,2026-11-21T22:43:48
+gl_Tr_gl_0154_783bbf,save,blind,0,1,0.0,,2026-11-21T22:43:51
+gl_Tr_gl_0155_e80990,save,blind,0,1,0.0,,2026-11-21T22:43:56
+gl_Tr_gl_0168_86bf09,save,blind,0,1,0.0,,2026-11-21T22:44:03
+gl_Tr_gl_0169_c257a1,save,blind,0,1,0.0,,2026-11-21T22:44:11
+gl_Tr_gl_0170_7090c4,save,blind,0,1,0.0,,2026-11-21T22:44:16
+gl_Tr_gl_0335_0252b5,reject,,0,0,,review(blind): опухоль не видна,2026-11-21T22:44:24
+gl_Tr_gl_0639_c495c5,save,blind,0,2,0.0,,2026-11-21T22:44:40
+gl_Tr_gl_0640_088ef2,save,blind,0,2,0.0,,2026-11-21T22:44:49
+gl_Tr_gl_0662_7d2cb9,save,blind,0,1,0.0,,2026-11-21T22:44:54
+gl_Tr_gl_0663_ee6517,save,blind,0,1,0.0,,2026-11-21T22:44:57
+gl_Tr_gl_0828_9063a7,save,blind,0,1,0.0,,2026-11-21T22:45:08
+gl_Tr_gl_0962_bee359,save,blind,0,1,0.0,,2026-11-21T22:45:12
+gl_Tr_gl_0963_d467ac,save,blind,0,3,0.0,,2026-11-21T22:45:22
+gl_Tr_gl_0999_19330a,save,blind,0,1,0.0,,2026-11-21T22:45:28
+gl_Tr_gl_1040_d9bd43,save,blind,0,1,0.0,,2026-11-21T22:45:33
+gl_Tr_gl_1098_bfc7bb,save,blind,0,1,0.0,,2026-11-21T22:45:38
+gl_Tr_gl_1121_30ad59,save,blind,0,1,0.0,,2026-11-21T22:45:53
+gl_Tr_gl_1198_dd6e27,save,blind,0,2,0.0,,2026-11-21T22:46:01
+gl_Tr_gl_1211_07339f,save,blind,0,1,0.0,,2026-11-21T22:46:05
+gl_gg_185_d5397a,save,blind,0,1,0.0,,2026-11-21T22:46:10
+gl_gg_223_070263,save,blind,0,1,0.0,,2026-11-21T22:46:29
+gl_gg_231_96a0de,save,blind,0,1,0.0,,2026-11-21T22:46:33
+gl_gg_295_fd7762,reject,,0,0,,review(blind): опухоль не видна,2026-11-21T22:46:40
+gl_gg_362_9c141d,save,blind,0,1,0.0,,2026-11-21T22:46:47
+gl_gg_385_13aba4,reject,,0,0,,review(blind): опухоль не видна,2026-11-21T22:46:52
+gl_gg_386_192a1a,save,blind,0,2,0.0,,2026-11-21T22:47:02
+gl_gg_459_daa65c,save,blind,0,1,0.0,,2026-11-21T22:47:08
+gl_gg_468_3cc58d,save,blind,0,2,0.0,,2026-11-21T22:47:17
+gl_gg_500_bcbf26,save,blind,0,1,0.0,,2026-11-21T22:47:21
+gl_gg_511_ef0aa3,save,blind,0,1,0.0,,2026-11-21T22:47:27
+gl_gg_513_f2fe51,save,blind,0,1,0.0,,2026-11-21T22:47:31
+gl_gg_535_096cf0,save,blind,0,1,0.0,,2026-11-21T22:47:41
+gl_gg_536_bcf142,reject,,0,0,,review(blind): опухоль не видна,2026-11-21T22:47:47
+gl_gg_539_d14cd9,save,blind,0,1,0.0,,2026-11-21T22:48:21
+gl_gg_540_38c51b,save,blind,0,1,0.0,,2026-11-21T22:48:29
+gl_gg_541_61a2ca,save,blind,0,1,0.0,,2026-11-21T22:48:40
+gl_gg_543_7bda0b,save,blind,0,1,0.0,,2026-11-21T22:48:43
+gl_gg_592_536cd5,save,blind,0,1,0.0,,2026-11-21T22:51:26
+gl_gg_594_0034dc,save,blind,0,1,0.0,,2026-11-21T22:51:49
+gl_gg_59_b24e92,save,blind,0,1,0.0,,2026-11-21T22:51:55
+gl_gg_75_4e4185,save,blind,0,1,0.0,,2026-11-21T22:51:59
+gl_gg_76_eb59f4,save,blind,0,1,0.0,,2026-11-21T22:52:04
+gl_gg_786_b23cdb,reject,,0,0,,review(blind): опухоль не видна,2026-11-21T22:52:09
+gl_gg_787_36a287,reject,,0,0,,review(blind): опухоль не видна,2026-11-21T22:52:14
+gl_gg_95_4a9e36,save,blind,0,1,0.0,,2026-11-21T22:52:21

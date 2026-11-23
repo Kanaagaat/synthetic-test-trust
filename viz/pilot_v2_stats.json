@@ -1,0 +1,229 @@
+{
+ "purpose": "pilot_v2",
+ "n": 20,
+ "real_glioma_train": {
+  "brain_mean": {
+   "mean": 72.61,
+   "sd": 10.45
+  },
+  "contrast_std": {
+   "mean": 30.99,
+   "sd": 5.33
+  },
+  "edge_var": {
+   "mean": 185.73,
+   "sd": 55.53
+  },
+  "head_fraction": {
+   "mean": 0.47,
+   "sd": 0.1
+  }
+ },
+ "synthetic": {
+  "brain_mean": {
+   "mean": 77.34,
+   "sd": 21.26
+  },
+  "contrast_std": {
+   "mean": 32.36,
+   "sd": 10.46
+  },
+  "edge_var": {
+   "mean": 920.58,
+   "sd": 640.47
+  },
+  "head_fraction": {
+   "mean": 0.43,
+   "sd": 0.16
+  }
+ },
+ "similarity": {
+  "dhash_to_ref_median": 109.5,
+  "dhash_to_nearest_train_min": 53,
+  "n_within_near_dup_threshold": 0,
+  "ssim_to_ref_median": 0.325,
+  "dhash_between_different_refs_median": 120.0
+ },
+ "per_image": [
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0000.jpg",
+   "ref": "gl_gg_608_8e1232.jpg",
+   "dhash_to_ref": 89,
+   "ssim_to_ref": 0.378,
+   "nearest_train": "gl_Tr_gl_0160_9fbdd3.jpg",
+   "dhash_to_nearest_train": 53,
+   "ssim_to_nearest_train": 0.444
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0001.jpg",
+   "ref": "gl_gg_608_8e1232.jpg",
+   "dhash_to_ref": 77,
+   "ssim_to_ref": 0.425,
+   "nearest_train": "gl_Tr_gl_0375_b087af.jpg",
+   "dhash_to_nearest_train": 67,
+   "ssim_to_nearest_train": 0.49
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0002.jpg",
+   "ref": "gl_Tr_gl_1133_34c75e.jpg",
+   "dhash_to_ref": 68,
+   "ssim_to_ref": 0.369,
+   "nearest_train": "me_Tr_me_0849_d59a61.jpg",
+   "dhash_to_nearest_train": 60,
+   "ssim_to_nearest_train": 0.436
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0003.jpg",
+   "ref": "gl_Tr_gl_1133_34c75e.jpg",
+   "dhash_to_ref": 57,
+   "ssim_to_ref": 0.444,
+   "nearest_train": "me_Tr_me_0849_d59a61.jpg",
+   "dhash_to_nearest_train": 55,
+   "ssim_to_nearest_train": 0.496
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0004.jpg",
+   "ref": "gl_Tr_gl_0308_0d7e19.jpg",
+   "dhash_to_ref": 95,
+   "ssim_to_ref": 0.511,
+   "nearest_train": "no_Tr_no_0423_34c41a.jpg",
+   "dhash_to_nearest_train": 66,
+   "ssim_to_nearest_train": 0.535
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0005.jpg",
+   "ref": "gl_Tr_gl_0308_0d7e19.jpg",
+   "dhash_to_ref": 86,
+   "ssim_to_ref": 0.503,
+   "nearest_train": "pi_Tr_pi_0633_be8bb6.jpg",
+   "dhash_to_nearest_train": 70,
+   "ssim_to_nearest_train": 0.402
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0006.jpg",
+   "ref": "gl_gg_72_909eef.jpg",
+   "dhash_to_ref": 113,
+   "ssim_to_ref": 0.18,
+   "nearest_train": "gl_Te_gl_0178_72a780.jpg",
+   "dhash_to_nearest_train": 85,
+   "ssim_to_nearest_train": 0.158
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0007.jpg",
+   "ref": "gl_gg_72_909eef.jpg",
+   "dhash_to_ref": 101,
+   "ssim_to_ref": 0.231,
+   "nearest_train": "gl_Tr_gl_1289_1c7eae.jpg",
+   "dhash_to_nearest_train": 85,
+   "ssim_to_nearest_train": 0.384
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0008.jpg",
+   "ref": "gl_Te_gl_0198_8baeb4.jpg",
+   "dhash_to_ref": 99,
+   "ssim_to_ref": 0.118,
+   "nearest_train": "no_image_218_d5f0f3.jpg",
+   "dhash_to_nearest_train": 55,
+   "ssim_to_nearest_train": 0.66
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0009.jpg",
+   "ref": "gl_Te_gl_0198_8baeb4.jpg",
+   "dhash_to_ref": 121,
+   "ssim_to_ref": 0.13,
+   "nearest_train": "gl_Tr_gl_0651_4a46f7.jpg",
+   "dhash_to_nearest_train": 68,
+   "ssim_to_nearest_train": 0.547
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0010.jpg",
+   "ref": "gl_gg_216_5e7a0f.jpg",
+   "dhash_to_ref": 113,
+   "ssim_to_ref": 0.152,
+   "nearest_train": "no_image_218_d5f0f3.jpg",
+   "dhash_to_nearest_train": 64,
+   "ssim_to_nearest_train": 0.655
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0011.jpg",
+   "ref": "gl_gg_216_5e7a0f.jpg",
+   "dhash_to_ref": 126,
+   "ssim_to_ref": 0.28,
+   "nearest_train": "gl_gg_822_9698d8.jpg",
+   "dhash_to_nearest_train": 84,
+   "ssim_to_nearest_train": 0.37
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0012.jpg",
+   "ref": "gl_Tr_gl_0495_2dfd98.jpg",
+   "dhash_to_ref": 109,
+   "ssim_to_ref": 0.472,
+   "nearest_train": "no_image_298_42e06a.jpg",
+   "dhash_to_nearest_train": 76,
+   "ssim_to_nearest_train": 0.429
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0013.jpg",
+   "ref": "gl_Tr_gl_0495_2dfd98.jpg",
+   "dhash_to_ref": 129,
+   "ssim_to_ref": 0.361,
+   "nearest_train": "gl_Tr_gl_1168_8e2894.jpg",
+   "dhash_to_nearest_train": 77,
+   "ssim_to_nearest_train": 0.333
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0014.jpg",
+   "ref": "gl_gg_310_d6ecde.jpg",
+   "dhash_to_ref": 136,
+   "ssim_to_ref": 0.318,
+   "nearest_train": "me_Tr_me_0068_adc62f.jpg",
+   "dhash_to_nearest_train": 72,
+   "ssim_to_nearest_train": 0.287
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0015.jpg",
+   "ref": "gl_gg_310_d6ecde.jpg",
+   "dhash_to_ref": 122,
+   "ssim_to_ref": 0.332,
+   "nearest_train": "gl_gg_436_a1d9d0.jpg",
+   "dhash_to_nearest_train": 72,
+   "ssim_to_nearest_train": 0.364
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0016.jpg",
+   "ref": "gl_gg_329_54de1c.jpg",
+   "dhash_to_ref": 149,
+   "ssim_to_ref": 0.232,
+   "nearest_train": "pi_p_56_c70d2b.jpg",
+   "dhash_to_nearest_train": 75,
+   "ssim_to_nearest_train": 0.089
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0017.jpg",
+   "ref": "gl_gg_329_54de1c.jpg",
+   "dhash_to_ref": 113,
+   "ssim_to_ref": 0.336,
+   "nearest_train": "no_image_218_d5f0f3.jpg",
+   "dhash_to_nearest_train": 66,
+   "ssim_to_nearest_train": 0.666
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0018.jpg",
+   "ref": "gl_Te_gl_0250_1c8eb3.jpg",
+   "dhash_to_ref": 110,
+   "ssim_to_ref": 0.219,
+   "nearest_train": "pi_Tr_pi_1282_6b4519.jpg",
+   "dhash_to_nearest_train": 64,
+   "ssim_to_nearest_train": 0.205
+  },
+  {
+   "file": "generated/pilot_v2/syn_gl_v2_0019.jpg",
+   "ref": "gl_Te_gl_0250_1c8eb3.jpg",
+   "dhash_to_ref": 100,
+   "ssim_to_ref": 0.228,
+   "nearest_train": "no_image_284_a6513f.jpg",
+   "dhash_to_nearest_train": 60,
+   "ssim_to_nearest_train": 0.406
+  }
+ ]
+}

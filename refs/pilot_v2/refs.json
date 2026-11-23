@@ -1,0 +1,62 @@
+[
+ {
+  "ref": "gl_gg_608_8e1232.jpg",
+  "plane": "axial",
+  "size": "small",
+  "ref_pattern": "ring"
+ },
+ {
+  "ref": "gl_Tr_gl_1133_34c75e.jpg",
+  "plane": "axial",
+  "size": "medium",
+  "ref_pattern": "heterogeneous"
+ },
+ {
+  "ref": "gl_Tr_gl_0308_0d7e19.jpg",
+  "plane": "axial",
+  "size": "large",
+  "ref_pattern": "low_grade"
+ },
+ {
+  "ref": "gl_gg_72_909eef.jpg",
+  "plane": "sagittal",
+  "size": "small",
+  "ref_pattern": "low_grade"
+ },
+ {
+  "ref": "gl_Te_gl_0198_8baeb4.jpg",
+  "plane": "sagittal",
+  "size": "medium",
+  "ref_pattern": "ring"
+ },
+ {
+  "ref": "gl_gg_216_5e7a0f.jpg",
+  "plane": "sagittal",
+  "size": "large",
+  "ref_pattern": "cystic"
+ },
+ {
+  "ref": "gl_Tr_gl_0495_2dfd98.jpg",
+  "plane": "coronal",
+  "size": "small",
+  "ref_pattern": "low_grade"
+ },
+ {
+  "ref": "gl_gg_310_d6ecde.jpg",
+  "plane": "coronal",
+  "size": "medium",
+  "ref_pattern": "ring"
+ },
+ {
+  "ref": "gl_gg_329_54de1c.jpg",
+  "plane": "coronal",
+  "size": "medium",
+  "ref_pattern": "low_grade"
+ },
+ {
+  "ref": "gl_Te_gl_0250_1c8eb3.jpg",
+  "plane": "coronal",
+  "size": "large",
+  "ref_pattern": "heterogeneous"
+ }
+]

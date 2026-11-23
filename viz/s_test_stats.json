@@ -1,0 +1,517 @@
+{
+ "purpose": "s_test",
+ "n": 52,
+ "real_glioma_train": {
+  "brain_mean": {
+   "mean": 72.61,
+   "sd": 10.45
+  },
+  "contrast_std": {
+   "mean": 30.99,
+   "sd": 5.33
+  },
+  "edge_var": {
+   "mean": 185.73,
+   "sd": 55.53
+  },
+  "head_fraction": {
+   "mean": 0.47,
+   "sd": 0.1
+  }
+ },
+ "synthetic": {
+  "brain_mean": {
+   "mean": 70.09,
+   "sd": 11.63
+  },
+  "contrast_std": {
+   "mean": 27.37,
+   "sd": 3.69
+  },
+  "edge_var": {
+   "mean": 200.03,
+   "sd": 91.23
+  },
+  "head_fraction": {
+   "mean": 0.52,
+   "sd": 0.1
+  }
+ },
+ "similarity": {
+  "dhash_to_ref_median": 104.5,
+  "dhash_to_nearest_train_min": 44,
+  "n_within_near_dup_threshold": 0,
+  "ssim_to_ref_median": 0.4075,
+  "dhash_between_different_refs_median": 113.0
+ },
+ "per_image": [
+  {
+   "file": "generated/s_test/syn_gl_st_0000.jpg",
+   "ref": "gl_Te_gl_0015_27df96.jpg",
+   "dhash_to_ref": 66,
+   "ssim_to_ref": 0.488,
+   "nearest_train": "gl_Te_gl_0286_9a3b13.jpg",
+   "dhash_to_nearest_train": 60,
+   "ssim_to_nearest_train": 0.51
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0001.jpg",
+   "ref": "gl_Te_gl_0146_dc599f.jpg",
+   "dhash_to_ref": 131,
+   "ssim_to_ref": 0.337,
+   "nearest_train": "pi_Tr_pi_1318_31e909.jpg",
+   "dhash_to_nearest_train": 80,
+   "ssim_to_nearest_train": 0.18
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0002.jpg",
+   "ref": "gl_Te_gl_0195_348ca9.jpg",
+   "dhash_to_ref": 95,
+   "ssim_to_ref": 0.422,
+   "nearest_train": "me_Tr_me_1138_525b79.jpg",
+   "dhash_to_nearest_train": 76,
+   "ssim_to_nearest_train": 0.372
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0003.jpg",
+   "ref": "gl_Te_gl_0277_51a658.jpg",
+   "dhash_to_ref": 116,
+   "ssim_to_ref": 0.33,
+   "nearest_train": "gl_Te_gl_0266_60fc2f.jpg",
+   "dhash_to_nearest_train": 78,
+   "ssim_to_nearest_train": 0.298
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0004.jpg",
+   "ref": "gl_Tr_gl_0038_70cc51.jpg",
+   "dhash_to_ref": 105,
+   "ssim_to_ref": 0.398,
+   "nearest_train": "me_Tr_me_0597_23050d.jpg",
+   "dhash_to_nearest_train": 81,
+   "ssim_to_nearest_train": 0.362
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0005.jpg",
+   "ref": "gl_Tr_gl_0060_110474.jpg",
+   "dhash_to_ref": 84,
+   "ssim_to_ref": 0.535,
+   "nearest_train": "pi_Te_pi_0040_885b1a.jpg",
+   "dhash_to_nearest_train": 60,
+   "ssim_to_nearest_train": 0.464
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0006.jpg",
+   "ref": "gl_Tr_gl_0153_f9deb3.jpg",
+   "dhash_to_ref": 61,
+   "ssim_to_ref": 0.593,
+   "nearest_train": "gl_Tr_gl_1279_02f595.jpg",
+   "dhash_to_nearest_train": 49,
+   "ssim_to_nearest_train": 0.577
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0007.jpg",
+   "ref": "gl_Tr_gl_0154_783bbf.jpg",
+   "dhash_to_ref": 70,
+   "ssim_to_ref": 0.596,
+   "nearest_train": "me_m_94_631d75.jpg",
+   "dhash_to_nearest_train": 54,
+   "ssim_to_nearest_train": 0.509
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0008.jpg",
+   "ref": "gl_Tr_gl_0155_e80990.jpg",
+   "dhash_to_ref": 108,
+   "ssim_to_ref": 0.514,
+   "nearest_train": "pi_Te_pi_0040_885b1a.jpg",
+   "dhash_to_nearest_train": 69,
+   "ssim_to_nearest_train": 0.464
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0009.jpg",
+   "ref": "gl_Tr_gl_0168_86bf09.jpg",
+   "dhash_to_ref": 91,
+   "ssim_to_ref": 0.409,
+   "nearest_train": "pi_p_719_286ee4.jpg",
+   "dhash_to_nearest_train": 61,
+   "ssim_to_nearest_train": 0.405
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0010.jpg",
+   "ref": "gl_Tr_gl_0169_c257a1.jpg",
+   "dhash_to_ref": 93,
+   "ssim_to_ref": 0.537,
+   "nearest_train": "me_Tr_me_0849_d59a61.jpg",
+   "dhash_to_nearest_train": 73,
+   "ssim_to_nearest_train": 0.508
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0011.jpg",
+   "ref": "gl_Tr_gl_0170_7090c4.jpg",
+   "dhash_to_ref": 113,
+   "ssim_to_ref": 0.478,
+   "nearest_train": "me_Tr_me_1010_dccbb6.jpg",
+   "dhash_to_nearest_train": 75,
+   "ssim_to_nearest_train": 0.367
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0012.jpg",
+   "ref": "gl_Tr_gl_0335_0252b5.jpg",
+   "dhash_to_ref": 107,
+   "ssim_to_ref": 0.436,
+   "nearest_train": "gl_gg_10_d83a72.jpg",
+   "dhash_to_nearest_train": 48,
+   "ssim_to_nearest_train": 0.407
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0013.jpg",
+   "ref": "gl_Tr_gl_0639_c495c5.jpg",
+   "dhash_to_ref": 121,
+   "ssim_to_ref": 0.258,
+   "nearest_train": "pi_Tr_pi_0317_8eff79.jpg",
+   "dhash_to_nearest_train": 71,
+   "ssim_to_nearest_train": 0.186
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0014.jpg",
+   "ref": "gl_Tr_gl_0640_088ef2.jpg",
+   "dhash_to_ref": 131,
+   "ssim_to_ref": 0.221,
+   "nearest_train": "pi_Tr_pi_0416_94ddb2.jpg",
+   "dhash_to_nearest_train": 81,
+   "ssim_to_nearest_train": 0.27
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0015.jpg",
+   "ref": "gl_Tr_gl_0662_7d2cb9.jpg",
+   "dhash_to_ref": 82,
+   "ssim_to_ref": 0.551,
+   "nearest_train": "gl_Tr_gl_0660_2354cb.jpg",
+   "dhash_to_nearest_train": 58,
+   "ssim_to_nearest_train": 0.591
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0016.jpg",
+   "ref": "gl_Tr_gl_0663_ee6517.jpg",
+   "dhash_to_ref": 133,
+   "ssim_to_ref": 0.406,
+   "nearest_train": "me_Tr_me_0441_1682b7.jpg",
+   "dhash_to_nearest_train": 51,
+   "ssim_to_nearest_train": 0.328
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0017.jpg",
+   "ref": "gl_Tr_gl_0828_9063a7.jpg",
+   "dhash_to_ref": 130,
+   "ssim_to_ref": 0.45,
+   "nearest_train": "gl_gg_447_9fb9d7.jpg",
+   "dhash_to_nearest_train": 66,
+   "ssim_to_nearest_train": 0.376
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0018.jpg",
+   "ref": "gl_Tr_gl_0962_bee359.jpg",
+   "dhash_to_ref": 125,
+   "ssim_to_ref": 0.33,
+   "nearest_train": "me_Tr_me_1189_e7561f.jpg",
+   "dhash_to_nearest_train": 84,
+   "ssim_to_nearest_train": 0.367
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0019.jpg",
+   "ref": "gl_Tr_gl_0963_d467ac.jpg",
+   "dhash_to_ref": 96,
+   "ssim_to_ref": 0.417,
+   "nearest_train": "me_Tr_me_1132_5f3177.jpg",
+   "dhash_to_nearest_train": 78,
+   "ssim_to_nearest_train": 0.357
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0020.jpg",
+   "ref": "gl_Tr_gl_0999_19330a.jpg",
+   "dhash_to_ref": 109,
+   "ssim_to_ref": 0.38,
+   "nearest_train": "me_Tr_me_0508_0b41b7.jpg",
+   "dhash_to_nearest_train": 70,
+   "ssim_to_nearest_train": 0.404
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0021.jpg",
+   "ref": "gl_Tr_gl_1040_d9bd43.jpg",
+   "dhash_to_ref": 86,
+   "ssim_to_ref": 0.312,
+   "nearest_train": "pi_Tr_pi_0413_289e45.jpg",
+   "dhash_to_nearest_train": 85,
+   "ssim_to_nearest_train": 0.254
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0022.jpg",
+   "ref": "gl_Tr_gl_1098_bfc7bb.jpg",
+   "dhash_to_ref": 128,
+   "ssim_to_ref": 0.313,
+   "nearest_train": "pi_Tr_pi_0104_9df78b.jpg",
+   "dhash_to_nearest_train": 73,
+   "ssim_to_nearest_train": 0.343
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0023.jpg",
+   "ref": "gl_Tr_gl_1121_30ad59.jpg",
+   "dhash_to_ref": 92,
+   "ssim_to_ref": 0.366,
+   "nearest_train": "pi_p_465_98b76e.jpg",
+   "dhash_to_nearest_train": 82,
+   "ssim_to_nearest_train": 0.2
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0024.jpg",
+   "ref": "gl_Tr_gl_1198_dd6e27.jpg",
+   "dhash_to_ref": 117,
+   "ssim_to_ref": 0.287,
+   "nearest_train": "pi_Tr_pi_0317_8eff79.jpg",
+   "dhash_to_nearest_train": 68,
+   "ssim_to_nearest_train": 0.239
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0025.jpg",
+   "ref": "gl_Tr_gl_1211_07339f.jpg",
+   "dhash_to_ref": 114,
+   "ssim_to_ref": 0.267,
+   "nearest_train": "no_Tr_no_0778_aa82d2.jpg",
+   "dhash_to_nearest_train": 85,
+   "ssim_to_nearest_train": 0.292
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0026.jpg",
+   "ref": "gl_gg_185_d5397a.jpg",
+   "dhash_to_ref": 82,
+   "ssim_to_ref": 0.329,
+   "nearest_train": "gl_gg_262_466f5d.jpg",
+   "dhash_to_nearest_train": 73,
+   "ssim_to_nearest_train": 0.324
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0027.jpg",
+   "ref": "gl_gg_223_070263.jpg",
+   "dhash_to_ref": 135,
+   "ssim_to_ref": 0.256,
+   "nearest_train": "gl_gg_236_837bf3.jpg",
+   "dhash_to_nearest_train": 87,
+   "ssim_to_nearest_train": 0.358
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0028.jpg",
+   "ref": "gl_gg_231_96a0de.jpg",
+   "dhash_to_ref": 97,
+   "ssim_to_ref": 0.198,
+   "nearest_train": "no_image_134_b110f3.jpg",
+   "dhash_to_nearest_train": 69,
+   "ssim_to_nearest_train": 0.27
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0029.jpg",
+   "ref": "gl_gg_295_fd7762.jpg",
+   "dhash_to_ref": 114,
+   "ssim_to_ref": 0.335,
+   "nearest_train": "no_Tr_no_0535_228c0c.jpg",
+   "dhash_to_nearest_train": 71,
+   "ssim_to_nearest_train": 0.541
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0030.jpg",
+   "ref": "gl_gg_362_9c141d.jpg",
+   "dhash_to_ref": 104,
+   "ssim_to_ref": 0.305,
+   "nearest_train": "me_Tr_me_0564_28b96f.jpg",
+   "dhash_to_nearest_train": 83,
+   "ssim_to_nearest_train": 0.312
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0031.jpg",
+   "ref": "gl_gg_385_13aba4.jpg",
+   "dhash_to_ref": 110,
+   "ssim_to_ref": 0.378,
+   "nearest_train": "me_Tr_me_0371_ce7032.jpg",
+   "dhash_to_nearest_train": 62,
+   "ssim_to_nearest_train": 0.438
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0032.jpg",
+   "ref": "gl_gg_386_192a1a.jpg",
+   "dhash_to_ref": 111,
+   "ssim_to_ref": 0.401,
+   "nearest_train": "gl_Tr_gl_0600_40f0e5.jpg",
+   "dhash_to_nearest_train": 67,
+   "ssim_to_nearest_train": 0.391
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0033.jpg",
+   "ref": "gl_gg_459_daa65c.jpg",
+   "dhash_to_ref": 115,
+   "ssim_to_ref": 0.305,
+   "nearest_train": "no_image_151_b22b7e.jpg",
+   "dhash_to_nearest_train": 91,
+   "ssim_to_nearest_train": 0.168
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0034.jpg",
+   "ref": "gl_gg_468_3cc58d.jpg",
+   "dhash_to_ref": 93,
+   "ssim_to_ref": 0.452,
+   "nearest_train": "gl_gg_201_fc3a6f.jpg",
+   "dhash_to_nearest_train": 80,
+   "ssim_to_nearest_train": 0.412
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0035.jpg",
+   "ref": "gl_gg_500_bcbf26.jpg",
+   "dhash_to_ref": 113,
+   "ssim_to_ref": 0.319,
+   "nearest_train": "gl_Tr_gl_1009_7cfac0.jpg",
+   "dhash_to_nearest_train": 83,
+   "ssim_to_nearest_train": 0.336
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0036.jpg",
+   "ref": "gl_gg_511_ef0aa3.jpg",
+   "dhash_to_ref": 64,
+   "ssim_to_ref": 0.581,
+   "nearest_train": "gl_Tr_gl_0051_35bcc4.jpg",
+   "dhash_to_nearest_train": 51,
+   "ssim_to_nearest_train": 0.596
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0037.jpg",
+   "ref": "gl_gg_513_f2fe51.jpg",
+   "dhash_to_ref": 82,
+   "ssim_to_ref": 0.593,
+   "nearest_train": "gl_Tr_gl_1134_838b1f.jpg",
+   "dhash_to_nearest_train": 60,
+   "ssim_to_nearest_train": 0.467
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0038.jpg",
+   "ref": "gl_gg_535_096cf0.jpg",
+   "dhash_to_ref": 81,
+   "ssim_to_ref": 0.617,
+   "nearest_train": "gl_Tr_gl_0137_17115a.jpg",
+   "dhash_to_nearest_train": 70,
+   "ssim_to_nearest_train": 0.606
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0039.jpg",
+   "ref": "gl_gg_536_bcf142.jpg",
+   "dhash_to_ref": 86,
+   "ssim_to_ref": 0.623,
+   "nearest_train": "gl_Tr_gl_0362_f37728.jpg",
+   "dhash_to_nearest_train": 44,
+   "ssim_to_nearest_train": 0.654
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0040.jpg",
+   "ref": "gl_gg_539_d14cd9.jpg",
+   "dhash_to_ref": 108,
+   "ssim_to_ref": 0.489,
+   "nearest_train": "no_Tr_no_0787_21e97c.jpg",
+   "dhash_to_nearest_train": 60,
+   "ssim_to_nearest_train": 0.141
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0041.jpg",
+   "ref": "gl_gg_540_38c51b.jpg",
+   "dhash_to_ref": 69,
+   "ssim_to_ref": 0.69,
+   "nearest_train": "gl_Tr_gl_0549_ba157a.jpg",
+   "dhash_to_nearest_train": 57,
+   "ssim_to_nearest_train": 0.666
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0042.jpg",
+   "ref": "gl_gg_541_61a2ca.jpg",
+   "dhash_to_ref": 84,
+   "ssim_to_ref": 0.632,
+   "nearest_train": "gl_gg_478_f27187.jpg",
+   "dhash_to_nearest_train": 51,
+   "ssim_to_nearest_train": 0.642
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0043.jpg",
+   "ref": "gl_gg_543_7bda0b.jpg",
+   "dhash_to_ref": 111,
+   "ssim_to_ref": 0.482,
+   "nearest_train": "gl_Tr_gl_0313_f72018.jpg",
+   "dhash_to_nearest_train": 45,
+   "ssim_to_nearest_train": 0.644
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0044.jpg",
+   "ref": "gl_gg_592_536cd5.jpg",
+   "dhash_to_ref": 68,
+   "ssim_to_ref": 0.56,
+   "nearest_train": "gl_Tr_gl_1279_02f595.jpg",
+   "dhash_to_nearest_train": 54,
+   "ssim_to_nearest_train": 0.554
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0045.jpg",
+   "ref": "gl_gg_594_0034dc.jpg",
+   "dhash_to_ref": 104,
+   "ssim_to_ref": 0.463,
+   "nearest_train": "me_m_158_127ed9.jpg",
+   "dhash_to_nearest_train": 74,
+   "ssim_to_nearest_train": 0.439
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0046.jpg",
+   "ref": "gl_gg_59_b24e92.jpg",
+   "dhash_to_ref": 123,
+   "ssim_to_ref": 0.235,
+   "nearest_train": "me_Tr_me_0668_eda230.jpg",
+   "dhash_to_nearest_train": 90,
+   "ssim_to_nearest_train": 0.196
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0047.jpg",
+   "ref": "gl_gg_75_4e4185.jpg",
+   "dhash_to_ref": 76,
+   "ssim_to_ref": 0.42,
+   "nearest_train": "gl_gg_214_e8846b.jpg",
+   "dhash_to_nearest_train": 74,
+   "ssim_to_nearest_train": 0.422
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0048.jpg",
+   "ref": "gl_gg_76_eb59f4.jpg",
+   "dhash_to_ref": 87,
+   "ssim_to_ref": 0.367,
+   "nearest_train": "gl_gg_80_d768df.jpg",
+   "dhash_to_nearest_train": 85,
+   "ssim_to_nearest_train": 0.288
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0049.jpg",
+   "ref": "gl_gg_786_b23cdb.jpg",
+   "dhash_to_ref": 138,
+   "ssim_to_ref": 0.354,
+   "nearest_train": "pi_p_99_c27674.jpg",
+   "dhash_to_nearest_train": 79,
+   "ssim_to_nearest_train": 0.225
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0050.jpg",
+   "ref": "gl_gg_787_36a287.jpg",
+   "dhash_to_ref": 117,
+   "ssim_to_ref": 0.421,
+   "nearest_train": "no_image_298_42e06a.jpg",
+   "dhash_to_nearest_train": 81,
+   "ssim_to_nearest_train": 0.449
+  },
+  {
+   "file": "generated/s_test/syn_gl_st_0051.jpg",
+   "ref": "gl_gg_95_4a9e36.jpg",
+   "dhash_to_ref": 94,
+   "ssim_to_ref": 0.308,
+   "nearest_train": "no_image_151_b22b7e.jpg",
+   "dhash_to_nearest_train": 85,
+   "ssim_to_nearest_train": 0.232
+  }
+ ]
+}
