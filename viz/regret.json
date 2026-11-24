@@ -1,0 +1,1217 @@
+{
+ "set": "dataset scenario (real test with dataset boxes; S-tests with blind twin boxes)",
+ "n_images": 202,
+ "n_glioma_images": 51,
+ "n_glioma_boxes": 58,
+ "n_groups": 138,
+ "unit_missed": "per 100 annotated glioma boxes (not patients)",
+ "bootstrap": 1000,
+ "splits": 1000,
+ "pools": {
+  "best18": {
+   "n_models": 18,
+   "AP50": {
+    "in_sample": {
+     "real": {
+      "chosen": [
+       "A_full_s0@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 18.965517241379317,
+       "false_alarms_per_100_tumor_free": 6.666666666666667,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_resamples_choosing_D": 0.0
+     },
+     "s_test": {
+      "chosen": [
+       "D_s1@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 53.448275862068975,
+       "false_alarms_per_100_tumor_free": 4.444444444444445,
+       "glioma_false_alarms_per_100_non_glioma": 0.6622516556291391
+      },
+      "share_of_resamples_choosing_D": 0.6591669913419913,
+      "regret": {
+       "missed_per_100": 34.48275862068966,
+       "false_alarms_per_100_tumor_free": -2.2222222222222223,
+       "glioma_false_alarms_per_100_non_glioma": 0.6622516556291391
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        8.332219251336898,
+        50.0
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -12.003030303030302,
+        3.126240079365078
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        0.0,
+        1.6435491401447357
+       ]
+      }
+     },
+     "s_test_gemini": {
+      "chosen": [
+       "A_full_s1@best",
+       "C_low_s2@best",
+       "C_full_s0@best",
+       "C_full_s1@best",
+       "D_s0@best",
+       "D_s1@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 32.4712643678161,
+       "false_alarms_per_100_tumor_free": 4.0740740740740735,
+       "glioma_false_alarms_per_100_non_glioma": 0.11037527593818985
+      },
+      "share_of_resamples_choosing_D": 0.30225609668109665,
+      "regret": {
+       "missed_per_100": 13.50574712643678,
+       "false_alarms_per_100_tumor_free": -2.5925925925925934,
+       "glioma_false_alarms_per_100_non_glioma": 0.11037527593818985
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        7.469667943805863,
+        23.86452973127501
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -11.808035714285715,
+        2.514537182341277
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        0.0,
+        0.5270382174469743
+       ]
+      }
+     }
+    },
+    "split_half": {
+     "real": {
+      "real_outcome_mean": {
+       "missed_per_100": 19.43460463174036,
+       "false_alarms_per_100_tumor_free": 7.116246005696839,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000
+     },
+     "s_test": {
+      "real_outcome_mean": {
+       "missed_per_100": 38.653147922972764,
+       "false_alarms_per_100_tumor_free": 4.719562808375644,
+       "glioma_false_alarms_per_100_non_glioma": 0.37727253825718615
+      },
+      "share_of_splits_choosing_D": 0.5313973637473637,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 19.2185432912324,
+       "false_alarms_per_100_tumor_free": -2.3966831973211953,
+       "glioma_false_alarms_per_100_non_glioma": 0.37727253825718615
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        1.6597222222222203,
+        41.37931034482759
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -10.588680926916222,
+        3.7072649572649534
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        0.0,
+        1.3513513513513513
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.977
+     },
+     "s_test_gemini": {
+      "real_outcome_mean": {
+       "missed_per_100": 32.43459889819571,
+       "false_alarms_per_100_tumor_free": 4.147429659277084,
+       "glioma_false_alarms_per_100_non_glioma": 0.25873403419964675
+      },
+      "share_of_splits_choosing_D": 0.2951320984570984,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 12.999994266455348,
+       "false_alarms_per_100_tumor_free": -2.9688163464197537,
+       "glioma_false_alarms_per_100_non_glioma": 0.25873403419964675
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        -5.249139118457298,
+        23.613782051282044
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -10.911483253588516,
+        3.126240079365078
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        0.0,
+        0.60882800608828
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.951
+     }
+    }
+   },
+   "recall@0.25": {
+    "in_sample": {
+     "real": {
+      "chosen": [
+       "A_full_s1@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 15.517241379310342,
+       "false_alarms_per_100_tumor_free": 8.88888888888889,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_resamples_choosing_D": 0.0
+     },
+     "s_test": {
+      "chosen": [
+       "A_full_s0@best",
+       "C_low_s1@best",
+       "D_s1@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 34.48275862068966,
+       "false_alarms_per_100_tumor_free": 4.444444444444445,
+       "glioma_false_alarms_per_100_non_glioma": 0.2207505518763797
+      },
+      "share_of_resamples_choosing_D": 0.272756376956377,
+      "regret": {
+       "missed_per_100": 18.965517241379317,
+       "false_alarms_per_100_tumor_free": -4.444444444444445,
+       "glioma_false_alarms_per_100_non_glioma": 0.2207505518763797
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        8.333333333333336,
+        27.907500523779593
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -12.229166666666666,
+        0.9101731601731602
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        0.0,
+        0.6850495984884268
+       ]
+      }
+     },
+     "s_test_gemini": {
+      "chosen": [
+       "C_full_s1@best",
+       "C_full_s2@best",
+       "D_s1@best",
+       "D_s2@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 36.63793103448276,
+       "false_alarms_per_100_tumor_free": 3.333333333333333,
+       "glioma_false_alarms_per_100_non_glioma": 0.6622516556291391
+      },
+      "share_of_resamples_choosing_D": 0.4449550116550116,
+      "regret": {
+       "missed_per_100": 21.12068965517242,
+       "false_alarms_per_100_tumor_free": -5.555555555555556,
+       "glioma_false_alarms_per_100_non_glioma": 0.6622516556291391
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        12.520904802744429,
+        30.211321721311467
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -15.421874999999998,
+        0.0
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        0.0,
+        1.5504477827531418
+       ]
+      }
+     }
+    },
+    "split_half": {
+     "real": {
+      "real_outcome_mean": {
+       "missed_per_100": 18.984088738758096,
+       "false_alarms_per_100_tumor_free": 7.342827765876266,
+       "glioma_false_alarms_per_100_non_glioma": 0.01980690377480647
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000
+     },
+     "s_test": {
+      "real_outcome_mean": {
+       "missed_per_100": 31.371915179268385,
+       "false_alarms_per_100_tumor_free": 4.657553750739877,
+       "glioma_false_alarms_per_100_non_glioma": 0.21415514978221534
+      },
+      "share_of_splits_choosing_D": 0.2608715506715507,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 12.387826440510292,
+       "false_alarms_per_100_tumor_free": -2.6852740151363887,
+       "glioma_false_alarms_per_100_non_glioma": 0.1943482460074089
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        4.409229208924952,
+        20.78057359307359
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -10.001322751322752,
+        1.3472222222222212
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -0.001543209876543122,
+        0.5698412698412697
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.996
+     },
+     "s_test_gemini": {
+      "real_outcome_mean": {
+       "missed_per_100": 35.41671141376242,
+       "false_alarms_per_100_tumor_free": 3.5983433248014762,
+       "glioma_false_alarms_per_100_non_glioma": 0.47350152679467394
+      },
+      "share_of_splits_choosing_D": 0.4163931818181818,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 16.43262267500432,
+       "false_alarms_per_100_tumor_free": -3.74448444107479,
+       "glioma_false_alarms_per_100_non_glioma": 0.4536946230198675
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        7.754310344827585,
+        25.0
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -11.842105263157894,
+        0.4004166666666662
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        0.0,
+        1.3888888888888888
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.996
+     }
+    }
+   }
+  },
+  "all72": {
+   "n_models": 72,
+   "AP50": {
+    "in_sample": {
+     "real": {
+      "chosen": [
+       "A_full_s0@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 18.965517241379317,
+       "false_alarms_per_100_tumor_free": 6.666666666666667,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_resamples_choosing_D": 0.0
+     },
+     "s_test": {
+      "chosen": [
+       "D_s1@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 53.448275862068975,
+       "false_alarms_per_100_tumor_free": 4.444444444444445,
+       "glioma_false_alarms_per_100_non_glioma": 0.6622516556291391
+      },
+      "share_of_resamples_choosing_D": 0.6612864979572309,
+      "regret": {
+       "missed_per_100": 34.48275862068966,
+       "false_alarms_per_100_tumor_free": -2.2222222222222223,
+       "glioma_false_alarms_per_100_non_glioma": 0.6622516556291391
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        10.5235745614035,
+        51.065969674737104
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -10.227272727272727,
+        3.704861111111112
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -0.6712543079992744,
+        2.014107656485412
+       ]
+      }
+     },
+     "s_test_gemini": {
+      "chosen": [
+       "A_full_s1@best",
+       "C_low_s2@best",
+       "C_full_s0@epoch75",
+       "C_full_s0@best",
+       "C_full_s1@best",
+       "D_s0@best",
+       "D_s1@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 31.280788177339904,
+       "false_alarms_per_100_tumor_free": 4.761904761904761,
+       "glioma_false_alarms_per_100_non_glioma": 0.0946073793755913
+      },
+      "share_of_resamples_choosing_D": 0.300876985278977,
+      "regret": {
+       "missed_per_100": 12.315270935960587,
+       "false_alarms_per_100_tumor_free": -1.904761904761906,
+       "glioma_false_alarms_per_100_non_glioma": 0.0946073793755913
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        7.846637836995478,
+        26.9672619047619
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -9.500271739130435,
+        3.705357142857142
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -0.7139485799588537,
+        0.5834312080536912
+       ]
+      }
+     }
+    },
+    "split_half": {
+     "real": {
+      "real_outcome_mean": {
+       "missed_per_100": 20.456812335961555,
+       "false_alarms_per_100_tumor_free": 6.893453112414669,
+       "glioma_false_alarms_per_100_non_glioma": 0.12479168258512148
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000
+     },
+     "s_test": {
+      "real_outcome_mean": {
+       "missed_per_100": 41.52470530666612,
+       "false_alarms_per_100_tumor_free": 4.824260942270778,
+       "glioma_false_alarms_per_100_non_glioma": 0.5238650760362982
+      },
+      "share_of_splits_choosing_D": 0.5365784930031893,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 21.067892970704563,
+       "false_alarms_per_100_tumor_free": -2.0691921701438925,
+       "glioma_false_alarms_per_100_non_glioma": 0.3990733934511768
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        2.4604578052853956,
+        44.454022988505734
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -9.524350649350648,
+        3.7037037037037037
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -0.8194185902208986,
+        1.8660223319492757
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.982
+     },
+     "s_test_gemini": {
+      "real_outcome_mean": {
+       "missed_per_100": 34.044041691982805,
+       "false_alarms_per_100_tumor_free": 4.891235025263123,
+       "glioma_false_alarms_per_100_non_glioma": 0.39115185248742373
+      },
+      "share_of_splits_choosing_D": 0.2961417942863967,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 13.587229356021245,
+       "false_alarms_per_100_tumor_free": -2.0022180871515456,
+       "glioma_false_alarms_per_100_non_glioma": 0.2663601699023023
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        -3.9075520833333335,
+        26.11489898989899
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -8.792388167388168,
+        3.4120470578803888
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -0.927753128763467,
+        0.8890141210001296
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.955
+     }
+    }
+   },
+   "recall@0.25": {
+    "in_sample": {
+     "real": {
+      "chosen": [
+       "A_full_s1@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 15.517241379310342,
+       "false_alarms_per_100_tumor_free": 8.88888888888889,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_resamples_choosing_D": 0.0
+     },
+     "s_test": {
+      "chosen": [
+       "A_full_s0@best",
+       "C_low_s1@best",
+       "C_full_s1@epoch25",
+       "C_full_s2@epoch50",
+       "D_s0@epoch50",
+       "D_s1@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 35.05747126436782,
+       "false_alarms_per_100_tumor_free": 7.037037037037037,
+       "glioma_false_alarms_per_100_non_glioma": 1.6556291390728477
+      },
+      "share_of_resamples_choosing_D": 0.28218709410248094,
+      "regret": {
+       "missed_per_100": 19.540229885057478,
+       "false_alarms_per_100_tumor_free": -1.851851851851852,
+       "glioma_false_alarms_per_100_non_glioma": 1.6556291390728477
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        12.999858757062144,
+        30.69487713909609
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -7.907218992248062,
+        6.518218623481779
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -2.762135241301908,
+        2.339241699289546
+       ]
+      }
+     },
+     "s_test_gemini": {
+      "chosen": [
+       "C_full_s0@epoch50",
+       "C_full_s1@best",
+       "C_full_s2@epoch25",
+       "C_full_s2@best",
+       "D_s1@best",
+       "D_s2@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 33.90804597701149,
+       "false_alarms_per_100_tumor_free": 4.444444444444444,
+       "glioma_false_alarms_per_100_non_glioma": 0.8830022075055188
+      },
+      "share_of_resamples_choosing_D": 0.2918116845138345,
+      "regret": {
+       "missed_per_100": 18.39080459770115,
+       "false_alarms_per_100_tumor_free": -4.4444444444444455,
+       "glioma_false_alarms_per_100_non_glioma": 0.8830022075055188
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        12.946043719211824,
+        29.028036391920235
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -10.120431893687707,
+        4.167499999999998
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -3.1087126548510797,
+        1.5037811542745754
+       ]
+      }
+     }
+    },
+    "split_half": {
+     "real": {
+      "real_outcome_mean": {
+       "missed_per_100": 23.05592827462103,
+       "false_alarms_per_100_tumor_free": 6.552349605821818,
+       "glioma_false_alarms_per_100_non_glioma": 0.5680704303797645
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000
+     },
+     "s_test": {
+      "real_outcome_mean": {
+       "missed_per_100": 34.9609558086631,
+       "false_alarms_per_100_tumor_free": 6.177472774231036,
+       "glioma_false_alarms_per_100_non_glioma": 1.050626734211541
+      },
+      "share_of_splits_choosing_D": 0.2642095318203234,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 11.905027534042066,
+       "false_alarms_per_100_tumor_free": -0.3748768315907824,
+       "glioma_false_alarms_per_100_non_glioma": 0.4825563038317764
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        1.3768788682581936,
+        20.402566137566133
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -7.6953125,
+        5.003676470588232
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -2.7158730158730156,
+        2.0301870748299318
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.978
+     },
+     "s_test_gemini": {
+      "real_outcome_mean": {
+       "missed_per_100": 34.09321340681959,
+       "false_alarms_per_100_tumor_free": 4.959002379122699,
+       "glioma_false_alarms_per_100_non_glioma": 0.7456608344346639
+      },
+      "share_of_splits_choosing_D": 0.27616918677631325,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 11.037285132198553,
+       "false_alarms_per_100_tumor_free": -1.5933472266991182,
+       "glioma_false_alarms_per_100_non_glioma": 0.1775904040548993
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        0.3494623655913971,
+        20.699902119938887
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -9.377467105263158,
+        3.9690476190476183
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -3.1087636143606296,
+        1.36986301369863
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.975
+     }
+    }
+   }
+  },
+  "best15_noD": {
+   "n_models": 15,
+   "AP50": {
+    "in_sample": {
+     "real": {
+      "chosen": [
+       "A_full_s0@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 18.965517241379317,
+       "false_alarms_per_100_tumor_free": 6.666666666666667,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_resamples_choosing_D": 0.0
+     },
+     "s_test": {
+      "chosen": [
+       "A_full_s0@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 18.965517241379317,
+       "false_alarms_per_100_tumor_free": 6.666666666666667,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_resamples_choosing_D": 0.0,
+      "regret": {
+       "missed_per_100": 0.0,
+       "false_alarms_per_100_tumor_free": 0.0,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        -2.8258439526045116,
+        20.1658686730506
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -9.09090909090909,
+        5.0
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        0.0,
+        0.0
+       ]
+      }
+     },
+     "s_test_gemini": {
+      "chosen": [
+       "A_full_s1@best",
+       "C_low_s2@best",
+       "C_full_s0@best",
+       "C_full_s1@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 21.98275862068965,
+       "false_alarms_per_100_tumor_free": 4.444444444444445,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_resamples_choosing_D": 0.0,
+      "regret": {
+       "missed_per_100": 3.0172413793103345,
+       "false_alarms_per_100_tumor_free": -2.2222222222222223,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        -1.4590186478904292,
+        13.891666666666667
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -10.47667638483965,
+        2.7916849495392713
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        0.0,
+        0.2137096774193548
+       ]
+      }
+     }
+    },
+    "split_half": {
+     "real": {
+      "real_outcome_mean": {
+       "missed_per_100": 19.355701733835765,
+       "false_alarms_per_100_tumor_free": 7.390135964933836,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000
+     },
+     "s_test": {
+      "real_outcome_mean": {
+       "missed_per_100": 22.541079140471417,
+       "false_alarms_per_100_tumor_free": 5.716120442952515,
+       "glioma_false_alarms_per_100_non_glioma": 0.044686720252238785
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 3.1853774066356535,
+       "false_alarms_per_100_tumor_free": -1.6740155219813193,
+       "glioma_false_alarms_per_100_non_glioma": 0.044686720252238785
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        -14.293154761904761,
+        18.518518518518515
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -10.0,
+        5.555555555555555
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        0.0,
+        0.45662100456621
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.583
+     },
+     "s_test_gemini": {
+      "real_outcome_mean": {
+       "missed_per_100": 23.762246705149,
+       "false_alarms_per_100_tumor_free": 4.712462613816316,
+       "glioma_false_alarms_per_100_non_glioma": 0.10191332638839858
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 4.406544971313234,
+       "false_alarms_per_100_tumor_free": -2.6776733511175186,
+       "glioma_false_alarms_per_100_non_glioma": 0.10191332638839858
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        -15.076155462184868,
+        12.966269841269838
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -10.16550164473684,
+        4.171195652173909
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        0.0,
+        0.2777777777777778
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.851
+     }
+    }
+   },
+   "recall@0.25": {
+    "in_sample": {
+     "real": {
+      "chosen": [
+       "A_full_s1@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 15.517241379310342,
+       "false_alarms_per_100_tumor_free": 8.88888888888889,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_resamples_choosing_D": 0.0
+     },
+     "s_test": {
+      "chosen": [
+       "A_full_s0@best",
+       "C_low_s1@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 25.0,
+       "false_alarms_per_100_tumor_free": 4.444444444444445,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_resamples_choosing_D": 0.0,
+      "regret": {
+       "missed_per_100": 9.482758620689658,
+       "false_alarms_per_100_tumor_free": -4.444444444444445,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        2.5631313131313163,
+        18.855285472018082
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -11.293778801843315,
+        1.450922266139656
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        0.0,
+        0.37320446638985516
+       ]
+      }
+     },
+     "s_test_gemini": {
+      "chosen": [
+       "C_full_s1@best",
+       "C_full_s2@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 20.68965517241379,
+       "false_alarms_per_100_tumor_free": 3.3333333333333335,
+       "glioma_false_alarms_per_100_non_glioma": 0.33112582781456956
+      },
+      "share_of_resamples_choosing_D": 0.0,
+      "regret": {
+       "missed_per_100": 5.172413793103448,
+       "false_alarms_per_100_tumor_free": -5.555555555555555,
+       "glioma_false_alarms_per_100_non_glioma": 0.33112582781456956
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        1.610459433040077,
+        18.709884201819683
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -13.829787234042552,
+        5.551115123120734e-18
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        0.0,
+        1.034662356321839
+       ]
+      }
+     }
+    },
+    "split_half": {
+     "real": {
+      "real_outcome_mean": {
+       "missed_per_100": 19.248185776233893,
+       "false_alarms_per_100_tumor_free": 7.368078600883675,
+       "glioma_false_alarms_per_100_non_glioma": 0.02005122300461466
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000
+     },
+     "s_test": {
+      "real_outcome_mean": {
+       "missed_per_100": 24.18042295469402,
+       "false_alarms_per_100_tumor_free": 4.927279326763562,
+       "glioma_false_alarms_per_100_non_glioma": 0.06590962211861824
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 4.932237178460127,
+       "false_alarms_per_100_tumor_free": -2.4407992741201125,
+       "glioma_false_alarms_per_100_non_glioma": 0.04585839911400357
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        -2.5862068965517224,
+        13.00108695652174
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -9.523809523809522,
+        2.083333333333333
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -0.2894279970760234,
+        0.3472222222222222
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.891
+     },
+     "s_test_gemini": {
+      "real_outcome_mean": {
+       "missed_per_100": 23.31212705172547,
+       "false_alarms_per_100_tumor_free": 3.8318589218121155,
+       "glioma_false_alarms_per_100_non_glioma": 0.22749566165780663
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 4.063941275491575,
+       "false_alarms_per_100_tumor_free": -3.5362196790715594,
+       "glioma_false_alarms_per_100_non_glioma": 0.20744443865319198
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        -5.357142857142854,
+        11.853174603174605
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -11.76470588235294,
+        0.38731527093595786
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        0.0,
+        0.7246376811594203
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.853
+     }
+    }
+   }
+  },
+  "all60_noD": {
+   "n_models": 60,
+   "AP50": {
+    "in_sample": {
+     "real": {
+      "chosen": [
+       "A_full_s0@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 18.965517241379317,
+       "false_alarms_per_100_tumor_free": 6.666666666666667,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_resamples_choosing_D": 0.0
+     },
+     "s_test": {
+      "chosen": [
+       "A_full_s0@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 18.965517241379317,
+       "false_alarms_per_100_tumor_free": 6.666666666666667,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_resamples_choosing_D": 0.0,
+      "regret": {
+       "missed_per_100": 0.0,
+       "false_alarms_per_100_tumor_free": 0.0,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        -1.9661125319693145,
+        21.0582306830907
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -9.31015205724508,
+        6.666666666666666
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -0.7462686567164178,
+        1.5436159844054578
+       ]
+      }
+     },
+     "s_test_gemini": {
+      "chosen": [
+       "A_full_s1@best",
+       "C_low_s2@best",
+       "C_full_s0@epoch75",
+       "C_full_s0@best",
+       "C_full_s1@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 22.413793103448274,
+       "false_alarms_per_100_tumor_free": 5.333333333333333,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_resamples_choosing_D": 0.0,
+      "regret": {
+       "missed_per_100": 3.4482758620689573,
+       "false_alarms_per_100_tumor_free": -1.333333333333334,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        -0.25555509088881684,
+        16.593137254901958
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -9.091349541930937,
+        3.9483519846126933
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -0.7150852878464818,
+        0.5657637275284333
+       ]
+      }
+     }
+    },
+    "split_half": {
+     "real": {
+      "real_outcome_mean": {
+       "missed_per_100": 20.322018233909198,
+       "false_alarms_per_100_tumor_free": 6.681793945138247,
+       "glioma_false_alarms_per_100_non_glioma": 0.11990033596993123
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000
+     },
+     "s_test": {
+      "real_outcome_mean": {
+       "missed_per_100": 24.018418812442416,
+       "false_alarms_per_100_tumor_free": 6.0709461815406325,
+       "glioma_false_alarms_per_100_non_glioma": 0.4312238335003218
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 3.6964005785332126,
+       "false_alarms_per_100_tumor_free": -0.6108477635976138,
+       "glioma_false_alarms_per_100_non_glioma": 0.31132349753039057
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        -12.903225806451612,
+        19.85661764705882
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -8.333333333333332,
+        5.882352941176472
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -1.2987012987012987,
+        2.5974025974025974
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.622
+     },
+     "s_test_gemini": {
+      "real_outcome_mean": {
+       "missed_per_100": 24.899882589324566,
+       "false_alarms_per_100_tumor_free": 5.303005057433465,
+       "glioma_false_alarms_per_100_non_glioma": 0.41323876152802697
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 4.577864355415362,
+       "false_alarms_per_100_tumor_free": -1.3787888877047823,
+       "glioma_false_alarms_per_100_non_glioma": 0.29333842555809575
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        -11.112351190476183,
+        14.28571428571429
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -8.124713521772344,
+        4.168320105820105
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -0.88624547920434,
+        0.9504585326953745
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.85
+     }
+    }
+   },
+   "recall@0.25": {
+    "in_sample": {
+     "real": {
+      "chosen": [
+       "A_full_s1@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 15.517241379310342,
+       "false_alarms_per_100_tumor_free": 8.88888888888889,
+       "glioma_false_alarms_per_100_non_glioma": 0.0
+      },
+      "share_of_resamples_choosing_D": 0.0
+     },
+     "s_test": {
+      "chosen": [
+       "A_full_s0@best",
+       "C_low_s1@best",
+       "C_full_s1@epoch25",
+       "C_full_s2@epoch50"
+      ],
+      "real_outcome": {
+       "missed_per_100": 24.137931034482758,
+       "false_alarms_per_100_tumor_free": 7.222222222222222,
+       "glioma_false_alarms_per_100_non_glioma": 2.3178807947019866
+      },
+      "share_of_resamples_choosing_D": 0.0,
+      "regret": {
+       "missed_per_100": 8.620689655172416,
+       "false_alarms_per_100_tumor_free": -1.666666666666667,
+       "glioma_false_alarms_per_100_non_glioma": 2.3178807947019866
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        5.573315118397088,
+        19.74150534381931
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -8.333333333333334,
+        6.405505952380946
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -3.356760886172651,
+        2.952231032338308
+       ]
+      }
+     },
+     "s_test_gemini": {
+      "chosen": [
+       "C_full_s0@epoch50",
+       "C_full_s1@best",
+       "C_full_s2@epoch25",
+       "C_full_s2@best"
+      ],
+      "real_outcome": {
+       "missed_per_100": 24.568965517241377,
+       "false_alarms_per_100_tumor_free": 5.0,
+       "glioma_false_alarms_per_100_non_glioma": 0.8278145695364238
+      },
+      "share_of_resamples_choosing_D": 0.0,
+      "regret": {
+       "missed_per_100": 9.051724137931036,
+       "false_alarms_per_100_tumor_free": -3.8888888888888893,
+       "glioma_false_alarms_per_100_non_glioma": 0.8278145695364238
+      },
+      "regret_ci95": {
+       "missed_per_100": [
+        5.554964539007089,
+        20.66044061302681
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -10.452582728006458,
+        4.106825749167591
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -4.178359134450907,
+        1.438953602964364
+       ]
+      }
+     }
+    },
+    "split_half": {
+     "real": {
+      "real_outcome_mean": {
+       "missed_per_100": 23.217967873438525,
+       "false_alarms_per_100_tumor_free": 6.584828302224703,
+       "glioma_false_alarms_per_100_non_glioma": 0.5895462506058531
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000
+     },
+     "s_test": {
+      "real_outcome_mean": {
+       "missed_per_100": 26.438380560392307,
+       "false_alarms_per_100_tumor_free": 6.498988782120134,
+       "glioma_false_alarms_per_100_non_glioma": 1.321546091444069
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 3.220412686953787,
+       "false_alarms_per_100_tumor_free": -0.08583952010456991,
+       "glioma_false_alarms_per_100_non_glioma": 0.7319998408382162
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        -9.055803571428578,
+        11.378306878306866
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -7.031939338235294,
+        5.462164750957853
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -2.5806704260651627,
+        2.476269185360095
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.79
+     },
+     "s_test_gemini": {
+      "real_outcome_mean": {
+       "missed_per_100": 25.977973657457554,
+       "false_alarms_per_100_tumor_free": 5.301282291910424,
+       "glioma_false_alarms_per_100_non_glioma": 0.8029624660284639
+      },
+      "share_of_splits_choosing_D": 0.0,
+      "n_splits": 1000,
+      "regret_mean": {
+       "missed_per_100": 2.7600057840190337,
+       "false_alarms_per_100_tumor_free": -1.283546010314278,
+       "glioma_false_alarms_per_100_non_glioma": 0.21341621542261083
+      },
+      "regret_range95": {
+       "missed_per_100": [
+        -11.494252873563209,
+        11.296626984126979
+       ],
+       "false_alarms_per_100_tumor_free": [
+        -8.333333333333334,
+        3.8890692640692643
+       ],
+       "glioma_false_alarms_per_100_non_glioma": [
+        -3.1432935493037792,
+        1.3656541383676757
+       ]
+      },
+      "share_of_splits_syn_worse_on_missed": 0.769
+     }
+    }
+   }
+  }
+ }
+}

@@ -76,6 +76,27 @@ def build_sets(twin_labels="labels_blind", require_both=False, real_labels="data
     return real, syn, missing
 
 
+def swap_twins(syn, purpose="s_test_gemini", twin_labels="labels_blind"):
+    """The same S-test images and order, but every synthetic twin replaced by the twin of the same real
+    test glioma from another batch (`purpose`, e.g. the Gemini twins). Non-glioma images are untouched,
+    so real / S-test / swapped S-test stay paired image by image."""
+    twins = {}
+    for r in csv.DictReader(open(ROOT / "generated" / "manifest.csv")):
+        p = ROOT / r["file"]
+        if r["purpose"] == purpose and r["status"] == "labeled" and (p.parent / twin_labels / (p.stem + ".txt")).exists():
+            twins[r["refs"]] = p
+    out = []
+    for x in syn:
+        if x["img"] == SUBSET / "images" / "test" / x["id"]:  # a real image, not a twin
+            out.append(x)
+            continue
+        p = twins.get(x["id"])
+        if p is None:
+            raise SystemExit(f"no labeled {purpose} twin for {x['id']}")
+        out.append({**x, "img": p, "label": p.parent / twin_labels / (p.stem + ".txt")})
+    return out
+
+
 def write_dataset(items, name):
     d = ROOT / "datasets" / name
     if d.exists():

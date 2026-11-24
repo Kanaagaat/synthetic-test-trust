@@ -1,0 +1,313 @@
+[1/72] A_full_s0@epoch25
+[2/72] A_full_s0@epoch50
+[3/72] A_full_s0@epoch75
+[4/72] A_full_s0@best
+[5/72] A_full_s1@epoch25
+[6/72] A_full_s1@epoch50
+[7/72] A_full_s1@epoch75
+[8/72] A_full_s1@best
+[9/72] A_full_s2@epoch25
+[10/72] A_full_s2@epoch50
+[11/72] A_full_s2@epoch75
+[12/72] A_full_s2@best
+[13/72] A_low_s0@epoch25
+[14/72] A_low_s0@epoch50
+[15/72] A_low_s0@epoch75
+[16/72] A_low_s0@best
+[17/72] A_low_s1@epoch25
+[18/72] A_low_s1@epoch50
+[19/72] A_low_s1@epoch75
+[20/72] A_low_s1@best
+[21/72] A_low_s2@epoch25
+[22/72] A_low_s2@epoch50
+[23/72] A_low_s2@epoch75
+[24/72] A_low_s2@best
+[25/72] B_low_s0@epoch25
+[26/72] B_low_s0@epoch50
+[27/72] B_low_s0@epoch75
+[28/72] B_low_s0@best
+[29/72] B_low_s1@epoch25
+[30/72] B_low_s1@epoch50
+[31/72] B_low_s1@epoch75
+[32/72] B_low_s1@best
+[33/72] B_low_s2@epoch25
+[34/72] B_low_s2@epoch50
+[35/72] B_low_s2@epoch75
+[36/72] B_low_s2@best
+[37/72] C_low_s0@epoch25
+[38/72] C_low_s0@epoch50
+[39/72] C_low_s0@epoch75
+[40/72] C_low_s0@best
+[41/72] C_low_s1@epoch25
+[42/72] C_low_s1@epoch50
+[43/72] C_low_s1@epoch75
+[44/72] C_low_s1@best
+[45/72] C_low_s2@epoch25
+[46/72] C_low_s2@epoch50
+[47/72] C_low_s2@epoch75
+[48/72] C_low_s2@best
+[49/72] C_full_s0@epoch25
+[50/72] C_full_s0@epoch50
+[51/72] C_full_s0@epoch75
+[52/72] C_full_s0@best
+[53/72] C_full_s1@epoch25
+[54/72] C_full_s1@epoch50
+[55/72] C_full_s1@epoch75
+[56/72] C_full_s1@best
+[57/72] C_full_s2@epoch25
+[58/72] C_full_s2@epoch50
+[59/72] C_full_s2@epoch75
+[60/72] C_full_s2@best
+[61/72] D_s0@epoch25
+[62/72] D_s0@epoch50
+[63/72] D_s0@epoch75
+[64/72] D_s0@best
+[65/72] D_s1@epoch25
+[66/72] D_s1@epoch50
+[67/72] D_s1@epoch75
+[68/72] D_s1@best
+[69/72] D_s2@epoch25
+[70/72] D_s2@epoch50
+[71/72] D_s2@epoch75
+[72/72] D_s2@best
+
+[dataset | s_test]
+  AP50: reference real range [0.477, 0.882], fit {'intercept': 0.5904739409405376, 'slope': -0.5486152073387388}, corr -0.76
+    C_low/all_ckpts  n=12 real 0.696 s_test 0.962 gap +0.266 residual +0.058 [0.022, 0.106]
+    C_low/best       n= 3 real 0.768 s_test 0.979 gap +0.211 residual +0.042 [0.01, 0.083]
+    C_full/all_ckpts n=12 real 0.810 s_test 0.970 gap +0.160 residual +0.014 [-0.004, 0.051]
+    C_full/best      n= 3 real 0.834 s_test 0.967 gap +0.133 residual +0.000 [-0.025, 0.04]
+    D/all_ckpts      n=12 real 0.534 s_test 0.964 gap +0.431 residual +0.133 [0.039, 0.248]
+    D/best           n= 3 real 0.614 s_test 0.980 gap +0.366 residual +0.112 [0.04, 0.219]
+    A_full/all_ckpts n=12 real 0.810 s_test 0.934 gap +0.123 residual -0.023 [-0.03, -0.001]
+    A_full/best      n= 3 real 0.864 s_test 0.976 gap +0.111 residual -0.005 [-0.02, 0.031]
+    A_low/all_ckpts  n=12 real 0.632 s_test 0.885 gap +0.253 residual +0.010 [-0.008, 0.022]
+    A_low/best       n= 3 real 0.725 s_test 0.947 gap +0.222 residual +0.029 [0.004, 0.056]
+    B_low/all_ckpts  n=12 real 0.645 s_test 0.895 gap +0.250 residual +0.013 [-0.012, 0.028]
+    B_low/best       n= 3 real 0.672 s_test 0.940 gap +0.269 residual +0.047 [0.014, 0.077]
+  recall@0.25: reference real range [0.397, 0.845], fit {'intercept': 0.4569546914252642, 'slope': -0.37123928801952444}, corr -0.54
+    C_low/all_ckpts  n=12 real 0.619 s_test 0.949 gap +0.330 residual +0.103 [0.051, 0.165]
+    C_low/best       n= 3 real 0.672 s_test 0.977 gap +0.304 residual +0.097 [0.042, 0.161]
+    C_full/all_ckpts n=12 real 0.772 s_test 0.971 gap +0.199 residual +0.029 [0.007, 0.074]
+    C_full/best      n= 3 real 0.793 s_test 0.971 gap +0.178 residual +0.015 [-0.012, 0.062]
+    D/all_ckpts      n=12 real 0.368 s_test 0.955 gap +0.587 residual +0.266 [0.133, 0.407]
+    D/best           n= 3 real 0.471 s_test 0.977 gap +0.505 residual +0.223 [0.108, 0.36]
+    A_full/all_ckpts n=12 real 0.770 s_test 0.927 gap +0.157 residual -0.014 [-0.023, 0.023]
+    A_full/best      n= 3 real 0.822 s_test 0.977 gap +0.155 residual +0.003 [-0.01, 0.046]
+    A_low/all_ckpts  n=12 real 0.545 s_test 0.820 gap +0.276 residual +0.021 [-0.005, 0.035]
+    A_low/best       n= 3 real 0.638 s_test 0.889 gap +0.251 residual +0.031 [-0.021, 0.081]
+    B_low/all_ckpts  n=12 real 0.572 s_test 0.810 gap +0.238 residual -0.007 [-0.045, 0.016]
+    B_low/best       n= 3 real 0.603 s_test 0.854 gap +0.250 residual +0.017 [-0.031, 0.06]
+  AP50-95: reference real range [0.288, 0.644], fit {'intercept': 0.28743552173967385, 'slope': -0.6279490900881523}, corr -0.87
+    C_low/all_ckpts  n=12 real 0.448 s_test 0.507 gap +0.059 residual +0.053 [0.022, 0.087]
+    C_low/best       n= 3 real 0.505 s_test 0.525 gap +0.020 residual +0.049 [0.019, 0.086]
+    C_full/all_ckpts n=12 real 0.574 s_test 0.514 gap -0.060 residual +0.013 [-0.002, 0.037]
+    C_full/best      n= 3 real 0.622 s_test 0.531 gap -0.091 residual +0.012 [-0.005, 0.04]
+    D/all_ckpts      n=12 real 0.329 s_test 0.495 gap +0.166 residual +0.085 [0.035, 0.139]
+    D/best           n= 3 real 0.399 s_test 0.518 gap +0.119 residual +0.082 [0.034, 0.134]
+    A_full/all_ckpts n=12 real 0.562 s_test 0.478 gap -0.084 residual -0.019 [-0.026, -0.006]
+    A_full/best      n= 3 real 0.622 s_test 0.501 gap -0.121 residual -0.018 [-0.03, 0.005]
+    A_low/all_ckpts  n=12 real 0.404 s_test 0.445 gap +0.041 residual +0.007 [-0.006, 0.017]
+    A_low/best       n= 3 real 0.487 s_test 0.501 gap +0.014 residual +0.032 [0.006, 0.059]
+    B_low/all_ckpts  n=12 real 0.420 s_test 0.456 gap +0.035 residual +0.012 [-0.003, 0.022]
+    B_low/best       n= 3 real 0.453 s_test 0.485 gap +0.031 residual +0.029 [0.007, 0.052]
+
+[dataset | s_test_gemini]
+  AP50: reference real range [0.477, 0.882], fit {'intercept': 0.6291804957605195, 'slope': -0.5907941282873171}, corr -0.85
+    C_low/all_ckpts  n=12 real 0.696 s_test 0.981 gap +0.285 residual +0.067 [0.036, 0.101]
+    C_low/best       n= 3 real 0.768 s_test 0.992 gap +0.224 residual +0.048 [0.022, 0.087]
+    C_full/all_ckpts n=12 real 0.810 s_test 0.990 gap +0.180 residual +0.030 [0.014, 0.066]
+    C_full/best      n= 3 real 0.834 s_test 0.995 gap +0.161 residual +0.024 [0.008, 0.063]
+    D/all_ckpts      n=12 real 0.534 s_test 0.972 gap +0.438 residual +0.125 [0.063, 0.187]
+    D/best           n= 3 real 0.614 s_test 0.995 gap +0.381 residual +0.115 [0.057, 0.18]
+    A_full/all_ckpts n=12 real 0.810 s_test 0.961 gap +0.150 residual -0.000 [-0.011, 0.026]
+    A_full/best      n= 3 real 0.864 s_test 0.983 gap +0.118 residual -0.000 [-0.006, 0.027]
+    A_low/all_ckpts  n=12 real 0.632 s_test 0.878 gap +0.246 residual -0.010 [-0.032, 0.007]
+    A_low/best       n= 3 real 0.725 s_test 0.914 gap +0.189 residual -0.011 [-0.041, 0.017]
+    B_low/all_ckpts  n=12 real 0.645 s_test 0.903 gap +0.259 residual +0.010 [-0.016, 0.029]
+    B_low/best       n= 3 real 0.672 s_test 0.908 gap +0.236 residual +0.004 [-0.034, 0.038]
+  recall@0.25: reference real range [0.397, 0.845], fit {'intercept': 0.33838240812385917, 'slope': -0.2761176452114379}, corr -0.36
+    C_low/all_ckpts  n=12 real 0.619 s_test 0.958 gap +0.339 residual +0.172 [0.117, 0.228]
+    C_low/best       n= 3 real 0.672 s_test 0.983 gap +0.310 residual +0.158 [0.094, 0.229]
+    C_full/all_ckpts n=12 real 0.772 s_test 0.981 gap +0.210 residual +0.084 [0.049, 0.142]
+    C_full/best      n= 3 real 0.793 s_test 0.983 gap +0.190 residual +0.070 [0.036, 0.132]
+    D/all_ckpts      n=12 real 0.368 s_test 0.899 gap +0.532 residual +0.295 [0.181, 0.392]
+    D/best           n= 3 real 0.471 s_test 0.994 gap +0.523 residual +0.315 [0.202, 0.416]
+    A_full/all_ckpts n=12 real 0.770 s_test 0.907 gap +0.136 residual +0.011 [-0.004, 0.053]
+    A_full/best      n= 3 real 0.822 s_test 0.931 gap +0.109 residual -0.002 [-0.02, 0.048]
+    A_low/all_ckpts  n=12 real 0.545 s_test 0.705 gap +0.161 residual -0.027 [-0.069, -0.002]
+    A_low/best       n= 3 real 0.638 s_test 0.787 gap +0.149 residual -0.013 [-0.07, 0.04]
+    B_low/all_ckpts  n=12 real 0.572 s_test 0.769 gap +0.197 residual +0.016 [-0.026, 0.047]
+    B_low/best       n= 3 real 0.603 s_test 0.753 gap +0.149 residual -0.022 [-0.086, 0.038]
+  AP50-95: reference real range [0.288, 0.644], fit {'intercept': 0.38104294259535026, 'slope': -0.46117945040044733}, corr -0.85
+    C_low/all_ckpts  n=12 real 0.448 s_test 0.691 gap +0.243 residual +0.069 [0.041, 0.098]
+    C_low/best       n= 3 real 0.505 s_test 0.721 gap +0.215 residual +0.067 [0.035, 0.102]
+    C_full/all_ckpts n=12 real 0.574 s_test 0.713 gap +0.139 residual +0.022 [0.006, 0.055]
+    C_full/best      n= 3 real 0.622 s_test 0.728 gap +0.107 residual +0.012 [-0.008, 0.054]
+    D/all_ckpts      n=12 real 0.329 s_test 0.679 gap +0.350 residual +0.121 [0.063, 0.173]
+    D/best           n= 3 real 0.399 s_test 0.724 gap +0.325 residual +0.128 [0.074, 0.179]
+    A_full/all_ckpts n=12 real 0.562 s_test 0.675 gap +0.113 residual -0.009 [-0.017, 0.011]
+    A_full/best      n= 3 real 0.622 s_test 0.699 gap +0.077 residual -0.017 [-0.023, 0.008]
+    A_low/all_ckpts  n=12 real 0.404 s_test 0.588 gap +0.185 residual -0.010 [-0.026, 0.003]
+    A_low/best       n= 3 real 0.487 s_test 0.637 gap +0.151 residual -0.006 [-0.033, 0.026]
+    B_low/all_ckpts  n=12 real 0.420 s_test 0.627 gap +0.207 residual +0.020 [-0.003, 0.033]
+    B_low/best       n= 3 real 0.453 s_test 0.653 gap +0.200 residual +0.028 [-0.004, 0.057]
+
+[dataset | s_test_gemini - s_test]
+  AP50         C_low/all_ckpts  residual diff +0.009 [-0.034, 0.048]
+  AP50         C_low/best       residual diff +0.007 [-0.032, 0.047]
+  AP50         C_full/all_ckpts residual diff +0.015 [-0.021, 0.054]
+  AP50         C_full/best      residual diff +0.024 [-0.014, 0.065]
+  AP50         D/all_ckpts      residual diff -0.008 [-0.102, 0.074]
+  AP50         D/best           residual diff +0.002 [-0.076, 0.07]
+  AP50         A_full/all_ckpts residual diff +0.022 [0.006, 0.042]
+  AP50         A_full/best      residual diff +0.005 [-0.024, 0.032]
+  AP50         A_low/all_ckpts  residual diff -0.020 [-0.041, 0.002]
+  AP50         A_low/best       residual diff -0.041 [-0.072, -0.004]
+  AP50         B_low/all_ckpts  residual diff -0.003 [-0.024, 0.018]
+  AP50         B_low/best       residual diff -0.043 [-0.07, -0.019]
+  recall@0.25  C_low/all_ckpts  residual diff +0.069 [0.012, 0.13]
+  recall@0.25  C_low/best       residual diff +0.061 [0.004, 0.126]
+  recall@0.25  C_full/all_ckpts residual diff +0.056 [0.01, 0.111]
+  recall@0.25  C_full/best      residual diff +0.055 [0.006, 0.114]
+  recall@0.25  D/all_ckpts      residual diff +0.028 [-0.098, 0.138]
+  recall@0.25  D/best           residual diff +0.091 [-0.014, 0.185]
+  recall@0.25  A_full/all_ckpts residual diff +0.025 [0.0, 0.057]
+  recall@0.25  A_full/best      residual diff -0.005 [-0.041, 0.037]
+  recall@0.25  A_low/all_ckpts  residual diff -0.048 [-0.082, -0.017]
+  recall@0.25  A_low/best       residual diff -0.044 [-0.105, 0.012]
+  recall@0.25  B_low/all_ckpts  residual diff +0.023 [-0.01, 0.051]
+  recall@0.25  B_low/best       residual diff -0.040 [-0.093, 0.017]
+  AP50-95      C_low/all_ckpts  residual diff +0.016 [-0.019, 0.053]
+  AP50-95      C_low/best       residual diff +0.018 [-0.02, 0.057]
+  AP50-95      C_full/all_ckpts residual diff +0.009 [-0.017, 0.043]
+  AP50-95      C_full/best      residual diff +0.000 [-0.031, 0.042]
+  AP50-95      D/all_ckpts      residual diff +0.036 [-0.021, 0.092]
+  AP50-95      D/best           residual diff +0.046 [-0.006, 0.099]
+  AP50-95      A_full/all_ckpts residual diff +0.010 [-0.003, 0.029]
+  AP50-95      A_full/best      residual diff +0.001 [-0.015, 0.024]
+  AP50-95      A_low/all_ckpts  residual diff -0.017 [-0.035, -0.001]
+  AP50-95      A_low/best       residual diff -0.038 [-0.067, -0.004]
+  AP50-95      B_low/all_ckpts  residual diff +0.008 [-0.01, 0.023]
+  AP50-95      B_low/best       residual diff -0.001 [-0.027, 0.023]
+
+[samelabeler | s_test]
+  AP50: reference real range [0.432, 0.835], fit {'intercept': 0.551113075070469, 'slope': -0.48473536079623486}, corr -0.63
+    C_low/all_ckpts  n=12 real 0.710 s_test 0.968 gap +0.258 residual +0.051 [0.018, 0.1]
+    C_low/best       n= 3 real 0.794 s_test 0.987 gap +0.193 residual +0.026 [-0.003, 0.075]
+    C_full/all_ckpts n=12 real 0.801 s_test 0.979 gap +0.178 residual +0.015 [-0.006, 0.064]
+    C_full/best      n= 3 real 0.832 s_test 0.971 gap +0.140 residual -0.008 [-0.04, 0.049]
+    D/all_ckpts      n=12 real 0.517 s_test 0.972 gap +0.455 residual +0.154 [0.056, 0.278]
+    D/best           n= 3 real 0.580 s_test 0.987 gap +0.407 residual +0.137 [0.048, 0.258]
+    A_full/all_ckpts n=12 real 0.769 s_test 0.934 gap +0.164 residual -0.014 [-0.024, 0.019]
+    A_full/best      n= 3 real 0.804 s_test 0.969 gap +0.165 residual +0.004 [-0.009, 0.043]
+    A_low/all_ckpts  n=12 real 0.634 s_test 0.876 gap +0.243 residual -0.001 [-0.019, 0.012]
+    A_low/best       n= 3 real 0.719 s_test 0.943 gap +0.224 residual +0.021 [-0.0, 0.051]
+    B_low/all_ckpts  n=12 real 0.612 s_test 0.881 gap +0.270 residual +0.015 [-0.014, 0.028]
+    B_low/best       n= 3 real 0.652 s_test 0.935 gap +0.283 residual +0.048 [0.011, 0.078]
+  recall@0.25: reference real range [0.423, 0.808], fit {'intercept': 0.3769222242748939, 'slope': -0.255015702937373}, corr -0.37
+    C_low/all_ckpts  n=12 real 0.628 s_test 0.955 gap +0.327 residual +0.110 [0.055, 0.184]
+    C_low/best       n= 3 real 0.679 s_test 0.987 gap +0.307 residual +0.104 [0.052, 0.173]
+    C_full/all_ckpts n=12 real 0.779 s_test 0.982 gap +0.203 residual +0.025 [0.004, 0.08]
+    C_full/best      n= 3 real 0.795 s_test 0.980 gap +0.185 residual +0.011 [-0.011, 0.07]
+    D/all_ckpts      n=12 real 0.373 s_test 0.968 gap +0.595 residual +0.313 [0.152, 0.464]
+    D/best           n= 3 real 0.462 s_test 0.987 gap +0.525 residual +0.266 [0.121, 0.421]
+    A_full/all_ckpts n=12 real 0.758 s_test 0.927 gap +0.169 residual -0.015 [-0.024, 0.032]
+    A_full/best      n= 3 real 0.795 s_test 0.973 gap +0.178 residual +0.004 [-0.011, 0.057]
+    A_low/all_ckpts  n=12 real 0.551 s_test 0.808 gap +0.257 residual +0.021 [-0.012, 0.034]
+    A_low/best       n= 3 real 0.628 s_test 0.887 gap +0.258 residual +0.042 [-0.016, 0.103]
+    B_low/all_ckpts  n=12 real 0.569 s_test 0.795 gap +0.226 residual -0.006 [-0.051, 0.018]
+    B_low/best       n= 3 real 0.609 s_test 0.840 gap +0.231 residual +0.009 [-0.048, 0.057]
+  AP50-95: reference real range [0.215, 0.441], fit {'intercept': 0.17593791068033557, 'slope': -0.16161777382073986}, corr -0.24
+    C_low/all_ckpts  n=12 real 0.350 s_test 0.527 gap +0.177 residual +0.057 [0.029, 0.093]
+    C_low/best       n= 3 real 0.390 s_test 0.545 gap +0.156 residual +0.043 [0.019, 0.084]
+    C_full/all_ckpts n=12 real 0.416 s_test 0.528 gap +0.112 residual +0.003 [-0.01, 0.041]
+    C_full/best      n= 3 real 0.438 s_test 0.544 gap +0.106 residual +0.001 [-0.015, 0.048]
+    D/all_ckpts      n=12 real 0.251 s_test 0.509 gap +0.259 residual +0.123 [0.049, 0.187]
+    D/best           n= 3 real 0.296 s_test 0.532 gap +0.236 residual +0.108 [0.042, 0.175]
+    A_full/all_ckpts n=12 real 0.385 s_test 0.487 gap +0.102 residual -0.012 [-0.021, 0.016]
+    A_full/best      n= 3 real 0.408 s_test 0.512 gap +0.104 residual -0.006 [-0.024, 0.038]
+    A_low/all_ckpts  n=12 real 0.320 s_test 0.447 gap +0.127 residual +0.003 [-0.015, 0.013]
+    A_low/best       n= 3 real 0.368 s_test 0.507 gap +0.139 residual +0.023 [-0.003, 0.055]
+    B_low/all_ckpts  n=12 real 0.324 s_test 0.457 gap +0.132 residual +0.009 [-0.015, 0.022]
+    B_low/best       n= 3 real 0.343 s_test 0.493 gap +0.150 residual +0.029 [-0.0, 0.059]
+
+[samelabeler | s_test_gemini]
+  AP50: reference real range [0.432, 0.835], fit {'intercept': 0.6069135478980244, 'slope': -0.5447203954636737}, corr -0.79
+    C_low/all_ckpts  n=12 real 0.710 s_test 0.980 gap +0.270 residual +0.050 [0.024, 0.082]
+    C_low/best       n= 3 real 0.794 s_test 0.992 gap +0.198 residual +0.023 [0.001, 0.069]
+    C_full/all_ckpts n=12 real 0.801 s_test 0.990 gap +0.189 residual +0.018 [0.008, 0.062]
+    C_full/best      n= 3 real 0.832 s_test 0.995 gap +0.163 residual +0.009 [-0.001, 0.059]
+    D/all_ckpts      n=12 real 0.517 s_test 0.971 gap +0.454 residual +0.129 [0.057, 0.199]
+    D/best           n= 3 real 0.580 s_test 0.995 gap +0.415 residual +0.124 [0.054, 0.204]
+    A_full/all_ckpts n=12 real 0.769 s_test 0.962 gap +0.193 residual +0.005 [-0.006, 0.035]
+    A_full/best      n= 3 real 0.804 s_test 0.983 gap +0.178 residual +0.010 [0.0, 0.05]
+    A_low/all_ckpts  n=12 real 0.634 s_test 0.878 gap +0.245 residual -0.017 [-0.046, 0.003]
+    A_low/best       n= 3 real 0.719 s_test 0.914 gap +0.195 residual -0.020 [-0.05, 0.014]
+    B_low/all_ckpts  n=12 real 0.612 s_test 0.898 gap +0.286 residual +0.013 [-0.02, 0.035]
+    B_low/best       n= 3 real 0.652 s_test 0.906 gap +0.254 residual +0.002 [-0.038, 0.045]
+  recall@0.25: reference real range [0.423, 0.808], fit {'intercept': 0.3027506402524063, 'slope': -0.20906459757374235}, corr -0.27
+    C_low/all_ckpts  n=12 real 0.628 s_test 0.954 gap +0.326 residual +0.155 [0.1, 0.214]
+    C_low/best       n= 3 real 0.679 s_test 0.980 gap +0.301 residual +0.140 [0.081, 0.218]
+    C_full/all_ckpts n=12 real 0.779 s_test 0.980 gap +0.202 residual +0.062 [0.03, 0.133]
+    C_full/best      n= 3 real 0.795 s_test 0.987 gap +0.192 residual +0.055 [0.022, 0.13]
+    D/all_ckpts      n=12 real 0.373 s_test 0.900 gap +0.527 residual +0.302 [0.17, 0.418]
+    D/best           n= 3 real 0.462 s_test 0.993 gap +0.532 residual +0.326 [0.196, 0.446]
+    A_full/all_ckpts n=12 real 0.758 s_test 0.910 gap +0.152 residual +0.008 [-0.005, 0.057]
+    A_full/best      n= 3 real 0.795 s_test 0.928 gap +0.133 residual -0.003 [-0.027, 0.056]
+    A_low/all_ckpts  n=12 real 0.551 s_test 0.716 gap +0.164 residual -0.023 [-0.064, 0.003]
+    A_low/best       n= 3 real 0.628 s_test 0.778 gap +0.150 residual -0.022 [-0.078, 0.035]
+    B_low/all_ckpts  n=12 real 0.569 s_test 0.768 gap +0.199 residual +0.015 [-0.033, 0.046]
+    B_low/best       n= 3 real 0.609 s_test 0.758 gap +0.149 residual -0.026 [-0.095, 0.042]
+  AP50-95: reference real range [0.215, 0.441], fit {'intercept': 0.29534972774415036, 'slope': -0.006326901236636922}, corr -0.01
+    C_low/all_ckpts  n=12 real 0.350 s_test 0.697 gap +0.347 residual +0.053 [0.027, 0.085]
+    C_low/best       n= 3 real 0.390 s_test 0.728 gap +0.339 residual +0.046 [0.017, 0.094]
+    C_full/all_ckpts n=12 real 0.416 s_test 0.715 gap +0.299 residual +0.007 [-0.011, 0.059]
+    C_full/best      n= 3 real 0.438 s_test 0.731 gap +0.292 residual -0.000 [-0.023, 0.067]
+    D/all_ckpts      n=12 real 0.251 s_test 0.685 gap +0.434 residual +0.140 [0.059, 0.201]
+    D/best           n= 3 real 0.296 s_test 0.731 gap +0.435 residual +0.142 [0.068, 0.214]
+    A_full/all_ckpts n=12 real 0.385 s_test 0.683 gap +0.298 residual +0.005 [-0.01, 0.039]
+    A_full/best      n= 3 real 0.408 s_test 0.705 gap +0.297 residual +0.004 [-0.011, 0.054]
+    A_low/all_ckpts  n=12 real 0.320 s_test 0.596 gap +0.276 residual -0.018 [-0.041, -0.003]
+    A_low/best       n= 3 real 0.368 s_test 0.643 gap +0.275 residual -0.018 [-0.042, 0.022]
+    B_low/all_ckpts  n=12 real 0.324 s_test 0.630 gap +0.306 residual +0.013 [-0.016, 0.033]
+    B_low/best       n= 3 real 0.343 s_test 0.662 gap +0.319 residual +0.026 [-0.01, 0.063]
+
+[samelabeler | s_test_gemini - s_test]
+  AP50         C_low/all_ckpts  residual diff -0.001 [-0.039, 0.034]
+  AP50         C_low/best       residual diff -0.003 [-0.04, 0.031]
+  AP50         C_full/all_ckpts residual diff +0.003 [-0.034, 0.041]
+  AP50         C_full/best      residual diff +0.018 [-0.025, 0.065]
+  AP50         D/all_ckpts      residual diff -0.025 [-0.121, 0.067]
+  AP50         D/best           residual diff -0.013 [-0.096, 0.072]
+  AP50         A_full/all_ckpts residual diff +0.018 [-0.004, 0.037]
+  AP50         A_full/best      residual diff +0.006 [-0.015, 0.028]
+  AP50         A_low/all_ckpts  residual diff -0.016 [-0.042, 0.008]
+  AP50         A_low/best       residual diff -0.041 [-0.08, -0.0]
+  AP50         B_low/all_ckpts  residual diff -0.003 [-0.024, 0.022]
+  AP50         B_low/best       residual diff -0.046 [-0.074, -0.015]
+  recall@0.25  C_low/all_ckpts  residual diff +0.045 [-0.015, 0.104]
+  recall@0.25  C_low/best       residual diff +0.037 [-0.014, 0.096]
+  recall@0.25  C_full/all_ckpts residual diff +0.037 [-0.006, 0.087]
+  recall@0.25  C_full/best      residual diff +0.045 [-0.008, 0.105]
+  recall@0.25  D/all_ckpts      residual diff -0.011 [-0.151, 0.12]
+  recall@0.25  D/best           residual diff +0.060 [-0.057, 0.17]
+  recall@0.25  A_full/all_ckpts residual diff +0.023 [-0.006, 0.056]
+  recall@0.25  A_full/best      residual diff -0.008 [-0.048, 0.037]
+  recall@0.25  A_low/all_ckpts  residual diff -0.044 [-0.08, -0.008]
+  recall@0.25  A_low/best       residual diff -0.064 [-0.129, -0.0]
+  recall@0.25  B_low/all_ckpts  residual diff +0.021 [-0.013, 0.052]
+  recall@0.25  B_low/best       residual diff -0.036 [-0.093, 0.028]
+  AP50-95      C_low/all_ckpts  residual diff -0.004 [-0.035, 0.026]
+  AP50-95      C_low/best       residual diff +0.003 [-0.035, 0.043]
+  AP50-95      C_full/all_ckpts residual diff +0.003 [-0.026, 0.041]
+  AP50-95      C_full/best      residual diff -0.001 [-0.039, 0.047]
+  AP50-95      D/all_ckpts      residual diff +0.017 [-0.044, 0.079]
+  AP50-95      D/best           residual diff +0.034 [-0.022, 0.099]
+  AP50-95      A_full/all_ckpts residual diff +0.017 [-0.003, 0.039]
+  AP50-95      A_full/best      residual diff +0.010 [-0.013, 0.04]
+  AP50-95      A_low/all_ckpts  residual diff -0.020 [-0.041, 0.0]
+  AP50-95      A_low/best       residual diff -0.041 [-0.072, 0.0]
+  AP50-95      B_low/all_ckpts  residual diff +0.004 [-0.015, 0.021]
+  AP50-95      B_low/best       residual diff -0.003 [-0.03, 0.023]
+-> viz/rq1_many/selfgen_s_test_gemini.json

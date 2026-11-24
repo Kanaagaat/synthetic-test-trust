@@ -1,0 +1,24 @@
+Create exactly one image from the description below.
+
+Generate one new brain MRI slice. The attached image is a real reference from the same
+dataset: match its MRI sequence, its imaging plane and its general look, but do not
+reproduce its anatomy, its head shape or its exact tumor. This must be a different patient.
+
+Image:
+- Same plane as the reference.
+- T1-weighted post-contrast (gadolinium) MRI, single grayscale slice, black background,
+  whole head visible.
+- Acquisition and export: slightly brighter window, soft image.
+- Typical hospital image quality: slightly soft, moderate noise, like a JPEG exported from a
+  clinical PACS viewer. Not a crisp, high-contrast textbook illustration.
+
+Pathology:
+- Exactly 2 separate gliomas of the same appearance type as the tumor(s) in the reference: the same
+  kind of contrast enhancement, margins and internal structure as shown there.
+- Give the tumor(s) a different shape and a different, anatomically plausible location
+  than in the reference.
+- Size of the largest tumor: about 12% of the image width.
+- The tumor must be clearly visible to a radiologist. No other lesions.
+
+Do not add: text, letters, numbers, scale bars, arrows, markers, bounding boxes, color,
+multiple panels, borders, watermarks, or a 3D/illustration look.

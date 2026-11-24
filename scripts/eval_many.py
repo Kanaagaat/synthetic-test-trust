@@ -37,6 +37,20 @@ OUT = ROOT / "viz" / "rq1_many"
 SCENARIOS = {"dataset": dict(twin_labels="labels_blind", require_both=False, real_labels="dataset"),
              "samelabeler": dict(twin_labels="labels_blind", require_both=False, real_labels="blind")}
 METRICS = ("AP50", "recall@0.25", "AP50-95")
+# S-tests from other generators: tag -> manifest purpose of their twins. They use the same images and
+# pairs as the main S-test (its OpenAI twins swapped for the other generator's twins of the same
+# real glioma), so all three tests are paired. --syn picks which synthetic test summarize() compares
+# with the real test; the summary keeps the key "s_test" for it and records the choice in "syn_set".
+OTHER_SYN = {"s_test_gemini": "s_test_gemini"}
+
+
+def alias_syn(sets, recs, syn):
+    """Make `syn` (e.g. s_test_gemini) the synthetic test that summarize() sees under the key s_test."""
+    if syn == "s_test":
+        return sets, recs
+    recs = {**recs, **{(n, scen, "s_test"): v for (n, scen, tag), v in recs.items() if tag == syn}}
+    sets = {scen: ({**d, "s_test": d[syn]} if syn in d else d) for scen, d in sets.items()}
+    return sets, recs
 CKPTS = ("epoch0", "epoch25", "epoch50", "epoch75", "best")
 
 
@@ -65,12 +79,15 @@ def full_items():
             for f, r in sorted(split.items())]
 
 
-def evaluate(models):
-    """Run val for every model on every set (cached) and return per-image glioma records."""
+def evaluate(models, extra=()):
+    """Run val for every model on every set (cached) and return per-image glioma records.
+    extra: tags from OTHER_SYN to evaluate as well (only when asked: a default run needs no other twins)."""
     sets = {}
     for scen, kw in SCENARIOS.items():
         real, syn, _ = E.build_sets(**kw)
         sets[scen] = {"real": real, "s_test": syn}
+        for tag in extra:  # second generator: same images, its own twins
+            sets[scen][tag] = E.swap_twins(syn, OTHER_SYN[tag], kw["twin_labels"])
     sets["full"] = {"real": full_items()}
     yamls = {(scen, tag): E.write_dataset(items, f"many_{scen}_{tag}")
              for scen, d in sets.items() for tag, items in d.items()}
@@ -262,15 +279,20 @@ def main():
     ap.add_argument("--boot", type=int, default=2000)
     ap.add_argument("--rq1-min-epoch", type=int, default=25)
     ap.add_argument("--only-eval", action="store_true")
+    ap.add_argument("--syn", default="s_test", choices=["s_test", *OTHER_SYN],
+                    help="synthetic test to compare with the real one (default: the main OpenAI S-test)")
     args = ap.parse_args()
     models = find_models([ROOT / r for r in args.runs])
     print(len(models), "models")
-    sets, recs, other = evaluate(models)
+    sets, recs, other = evaluate(models, () if args.syn == "s_test" else (args.syn,))
     if args.only_eval:
         return
+    sets, recs = alias_syn(sets, recs, args.syn)
     res = summarize(models, sets, recs, other, args.boot, args.rq1_min_epoch)
+    if args.syn != "s_test":  # the default summary.json keeps its old keys
+        res = {"syn_set": args.syn, **res}
     OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / "summary.json").write_text(json.dumps(res, indent=1))
+    (OUT / ("summary.json" if args.syn == "s_test" else f"summary_{args.syn}.json")).write_text(json.dumps(res, indent=1))
     for scen, d in res["rq1"].items():
         print(f"\nRQ1 [{scen}] {d['n_images']} images, {d['n_glioma_images']} with glioma, {d['n_groups']} groups")
         for k, a in d["aggregate"].items():

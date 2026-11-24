@@ -1,0 +1,69 @@
+pool best18: 18 models
+pool all72: 72 models
+pool best15_noD: 15 models
+pool all60_noD: 60 models
+wrote viz/regret.json
+
+== best18, choose by AP50
+  in-sample real           chosen A_full_s0@best                                                         | real: missed  19.0/100, FA tumor-free   6.7/100, glioma FA   0.0/100
+  in-sample s_test         chosen D_s1@best                                                              | real: missed  53.4/100, FA tumor-free   4.4/100, glioma FA   0.7/100 | regret missed +34.5 [8.3, 50.0] FA -2.2 [-12.0, 3.1]
+  in-sample s_test_gemini  chosen A_full_s1@best, C_low_s2@best, C_full_s0@best, C_full_s1@best, D_s0@be | real: missed  32.5/100, FA tumor-free   4.1/100, glioma FA   0.1/100 | regret missed +13.5 [7.5, 23.9] FA -2.6 [-11.8, 2.5]
+  split-half real           real half B: missed  19.4/100, FA   7.1/100, picks D 0%
+  split-half s_test         real half B: missed  38.7/100, FA   4.7/100, picks D 53% | regret missed +19.2 [1.7, 41.4], syn worse in 98% of splits
+  split-half s_test_gemini  real half B: missed  32.4/100, FA   4.1/100, picks D 30% | regret missed +13.0 [-5.2, 23.6], syn worse in 95% of splits
+
+== best18, choose by recall@0.25
+  in-sample real           chosen A_full_s1@best                                                         | real: missed  15.5/100, FA tumor-free   8.9/100, glioma FA   0.0/100
+  in-sample s_test         chosen A_full_s0@best, C_low_s1@best, D_s1@best                               | real: missed  34.5/100, FA tumor-free   4.4/100, glioma FA   0.2/100 | regret missed +19.0 [8.3, 27.9] FA -4.4 [-12.2, 0.9]
+  in-sample s_test_gemini  chosen C_full_s1@best, C_full_s2@best, D_s1@best, D_s2@best                   | real: missed  36.6/100, FA tumor-free   3.3/100, glioma FA   0.7/100 | regret missed +21.1 [12.5, 30.2] FA -5.6 [-15.4, 0.0]
+  split-half real           real half B: missed  19.0/100, FA   7.3/100, picks D 0%
+  split-half s_test         real half B: missed  31.4/100, FA   4.7/100, picks D 26% | regret missed +12.4 [4.4, 20.8], syn worse in 100% of splits
+  split-half s_test_gemini  real half B: missed  35.4/100, FA   3.6/100, picks D 42% | regret missed +16.4 [7.8, 25.0], syn worse in 100% of splits
+
+== all72, choose by AP50
+  in-sample real           chosen A_full_s0@best                                                         | real: missed  19.0/100, FA tumor-free   6.7/100, glioma FA   0.0/100
+  in-sample s_test         chosen D_s1@best                                                              | real: missed  53.4/100, FA tumor-free   4.4/100, glioma FA   0.7/100 | regret missed +34.5 [10.5, 51.1] FA -2.2 [-10.2, 3.7]
+  in-sample s_test_gemini  chosen A_full_s1@best, C_low_s2@best, C_full_s0@epoch75, C_full_s0@best, C_fu | real: missed  31.3/100, FA tumor-free   4.8/100, glioma FA   0.1/100 | regret missed +12.3 [7.8, 27.0] FA -1.9 [-9.5, 3.7]
+  split-half real           real half B: missed  20.5/100, FA   6.9/100, picks D 0%
+  split-half s_test         real half B: missed  41.5/100, FA   4.8/100, picks D 54% | regret missed +21.1 [2.5, 44.5], syn worse in 98% of splits
+  split-half s_test_gemini  real half B: missed  34.0/100, FA   4.9/100, picks D 30% | regret missed +13.6 [-3.9, 26.1], syn worse in 96% of splits
+
+== all72, choose by recall@0.25
+  in-sample real           chosen A_full_s1@best                                                         | real: missed  15.5/100, FA tumor-free   8.9/100, glioma FA   0.0/100
+  in-sample s_test         chosen A_full_s0@best, C_low_s1@best, C_full_s1@epoch25, C_full_s2@epoch50, D | real: missed  35.1/100, FA tumor-free   7.0/100, glioma FA   1.7/100 | regret missed +19.5 [13.0, 30.7] FA -1.9 [-7.9, 6.5]
+  in-sample s_test_gemini  chosen C_full_s0@epoch50, C_full_s1@best, C_full_s2@epoch25, C_full_s2@best,  | real: missed  33.9/100, FA tumor-free   4.4/100, glioma FA   0.9/100 | regret missed +18.4 [12.9, 29.0] FA -4.4 [-10.1, 4.2]
+  split-half real           real half B: missed  23.1/100, FA   6.6/100, picks D 0%
+  split-half s_test         real half B: missed  35.0/100, FA   6.2/100, picks D 26% | regret missed +11.9 [1.4, 20.4], syn worse in 98% of splits
+  split-half s_test_gemini  real half B: missed  34.1/100, FA   5.0/100, picks D 28% | regret missed +11.0 [0.3, 20.7], syn worse in 98% of splits
+
+== best15_noD, choose by AP50
+  in-sample real           chosen A_full_s0@best                                                         | real: missed  19.0/100, FA tumor-free   6.7/100, glioma FA   0.0/100
+  in-sample s_test         chosen A_full_s0@best                                                         | real: missed  19.0/100, FA tumor-free   6.7/100, glioma FA   0.0/100 | regret missed +0.0 [-2.8, 20.2] FA +0.0 [-9.1, 5.0]
+  in-sample s_test_gemini  chosen A_full_s1@best, C_low_s2@best, C_full_s0@best, C_full_s1@best          | real: missed  22.0/100, FA tumor-free   4.4/100, glioma FA   0.0/100 | regret missed +3.0 [-1.5, 13.9] FA -2.2 [-10.5, 2.8]
+  split-half real           real half B: missed  19.4/100, FA   7.4/100, picks D 0%
+  split-half s_test         real half B: missed  22.5/100, FA   5.7/100, picks D 0% | regret missed +3.2 [-14.3, 18.5], syn worse in 58% of splits
+  split-half s_test_gemini  real half B: missed  23.8/100, FA   4.7/100, picks D 0% | regret missed +4.4 [-15.1, 13.0], syn worse in 85% of splits
+
+== best15_noD, choose by recall@0.25
+  in-sample real           chosen A_full_s1@best                                                         | real: missed  15.5/100, FA tumor-free   8.9/100, glioma FA   0.0/100
+  in-sample s_test         chosen A_full_s0@best, C_low_s1@best                                          | real: missed  25.0/100, FA tumor-free   4.4/100, glioma FA   0.0/100 | regret missed +9.5 [2.6, 18.9] FA -4.4 [-11.3, 1.5]
+  in-sample s_test_gemini  chosen C_full_s1@best, C_full_s2@best                                         | real: missed  20.7/100, FA tumor-free   3.3/100, glioma FA   0.3/100 | regret missed +5.2 [1.6, 18.7] FA -5.6 [-13.8, 0.0]
+  split-half real           real half B: missed  19.2/100, FA   7.4/100, picks D 0%
+  split-half s_test         real half B: missed  24.2/100, FA   4.9/100, picks D 0% | regret missed +4.9 [-2.6, 13.0], syn worse in 89% of splits
+  split-half s_test_gemini  real half B: missed  23.3/100, FA   3.8/100, picks D 0% | regret missed +4.1 [-5.4, 11.9], syn worse in 85% of splits
+
+== all60_noD, choose by AP50
+  in-sample real           chosen A_full_s0@best                                                         | real: missed  19.0/100, FA tumor-free   6.7/100, glioma FA   0.0/100
+  in-sample s_test         chosen A_full_s0@best                                                         | real: missed  19.0/100, FA tumor-free   6.7/100, glioma FA   0.0/100 | regret missed +0.0 [-2.0, 21.1] FA +0.0 [-9.3, 6.7]
+  in-sample s_test_gemini  chosen A_full_s1@best, C_low_s2@best, C_full_s0@epoch75, C_full_s0@best, C_fu | real: missed  22.4/100, FA tumor-free   5.3/100, glioma FA   0.0/100 | regret missed +3.4 [-0.3, 16.6] FA -1.3 [-9.1, 3.9]
+  split-half real           real half B: missed  20.3/100, FA   6.7/100, picks D 0%
+  split-half s_test         real half B: missed  24.0/100, FA   6.1/100, picks D 0% | regret missed +3.7 [-12.9, 19.9], syn worse in 62% of splits
+  split-half s_test_gemini  real half B: missed  24.9/100, FA   5.3/100, picks D 0% | regret missed +4.6 [-11.1, 14.3], syn worse in 85% of splits
+
+== all60_noD, choose by recall@0.25
+  in-sample real           chosen A_full_s1@best                                                         | real: missed  15.5/100, FA tumor-free   8.9/100, glioma FA   0.0/100
+  in-sample s_test         chosen A_full_s0@best, C_low_s1@best, C_full_s1@epoch25, C_full_s2@epoch50    | real: missed  24.1/100, FA tumor-free   7.2/100, glioma FA   2.3/100 | regret missed +8.6 [5.6, 19.7] FA -1.7 [-8.3, 6.4]
+  in-sample s_test_gemini  chosen C_full_s0@epoch50, C_full_s1@best, C_full_s2@epoch25, C_full_s2@best   | real: missed  24.6/100, FA tumor-free   5.0/100, glioma FA   0.8/100 | regret missed +9.1 [5.6, 20.7] FA -3.9 [-10.5, 4.1]
+  split-half real           real half B: missed  23.2/100, FA   6.6/100, picks D 0%
+  split-half s_test         real half B: missed  26.4/100, FA   6.5/100, picks D 0% | regret missed +3.2 [-9.1, 11.4], syn worse in 79% of splits
+  split-half s_test_gemini  real half B: missed  26.0/100, FA   5.3/100, picks D 0% | regret missed +2.8 [-11.5, 11.3], syn worse in 77% of splits

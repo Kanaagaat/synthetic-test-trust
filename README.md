@@ -3,8 +3,8 @@
 Code, synthetic data and results of a paired study: **can a test set made by a general-purpose image
 generator replace a real test set for brain-MRI tumor detection?**
 
-> **All images under `generated/` are AI-generated** (OpenAI gpt-image). They are not patient data and
-> must not be used for any clinical purpose.
+> **All images under `generated/` are AI-generated** (OpenAI gpt-image; the second S-test: Google Gemini).
+> They are not patient data and must not be used for any clinical purpose.
 
 ## The study in short
 
@@ -15,6 +15,10 @@ generator replace a real test set for brain-MRI tumor detection?**
   image (same plane, tumor type, size and number of tumors; different anatomy and location). The S-test
   is the real test with every glioma image replaced by its twin; all other images are unchanged. Twin
   boxes were drawn blind. 51 twins were accepted.
+- **Second S-test.** The same 52 references were given to a second general-purpose generator (Google
+  Gemini, web app) with the same prompt and substitutions; all 52 Gemini twins were accepted and boxed
+  blind. No model was trained on Gemini images, so this test checks whether a bias of the S-test is tied
+  to the generator of the training images.
 - **Models.** YOLO11n trained in six regimes (3 seeds each); with checkpoints after ~25/50/75 epochs and
   `best.pt`, 72 models are evaluated on both tests.
 
@@ -35,15 +39,23 @@ real/twin pairs (202 images).
    for weaker models, and preserves their ranking poorly (Kendall τ = 0.23).
 2. It changes the conclusions: it hides most of the loss from scarce real data, and it says synthetic
    gliomas fully replace the missing real ones, which the real test refutes.
-3. Beyond this scale compression, it favors models trained on the same generator: regime D, which never
+3. Beyond this scale compression, it favors models trained on synthetic images: regime D, which never
    saw a real glioma, is the worst on the real test and on par with the best on the S-test
-   (residual over never-synthetic models of equal real performance: AP50 +0.11, recall +0.22).
-4. As training data, synthetic gliomas give a small, uncertain gain with scarce real data, none with
+   (residual over never-synthetic models of equal real performance: AP50 +0.11, recall +0.22). The
+   Gemini S-test gives a residual at least as large (AP50 +0.11, recall +0.31), so there is no evidence
+   that the bias is tied to the generator of the training images.
+4. Cost of choosing a model by a synthetic test: picking one of the 18 trained detectors by either
+   S-test, instead of the real test, selects a model that misses 12-19 more of every 100 glioma boxes on
+   held-out real images (stratified split-half, 1,000 splits; worse in 95-100% of splits). Without the
+   synthetic-only regime D among the candidates the cost falls to 3-5 and is uncertain. Counted per
+   annotated box, not per patient (the dataset has no patient IDs).
+5. As training data, synthetic gliomas give a small, uncertain gain with scarce real data, none with
    full data, and cannot replace real gliomas.
-5. A logistic regression separates synthetic from real images with AUC 0.98; we found no sign that the
+6. A logistic regression separates synthetic from real images with AUC 0.98; we found no sign that the
    synthetic images copy their references or the validation/test images.
 
-The scope is one generator, one prompt, one dataset and one detector. A paper is in preparation.
+The scope is one training generator (two for the S-test), one prompt, one dataset and one detector. A
+paper is in preparation.
 
 ## Repository layout
 
@@ -57,14 +69,19 @@ generated/
                            status, rejection reason, box review
   s_test/                  twins of the real test gliomas
                            labels_blind/ = evaluation boxes (drawn blind); labels/ = boxes reviewed from model drafts
+  s_test_gemini/           Gemini twins of the same references (labels_blind/, prompts/ = exact prompt per twin,
+                           spec.json, compare_sheet.jpg = reference | OpenAI twin | Gemini twin);
+                           high_reasoning/ = 13 superseded images made with another reasoning level (not used)
   train_low/, train_full/  synthetic training gliomas (labels/ = reviewed boxes, labels_draft/ = model drafts)
   real_test_blind/         blind re-annotation of the real test gliomas by the same annotator (one-annotator scenario)
   pilot*/                  prompt pilots (not used in the experiments)
 colab/                     training notebook (Colab, T4) and its code;
                            runs_*/<run>/ = args.yaml, results.csv, done.json (weights: see Releases)
 scripts/                   all code
-viz/                       results: rq1_many/summary.json, selfgen.json, rq3_classifier.json,
-                           leak_check.json, batch_table.csv, figures (viz/article/), contact sheets
+viz/                       results: rq1_many/summary.json, selfgen.json (and *_s_test_gemini.json for the
+                           Gemini S-test), rq1_many/visible_control.json, regret.json (model-selection cost),
+                           rq3_classifier.json, leak_check.json, batch_table.csv, figures (viz/article/),
+                           contact sheets
 ```
 
 ## Reproducing
@@ -79,6 +96,9 @@ Python 3.13; `pip install -r requirements.txt`. All scripts are run from the rep
    ```
    `train_low` used the same prompt with `--pool low_keep --per-ref 3 --prefix syn_gl_lo`. The generator
    is not deterministic, so new images will differ; the images used in the study are included.
+   The Gemini twins were made by hand in the Gemini web app (a new chat per image):
+   `python scripts/gemini_s_test.py spec` writes the exact prompt for each twin, `... ingest NAME FILE`
+   converts a downloaded image and adds it to the manifest.
 3. **Boxes:** drafts with `python scripts/prelabel.py --purpose <batch>`, review with
    `python scripts/review_server.py --purpose <batch>` (local web tool).
 4. **Training:** `python scripts/build_train_sets.py`, `python scripts/pack_colab.py`, then
@@ -90,6 +110,11 @@ Python 3.13; `pip install -r requirements.txt`. All scripts are run from the rep
    python scripts/eval_many.py --runs colab/runs_A --runs colab/runs_BC --runs colab/runs_FD
    python scripts/rq1_selfgen.py
    python scripts/plot_article.py
+   # second S-test (Gemini), control without the invisible real gliomas, model-selection cost
+   python scripts/eval_many.py --runs colab/runs_A --runs colab/runs_BC --runs colab/runs_FD --syn s_test_gemini
+   python scripts/rq1_selfgen.py --syn s_test_gemini
+   python scripts/rq1_visible_control.py
+   python scripts/regret.py
    ```
 7. **Synthetic data analysis:** `python scripts/rq3_classifier.py`, `python scripts/batch_table.py`,
    `python scripts/leak_check.py`.
@@ -108,5 +133,6 @@ curves and weights are identical to the original.
 ## Acknowledgments
 
 Ultralytics YOLO11 for training and evaluation. The OpenAI image generator was called through the Codex
-CLI. Anthropic's Claude assisted with analysis code, documentation and figures; all boxes were drawn or
+CLI; the Gemini twins were generated in the Gemini web app, operated by Claude in Chrome under the
+author's supervision. Anthropic's Claude assisted with analysis code, documentation and figures; all boxes were drawn or
 reviewed by the author.
