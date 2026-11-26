@@ -36,8 +36,13 @@ real/twin pairs (202 images).
 
 **Findings.**
 1. The S-test overstates almost every model (mean gap over 72 models: AP50 +0.25, recall +0.30), more
-   for weaker models, and preserves their ranking poorly (Kendall τ = 0.23).
-2. It changes the conclusions: it hides most of the loss from scarce real data, and it says synthetic
+   for weaker models, and preserves their ranking poorly (Kendall τ = 0.23). This is not just a small
+   test: on random halves of the test, two real halves agree with τ = 0.60, while an S-test half and the
+   other real half agree with 0.21 (AP50, 72 models; lower in every one of 1,000 splits). Most of the gap
+   comes from regime D; without it the difference shrinks to −0.13…−0.21 and, among the 15 best.pt models,
+   cannot be told from real-test variability.
+2. It changes the conclusions: it understates the loss from scarce real data (confidently in AP50 on the
+   OpenAI S-test, not in recall or on the Gemini S-test), and it says synthetic
    gliomas fully replace the missing real ones, which the real test refutes.
 3. Beyond this scale compression, it favors models trained on synthetic images: regime D, which never
    saw a real glioma, is the worst on the real test and on par with the best on the S-test
@@ -80,6 +85,7 @@ colab/                     training notebook (Colab, T4) and its code;
 scripts/                   all code
 viz/                       results: rq1_many/summary.json, selfgen.json (and *_s_test_gemini.json for the
                            Gemini S-test), rq1_many/visible_control.json, regret.json (model-selection cost),
+                           tau_split_half.json (real-vs-real baseline for rank agreement),
                            rq3_classifier.json, leak_check.json, batch_table.csv, figures (viz/article/),
                            contact sheets
 ```
@@ -110,11 +116,12 @@ Python 3.13; `pip install -r requirements.txt`. All scripts are run from the rep
    python scripts/eval_many.py --runs colab/runs_A --runs colab/runs_BC --runs colab/runs_FD
    python scripts/rq1_selfgen.py
    python scripts/plot_article.py
-   # second S-test (Gemini), control without the invisible real gliomas, model-selection cost
+   # second S-test (Gemini), control without the invisible real gliomas, model-selection cost, tau baseline
    python scripts/eval_many.py --runs colab/runs_A --runs colab/runs_BC --runs colab/runs_FD --syn s_test_gemini
    python scripts/rq1_selfgen.py --syn s_test_gemini
    python scripts/rq1_visible_control.py
    python scripts/regret.py
+   python scripts/tau_split_half.py   # real-vs-real baseline for Kendall tau (cached stats only)
    ```
 7. **Synthetic data analysis:** `python scripts/rq3_classifier.py`, `python scripts/batch_table.py`,
    `python scripts/leak_check.py`.
