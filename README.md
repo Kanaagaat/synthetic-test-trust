@@ -1,7 +1,14 @@
-# Can a synthetic test set be trusted?
+# Synthetic Test Sets Mislead Detector Selection When Candidates Include Synthetic-Trained Models
 
-Code, synthetic data and results of a paired study: **can a test set made by a general-purpose image
-generator replace a real test set for brain-MRI tumor detection?**
+*Paired evidence from glioma MRI with two general-purpose image generators.*
+
+Code, synthetic data and results of a paired study that started from the question: **can a test set made
+by a general-purpose image generator replace a real test set for brain-MRI tumor detection?**
+
+**Main result.** Used to choose one of 18 YOLO11n detectors, either synthetic test picked models that
+missed 12-19 more of every 100 glioma boxes on held-out real images than the model picked by the real
+test. The error was driven by the candidates trained only on synthetic gliomas; without them the cost fell
+to 3-5 boxes and was uncertain (finding 4 below).
 
 > **All images under `generated/` are AI-generated** (OpenAI gpt-image; the second S-test: Google Gemini).
 > They are not patient data and must not be used for any clinical purpose.
@@ -60,7 +67,7 @@ real/twin pairs (202 images).
    synthetic images copy their references or the validation/test images.
 
 The scope is one training generator (two for the S-test), one prompt, one dataset and one detector. A
-paper is in preparation.
+paper with the title above is in preparation.
 
 ## Repository layout
 
